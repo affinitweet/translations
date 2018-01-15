@@ -28,7 +28,7 @@ You'll be credited on Affinitweet below your translation if you want to appear a
   }
 }
 ```
-Here you have to translate "`Click to view my account`", "`Clear my history`" and "`Your username`".  
+Here you have to translate "`My account`", "`Clear my history`" and "`Your username`".  
 Don't change "`account`", "`clearHistory`", "`profile`" and "`username`".
 
 Thank you for your help ❤️
