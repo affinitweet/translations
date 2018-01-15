@@ -1,0 +1,58 @@
+{
+    "mainFeatures": "Fonctionnalités principales",
+    "otherFeatures": "Autres fonctionnalités",
+    "myAccount": "Mon compte",
+    "welcomeTips": "Astuces & infos",
+    "logout": "Se déconnecter",
+    "allRightsReserved": "Tous droits réservés.",
+    "legals": "Mentions légales",
+    "french": "Français",
+    "english": "Anglais",
+    "spanish": "Espagnol",
+    "saved": "Sauvegardé",
+    "updated": "Mis à jour",
+    "cleared": "Nettoyé",
+    "seconds": "seconde | seconde | secondes",
+    "by": "par",
+    "profile": {
+        "profile": "Profil",
+        "history": "Historique",
+        "preferences": "Préférences",
+        "language": "Langue",
+        "addLanguage": "Ajouter une langue...",
+        "contributeOnGitHub": "contribuer sur GitHub",
+        "account": "Compte",
+        "viewProfile": "Voir sur Twitter",
+        "followers": "Abonnés",
+        "followings": "Abonnements",
+        "noHistory": "Pas d'historique.",
+        "noAutoTweet": "Aucun tweet ne sera publié, jamais",
+        "autoTweet": "Tweet des résultats",
+        "autoTweetDescription": "Certaines fonctionnalités peuvent vous demander d'activer cette option pour pouvoir les faire. Un tweet contenant le résultat de celles-ci sera publié sur votre profil, rien de plus.",
+        "dontSaveResults": "Aucun résultat ne sera enregistré",
+        "saveResults": "Enregistrement des résultats",
+        "saveResultsDescription": "Par défaut, Affinitweet ne sauvegarde pas les résultats dans sa base de données. Vous pouvez garder un historique de vos résultats en activant cette option (nom de la fonctionnalité + date).",
+        "clearHistory": "Nettoyer l'historique",
+        "clearingHistory": "Nettoyage de l'historique...",
+        "historyCleared": "Historique nettoyé !",
+        "clearHistoryDescription": "Supprime l'historique de vos résultats Affinitweet, tout sera perdu.",
+        "deleteAccount": "Supprimer mon compte",
+        "deleteAccountDescription": "Supprime l'historique et votre compte Affinitweet, tout sera perdu."
+    },
+    "features": {
+        "login": "Connectez-vous pour continuer...",
+        "received": "Requête reçue par le serveur...",
+        "results": "Voici vos résultats ! (bientôt)",
+        "error": {
+            "time": "Cette fonctionnalité a un temps de rechargement de %{cooldown} secondes. Merci de réessayer dans %{remainingTime} {seconds}."
+        }
+    },
+    "legal": {
+        "owner": "Propriétaire",
+        "creator": "Créateur",
+        "publisher": "Responsable publication",
+        "publisherText": "Le responsable de la publication est une personne physique.",
+        "webmaster": "Webmaster",
+        "host": "Hébergeur"
+    }
+}
