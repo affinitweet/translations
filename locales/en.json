@@ -1,0 +1,58 @@
+{
+    "mainFeatures": "Main Features",
+    "otherFeatures": "Other Features",
+    "myAccount": "My account",
+    "welcomeTips": "Tips & infos",
+    "logout": "Log out",
+    "allRightsReserved": "All rights reserved.",
+    "legals": "Legal",
+    "french": "French",
+    "english": "English",
+    "spanish": "Spanish",
+    "saved": "saved",
+    "updated": "updated",
+    "cleared": "cleared",
+    "seconds": "second | second | seconds",
+    "by": "by",
+    "profile": {
+        "profile": "Profile",
+        "history": "History",
+        "preferences": "Preferences",
+        "language": "Language",
+        "addLanguage": "Add language...",
+        "contributeOnGitHub": "contribute on GitHub",
+        "account": "Account",
+        "viewProfile": "View on Twitter",
+        "followers": "Followers",
+        "followings": "Followings",
+        "noHistory": "No history data.",
+        "noAutoTweet": "No tweet will be published, never",
+        "autoTweet": "Automatically tweet results when ready",
+        "autoTweetDescription": "Features can sometimes ask you to enable this option to be able to do them. A tweet will be published once results are ready, no more.",
+        "dontSaveResults": "No results will be saved",
+        "saveResults": "Results will be saved",
+        "saveResultsDescription": "By default, Affinitweet do not store your results in its database. You can keep an history of what you done (feature name + time).",
+        "clearHistory": "Clear history",
+        "clearingHistory": "Clearing history...",
+        "historyCleared": "History cleared!",
+        "clearHistoryDescription": "Your history will be lost for ever.",
+        "deleteAccount": "Delete account",
+        "deleteAccountDescription": "Your account and history will be lost for ever."
+    },
+    "features": {
+        "login": "Log in to continue...",
+        "received": "Request received by the server...",
+        "results": "Here's your results! (soon)",
+        "error": {
+            "time": "This feature have a %{cooldown} seconds cooldown. Please retry in %{remainingTime} {seconds}."
+        }
+    },
+    "legal": {
+        "owner": "Owner",
+        "creator": "Creator",
+        "publisher": "Publication manager",
+        "publisherText": "The person responsible for publication is a natural person.",
+        "webmaster": "Webmaster",
+        "host": "Host"
+    }
+}
