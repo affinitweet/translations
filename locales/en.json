@@ -1,58 +1,77 @@
 {
-    "mainFeatures": "Main Features",
-    "otherFeatures": "Other Features",
-    "myAccount": "My account",
-    "welcomeTips": "Tips & infos",
-    "logout": "Log out",
-    "allRightsReserved": "All rights reserved.",
-    "legals": "Legal",
-    "french": "French",
-    "english": "English",
-    "spanish": "Spanish",
-    "saved": "saved",
-    "updated": "updated",
-    "cleared": "cleared",
-    "seconds": "second | second | seconds",
-    "by": "by",
-    "profile": {
-        "profile": "Profile",
-        "history": "History",
-        "preferences": "Preferences",
-        "language": "Language",
-        "addLanguage": "Add language...",
-        "contributeOnGitHub": "contribute on GitHub",
-        "account": "Account",
-        "viewProfile": "View on Twitter",
-        "followers": "Followers",
-        "followings": "Followings",
-        "noHistory": "No history data.",
-        "noAutoTweet": "No tweet will be published, never",
-        "autoTweet": "Automatically tweet results when ready",
-        "autoTweetDescription": "Features can sometimes ask you to enable this option to be able to do them. A tweet will be published once results are ready, no more.",
-        "dontSaveResults": "No results will be saved",
-        "saveResults": "Results will be saved",
-        "saveResultsDescription": "By default, Affinitweet do not store your results in its database. You can keep an history of what you done (feature name + time).",
-        "clearHistory": "Clear history",
-        "clearingHistory": "Clearing history...",
-        "historyCleared": "History cleared!",
-        "clearHistoryDescription": "Your history will be lost for ever.",
-        "deleteAccount": "Delete account",
-        "deleteAccountDescription": "Your account and history will be lost for ever."
-    },
-    "features": {
-        "login": "Log in to continue...",
-        "received": "Request received by the server...",
-        "results": "Here's your results! (soon)",
-        "error": {
-            "time": "This feature have a %{cooldown} seconds cooldown. Please retry in %{remainingTime} {seconds}."
-        }
-    },
-    "legal": {
-        "owner": "Owner",
-        "creator": "Creator",
-        "publisher": "Publication manager",
-        "publisherText": "The person responsible for publication is a natural person.",
-        "webmaster": "Webmaster",
-        "host": "Host"
-    }
+	"front": {
+		"__translation": {
+			"author": "Thomas Reichling",
+			"language": "english",
+			"locale": "en",
+			"flag": "data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeD0iMHB4IiB5PSIwcHgiIHZpZXdCb3g9IjAgMCA1MTIgNTEyIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA1MTIgNTEyOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgd2lkdGg9IjUxMnB4IiBoZWlnaHQ9IjUxMnB4Ij4KPHBhdGggc3R5bGU9ImZpbGw6IzQxNDc5QjsiIGQ9Ik00NzMuNjU1LDg4LjI3NkgzOC4zNDVDMTcuMTY3LDg4LjI3NiwwLDEwNS40NDMsMCwxMjYuNjIxVjM4NS4zOCAgYzAsMjEuMTc3LDE3LjE2NywzOC4zNDUsMzguMzQ1LDM4LjM0NWg0MzUuMzFjMjEuMTc3LDAsMzguMzQ1LTE3LjE2NywzOC4zNDUtMzguMzQ1VjEyNi42MjEgIEM1MTIsMTA1LjQ0Myw0OTQuODMzLDg4LjI3Niw0NzMuNjU1LDg4LjI3NnoiLz4KPHBhdGggc3R5bGU9ImZpbGw6I0Y1RjVGNTsiIGQ9Ik01MTEuNDY5LDEyMC4yODJjLTMuMDIyLTE4LjE1OS0xOC43OTctMzIuMDA3LTM3LjgxNC0zMi4wMDdoLTkuOTc3bC0xNjMuNTQsMTA3LjE0N1Y4OC4yNzZoLTg4LjI3NiAgdjEwNy4xNDdMNDguMzIyLDg4LjI3NmgtOS45NzdjLTE5LjAxNywwLTM0Ljc5MiwxMy44NDctMzcuODE0LDMyLjAwN2wxMzkuNzc4LDkxLjU4SDB2ODguMjc2aDE0MC4zMDlMMC41MzEsMzkxLjcxNyAgYzMuMDIyLDE4LjE1OSwxOC43OTcsMzIuMDA3LDM3LjgxNCwzMi4wMDdoOS45NzdsMTYzLjU0LTEwNy4xNDd2MTA3LjE0N2g4OC4yNzZWMzE2LjU3N2wxNjMuNTQsMTA3LjE0N2g5Ljk3NyAgYzE5LjAxNywwLDM0Ljc5Mi0xMy44NDcsMzcuODE0LTMyLjAwN2wtMTM5Ljc3OC05MS41OEg1MTJ2LTg4LjI3NkgzNzEuNjkxTDUxMS40NjksMTIwLjI4MnoiLz4KPGc+Cgk8cG9seWdvbiBzdHlsZT0iZmlsbDojRkY0QjU1OyIgcG9pbnRzPSIyODIuNDgzLDg4LjI3NiAyMjkuNTE3LDg4LjI3NiAyMjkuNTE3LDIyOS41MTcgMCwyMjkuNTE3IDAsMjgyLjQ4MyAyMjkuNTE3LDI4Mi40ODMgICAgMjI5LjUxNyw0MjMuNzI0IDI4Mi40ODMsNDIzLjcyNCAyODIuNDgzLDI4Mi40ODMgNTEyLDI4Mi40ODMgNTEyLDIyOS41MTcgMjgyLjQ4MywyMjkuNTE3ICAiLz4KCTxwYXRoIHN0eWxlPSJmaWxsOiNGRjRCNTU7IiBkPSJNMjQuNzkzLDQyMS4yNTJsMTg2LjU4My0xMjEuMTE0aC0zMi40MjhMOS4yMjQsNDEwLjMxICAgQzEzLjM3Nyw0MTUuMTU3LDE4LjcxNCw0MTguOTU1LDI0Ljc5Myw0MjEuMjUyeiIvPgoJPHBhdGggc3R5bGU9ImZpbGw6I0ZGNEI1NTsiIGQ9Ik0zNDYuMzg4LDMwMC4xMzhIMzEzLjk2bDE4MC43MTYsMTE3LjMwNWM1LjA1Ny0zLjMyMSw5LjI3Ny03LjgwNywxMi4yODctMTMuMDc1TDM0Ni4zODgsMzAwLjEzOHoiLz4KCTxwYXRoIHN0eWxlPSJmaWxsOiNGRjRCNTU7IiBkPSJNNC4wNDksMTA5LjQ3NWwxNTcuNzMsMTAyLjM4N2gzMi40MjhMMTUuNDc1LDk1Ljg0MkMxMC42NzYsOTkuNDE0LDYuNzQ5LDEwNC4wODQsNC4wNDksMTA5LjQ3NXoiLz4KCTxwYXRoIHN0eWxlPSJmaWxsOiNGRjRCNTU7IiBkPSJNMzMyLjU2NiwyMTEuODYybDE3MC4wMzUtMTEwLjM3NWMtNC4xOTktNC44MzEtOS41NzgtOC42MDctMTUuNjk5LTEwLjg2TDMwMC4xMzgsMjExLjg2MkgzMzIuNTY2eiIvPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo="
+		},
+		"home": "Home",
+		"mainFeatures": "Main Features",
+		"otherFeatures": "Other Features",
+		"myAccount": "My account",
+		"welcomeTips": "Tips & infos",
+		"logout": "Log out",
+		"allRightsReserved": "All rights reserved.",
+		"legals": "Legal",
+		"french": "French",
+		"english": "English",
+		"spanish": "Spanish",
+		"saved": "saved",
+		"updated": "updated",
+		"cleared": "cleared",
+		"seconds": "second | second | seconds",
+		"loading": "Loading...",
+		"by": "by",
+		"profile": {
+			"profile": "Profile",
+			"history": "History",
+			"preferences": "Preferences",
+			"language": "Language",
+			"addLanguage": "Add language...",
+			"contributeOnGitHub": "contribute on GitHub",
+			"account": "Account",
+			"viewProfile": "View on Twitter",
+			"followers": "Followers",
+			"followings": "Followings",
+			"noHistory": "No history data.",
+			"noAutoTweet": "No tweet will be published, never",
+			"autoTweet": "Automatically tweet results when ready",
+			"autoTweetDescription": "Check this option to auto-tweet results. Features can sometimes ask you to enable this option to be able to do them. A tweet will be published once results are ready, no more.",
+			"dontSaveResults": "No results will be saved",
+			"saveResults": "Results will be saved",
+			"saveResultsDescription": "Check this option to save your results (feature name + time). By default, Affinitweet do not store your results in its database.",
+			"clearHistory": "Clear history",
+			"clearingHistory": "Clearing history...",
+			"historyCleared": "History cleared!",
+			"clearHistoryDescription": "Clear your Affinitweet results history.",
+			"deleteAccount": "Delete account",
+			"deleteAccountDescription": "Delete your Affinitweet account, all will be lost."
+		},
+		"features": {
+			"login": "Log in to continue...",
+			"received": "Request received by the server...",
+			"results": "Here's your results! (soon)",
+			"error": {
+				"time": "This feature have a %{cooldown} seconds cooldown. Please retry in %{remainingTime} {seconds}."
+			}
+		},
+		"legal": {
+			"owner": "Owner",
+			"creator": "Creator",
+			"publisher": "Publication manager",
+			"publisherText": "The person responsible for publication is a natural person.",
+			"webmaster": "Webmaster",
+			"host": "Host"
+		}
+	},
+	"back": {
+		"starting": "Starting...",
+		"fetchingData": "Fetching data...",
+		"fetchingTweets": "Fetching tweets...",
+		"computingData": "Computing data...",
+		"publishingTweet": "Publishing tweet...",
+		"savingResults": "Saving results...",
+		"generatingImage": "back.generatingImage"
+	}
 }
