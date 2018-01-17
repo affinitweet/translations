@@ -7,6 +7,7 @@ All translations of Affinitweet.
 - Create a `[your_locale].json` file in the `locales` folder
 - Copy and paste an existing translation file in your new file
 - Translate existing values to your language
+- **Don't forget to add and translate your language name in other files**
 - Send a pull request, wait for approbation and merge
 
 You'll be credited on Affinitweet below your translation if you want to appear as a contributor.
