@@ -51,10 +51,29 @@
         "features": {
             "login": "Connectez-vous pour continuer...",
             "received": "Requête reçue par le serveur...",
-            "results": "Voici vos résultats ! (bientôt)",
+            "results": "Voici vos résultats !",
+            "retry": "Réessayer !",
             "error": {
                 "time": "Cette fonctionnalité a un temps de rechargement de %{cooldown} secondes. Merci de réessayer dans %{remainingTime} {seconds}."
-            }
+            },
+            "all-in-one": "ALL-IN-ONE includes all others features and makes an overall average. This overall average is the average of Color Matching, Friendships, Mentions, Common Sources and Common Friends averages. This feature evaluates your #affinitwees as precisely as possible with the targeted user.",
+            "friendships": "Friendships can view all your #affinitwees with the targeted user (ex: blocked or not, followed or not...).",
+            "affinitweet-global-rank": "Affinitwees Global Rank is based on ALL-IN-ONE feature. It determinates your #affinitwees ranking from an existing result relative to all others results. Your #affinitwees are they higher than the average?",
+            "color-matching": "Color Matching is a new feature that calculates the percentage of similarity between the colors of your Twitter profile and those of another user. It's based on the color of your background and theme which are available on twitter.com/settings/design at the bottom of the page.",
+            "common-friends": "Common Friends is a feature which check users you follow and followed by the targeted user.",
+            "common-sources": "Common Sources check all your tweet sources (ex: TweetDeck, Android, iOS...) and compare them to the targeted user.",
+            "mentions": "Mentions count all mentions sent to the targeted user.",
+            "top-friends": "You want to know your Top Friends? Here we go!",
+            "valentine": "Try this new Affinitweet feature for few days only! Valentine feature allows you to know who should be your %{year} Valentine ;)",
+            "secret-crush": "Who is your Secret Crush?",
+            "hidden-twin": "Who is your Hidden Twin? Find it now!",
+            "stolen-kiss": "Who want to give you a Stolen Kiss? Try this feature to know it!",
+            "may-day": "Give a Lily-of-the-Valley to your friends to celebrate May Day!",
+            "halloween-duo": "With whom will you scare the most?",
+            "bunbun-transform": "Transform yourself into a cute bunny! Your Twitter profile picture will be updated!",
+            "pokemon-go-buddy": "What if you were a Buddy Pokémon Go? Discover it!",
+            "tweet-rate": "Calculate and compare your Tweet Rate with a targeted user!",
+            "emoji-mood": "What's your Emoji Mood? Which Emojis do you use the most?"
         },
         "legal": {
             "owner": "Propriétaire",
@@ -63,9 +82,34 @@
             "publisherText": "Le responsable de la publication est une personne physique.",
             "webmaster": "Webmaster",
             "host": "Hébergeur"
+        },
+        "twitter": {
+            "error": "Twitter a retourné une erreur :",
+            "32": "Impossible de vous identifier.",
+            "34": "Désolé, cette page n'existe pas.",
+            "50": "Utilisateur non trouvé.",
+            "63": "L'utilisateur a été suspendu.",
+            "64": "Votre compte Twitter a été suspendu et ne peut accéder à cette fonctionnalité.",
+            "87": "Impossible d'effectuer cette action.",
+            "88": "Limite d'actions dépassée.",
+            "89": "Token invalide ou expiré.",
+            "99": "Impossible de vérifier vos identifiants.",
+            "130": "Twitter est en PLS.",
+            "131": "Erreur interne provenant de Twitter.",
+            "135": "Impossible de vous authentifier.",
+            "144": "Tweet non trouvé avec cet ID.",
+            "179": "Désolé, vous n'êtes pas autorisé à voir ce tweet.",
+            "185": "Vous avez dépassé votre quota de tweet quotidien.",
+            "186": "Tweet trop long.",
+            "187": "Tweet dupliqué.",
+            "220": "Vos identifiants ne vous permettent pas d'accéder à cette ressource.",
+            "261": "Nous n'avons pas réussi à publier les résultats.",
+            "326": "Votre compte Twitter est temporairement bloqué."
         }
     },
     "back": {
+        "unknownFeature": "Fonctionnalité inconnue.",
+        "badUsername": "Nom d'utilisateur incorrect.",
         "starting": "Initialisation...",
         "fetchingData": "Récupération des données...",
         "fetchingTweets": "Récupération des tweets...",
