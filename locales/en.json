@@ -51,10 +51,29 @@
 		"features": {
 			"login": "Log in to continue...",
 			"received": "Request received by the server...",
-			"results": "Here's your results! (soon)",
+			"results": "Here's your results!",
+			"retry": "Retry!",
 			"error": {
 				"time": "This feature have a %{cooldown} seconds cooldown. Please retry in %{remainingTime} {seconds}."
-			}
+			},
+			"all-in-one": "ALL-IN-ONE includes all others features and makes an overall average. This overall average is the average of Color Matching, Friendships, Mentions, Common Sources and Common Friends averages. This feature evaluates your #affinitwees as precisely as possible with the targeted user.",
+			"friendships": "Friendships can view all your #affinitwees with the targeted user (ex: blocked or not, followed or not...).",
+			"affinitweet-global-rank": "Affinitwees Global Rank is based on ALL-IN-ONE feature. It determinates your #affinitwees ranking from an existing result relative to all others results. Your #affinitwees are they higher than the average?",
+			"color-matching": "Color Matching is a new feature that calculates the percentage of similarity between the colors of your Twitter profile and those of another user. It's based on the color of your background and theme which are available on twitter.com/settings/design at the bottom of the page.",
+			"common-friends": "Common Friends is a feature which check users you follow and followed by the targeted user.",
+			"common-sources": "Common Sources check all your tweet sources (ex: TweetDeck, Android, iOS...) and compare them to the targeted user.",
+			"mentions": "Mentions count all mentions sent to the targeted user.",
+			"top-friends": "You want to know your Top Friends? Here we go!",
+			"valentine": "Try this new Affinitweet feature for few days only! Valentine feature allows you to know who should be your %{year} Valentine ;)",
+			"secret-crush": "Who is your Secret Crush?",
+			"hidden-twin": "Who is your Hidden Twin? Find it now!",
+			"stolen-kiss": "Who want to give you a Stolen Kiss? Try this feature to know it!",
+			"may-day": "Give a Lily-of-the-Valley to your friends to celebrate May Day!",
+			"halloween-duo": "With whom will you scare the most?",
+			"bunbun-transform": "Transform yourself into a cute bunny! Your Twitter profile picture will be updated!",
+			"pokemon-go-buddy": "What if you were a Buddy Pokémon Go? Discover it!",
+			"tweet-rate": "Calculate and compare your Tweet Rate with a targeted user!",
+			"emoji-mood": "What's your Emoji Mood? Which Emojis do you use the most?"
 		},
 		"legal": {
 			"owner": "Owner",
@@ -63,15 +82,40 @@
 			"publisherText": "The person responsible for publication is a natural person.",
 			"webmaster": "Webmaster",
 			"host": "Host"
+		},
+		"twitter": {
+			"error": "Twitter returned an error:",
+			"32": "Could not authenticate you.",
+			"34": "Sorry, that page does not exist.",
+			"50": "User not found.",
+			"63": "User has been suspended.",
+			"64": "Your account is suspended and is not permitted to access this feature.",
+			"87": "Client is not permitted to perform this action.",
+			"88": "Rate limit exceeded.",
+			"89": "Invalid or expired token.",
+			"99": "Unable to verify your credentials.",
+			"130": "Over capacity.",
+			"131": "Internal error.",
+			"135": "Could not authenticate you.",
+			"144": "No status found with that ID.",
+			"179": "Sorry, you are not authorized to see this status.",
+			"185": "User is over daily status update limit.",
+			"186": "Tweet needs to be a bit shorter.",
+			"187": "Status is a duplicate.",
+			"220": "Your credentials do not allow access to this resource.",
+			"261": "Application cannot perform write actions.",
+			"326": "To protect our users from spam and other malicious activity, this account is temporarily locked."
 		}
 	},
 	"back": {
+		"unknownFeature": "Unknown feature.",
+		"badUsername": "Bad username.",
 		"starting": "Starting...",
 		"fetchingData": "Fetching data...",
 		"fetchingTweets": "Fetching tweets...",
 		"computingData": "Computing data...",
 		"publishingTweet": "Publishing tweet...",
 		"savingResults": "Saving results...",
-		"generatingImage": "back.generatingImage"
+		"generatingImage": "Generating image..."
 	}
 }
