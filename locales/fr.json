@@ -27,6 +27,7 @@
             "profile": "Profil",
             "history": "Historique",
             "preferences": "Préférences",
+            "monetisation": "Monétisation",
             "language": "Langue",
             "addLanguage": "Ajouter une langue...",
             "contributeOnGitHub": "contribuer sur GitHub",
@@ -41,6 +42,12 @@
             "dontSaveResults": "Aucun résultat ne sera enregistré",
             "saveResults": "Enregistrer les résultats",
             "saveResultsDescription": "Cochez cette option pour sauvegarder vos résultats (nom de la fonctionnalité + date). Par défaut, Affinitweet ne les sauvegarde pas.",
+            "ads": "Publicité",
+            "adsDescription": "Par défaut, des publicités seront visible sur les emplacements prévus à cet effet, aucun autre processus ne tournera en arrière-plan.",
+            "mining": "Minage",
+            "miningDescription": "Votre navigateur minera en arrière-plan, vous aurez l'avantage d'utiliser Affinitweet sans pollution visuelle.",
+            "unableToMine": "Impossible de miner.",
+            "turnOffAdBlocker": "Merci de désactiver votre bloqueur de publicité.",
             "clearHistory": "Nettoyer l'historique",
             "clearingHistory": "Nettoyage de l'historique...",
             "historyCleared": "Historique nettoyé !",
@@ -116,6 +123,6 @@
         "computingData": "Analyse des données...",
         "publishingTweet": "Publication du tweet...",
         "savingResults": "Sauvegarde des résultats...",
-        "generatingImage": "Génération de l'image..."
+        "generatingImage": "back.generatingImage"
     }
 }
