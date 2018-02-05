@@ -15,7 +15,7 @@
 		"allRightsReserved": "All rights reserved.",
 		"dataPrivacy": "Data and privacy",
 		"legals": "Legal",
-		"new": "New",
+		"news": "New",
 		"french": "French",
 		"english": "English",
 		"spanish": "Spanish",
@@ -30,6 +30,9 @@
 		"yourTwitterProfile": "your Twitter profile",
 		"loading": "Loading...",
 		"by": "by",
+		"affinitweetTeam": "The Affinitweet Team",
+		"cookiesBanner": "We use cookies 🍪 to provide the best experience. By continuing to use our website, you agree to our cookies policy. {button}",
+		"readMore": "Read more...",
 		"profile": {
 			"profile": "Profile",
 			"history": "History",
@@ -55,6 +58,11 @@
 			"miningDescription": "Your browser will mine as a backgroud task, you'll see Affinitweet without ads.",
 			"unableToMine": "Unable to mine.",
 			"unableToMineDescription": "Script unreachable or ad blocker.",
+			"emojis": "Emojis pack",
+			"iOSemojis": "iOS (Apple)",
+			"iOSemojisDescription": "Your results will be generated with iOS Emojis.",
+			"androidEmojis": "Android (Google)",
+			"androidEmojisDescription": "Your results will be generated with Android Emojis.",
 			"clearHistory": "Clear history",
 			"clearingHistory": "Clearing history...",
 			"historyCleared": "History cleared!",
@@ -64,9 +72,10 @@
 		},
 		"features": {
 			"login": "Log in to continue...",
-			"received": "Request received by the server...",
+			"startFeature": "Let's go!",
 			"results": "Here's your results!",
 			"tweetResults": "Tweet results",
+			"tweetingResults": "Tweeting...",
 			"requireAutoTweetDescription": "This feature requires to enable auto-tweet results. You'll be able to deactivate this option from your profile.",
 			"retry": "Retry!",
 			"errors": {
@@ -124,6 +133,7 @@
 			"publisherText": "The person responsible for publication is a natural person.",
 			"webmaster": "Webmaster",
 			"host": "Host",
+			"requestAddress": "Full address available on request by email at {email}.",
 			"warningCookies": "Avertissement cookies",
 			"p1": "A cookie is a small text file sent to your browser via the website you are viewing. With this cookie, information about your visit is stored on the website, such as your preferred language and other settings. This may facilitate your next visit to this site and make it more useful to you. Cookies play an important role. Without cookies, using the Web could be much more frustrating.",
 			"t1": "What is the applicable legal frame?",
@@ -172,17 +182,77 @@
 			"i5": "Information: you can deactivate this option at any time from {yourProfile} in the {button} section.",
 			"question": "Any questions?",
 			"p9": "If you have any questions about Affinitweet, please do not hesitate to contact us via Twitter or email, we will be happy to answer you!"
+		},
+		"new": {
+			"title": "Welcome to the new version of Affinitweet",
+			"p1": "3 years after our launch and a great success flooding the TL of our haters (but especially with our users ❤️), Affinitweet is getting a new look but not that on the visual, everything has been redone... from scratch!",
+			"p2": "We decided to make Affinitweet more serious and professional. Indeed, we want to become THE hub of reference for everything you can do from Twitter, nothing but that!",
+			"p3": "And to achieve this, we have set ourselves no limits and have given our best for this new version. In detail, here's what you can expect...",
+			"h1": "New identity",
+			"p4": "After having used the Twitter logo for a long time, we decided to create a real identity. And it's done. As you can see, Affinitweet now has its own logo with its own colours. A nice gradient that can be found all over the site with shades of white and grey variations.",
+			"p5": "The icons of the functionalities have also been reworked, the generated images are of better quality and more advanced. The categories have been renamed and their content revised.",
+			"p6": "Always looking for maximum quality, the site is \"pixel-perfect\". If this is not the case for you, please let us know and we will deal with it as soon as possible!",
+			"h2": "New technologies",
+			"p7": "We have based this new version on the latest web technologies. The result: a huge gain in speed that is felt by simply browsing the site or even waiting for the results of the requested functionalities!",
+			"p8": "Coupled with this, you will be able to see the progress of your results in real time, which will pass the time even faster!",
+			"p9": "We have also developed much more rigorously, so there will be far fewer bugs not to say \"none\" because we are never safe from a clever little well hidden!",
+			"h3": "Res-pon-sive!",
+			"p10": "Finally! During these 3 years we have been collecting statistics about our users and it turns out that you are mostly connecting to Affinitweet from your phones. But we suspected that a little bit, because since the time we were asked for it...",
+			"p11": "The site is now completely responsive, i. e. it adapts to all screen sizes and displays correctly even for the smallest phones 😉",
+			"h4": "Parameters and data",
+			"p12": "We have focused on the management of personal data, you now have complete control over it directly and all options are disabled by default. You will find all the necessary information about how we store and use them on the {button} page.",
+			"p13": "When you go to your profile page, you should see something more accomplished among these options:",
+			"l1-1": "manage the automatic tweet when results are returned",
+			"l1-2": "save the results in your Affinitweet history",
+			"l1-3": "change the site monetization method",
+			"l1-4": "change the interface language among those proposed",
+			"l1-5": "clean up your Affinitweet results history",
+			"l1-6": "delete your account and all associated data",
+			"h5": "Languages and contribution",
+			"p14": "Don't hesitate to help us internationalize the platform by translating texts from the space provided on {button}. We will credit you just below the language in which you translated Affinitweet to show our gratitude and thank you?",
+			"h6": "And then?",
+			"p15": "We will continue to improve Affinitweet continuously with new features as we have been able to do until now.",
+			"p16": "Many thanks to you for being with us for so many years, hoping that this new version will please you! Do not hesitate to tell us your opinion about this one on Twitter by mentioning @affinitweet_ 😄"
 		}
 	},
 	"back": {
+		"features": {
+			"friendships": {
+				"following": "Your follow him",
+				"not-following": "You're not folling him",
+				"followed_by": "He follows you",
+				"not-followed_by": "He's not following you",
+				"notifications_enabled": "You are notified when he tweets",
+				"not-notifications_enabled": "You're not notified when he tweets",
+				"blocking": "You blocked him",
+				"not-blocking": "You didn't block him",
+				"blocked_by": "He blocked you",
+				"not-blocked_by": "He didn't block you",
+				"muting": "You mute him",
+				"not-muting": "You didn't mute him",
+				"want_retweets": "You see his retweets",
+				"not-want_retweets": "You don't see his retweets",
+				"marked_spam": "You marked him as spam",
+				"not-marked_spam": "You didn't mark him as spam"
+			},
+			"tweet-rate": {
+				"average": "@{{user}} tweets on average...",
+				"tweetsPerDay": "{{count}} times a day"
+			},
+			"common-friends": {
+				"friendsRemaining": "... and {{count}} other friends !"
+			}
+		},
 		"youAreNotFollowing": "You're not following @{{user}}...",
 		"notFollowingYou": "@{{user}} is not following you...",
 		"youFollowed": "You followed @{{user}}:",
 		"followedYou": "@{{user}} followed you:",
 		"dateFormat": "on {{month}}/{{day}}/{{year}} at {{hour}}:{{minute}}:{{second}}",
+		"dateFormat2": "on {{month}}/{{day}}/{{year}} at {{hour}}h",
 		"unknownFeature": "Unknown feature.",
 		"selfUsername": "Type a different username than yourself.",
 		"badUsername": "Bad username.",
+		"received": "Request received by the server...",
 		"starting": "Starting...",
 		"fetchingData": "Fetching data...",
 		"fetchingTweets": "Fetching tweets...",
@@ -208,5 +278,17 @@
 			"may-day": "May Day/\n{{user}}, je t'offre mon plus beau bouquet de muguet cette année ! 💐\nÀ qui offriras-tu le tien ?\nvia https://affinitweet.com/stolenKiss",
 			"halloween-duo": "Halloween Duo/\nMême pas besoin de me déguiser cette année pour faire peur, je suis avec {{user}} ! 🎃👻\nEt toi, avec qui seras-tu ?\nvia https://affinitweet.com/halloweenDuo"
 		}
+	},
+	"other": {
+		"one": "other",
+		"other": "other"
+	},
+	"%s other": "%s other",
+	"%s friends": "%s friends",
+	"otherFriends": "otherFriends",
+	"%s otherFriends": "%s otherFriends",
+	"otherFriend": {
+		"one": "otherFriend",
+		"other": "otherFriend"
 	}
 }
