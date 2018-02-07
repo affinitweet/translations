@@ -33,6 +33,7 @@
 		"affinitweetTeam": "The Affinitweet Team",
 		"cookiesBanner": "We use cookies 🍪 to provide the best experience. By continuing to use our website, you agree to our cookies policy. {button}",
 		"readMore": "Read more...",
+		"lastRevision": "Last revision:",
 		"profile": {
 			"profile": "Profile",
 			"history": "History",
@@ -134,7 +135,7 @@
 			"webmaster": "Webmaster",
 			"host": "Host",
 			"requestAddress": "Full address available on request by email at {email}.",
-			"warningCookies": "Avertissement cookies",
+			"warningCookies": "About cookies",
 			"p1": "A cookie is a small text file sent to your browser via the website you are viewing. With this cookie, information about your visit is stored on the website, such as your preferred language and other settings. This may facilitate your next visit to this site and make it more useful to you. Cookies play an important role. Without cookies, using the Web could be much more frustrating.",
 			"t1": "What is the applicable legal frame?",
 			"p2": "In amending Article 5(3) of Directive 2002/58/EC by adopting Directive 2009/136/EC, the European legislator laid down the principle that the storage of information on a user's equipment or access to information already stored should only be carried out with the user's prior consent, unless these actions are strictly necessary for the provider to deliver a service expressly requested by the user. Article 32-II of the law of 6 January 1978 takes over this principle.",
@@ -149,7 +150,7 @@
 			"intro": "We take the privacy of data very seriously and in the course of our business, we want to inform our users about what we do with it. You will find below all the necessary information concerning the storage and processing of this data. Information about cookies is also available on {thatPage}.",
 			"storage": "Storage",
 			"personalData": "Personal data",
-			"p1": "When you log in to Affinitweet, we collect the information from your Twitter profile that we need in order to offer you our services. Among this information, we store your:",
+			"p1": "When you log into Affinitweet, we collect the information from your Twitter profile that we need in order to offer you our services. Among this information, we store your:",
 			"l1-1": "unique Twitter ID",
 			"l1-2": "username (@)",
 			"l1-3": "name",
@@ -166,7 +167,7 @@
 			"i2": "Information: these data can be deleted in their entirety and immediately by simply clicking on {button} at the bottom of {yourProfile}.",
 			"computing": "Processing",
 			"p4": "When you perform the various features present on the site, we make calls to the Twitter API with your previously stored tokens.",
-			"i3": "Information: we use your tokens to be able to be as accurate as possible in our results. Thus, if you follow one or more users with a protected account for example, we will be able to include them in the results if necessary.",
+			"i3": "Information: we use your tokens to be able being as accurate as possible in our results. Thus, if you follow one or more users with a protected account for example, we will be able to include them in the results if necessary.",
 			"p5": "Here's what we can be led to get:",
 			"l3-1": "your feed",
 			"l3-2": "your tweets/retweets",
@@ -185,8 +186,8 @@
 		},
 		"new": {
 			"title": "Welcome to the new version of Affinitweet",
-			"p1": "3 years after our launch and a great success flooding the TL of our haters (but especially with our users ❤️), Affinitweet is getting a new look but not that on the visual, everything has been redone... from scratch!",
-			"p2": "We decided to make Affinitweet more serious and professional. Indeed, we want to become THE hub of reference for everything you can do from Twitter, nothing but that!",
+			"p1": "3 years after our launch and a great success flooding the TL of our haters (but especially with our users ❤️), Affinitweet is getting a new look but not only on the visual, everything has been redone... from scratch!",
+			"p2": "We decided to make Affinitweet more serious and professional. Indeed, we want to become THE reference hub for everything you can do from Twitter, nothing but that!",
 			"p3": "And to achieve this, we have set ourselves no limits and have given our best for this new version. In detail, here's what you can expect...",
 			"h1": "New identity",
 			"p4": "After having used the Twitter logo for a long time, we decided to create a real identity. And it's done. As you can see, Affinitweet now has its own logo with its own colours. A nice gradient that can be found all over the site with shades of white and grey variations.",
@@ -209,10 +210,10 @@
 			"l1-5": "clean up your Affinitweet results history",
 			"l1-6": "delete your account and all associated data",
 			"h5": "Languages and contribution",
-			"p14": "Don't hesitate to help us internationalize the platform by translating texts from the space provided on {button}. We will credit you just below the language in which you translated Affinitweet to show our gratitude and thank you?",
+			"p14": "Don't hesitate to help us internationalize the platform by translating texts from the space provided on {button}. We will credit you just below the language in which you translated Affinitweet to show our gratitude and thank you ❤️",
 			"h6": "And then?",
-			"p15": "We will continue to improve Affinitweet continuously with new features as we have been able to do until now.",
-			"p16": "Many thanks to you for being with us for so many years, hoping that this new version will please you! Do not hesitate to tell us your opinion about this one on Twitter by mentioning @affinitweet_ 😄"
+			"p15": "We will continue to improve Affinitweet with new features as we have been able to do until now.",
+			"p16": "Many thanks to you for having been with us for so many years, hoping that this new version will please you! Do not hesitate to tell us your opinion about this one on Twitter by mentioning @affinitweet_ 😄"
 		}
 	},
 	"back": {
@@ -240,8 +241,17 @@
 				"tweetsPerDay": "{{count}} times a day"
 			},
 			"common-friends": {
-				"friendsRemaining": "... and {{count}} other friends !"
-			}
+				"friendsRemaining": "... and {{count}} other friends !",
+				"noFriends": "No common friends...",
+				"commonFriends": "I have {{count}} common friends with @{{user}} !",
+				"noCommonFriends": "I have no common friends with @{{user}}..."
+			},
+			"valentine": "Your Valentine {{year}} is",
+			"stolen-kiss": "Your Stolen Kiss is",
+			"hidden-twin": "Your Hidden Twin is",
+			"secret-crush": "Your Secret Crush is",
+			"may-day": "I give a Lily-of-the-Valley 💐 to",
+			"halloween-duo": "Your Halloween Duo is"
 		},
 		"youAreNotFollowing": "You're not following @{{user}}...",
 		"notFollowingYou": "@{{user}} is not following you...",
@@ -263,32 +273,20 @@
 		"savingResults": "Saving results...",
 		"tweetContent": {
 			"all-in-one": "",
-			"first-to-follow": "",
-			"friendships": "",
-			"top-friends": "",
+			"first-to-follow": "First To Follow/\n{{{text}}}\nvia affinitweet.com/tuPeuxPasTest",
+			"friendships": "Friendships/\n\nvia https://affinitweet.com/friendships",
+			"top-friends": "Top Friends/\n{{users}}\nvia https://affinitweet.com/topFriends",
 			"color-matching": "",
-			"common-friends": "",
+			"common-friends": "Common Friends/\n{{text}}\nhttps://affinitweet.com/commonFriends",
 			"common-sources": "",
-			"tweet-rate": "",
-			"emoji-mood": "",
-			"valentine": "Valentine/\nCette année tu es à moi {{user}} ! ❤️\nEt toi, avec qui te retrouveras-tu ?\nvia https://affinitweet.com/valentine",
-			"secret-crush": "Secret Crush/\n{{user}} t'aime secrètement ! 😳\nQui t'aime en secret ?\nvia https://affinitweet.com/secretCrush",
-			"hidden-twin": "Hidden Twin/\n{{user}} est mon jumeau caché 😱\nDécouvre vite qui est le tien !\nvia https://affinitweet.com/hiddenTwin",
-			"stolen-kiss": "Stolen Kiss/\n{{user}} t'embrasserait bien au coin d'une rue... 😏\nEt toi, qui le ferait ?\nvia https://affinitweet.com/stolenKiss",
-			"may-day": "May Day/\n{{user}}, je t'offre mon plus beau bouquet de muguet cette année ! 💐\nÀ qui offriras-tu le tien ?\nvia https://affinitweet.com/stolenKiss",
-			"halloween-duo": "Halloween Duo/\nMême pas besoin de me déguiser cette année pour faire peur, je suis avec {{user}} ! 🎃👻\nEt toi, avec qui seras-tu ?\nvia https://affinitweet.com/halloweenDuo"
+			"tweet-rate": "Tweet Rate/\n\nhttps://affinitweet.com/tweetRate",
+			"emoji-mood": "Emoji Mood/\n{{emojis}}\nvia https://affinitweet.com/emojiMood",
+			"valentine": "Valentine/\nCette année tu es à moi @{{user}} ! ❤️\nEt toi, avec qui te retrouveras-tu ?\nvia https://affinitweet.com/valentine",
+			"secret-crush": "Secret Crush/\n@{{user}} t'aime secrètement ! 😳\nQui t'aime en secret ?\nvia https://affinitweet.com/secretCrush",
+			"hidden-twin": "Hidden Twin/\n@{{user}} est mon jumeau caché 😱\nDécouvre vite qui est le tien !\nvia https://affinitweet.com/hiddenTwin",
+			"stolen-kiss": "Stolen Kiss/\n@{{user}} t'embrasserait bien au coin d'une rue... 😏\nEt toi, qui le ferait ?\nvia https://affinitweet.com/stolenKiss",
+			"may-day": "May Day/\n@{{user}}, je t'offre mon plus beau bouquet de muguet cette année ! 💐\nÀ qui offriras-tu le tien ?\nvia https://affinitweet.com/stolenKiss",
+			"halloween-duo": "Halloween Duo/\nMême pas besoin de me déguiser cette année pour faire peur, je suis avec @{{user}} ! 🎃👻\nEt toi, avec qui seras-tu ?\nvia https://affinitweet.com/halloweenDuo"
 		}
-	},
-	"other": {
-		"one": "other",
-		"other": "other"
-	},
-	"%s other": "%s other",
-	"%s friends": "%s friends",
-	"otherFriends": "otherFriends",
-	"%s otherFriends": "%s otherFriends",
-	"otherFriend": {
-		"one": "otherFriend",
-		"other": "otherFriend"
 	}
 }
