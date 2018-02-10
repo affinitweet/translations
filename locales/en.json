@@ -82,6 +82,8 @@
 			"errors": {
 				"time": "This feature have a %{cooldown} seconds cooldown. Please retry in %{remainingTime} {seconds}.",
 				"unknown": "An error has occured. Our team has been notified.",
+				"notEnoughData": "Not enough data.",
+				"refreshPage": "Please refresh the page.",
 				"timeout": "Timeout exceeded.",
 				"twitterError": "Twitter returned an error:",
 				"twitterErrors": {
