@@ -31,7 +31,7 @@
 		"yourTwitterProfile": "twoim profilu na Twitterze",
 		"loading": "Wczytywanie...",
 		"by": "autor:",
-		"affinitweetTeam": "The Affinitweet Team",
+		"affinitweetTeam": "Zespół Affinitweet",
 		"cookiesBanner": "Używamy plików cookies 🍪, aby zapewnić jak najlepsze doświadczenie. Korzystając z naszej strony wyrażasz zgodę na naszą politykę cookies. {button}",
 		"readMore": "Więcej informacji...",
 		"lastRevision": "Ostatnie zmiany:",
@@ -83,6 +83,8 @@
 			"errors": {
 				"time": "Na ponowne skorzystanie z tej funkcji należy poczekać %{cooldown} s. Spróbuj ponownie za %{remainingTime} {seconds}.",
 				"unknown": "Wystąpił błąd. Nasz zespół został powiadomiony.",
+				"notEnoughData": "Za mało danych.",
+				"refreshPage": "Odśwież stronę.",
 				"timeout": "Przekroczono limit czasu.",
 				"twitterError": "Błąd Twittera:",
 				"twitterErrors": {
@@ -93,8 +95,8 @@
 					"64": "Twoje konto zostało zawieszone. Nie masz dostępu do tej funkcji.",
 					"87": "Klient nie ma zezwolenia na wykonanie tej akcji.",
 					"88": "Liczba żądań przekroczona. Spróbuj ponownie za 15 minut.",
-					"89": "Token jest nieprawidłowy lub wygasł. Spróbuj ponownie",
-					"99": "Weryfikacja uwierzytelnienia nieudana. Please reconnect.",
+					"89": "Token jest nieprawidłowy lub wygasł. Spróbuj ponownie.",
+					"99": "Weryfikacja uwierzytelnienia nieudana. Spróbuj ponownie.",
 					"130": "Serwis przeciążony.",
 					"131": "Błąd wewnętrzny.",
 					"135": "Nieudane uwierzytelnienie.",
@@ -221,7 +223,7 @@
 	"back": {
 		"features": {
 			"friendships": {
-				"average": "Friendships average of",
+				"average": "Zgodność znajomości na poziomie",
 				"following": "Obserwujesz tego użytkownika",
 				"not-following": "Nie obserwujesz tego użytkownika",
 				"followed_by": "Ten użytkownik cię obserwuje",
