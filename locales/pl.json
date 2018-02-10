@@ -45,8 +45,8 @@
 			"contributeOnGitHub": "pomóż poprzez serwis GitHub",
 			"account": "Konto",
 			"viewProfile": "Zobacz na Twitterze",
-			"followers": "Obserwowani",
-			"followings": "Obserwujący",
+			"followers": "Obserwujący",
+			"followings": "Obserwowani",
 			"noHistory": "Historia jest pusta.",
 			"noAutoTweet": "Nie zostanie opublikowany żaden tweet",
 			"autoTweet": "Tweet z wynikami zostanie wysłany automatycznie",
@@ -127,7 +127,7 @@
 			"bunbun-transform": "Zamień się w słodkiego króliczka! Ta funkcja zastąpi twoje obecne zdjęcie profilowe.",
 			"pokemon-go-buddy": "Dowiedz się, którym Pokémonem-towarzyszem jesteś!",
 			"tweet-rate": "Oblicz częstotliwość swoich tweetów i porównaj się z innym użytkownikiem!",
-			"first-to-follow": "Find out the date and time you followed one of your Twitter friends, and vice versa! Who followed the other one first?",
+			"first-to-follow": "Dowiedz się, od kiedy dokładnie obserwujesz swojego znajomego, a od kiedy on ciebie! Kto kogo obserwował pierwszy?",
 			"emoji-mood": "Których emotikon używasz najczęściej?"
 		},
 		"legal": {
@@ -159,7 +159,7 @@
 			"l1-2": "nazwa użytkownika (@)",
 			"l1-3": "nazwa",
 			"l1-4": "token uwierzytelniający",
-			"l1-5": "tajny token autoryzacyjny",
+			"l1-5": "tajny token uwierzytelniający",
 			"l1-6": "język",
 			"p2": "Inne informacje widoczne w twoim profilu są przechowywane tylko na czas bieżącej sesji. Aby je usunąć, wystarczy się wylogować.",
 			"i1": "Uwaga: możesz usunąć te dane całkowicie klikając {button} na samym dole w {yourProfile}.",
@@ -286,12 +286,12 @@
 			"common-sources": "",
 			"tweet-rate": "#Affinitweet Tweet Rate\n\nhttps://affinitweet.com/tweet-rate",
 			"emoji-mood": "#Affinitweet Emoji Mood\n{{emojis}}\nprzez https://affinitweet.com/emoji-mood",
-			"valentine": "#Affinitweet Valentine\nW tym roku jesteś moją walentynką, @{{user}}! ❤️\nKto będzie twoją?\nprzez https://affinitweet.com/valentine",
-			"secret-crush": "#Affinitweet Secret Crush\nPodkochujesz się sekretnie w @{{user}}! 😳\nKto podkochuje się w tobie?\nprzez https://affinitweet.com/secret-crush",
-			"hidden-twin": "#Affinitweet Hidden Twin\n@{{user}} jest moim tajemniczym bliźniakiem 😱\nZnajdź swojego!\nprzez https://affinitweet.com/hidden-twin",
-			"stolen-kiss": "#Affinitweet Stolen Kiss\n@{{user}} wysyła ci buziaka... 😏\nA kogo ty pocałujesz?\nprzez https://affinitweet.com/stolen-kiss",
-			"may-day": "#Affinitweet May Day\n@{{user}}, daję ci w prezencie konwalie majowe! 💐\nKomu podarujesz swój bukiet?\nprzez https://affinitweet.com/may-day",
-			"halloween-duo": "#Affinitweet Halloween Duo\nW tym roku nawet nie muszę się przebierać, bo straszy ze mną @{{user}}! 🎃👻\nZnajdź swojego strasznego partnera!\nprzez https://affinitweet.com/halloween-duo"
+			"valentine": "#Affinitweet Valentine\nW tym roku jesteś moją walentynką, @{{user}}! ❤️\nKto będzie twoją?\nhttps://affinitweet.com/valentine",
+			"secret-crush": "#Affinitweet Secret Crush\nPodkochujesz się sekretnie w @{{user}}! 😳\nKto podkochuje się w tobie?\nhttps://affinitweet.com/secret-crush",
+			"hidden-twin": "#Affinitweet Hidden Twin\n@{{user}} jest moim tajemniczym bliźniakiem 😱\nZnajdź swojego!\nhttps://affinitweet.com/hidden-twin",
+			"stolen-kiss": "#Affinitweet Stolen Kiss\n@{{user}} wysyła ci buziaka... 😏\nA kogo ty pocałujesz?\nhttps://affinitweet.com/stolen-kiss",
+			"may-day": "#Affinitweet May Day\n@{{user}}, daję ci w prezencie konwalie majowe! 💐\nKomu podarujesz swój bukiet?\nhttps://affinitweet.com/may-day",
+			"halloween-duo": "#Affinitweet Halloween Duo\nW tym roku nawet nie muszę się przebierać, bo straszy ze mną @{{user}}! 🎃👻\nZnajdź swojego strasznego partnera!\nhttps://affinitweet.com/halloween-duo"
 		}
 	}
 }
