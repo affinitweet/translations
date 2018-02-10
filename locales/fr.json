@@ -96,7 +96,7 @@
 					"88": "Limite d'actions dépassée. Réessayez dans 15 minutes.",
 					"89": "Token invalide ou expiré. Reconnectez-vous.",
 					"99": "Impossible de vérifier vos identifiants.",
-					"130": "Twitter est en PLS.",
+					"130": "Twitter est surchargé.",
 					"131": "Erreur interne provenant de Twitter.",
 					"135": "Impossible de vous authentifier.",
 					"144": "Tweet non trouvé avec cet ID.",
