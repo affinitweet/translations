@@ -16,9 +16,10 @@
 		"dataPrivacy": "Dane i prywatność",
 		"legals": "Informacje prawne",
 		"news": "Nowości",
-		"french": "francuski",
-		"english": "angielski",
-		"spanish": "hiszpański",
+		"french": "Francuski",
+		"english": "Angielski",
+		"spanish": "Hiszpański",
+		"polish": "",
 		"saved": "Zapisano",
 		"updated": "Zaktualizowano",
 		"cleared": "Usunięto",
@@ -93,7 +94,7 @@
 					"87": "Klient nie ma zezwolenia na wykonanie tej akcji.",
 					"88": "Liczba żądań przekroczona. Spróbuj ponownie za 15 minut.",
 					"89": "Token jest nieprawidłowy lub wygasł.",
-					"99": "Weryfikacja uwierzytelnienia nieudana.",
+					"99": "Weryfikacja uwierzytelnienia nieudana. Please reconnect.",
 					"130": "Serwis przeciążony.",
 					"131": "Błąd wewnętrzny.",
 					"135": "Nieudane uwierzytelnienie.",
@@ -124,6 +125,7 @@
 			"bunbun-transform": "Zamień się w słodkiego króliczka! Ta funkcja zastąpi twoje obecne zdjęcie profilowe.",
 			"pokemon-go-buddy": "Dowiedz się, którym Pokémonem-towarzyszem jesteś!",
 			"tweet-rate": "Oblicz częstotliwość swoich tweetów i porównaj się z innym użytkownikiem!",
+			"first-to-follow": "Find out the date and time you followed one of your Twitter friends, and vice versa! Who followed the other one first?",
 			"emoji-mood": "Których emotikon używasz najczęściej?"
 		},
 		"legal": {
@@ -136,8 +138,7 @@
 			"host": "Host",
 			"requestAddress": "Pełny adres zostanie udostepniony na życzenie po wysłaniu żądania na {email}.",
 			"warningCookies": "O plikach cookies",
-			"p1": "
-Cookie to niewielki plik tekstowy wysłany do twojej przeglądarki przez stronę, którą przeglądasz. Plik ten przechowuje informacje o twojej wizycie na stronie, takie jak preferencje językowe i inne ustawienia. Może to ułatwić ci kolejną wizytę na tej stronie i zwiększyć jej przydatność. Pliki cookies są dość istotne, bez nich korzystanie z internetu byłoby dużo bardzo frustrujące.",
+			"p1": "Cookie to niewielki plik tekstowy wysłany do twojej przeglądarki przez stronę, którą przeglądasz. Plik ten przechowuje informacje o twojej wizycie na stronie, takie jak preferencje językowe i inne ustawienia. Może to ułatwić ci kolejną wizytę na tej stronie i zwiększyć jej przydatność. Pliki cookies są dość istotne, bez nich korzystanie z internetu byłoby dużo bardzo frustrujące.",
 			"t1": "Jakie prawo o tym stanowi?",
 			"p2": "W nowelizacji Artykułu 5(3) Dyrektywy 2002/58/EC poprzez przyjęcie Dyrektywy 2009/136/EC Unia Europejska określiła, że korzystanie z sieci łączności elektronicznej w celu przechowywania informacji lub uzyskania dostępu do informacji przechowanej na terminalu abonenta lub użytkownika jest dozwolone wyłącznie pod warunkiem że abonent lub użytkownik otrzyma jasną i wyczerpującą informację, chyba że jest to szczególnie niezbędne w celu dostarczania usługi społeczeństwa informacyjnego, wyraźnie zażądanej przez abonenta lub użytkownika. Obejmuje to również Artykuł 32-II z dnia 6 stycznia 1978 prawa francuskiego.",
 			"t2": "Ta strona korzysta z plików cookies w celu:",
@@ -220,6 +221,7 @@ Cookie to niewielki plik tekstowy wysłany do twojej przeglądarki przez stronę
 	"back": {
 		"features": {
 			"friendships": {
+				"average": "Friendships average of",
 				"following": "Obserwujesz tego użytkownika",
 				"not-following": "Nie obserwujesz tego użytkownika",
 				"followed_by": "Ten użytkownik cię obserwuje",
@@ -274,20 +276,20 @@ Cookie to niewielki plik tekstowy wysłany do twojej przeglądarki przez stronę
 		"savingResults": "Zapisywanie wyników...",
 		"tweetContent": {
 			"all-in-one": "",
-			"first-to-follow": "First To Follow/\n{{{text}}}\nvia affinitweet.com/tuPeuxPasTest",
-			"friendships": "Friendships/\n\nvia https://affinitweet.com/friendships",
-			"top-friends": "Top Friends/\n{{users}}\nvia https://affinitweet.com/topFriends",
+			"first-to-follow": "#Affinitweet First To Follow\n{{{text}}}\nvia https://affinitweet.com/first-to-follow",
+			"friendships": "#Affinitweet Friendships\n{{text}}\nvia https://affinitweet.com/friendships",
+			"top-friends": "#Affinitweet Top Friends\n{{users}}\nvia https://affinitweet.com/top-friends",
 			"color-matching": "",
-			"common-friends": "Common Friends/\n{{text}}\nhttps://affinitweet.com/commonFriends",
+			"common-friends": "#Affinitweet Common Friends\n{{text}}\nhttps://affinitweet.com/common-friends",
 			"common-sources": "",
-			"tweet-rate": "Tweet Rate/\n\nhttps://affinitweet.com/tweetRate",
-			"emoji-mood": "Emoji Mood/\n{{emojis}}\nvia https://affinitweet.com/emojiMood",
-			"valentine": "Valentine/\nCette année tu es à moi @{{user}} ! ❤️\nEt toi, avec qui te retrouveras-tu ?\nvia https://affinitweet.com/valentine",
-			"secret-crush": "Secret Crush/\n@{{user}} t'aime secrètement ! 😳\nQui t'aime en secret ?\nvia https://affinitweet.com/secretCrush",
-			"hidden-twin": "Hidden Twin/\n@{{user}} est mon jumeau caché 😱\nDécouvre vite qui est le tien !\nvia https://affinitweet.com/hiddenTwin",
-			"stolen-kiss": "Stolen Kiss/\n@{{user}} t'embrasserait bien au coin d'une rue... 😏\nEt toi, qui le ferait ?\nvia https://affinitweet.com/stolenKiss",
-			"may-day": "May Day/\n@{{user}}, je t'offre mon plus beau bouquet de muguet cette année ! 💐\nÀ qui offriras-tu le tien ?\nvia https://affinitweet.com/stolenKiss",
-			"halloween-duo": "Halloween Duo/\nMême pas besoin de me déguiser cette année pour faire peur, je suis avec @{{user}} ! 🎃👻\nEt toi, avec qui seras-tu ?\nvia https://affinitweet.com/halloweenDuo"
+			"tweet-rate": "#Affinitweet Tweet Rate\n\nhttps://affinitweet.com/tweet-rate",
+			"emoji-mood": "#Affinitweet Emoji Mood\n{{emojis}}\nvia https://affinitweet.com/emoji-mood",
+			"valentine": "#Affinitweet Valentine\nThis year you're mine @{{user}}! ❤️\nAnd you, whom will be yours?\nvia https://affinitweet.com/valentine",
+			"secret-crush": "#Affinitweet Secret Crush\n@{{user}} secretly loves you! 😳\nWho loves you in secret?\nvia https://affinitweet.com/secret-crush",
+			"hidden-twin": "#Affinitweet Hidden Twin\n@{{user}} is my hidden twin 😱\nFind out who is yours!\nvia https://affinitweet.com/hidden-twin",
+			"stolen-kiss": "#Affinitweet Stolen Kiss\n@{{user}} would kiss you around the corner... 😏\nAnd you, who would do it?\nvia https://affinitweet.com/stolen-kiss",
+			"may-day": "#Affinitweet May Day\n@{{user}}, I give you my best bouquet of lily-of-the-valley! 💐\nTo whom will you give yours?\nvia https://affinitweet.com/may-day",
+			"halloween-duo": "#Affinitweet Halloween Duo\nI don't even have to dress up this year to be scary, I'm with @{{user}}! 🎃👻\nAnd you, with whom will you scare the most?\nvia https://affinitweet.com/halloween-duo"
 		}
 	}
 }
