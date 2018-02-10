@@ -19,7 +19,7 @@
 		"french": "Francuski",
 		"english": "Angielski",
 		"spanish": "Hiszpański",
-		"polish": "",
+		"polish": "Polski",
 		"saved": "Zapisano",
 		"updated": "Zaktualizowano",
 		"cleared": "Usunięto",
@@ -93,7 +93,7 @@
 					"64": "Twoje konto zostało zawieszone. Nie masz dostępu do tej funkcji.",
 					"87": "Klient nie ma zezwolenia na wykonanie tej akcji.",
 					"88": "Liczba żądań przekroczona. Spróbuj ponownie za 15 minut.",
-					"89": "Token jest nieprawidłowy lub wygasł.",
+					"89": "Token jest nieprawidłowy lub wygasł. Spróbuj ponownie",
 					"99": "Weryfikacja uwierzytelnienia nieudana. Please reconnect.",
 					"130": "Serwis przeciążony.",
 					"131": "Błąd wewnętrzny.",
@@ -104,7 +104,7 @@
 					"186": "Tweet musi być krótszy.",
 					"187": "Status już istnieje.",
 					"220": "Nie masz dostępu to tego zasobu.",
-					"261": "Aplikacja nie może wykonać czynności pisania.",
+					"261": "Nie udało się opublikować wyników.",
 					"326": "Aby chronić naszych użytkowników przed spamem i podejrzaną aktywnością, tymczasowo zablokowaliśmy to konto."
 				}
 			},
@@ -246,8 +246,8 @@
 			"common-friends": {
 				"friendsRemaining": "... oraz {{count}} innych znajomych!",
 				"noFriends": "Brak wspólnych znajomych...",
-				"commonFriends": "Mam {{count}} wspólnych znajomych z użytkownikiem @{{user}}!",
-				"noCommonFriends": "Nie mam wspólnych znajomych z użytkownikiem @{{user}}..."
+				"commonFriends": "Mam {{count}} wspólnych znajomych z @{{user}}!",
+				"noCommonFriends": "Nie mam wspólnych znajomych z @{{user}}..."
 			},
 			"valentine": "Twoją walentynką w {{year}} roku jest",
 			"stolen-kiss": "Buziaka wysyła ci",
@@ -256,10 +256,10 @@
 			"may-day": "Daję konwalię majową 💐 użytkownikowi",
 			"halloween-duo": "W tym roku świętujesz Halloween z użytkownikiem"
 		},
-		"youAreNotFollowing": "Nie obserwujesz użytkownika @{{user}}...",
+		"youAreNotFollowing": "Nie obserwujesz @{{user}}...",
 		"notFollowingYou": "@{{user}} nie obserwuje cię...",
-		"youFollowed": "Obserwujesz użytkownika @{{user}} od:",
-		"followedYou": "@{{user}} obserwuje cię od:",
+		"youFollowed": "Obserwujesz @{{user}} od: ",
+		"followedYou": "@{{user}} obserwuje cię od: ",
 		"dateFormat": "{{day}}/{{month}}/{{year}}, {{hour}}:{{minute}}:{{second}}",
 		"dateFormat2": "{{day}}/{{month}}/{{year}}, {{hour}}h",
 		"unknownFeature": "Funkcja nieznana.",
@@ -283,13 +283,13 @@
 			"common-friends": "#Affinitweet Common Friends\n{{text}}\nhttps://affinitweet.com/common-friends",
 			"common-sources": "",
 			"tweet-rate": "#Affinitweet Tweet Rate\n\nhttps://affinitweet.com/tweet-rate",
-			"emoji-mood": "#Affinitweet Emoji Mood\n{{emojis}}\nvia https://affinitweet.com/emoji-mood",
-			"valentine": "#Affinitweet Valentine\nThis year you're mine @{{user}}! ❤️\nAnd you, whom will be yours?\nvia https://affinitweet.com/valentine",
-			"secret-crush": "#Affinitweet Secret Crush\n@{{user}} secretly loves you! 😳\nWho loves you in secret?\nvia https://affinitweet.com/secret-crush",
-			"hidden-twin": "#Affinitweet Hidden Twin\n@{{user}} is my hidden twin 😱\nFind out who is yours!\nvia https://affinitweet.com/hidden-twin",
-			"stolen-kiss": "#Affinitweet Stolen Kiss\n@{{user}} would kiss you around the corner... 😏\nAnd you, who would do it?\nvia https://affinitweet.com/stolen-kiss",
-			"may-day": "#Affinitweet May Day\n@{{user}}, I give you my best bouquet of lily-of-the-valley! 💐\nTo whom will you give yours?\nvia https://affinitweet.com/may-day",
-			"halloween-duo": "#Affinitweet Halloween Duo\nI don't even have to dress up this year to be scary, I'm with @{{user}}! 🎃👻\nAnd you, with whom will you scare the most?\nvia https://affinitweet.com/halloween-duo"
+			"emoji-mood": "#Affinitweet Emoji Mood\n{{emojis}}\nprzez https://affinitweet.com/emoji-mood",
+			"valentine": "#Affinitweet Valentine\nW tym roku jesteś moją walentynką, @{{user}}! ❤️\nKto będzie twoją?\nprzez https://affinitweet.com/valentine",
+			"secret-crush": "#Affinitweet Secret Crush\nPodkochujesz się sekretnie w @{{user}}! 😳\nKto podkochuje się w tobie?\nprzez https://affinitweet.com/secret-crush",
+			"hidden-twin": "#Affinitweet Hidden Twin\n@{{user}} jest moim tajemniczym bliźniakiem 😱\nZnajdź swojego!\nprzez https://affinitweet.com/hidden-twin",
+			"stolen-kiss": "#Affinitweet Stolen Kiss\n@{{user}} wysyła ci buziaka... 😏\nA kogo ty pocałujesz?\nprzez https://affinitweet.com/stolen-kiss",
+			"may-day": "#Affinitweet May Day\n@{{user}}, daję ci w prezencie konwalie majowe! 💐\nKomu podarujesz swój bukiet?\nprzez https://affinitweet.com/may-day",
+			"halloween-duo": "#Affinitweet Halloween Duo\nW tym roku nawet nie muszę się przebierać, bo straszy ze mną @{{user}}! 🎃👻\nZnajdź swojego strasznego partnera!\nprzez https://affinitweet.com/halloween-duo"
 		}
 	}
 }
