@@ -92,7 +92,7 @@
 					"64": "Your account is suspended and is not permitted to access this feature.",
 					"87": "Client is not permitted to perform this action.",
 					"88": "Rate limit exceeded. Retry in 15 minutes",
-					"89": "Invalid or expired token.",
+					"89": "Invalid or expired token. Please reconnect.",
 					"99": "Unable to verify your credentials.",
 					"130": "Over capacity.",
 					"131": "Internal error.",
@@ -124,6 +124,7 @@
 			"bunbun-transform": "Transform yourself into a cute bunny! Your Twitter profile picture will be updated!",
 			"pokemon-go-buddy": "What if you were a Buddy Pokémon Go? Discover it!",
 			"tweet-rate": "Calculate and compare your Tweet Rate with a targeted user!",
+			"first-to-follow": "Find out the date and time you followed one of your Twitter friends, and vice versa! Who followed the other one first?",
 			"emoji-mood": "What's your Emoji Mood? Which Emojis do you use the most?"
 		},
 		"legal": {
@@ -219,6 +220,7 @@
 	"back": {
 		"features": {
 			"friendships": {
+				"average": "Friendships average of",
 				"following": "Your follow him",
 				"not-following": "You're not folling him",
 				"followed_by": "He follows you",
@@ -255,8 +257,8 @@
 		},
 		"youAreNotFollowing": "You're not following @{{user}}...",
 		"notFollowingYou": "@{{user}} is not following you...",
-		"youFollowed": "You followed @{{user}}:",
-		"followedYou": "@{{user}} followed you:",
+		"youFollowed": "You followed @{{user}}: ",
+		"followedYou": "@{{user}} followed you: ",
 		"dateFormat": "on {{month}}/{{day}}/{{year}} at {{hour}}:{{minute}}:{{second}}",
 		"dateFormat2": "on {{month}}/{{day}}/{{year}} at {{hour}}h",
 		"unknownFeature": "Unknown feature.",
@@ -273,20 +275,20 @@
 		"savingResults": "Saving results...",
 		"tweetContent": {
 			"all-in-one": "",
-			"first-to-follow": "First To Follow/\n{{{text}}}\nvia affinitweet.com/tuPeuxPasTest",
-			"friendships": "Friendships/\n\nvia https://affinitweet.com/friendships",
-			"top-friends": "Top Friends/\n{{users}}\nvia https://affinitweet.com/topFriends",
+			"first-to-follow": "#Affinitweet First To Follow\n{{{text}}}\nvia https://affinitweet.com/first-to-follow",
+			"friendships": "#Affinitweet Friendships\n{{text}}\nvia https://affinitweet.com/friendships",
+			"top-friends": "#Affinitweet Top Friends\n{{users}}\nvia https://affinitweet.com/top-friends",
 			"color-matching": "",
-			"common-friends": "Common Friends/\n{{text}}\nhttps://affinitweet.com/commonFriends",
+			"common-friends": "#Affinitweet Common Friends\n{{text}}\nhttps://affinitweet.com/common-friends",
 			"common-sources": "",
-			"tweet-rate": "Tweet Rate/\n\nhttps://affinitweet.com/tweetRate",
-			"emoji-mood": "Emoji Mood/\n{{emojis}}\nvia https://affinitweet.com/emojiMood",
-			"valentine": "Valentine/\nCette année tu es à moi @{{user}} ! ❤️\nEt toi, avec qui te retrouveras-tu ?\nvia https://affinitweet.com/valentine",
-			"secret-crush": "Secret Crush/\n@{{user}} t'aime secrètement ! 😳\nQui t'aime en secret ?\nvia https://affinitweet.com/secretCrush",
-			"hidden-twin": "Hidden Twin/\n@{{user}} est mon jumeau caché 😱\nDécouvre vite qui est le tien !\nvia https://affinitweet.com/hiddenTwin",
-			"stolen-kiss": "Stolen Kiss/\n@{{user}} t'embrasserait bien au coin d'une rue... 😏\nEt toi, qui le ferait ?\nvia https://affinitweet.com/stolenKiss",
-			"may-day": "May Day/\n@{{user}}, je t'offre mon plus beau bouquet de muguet cette année ! 💐\nÀ qui offriras-tu le tien ?\nvia https://affinitweet.com/stolenKiss",
-			"halloween-duo": "Halloween Duo/\nMême pas besoin de me déguiser cette année pour faire peur, je suis avec @{{user}} ! 🎃👻\nEt toi, avec qui seras-tu ?\nvia https://affinitweet.com/halloweenDuo"
+			"tweet-rate": "#Affinitweet Tweet Rate\n\nhttps://affinitweet.com/tweet-rate",
+			"emoji-mood": "#Affinitweet Emoji Mood\n{{emojis}}\nvia https://affinitweet.com/emoji-mood",
+			"valentine": "#Affinitweet Valentine\nThis year you're mine @{{user}}! ❤️\nAnd you, whom will be yours?\nvia https://affinitweet.com/valentine",
+			"secret-crush": "#Affinitweet Secret Crush\n@{{user}} secretly loves you! 😳\nWho loves you in secret?\nvia https://affinitweet.com/secret-crush",
+			"hidden-twin": "#Affinitweet Hidden Twin\n@{{user}} is my hidden twin 😱\nFind out who is yours!\nvia https://affinitweet.com/hidden-twin",
+			"stolen-kiss": "#Affinitweet Stolen Kiss\n@{{user}} would kiss you around the corner... 😏\nAnd you, who would do it?\nvia https://affinitweet.com/stolen-kiss",
+			"may-day": "#Affinitweet May Day\n@{{user}}, I give you my best bouquet of lily-of-the-valley! 💐\nTo whom will you give yours?\nvia https://affinitweet.com/may-day",
+			"halloween-duo": "#Affinitweet Halloween Duo\nI don't even have to dress up this year to be scary, I'm with @{{user}}! 🎃👻\nAnd you, with whom will you scare the most?\nvia https://affinitweet.com/halloween-duo"
 		}
 	}
 }
