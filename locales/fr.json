@@ -92,7 +92,7 @@
 					"64": "Votre compte Twitter a été suspendu et ne peut accéder à cette fonctionnalité.",
 					"87": "Impossible d'effectuer cette action.",
 					"88": "Limite d'actions dépassée. Réessayez dans 15 minutes.",
-					"89": "Token invalide ou expiré.",
+					"89": "Token invalide ou expiré. Reconnectez-vous.",
 					"99": "Impossible de vérifier vos identifiants.",
 					"130": "Twitter est en PLS.",
 					"131": "Erreur interne provenant de Twitter.",
@@ -220,6 +220,7 @@
 	"back": {
 		"features": {
 			"friendships": {
+				"average": "Moyenne des amitiés Twitter de",
 				"following": "Vous le suivez",
 				"not-following": "Vous ne le suivez pas",
 				"followed_by": "Il vous suit",
@@ -233,7 +234,7 @@
 				"muting": "Vous l'avez mis en sourdine",
 				"not-muting": "Vous ne l'avez pas mis en sourdine",
 				"want_retweets": "Vous voyez ses retweets",
-				"not-want_retweets": "Vous avec caché ses retweets",
+				"not-want_retweets": "Vous avez caché ses retweets",
 				"marked_spam": "Vous l'avez marqué comme spam",
 				"not-marked_spam": "Vous ne l'avez pas marqué comme spam"
 			},
@@ -274,20 +275,20 @@
 		"savingResults": "Sauvegarde des résultats...",
 		"tweetContent": {
 			"all-in-one": "",
-			"first-to-follow": "First To Follow/\n{{{text}}}\nvia affinitweet.com/tuPeuxPasTest",
-			"friendships": "Friendships/\n\nvia https://affinitweet.com/friendships",
-			"top-friends": "Top Friends/\n{{users}}\nvia https://affinitweet.com/topFriends",
+			"first-to-follow": "#Affinitweet First To Follow\n{{{text}}}\nvia affinitweet.com/first-to-follow",
+			"friendships": "#Affinitweet Friendships\n{{text}}\nvia https://affinitweet.com/friendships",
+			"top-friends": "#Affinitweet Top Friends\n{{users}}\nvia https://affinitweet.com/top-friends",
 			"color-matching": "",
-			"common-friends": "Common Friends/\n{{text}}\nhttps://affinitweet.com/commonFriends",
+			"common-friends": "#Affinitweet Common Friends\n{{text}}\nhttps://affinitweet.com/common-friends",
 			"common-sources": "",
-			"tweet-rate": "Tweet Rate/\n\nhttps://affinitweet.com/tweetRate",
-			"emoji-mood": "Emoji Mood/\n{{emojis}}\nvia https://affinitweet.com/emojiMood",
-			"valentine": "Valentine/\nCette année tu es à moi @{{user}} ! ❤️\nEt toi, avec qui te retrouveras-tu ?\nvia https://affinitweet.com/valentine",
-			"secret-crush": "Secret Crush/\n@{{user}} t'aime secrètement ! 😳\nQui t'aime en secret ?\nvia https://affinitweet.com/secretCrush",
-			"hidden-twin": "Hidden Twin/\n@{{user}} est mon jumeau caché 😱\nDécouvre vite qui est le tien !\nvia https://affinitweet.com/hiddenTwin",
-			"stolen-kiss": "Stolen Kiss/\n@{{user}} t'embrasserait bien au coin d'une rue... 😏\nEt toi, qui le ferait ?\nvia https://affinitweet.com/stolenKiss",
-			"may-day": "May Day/\n@{{user}}, je t'offre mon plus beau bouquet de muguet cette année ! 💐\nÀ qui offriras-tu le tien ?\nvia https://affinitweet.com/stolenKiss",
-			"halloween-duo": "Halloween Duo/\nMême pas besoin de me déguiser cette année pour faire peur, je suis avec @{{user}} ! 🎃👻\nEt toi, avec qui seras-tu ?\nvia https://affinitweet.com/halloweenDuo"
+			"tweet-rate": "#Affinitweet Tweet Rate\n\nhttps://affinitweet.com/tweet-rate",
+			"emoji-mood": "#Affinitweet Emoji Mood\n{{emojis}}\nvia https://affinitweet.com/emoji-mood",
+			"valentine": "#Affinitweet Valentine\nCette année tu es à moi @{{user}} ! ❤️\nEt toi, avec qui te retrouveras-tu ?\nvia https://affinitweet.com/valentine",
+			"secret-crush": "#Affinitweet Secret Crush\n@{{user}} t'aime secrètement ! 😳\nDécouvre qui t'aime en secret !\nvia https://affinitweet.com/secret-crush",
+			"hidden-twin": "#Affinitweet Hidden Twin\n@{{user}} est mon jumeau caché 😱\nDécouvre vite qui est le tien !\nvia https://affinitweet.com/hidden-twin",
+			"stolen-kiss": "#Affinitweet Stolen Kiss\n@{{user}} t'embrasserait bien au coin d'une rue... 😏\nEt toi, qui t'embrasserait ?\nvia https://affinitweet.com/stolen-kiss",
+			"may-day": "#Affinitweet May Day\n@{{user}}, je t'offre mon plus beau bouquet de muguet cette année ! 💐\nÀ qui offriras-tu le tien ?\nvia https://affinitweet.com/may-day",
+			"halloween-duo": "#Affinitweet Halloween Duo\nMême pas besoin de me déguiser cette année pour faire peur, je suis avec @{{user}} ! 🎃👻\nEt toi, avec qui seras-tu ?\nvia https://affinitweet.com/halloween-duo"
 		}
 	}
 }
