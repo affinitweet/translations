@@ -56,7 +56,7 @@ Don't change "`account`", "`clearHistory`", "`profile`" and "`username`".
 - You don't have to translate the name of the features (ex: `Valentine`, `Secret Crush`...)
 - The `seconds` value corresponds to `0 (second) | 1 (second) | 2+ (seconds)`
 - If you have a `space` in front of the `:` in your language, don't forget it
-- Be careful with upper and lower case letters (espacially at the start of the string) and punctuation
+- Be careful with punctuation, upper and lower case letters (especially at the start and end of the string)
 - If you're using another date format in your country, update the order of `{{day}}/{{month}}/{{year}}`
 
 
