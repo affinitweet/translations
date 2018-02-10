@@ -83,6 +83,8 @@
 				"time": "Cette fonctionnalité a un temps de rechargement de %{cooldown} secondes. Merci de réessayer dans %{remainingTime} {seconds}.",
 				"unknown": "Un problème est survenu. L'équipe a été notifiée.",
 				"twitterError": "Twitter a retourné une erreur :",
+				"notEnoughData": "Pas assez de données.",
+				"refreshPage": "Merci de rafraîchir la page.",
 				"timeout": "Délai d'attente maximum dépassé.",
 				"twitterErrors": {
 					"32": "Impossible de vous identifier.",
