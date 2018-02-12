@@ -181,10 +181,10 @@
 			"p6": "Esta información solo se recopila y procesa, no la almacenamos.",
 			"publish": "Publicación",
 			"p7": "Cuando inicia sesión en Affinitweet, solicitamos acceso de lectura básico a su cuenta y acceso de escritura. No realizaremos ninguna acción sin su expresa solicitud activando una opción del sitio.",
-			"i4": "Información: puede revocar el acceso que nos dio cuando inició sesión en cualquier momento desde su {yourTwitterProfile}.",
+			"i4": "Información: puede revocar el acceso que nos dio cuando inició sesión en cualquier momento desde {yourTwitterProfile}.",
 			"autoTweet": "Tuit automático",
 			"p8": "Para poder utilizar ciertas funciones, podemos solicitarle que habilite la opción de tuit automático para obtener resultados. Si acepta habilitar esta opción, se publicará un tuit para cada resultado con la imagen generada.",
-			"i5": "Información: puede desactivar esta opción en cualquier momento desde {suPerfil} en la sección {botón}.",
+			"i5": "Información: puede desactivar esta opción en cualquier momento desde {yourProfile} en la sección {button}.",
 			"question": "¿Alguna pregunta?",
 			"p9": "Si tiene alguna pregunta sobre Affinitweet, por favor no dude en contactarnos vía Twitter o correo electrónico, ¡estaremos encantados de responderle!"
 		},
