@@ -59,5 +59,11 @@ Don't change "`account`", "`clearHistory`", "`profile`" and "`username`".
 - Be careful with punctuation, upper and lower case letters (especially at the start and end of the string)
 - If you're using another date format in your country, update the order of `{{day}}/{{month}}/{{year}}`
 
+## Translations
+
+- 🇵🇱 Polish → Patryk Gawroński ([@beardimon](https://github.com/beardimon))
+- 🇪🇸 Spanish → Valerie Blanco ([@kobernyk](https://github.com/kobernyk))
+- 🇹🇷 Turkish → M.ugur Cagdas ([@mugurcagdas](https://github.com/mugurcagdas))
+- 🇮🇩 Indonesian → Asyariruby ([@asyariruby](https://github.com/asyariruby))
 
 Thank you for your help ❤️
