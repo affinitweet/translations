@@ -131,7 +131,7 @@
 			"emoji-mood": "Ano ang iyong Emoji Mood? Alin sa Emojis ang ginagamit mo?"
 		},
 		"legal": {
-			"intro": "Alinsunod sa Artikulo 6 ng batas n ° 2004-575 ng 21 Hunyo 2004 sa tiwala sa digital na ekonomiya, ang mga gumagamit ng site {site} ay binibigyan ng kaalaman tungkol sa pagkakakilanlan ng iba't ibang partido na kasangkot sa pagpapatupad at pagsubaybay nito:",
+			"intro": "Alinsunod sa Artikulo 6 ng batas n°2004-575 ng 21 Hunyo 2004 sa tiwala sa digital na ekonomiya, ang mga gumagamit ng site {site} ay binibigyan ng kaalaman tungkol sa pagkakakilanlan ng iba't ibang partido na kasangkot sa pagpapatupad at pagsubaybay nito:",
 			"owner": "May-ari",
 			"creator": "Lumikha",
 			"publisher": "Tagapamahala ng publikasyon",
@@ -142,7 +142,7 @@
 			"warningCookies": "Tungkol sa mga cookie",
 			"p1": "Ang isang cookie ay isang maliit na text file na ipinadala sa iyong browser sa pamamagitan ng website na iyong tinitingnan. Gamit ang cookie na ito, ang impormasyon tungkol sa iyong pagbisita ay naka-imbak sa website, tulad ng iyong ginustong wika at iba pang mga setting. Maaari itong mapadali ang iyong susunod na pagbisita sa site na ito at gawing mas kapaki-pakinabang ito sa iyo. Ang mga cookies ay may mahalagang papel. Walang cookies, ang paggamit ng Web ay maaaring maging mas nakakabigo.",
 			"t1": "Ano ang naaangkop na legal na frame?",
-			"p2": "Sa pag-amend sa Artikulo 5 (3) ng Directive 2002/58 / EC sa pamamagitan ng pagpapatibay ng Directive 2009/136 / EC, ang European legislator ay naglatag ng prinsipyo na ang pag-iimbak ng impormasyon sa kagamitan ng isang user o pag-access sa impormasyon na naka-imbak ay dapat lamang maisagawa na may naunang pahintulot ng gumagamit, maliban kung ang mga aksyon na ito ay mahigpit na kinakailangan para sa provider upang maghatid ng isang serbisyo na hayagang hiniling ng gumagamit. Ang Artikulo 32-II ng batas ng Enero 6, 1978 ay tumatagal sa prinsipyong ito.",
+			"p2": "Sa pag-amend sa Artikulo 5 (3) ng Directive 2002/58/EC sa pamamagitan ng pagpapatibay ng Directive 2009/136/EC, ang European legislator ay naglatag ng prinsipyo na ang pag-iimbak ng impormasyon sa kagamitan ng isang user o pag-access sa impormasyon na naka-imbak ay dapat lamang maisagawa na may naunang pahintulot ng gumagamit, maliban kung ang mga aksyon na ito ay mahigpit na kinakailangan para sa provider upang maghatid ng isang serbisyo na hayagang hiniling ng gumagamit. Ang Artikulo 32-II ng batas ng Enero 6, 1978 ay tumatagal sa prinsipyong ito.",
 			"t2": "Ang site na ito ay gumagamit ng mga cookie para sa mga sumusunod na layunin:",
 			"l1-1": "Upang tulungan kaming makilala ang iyong browser at i-save ang mga kagustuhan na itinakda mo sa iyong mga nakaraang pagbisita sa site na ito",
 			"l1-2": "Upang matulungan kaming sukatin at pag-aralan ang pagiging epektibo ng aming online na interactive na nilalaman, tampok, advertising at iba pang mga komunikasyon",
@@ -179,7 +179,7 @@
 			"l3-4": "ang iyong mga tagasunod",
 			"l3-5": "ang iyong mga sumusunod",
 			"p6": "Ang impormasyong ito ay nakolekta lamang at naproseso, hindi namin iniimbak. ",
-"i-publish": "Publikasyon",
+			"publish": "Publikasyon",
 			"p7": "Kapag nag-log in ka sa Affinitweet, humihingi kami ng basic read access sa iyong account at sumulat ng access. Hindi namin gagawin ang anumang pagkilos nang walang iyong kahilingan sa pamamagitan ng pag-activate ng isang pagpipilian mula sa site.",
 			"i4": "Impormasyon: maaari mong bawiin ang access na ibinigay mo sa amin kapag nag-log in ka sa anumang oras mula sa iyong {yourTwitterProfile}.",
 			"autoTweet": "Awtomatikong tweet",
@@ -196,11 +196,11 @@
 			"h1": "Bagong pagkakakilanlan",
 			"p4": "Pagkatapos ng paggamit ng logo ng Twitter sa loob ng mahabang panahon, nagpasya kaming lumikha ng isang tunay na pagkakakilanlan. At tapos na. Gaya ng nakikita mo, ang Affinitweet ngayon ay may sariling logo na may sariling mga kulay nito. Ang isang magandang gradient na maaaring matagpuan sa buong site na may mga kakulay ng puti at kulay-abo na mga pagkakaiba-iba.",
 			"p5": "Ang mga icon ng mga function ay nai-rework din, ang mga larawan ay mas mahusay na kalidad at mas advanced. Binago ang mga kategorya at binago ang nilalaman nito. ",
-			"p6": "Laging naghahanap ng maximum na kalidad, ang site ay \ "pixel-perfect \". Kung hindi ito ang kaso para sa iyo, mangyaring ipaalam sa amin at haharapin namin ito sa lalong madaling panahon!",
+			"p6": "Laging naghahanap ng maximum na kalidad, ang site ay \"pixel-perfect\". Kung hindi ito ang kaso para sa iyo, mangyaring ipaalam sa amin at haharapin namin ito sa lalong madaling panahon!",
 			"h2": "Bagong teknolohiya",
 			"p7": "Batay sa bagong bersyon na ito sa pinakabagong mga teknolohiya sa web. Ang resulta: isang malaking pakinabang sa bilis na nadama sa pamamagitan lamang ng pag-browse sa site o kahit na naghihintay para sa mga resulta ng hiniling na pag-andar!",
 			"p8": "Kasama sa mga ito, makikita mo ang pag-usad ng iyong mga resulta sa real time, na magpapasa ng oras nang mas mabilis!",
-			"p9": "Nagawa rin namin ang mas mahigpit, kaya magkakaroon ng mas kaunting mga bug na hindi sasabihin \ "wala \" dahil hindi kami ligtas mula sa isang matalino na maliit na nakatago!",
+			"p9": "Nagawa rin namin ang mas mahigpit, kaya magkakaroon ng mas kaunting mga bug na hindi sasabihin \"wala\" dahil hindi kami ligtas mula sa isang matalino na maliit na nakatago!",
 			"h3": "Res-pon-sive!",
 			"p10": "Sa wakas! Sa loob ng 3 taon na ito kami ay nangongolekta ng mga istatistika tungkol sa aming mga gumagamit at ito ay lumiliko out na ikaw ay halos pagkonekta sa Affinitweet mula sa iyong telepono. Ngunit pinaghihinalaan namin na kaunti, dahil dahil sa oras na kami ay hiniling para dito ...",
 			"p11": "Ang site ay ganap na tumutugon ngayon, i. e. ito adapts sa lahat ng mga laki ng screen at ipinapakita nang tama kahit para sa pinakamaliit na mga telepono 😉",
@@ -242,14 +242,14 @@
 				"not-marked_spam": "Hindi mo markahan siya bilang spam"
 			},
 			"tweet-rate": {
-				"average": "@{{user}} ang mga tweet sa karaniwan ...",
+				"average": "{{user}} ang mga tweet sa karaniwan ...",
 				"tweetsPerDay": "{{count}} beses sa isang araw"
 			},
 			"common-friends": {
 				"friendsRemaining": "... at {{count}} iba pang mga kaibigan!",
 				"noFriends": "Walang karaniwang mga kaibigan ...",
-				"commonFriends": "Mayroon akong mga {{count}} karaniwang mga kaibigan na may @ {{user}}!",
-				"noCommonFriends": "Wala akong mga karaniwang kaibigan sa @ {{user}} ..."
+				"commonFriends": "Mayroon akong mga {{count}} karaniwang mga kaibigan na may {{user}}!",
+				"noCommonFriends": "Wala akong mga karaniwang kaibigan sa {{user}} ..."
 			},
 			"valentine": "Ang iyong Valentine {{year} ay",
 			"stolen-kiss": "Ang iyong Ninakaw na Halik ay",
@@ -258,12 +258,12 @@
 			"may-day": "Nagbibigay ako ng Lily-of-the-Valley 💐",
 			"halloween-duo": "Ang iyong Halloween Duo ay"
 		},
-		"youAreNotFollowing": "Hindi ka sumusunod sa @ {{user}} ...",
-		"notFollowingYou": "Ang @ {{user}} ay hindi sumusunod sa iyo ...",
-		"youFollowed": "Sinundan mo ang @ {{user}}: ",
-		"followedYou": "Sinundan ka ng @ {{user}}: ",
-		"dateFormat": "sa {{month}} / {{day}} / {{year}} sa {{hour}}: {{minute}}: {{second}}",
-		"dateFormat2": "sa {{month}} / {{day}} / {{year}} sa {{hour}} h",
+		"youAreNotFollowing": "Hindi ka sumusunod sa {{user}} ...",
+		"notFollowingYou": "Ang {{user}} ay hindi sumusunod sa iyo ...",
+		"youFollowed": "Sinundan mo ang {{user}}: ",
+		"followedYou": "Sinundan ka ng {{user}}: ",
+		"dateFormat": "sa {{month}}/{{day}}/{{year}} sa {{hour}}:{{minute}}:{{second}}",
+		"dateFormat2": "sa {{month}}/{{day}}/{{year}} sa {{hour}}h",
 		"unknownFeature": "Hindi kilalang tampok.",
 		"selfUsername": "Mag-type ng ibang username kaysa sa iyong sarili.",
 		"badUsername": "Masamang username.",
@@ -286,12 +286,12 @@
 			"common-sources": "",
 			"tweet-rate": "#Affinitweet Tweet Rate\n\nhttps://affinitweet.com/tweet-rate",
 			"emoji-mood": "#Affinitweet Emoji Mood\n{{emojis}}\nvia https://affinitweet.com/emoji-mood",
-			"valentine": "#Affinitweet Valentine\nThis year you're mine @{{user}}! ❤️\nAnd you, whom will be yours?\nvia https://affinitweet.com/valentine",
-			"secret-crush": "#Affinitweet Secret Crush\n@{{user}} secretly loves you! 😳\nWho loves you in secret?\nvia https://affinitweet.com/secret-crush",
-			"hidden-twin": "#Affinitweet Hidden Twin\n@{{user}} is my hidden twin 😱\nFind out who is yours!\nvia https://affinitweet.com/hidden-twin",
-			"stolen-kiss": "#Affinitweet Stolen Kiss\n@{{user}} would kiss you around the corner... 😏\nAnd you, who would do it?\nvia https://affinitweet.com/stolen-kiss",
-			"may-day": "#Affinitweet May Day\n@{{user}}, I give you my best bouquet of lily-of-the-valley! 💐\nTo whom will you give yours?\nvia https://affinitweet.com/may-day",
-			"halloween-duo": "#Affinitweet Halloween Duo\nI don't even have to dress up this year to be scary, I'm with @{{user}}! 🎃👻\nAnd you, with whom will you scare the most?\nvia https://affinitweet.com/halloween-duo"
+			"valentine": "#Affinitweet Valentine\nThis year you're mine {{user}}! ❤️\nAnd you, whom will be yours?\nvia https://affinitweet.com/valentine",
+			"secret-crush": "#Affinitweet Secret Crush\n{{user}} secretly loves you! 😳\nWho loves you in secret?\nvia https://affinitweet.com/secret-crush",
+			"hidden-twin": "#Affinitweet Hidden Twin\n{{user}} is my hidden twin 😱\nFind out who is yours!\nvia https://affinitweet.com/hidden-twin",
+			"stolen-kiss": "#Affinitweet Stolen Kiss\n{{user}} would kiss you around the corner... 😏\nAnd you, who would do it?\nvia https://affinitweet.com/stolen-kiss",
+			"may-day": "#Affinitweet May Day\n{{user}}, I give you my best bouquet of lily-of-the-valley! 💐\nTo whom will you give yours?\nvia https://affinitweet.com/may-day",
+			"halloween-duo": "#Affinitweet Halloween Duo\nI don't even have to dress up this year to be scary, I'm with {{user}}! 🎃👻\nAnd you, with whom will you scare the most?\nvia https://affinitweet.com/halloween-duo"
 		}
 	}
 }
