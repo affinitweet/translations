@@ -37,6 +37,39 @@
         "cookiesBanner": "Kami menggunakan cookie 🍪 untuk memberikan pengalaman terbaik. Dengan terus menggunakan situs web kami, anda setuju untuk kami kebijakan cookie. {button}",
         "readMore": "Baca Lebih lanjut...",
         "lastRevision": "Revisi terakhir:",
+        "landing": {
+            "titleH1": "",
+            "titleH2": "",
+            "highlights": "",
+            "generatedResults": "",
+            "generatedResultsDescription": "",
+            "userConsentPrivacy": "",
+            "userConsentPrivacyDescription": "",
+            "worldFamousLeader": "",
+            "worldFamousLeaderDescription": "",
+            "fastRealTimeResults": "",
+            "fastRealTimeResultsDescription": "",
+            "noAdsNoVirus": "",
+            "noAdsNoVirusDescription": "",
+            "multilingualOpen": "",
+            "multilingualOpenDescription": "",
+            "trustPilotH1": "",
+            "trustPilotH2": "",
+            "trustPilotButton": "",
+            "statistics": "",
+            "totalUsers": "",
+            "totalUsersDescription": "",
+            "monthlyUsers": "",
+            "monthlyUsersDescription": "",
+            "totalFeatures": "",
+            "totalFeaturesDoneDescription": "",
+            "features": "",
+            "getInTouch": "",
+            "getInTouchP1": "",
+            "getInTouchP2": "",
+            "getInTouchP3": "",
+            "getInTouchP4": ""
+        },
         "profile": {
             "profile": "Profil",
             "history": "Sejarah",
@@ -81,6 +114,8 @@
             "tweetResults": "Ada hasil Tweet",
             "tweetingResults": "Tweeting...",
             "requireAutoTweetDescription": "Fitur ini memerlukan untuk mengaktifkan tweet-otomatis hasil. Anda akan dapat menonaktifkan opsi ini dari profil anda.",
+            "yesEnable": "",
+            "no": "",
             "retry": "Coba lagi!",
             "errors": {
                 "time": "Fitur ini memiliki %{cooldown} detik cooldown. Silakan coba lagi dalam %{remainingTime} {seconds}.",
@@ -124,7 +159,7 @@
             "secret-crush": "Siapa yang Naksir anda?",
             "hidden-twin": "Yang Tersembunyi Kembar? Menemukan sekarang!",
             "stolen-kiss": "Yang ingin memberikan Ciuman Dicuri? Mencoba fitur ini untuk tahu itu!",
-            "may-day": "Memberikan Bunga Bakung dari lembah ke teman-teman anda untuk merayakan May Day!",
+            "may-day": "Memberikan Lily-of-the-Valley ke teman-teman anda untuk merayakan May Day!",
             "halloween-duo": "Dengan siapa anda akan menakut-nakuti paling?",
             "bunbun-transform": "Mengubah diri anda menjadi kelinci lucu! Gambar profil Twitter anda akan diperbarui!",
             "pokemon-go-buddy": "Bagaimana jika kau seorang Teman Pokémon Pergi? Temukan!",
@@ -153,7 +188,7 @@
             "p3": "Anda dapat memilih untuk menonaktifkan cookie di browser anda setiap saat dengan mengikuti petunjuk yang diberikan dalam bantuan browser anda file. Anda juga dapat mengatur cookie anda secara langsung di browser anda pengaturan:"
         },
         "privacy": {
-            "intro": "Kita mengambil privasi data yang sangat serius dan dalam perjalanan bisnis kami, kami ingin menginformasikan pengguna tentang apa yang kita lakukan dengan itu. Anda akan menemukan semua informasi yang diperlukan mengenai penyimpanan dan pengolahan data ini. Informasi tentang cookie juga tersedia di {bahwa Halaman}.",
+            "intro": "Kita mengambil privasi data yang sangat serius dan dalam perjalanan bisnis kami, kami ingin menginformasikan pengguna tentang apa yang kita lakukan dengan itu. Anda akan menemukan semua informasi yang diperlukan mengenai penyimpanan dan pengolahan data ini. Informasi tentang cookie juga tersedia di {thatPage}.",
             "storage": "Penyimpanan",
             "personalData": "Data pribadi",
             "p1": "Ketika anda login ke Affinitweet, kami mengumpulkan informasi dari profil Twitter anda yang kami butuhkan dalam rangka untuk menawarkan layanan kami. Di antara informasi ini, kami toko anda:",
@@ -205,7 +240,7 @@
             "p9": "Kami juga telah dikembangkan jauh lebih ketat, sehingga akan ada jauh lebih sedikit bug bukan untuk mengatakan \"none\"karena kita tidak pernah aman dari kecil yang pintar baik tersembunyi!",
             "h3": "Res-pon-sif!",
             "p10": "Akhirnya! Selama 3 tahun kami telah mengumpulkan statistik tentang pengguna kami dan ternyata anda sebagian besar menghubungkan ke Affinitweet dari ponsel anda. Namun kami menduga bahwa sedikit, karena waktu kami diminta untuk itu...",
-            "p11": "Situs ini sekarang benar-benar responsif, saya. e. menyesuaikan untuk semua ukuran layar dan menampilkan dengan benar bahkan untuk ponsel terkecil 😉",
+            "p11": "Situs ini sekarang benar-benar responsif, saya e menyesuaikan untuk semua ukuran layar dan menampilkan dengan benar bahkan untuk ponsel terkecil 😉",
             "h4": "Parameter dan data",
             "p12": "Kami telah berfokus pada pengelolaan data pribadi, anda sekarang memiliki kontrol penuh atas hal itu secara langsung dan semua pilihan yang dinonaktifkan secara default. Anda akan menemukan semua informasi yang diperlukan tentang bagaimana kami menyimpan dan menggunakan mereka di {button} halaman.",
             "p13": "Ketika anda pergi ke halaman profil anda, anda harus melihat sesuatu yang lebih sempurna antara pilihan ini:",
@@ -244,14 +279,14 @@
                 "not-marked_spam": "Anda tidak menandai dia sebagai spam"
             },
             "tweet-rate": {
-                "average": "@{{user}} tweet pada rata-rata...",
+                "average": "{{user}} tweet pada rata-rata...",
                 "tweetsPerDay": "{{count}} kali sehari"
             },
             "common-friends": {
                 "friendsRemaining": "... dan {{count}} teman-teman lain !",
                 "noFriends": "Tidak ada teman yang sama...",
-                "commonFriends": "Saya {{count}} bersama teman-teman dengan @{{user}} !",
-                "noCommonFriends": "Saya tidak memiliki teman yang sama dengan @{{user}}..."
+                "commonFriends": "Saya {{count}} bersama teman-teman dengan {{user}} !",
+                "noCommonFriends": "Saya tidak memiliki teman yang sama dengan {{user}}..."
             },
             "valentine": "Valentine {{year}} ini",
             "stolen-kiss": "Anda Dicuri Ciuman",
@@ -260,10 +295,10 @@
             "may-day": "Saya memberikan Bunga Bakung dari lembah 💐 untuk",
             "halloween-duo": "Halloween adalah Duo"
         },
-        "youAreNotFollowing": "Anda tidak mengikuti @{{user}}...",
-        "notFollowingYou": "@{{user}} yang tidak mengikuti anda...",
-        "youFollowed": "Anda mengikuti @{{user}}: ",
-        "followedYou": "@{{user}} diikuti anda: ",
+        "youAreNotFollowing": "Anda tidak mengikuti {{user}}...",
+        "notFollowingYou": "{{user}} yang tidak mengikuti anda...",
+        "youFollowed": "Anda mengikuti {{user}}: ",
+        "followedYou": "{{user}} diikuti anda: ",
         "dateFormat": "pada {{month}}/{{day}}/{{year}} di {{hour}}:{{minute}}:{{second}}",
         "dateFormat2": "pada {{month}}/{{day}}/{{year}} di {{hour}}h",
         "unknownFeature": "Fitur yang tidak diketahui.",
@@ -288,12 +323,12 @@
             "common-sources": "",
             "tweet-rate": "#Affinitweet Tweet Rate\n\nhttps://affinitweet.com/tweet-rate",
             "emoji-mood": "#Affinitweet Emoji Mood\n{{emojis}}\nvia https://affinitweet.com/emoji-mood",
-            "valentine": "#Affinitweet Valentine\n tahun Ini kau milikku @{{user}}! ❤️\nAnd anda, siapa yang akan menjadi milik anda?\nvia https://affinitweet.com/valentine",
-            "secret-crush": "#Affinitweet Secret Crush\n@{{user}} diam-diam mencintaimu! 😳\nWho mencintaimu secara rahasia?\nvia https://affinitweet.com/secret-crush",
-            "hidden-twin": "#Affinitweet Hidden Twin\n@{{user}} saya tersembunyi kembar 😱\nFindtahu siapa anda!\nvia https://affinitweet.com/hidden-twin",
-            "stolen-kiss": "#Affinitweet Stolen Kiss\n@{{user}} akan menciummu sekitar sudut... 😏\nAnd you, siapa yang akan melakukannya?\nvia https://affinitweet.com/stolen-kiss",
-            "may-day": "#Affinitweet May Day\n@{{user}}, Saya memberikan yang terbaik buket Bunga Bakung dari lembah! 💐\nTosiapa yang akan kau berikan milikmu?\nvia https://affinitweet.com/may-day",
-            "halloween-duo": "#Affinitweet Halloween Duo\nI bahkan tidak harus berdandan tahun ini menjadi menakutkan, Aku dengan @{{user}}! 🎃👻\nAnd anda, dengan siapa anda akan menakut-nakuti paling?\nvia https://affinitweet.com/halloween-duo"
+            "valentine": "#Affinitweet Valentine\n tahun Ini kau milikku {{user}}! ❤️\nAnd anda, siapa yang akan menjadi milik anda?\nvia https://affinitweet.com/valentine",
+            "secret-crush": "#Affinitweet Secret Crush\n{{user}} diam-diam mencintaimu! 😳\nWho mencintaimu secara rahasia?\nvia https://affinitweet.com/secret-crush",
+            "hidden-twin": "#Affinitweet Hidden Twin\n{{user}} saya tersembunyi kembar 😱\nFindtahu siapa anda!\nvia https://affinitweet.com/hidden-twin",
+            "stolen-kiss": "#Affinitweet Stolen Kiss\n{{user}} akan menciummu sekitar sudut... 😏\nAnd you, siapa yang akan melakukannya?\nvia https://affinitweet.com/stolen-kiss",
+            "may-day": "#Affinitweet May Day\n{{user}}, Saya memberikan yang terbaik buket lily-of-the-valley! 💐\nTosiapa yang akan kau berikan milikmu?\nvia https://affinitweet.com/may-day",
+            "halloween-duo": "#Affinitweet Halloween Duo\nI bahkan tidak harus berdandan tahun ini menjadi menakutkan, Aku dengan {{user}}! 🎃👻\nAnd anda, dengan siapa anda akan menakut-nakuti paling?\nvia https://affinitweet.com/halloween-duo"
         }
     }
 }
