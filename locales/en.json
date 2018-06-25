@@ -36,6 +36,8 @@
 		"affinitweetTeam": "The Affinitweet Team",
 		"cookiesBanner": "We use cookies 🍪 to provide the best experience. By continuing to use our website, you agree to our cookies policy. {button}",
 		"readMore": "Read more...",
+		"showMore": "Show more...",
+		"reviewUs": "Review us",
 		"lastRevision": "Last revision:",
 		"landing": {
 			"titleH1": "The best place to have fun with your friends on Twitter!",
@@ -64,6 +66,7 @@
 			"totalFeatures": "2,5 million",
 			"totalFeaturesDoneDescription": "Features done since our opening in 2014",
 			"features": "Features",
+			"latestNews": "Latest news",
 			"getInTouch": "Get in touch!",
 			"getInTouchP1": "We are available at any time on our Twitter account {twitterName}.",
 			"getInTouchP2": "Follow us and be notified about updates and upcoming things!",
