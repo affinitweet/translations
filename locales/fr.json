@@ -36,6 +36,8 @@
 		"affinitweetTeam": "L'équipe Affinitweet",
 		"cookiesBanner": "Nous utilisons des cookies 🍪 pour vous offrir la meilleure expérience possible. En continuant à utiliser notre site web, vous acceptez notre politique cookies. {button}",
 		"readMore": "En savoir plus...",
+		"showMore": "Voir plus...",
+		"reviewUs": "Évaluez-nous",
 		"lastRevision": "Dernière révision :",
 		"landing": {
 			"titleH1": "Le meilleur endroit pour vous amuser avec vos amis Twitter !",
@@ -64,6 +66,7 @@
 			"totalFeatures": "2,5 millions",
 			"totalFeaturesDoneDescription": "Fonctionnalités utilisées depuis notre lancement en 2014",
 			"features": "Fonctionnalités",
+			"latestNews": "Dernières actualités",
 			"getInTouch": "Restons connectés !",
 			"getInTouchP1": "Nous sommes disponibles à tout moment sur notre compte Twitter {twitterName}.",
 			"getInTouchP2": "Suivez-nous et soyez notifié des mises à jour et choses à venir !",
