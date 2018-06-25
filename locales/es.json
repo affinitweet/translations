@@ -36,6 +36,8 @@
         "affinitweetTeam": "El Equipo Affinitweet",
         "cookiesBanner": "Usamos cookies 🍪 para proporcionar la mejor experiencia. Al continuar utilizando nuestro sitio web, usted acepta nuestra política de cookies. {button}",
         "readMore": "Leer más...",
+        "showMore": "",
+        "reviewUs": "",
         "lastRevision": "Última revisión:",
         "landing": {
             "titleH1": "",
@@ -64,6 +66,7 @@
             "totalFeatures": "",
             "totalFeaturesDoneDescription": "",
             "features": "",
+            "latestNews": "",
             "getInTouch": "",
             "getInTouchP1": "",
             "getInTouchP2": "",
