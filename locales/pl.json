@@ -15,6 +15,8 @@
         "allRightsReserved": "Wszelkie prawa zastrzeżone.",
         "dataPrivacy": "Dane i prywatność",
         "legals": "Informacje prawne",
+        "terms": "Warunki świadczenia usług",
+        "changelog": "Uaktualnienia",
         "news": "Nowości",
         "french": "Francuski",
         "english": "Angielski",
@@ -39,6 +41,9 @@
         "showMore": "Zobacz więcej...",
         "reviewUs": "Oceń nas",
         "lastRevision": "Ostatnie zmiany:",
+        "about": "Okazjonalnie",
+        "partners": "Wspólnicy",
+        "madeWithLove": "Stworzony z ❤️ we Francji.",
         "landing": {
             "titleH1": "Najlepsze miejsce na zabawę ze znajomymi z Twittera!",
             "titleH2": "Sprawdź swoje statystyki i wiele więcej!",
@@ -158,6 +163,7 @@
             "common-sources": "Sprawdza wszystkie źródła twoich tweetów (np.: TweetDeck, Android, iOS...) i porównuje je ze źródłami wybranego użytkownika.",
             "mentions": "Zlicza ile razy dany użytkownik został wspomniany w twoich tweetach.",
             "top-friends": "Chcesz poznać swoich najlepszych przyjaciół? Oto oni!",
+            "famous-followers": "Dowiedz się, kto podąża za Tobą najbardziej popularny!",
             "valentine": "Funkcja dostępna tylko przez kilka dni! Pokazuje, kto powinien być twoją walentynką w 2018 roku. ;)",
             "secret-crush": "W kim się sekretnie podkochujesz?",
             "hidden-twin": "Masz tajemniczego bliźniaka? Teraz możesz się dowiedzieć!",
@@ -228,6 +234,31 @@
             "question": "Pytania?",
             "p9": "Jeśli masz jakieś pytania dotyczące Affinitweet, skontaktuj się z nami przez Twittera lub wyślij nam emaila, chętnie rozwiejemy wszelkie wątpliwości!"
         },
+        "termsofservice": {
+            "h1": "Terms",
+            "p1": "By accessing the website at {url}, you are agreeing to be bound by these terms of service, all applicable laws and regulations, and agree that you are responsible for compliance with any applicable local laws. If you do not agree with any of these terms, you are prohibited from using or accessing this site. The materials contained in this website are protected by applicable copyright and trademark law.",
+            "h2": "Use Licence",
+            "l1-1": "Permission is granted to temporarily download one copy of the materials (information or software) on Affinitweet's website for personal, non-commercial transitory viewing only. This is the grant of a license, not a transfer of title, and under this license you may not:",
+            "l2-1": "modify or copy the materials;",
+            "l2-2": "use the materials for any commercial purpose, or for any public display (commercial or non-commercial);",
+            "l2-3": "attempt to decompile or reverse engineer any software contained on Affinitweet's website;",
+            "l2-4": "remove any copyright or other proprietary notations from the materials; or",
+            "l2-5": "transfer the materials to another person or \"mirror\" the materials on any other server.",
+            "l1-2": "This license shall automatically terminate if you violate any of these restrictions and may be terminated by Affinitweet at any time. Upon terminating your viewing of these materials or upon the termination of this license, you must destroy any downloaded materials in your possession whether in electronic or printed format.",
+            "h3": "Disclaimer",
+            "l3-1": "The materials on Affinitweet's website are provided on an 'as is' basis. Affinitweet makes no warranties, expressed or implied, and hereby disclaims and negates all other warranties including, without limitation, implied warranties or conditions of merchantability, fitness for a particular purpose, or non-infringement of intellectual property or other violation of rights.",
+            "l3-2": "Further, Affinitweet does not warrant or make any representations concerning the accuracy, likely results, or reliability of the use of the materials on its website or otherwise relating to such materials or on any sites linked to this site.",
+            "h4": "Limitations",
+            "p2": "In no event shall Affinitweet or its suppliers be liable for any damages (including, without limitation, damages for loss of data or profit, or due to business interruption) arising out of the use or inability to use the materials on Affinitweet's website, even if Affinitweet or a Affinitweet authorized representative has been notified orally or in writing of the possibility of such damage. Because some jurisdictions do not allow limitations on implied warranties, or limitations of liability for consequential or incidental damages, these limitations may not apply to you.",
+            "h5": "Accuracy of materials",
+            "p3": "The materials appearing on Affinitweet's website could include technical, typographical, or photographic errors. Affinitweet does not warrant that any of the materials on its website are accurate, complete or current. Affinitweet may make changes to the materials contained on its website at any time without notice. However Affinitweet does not make any commitment to update the materials.",
+            "h6": "Links",
+            "p4": "Affinitweet has not reviewed all of the sites linked to its website and is not responsible for the contents of any such linked site. The inclusion of any link does not imply endorsement by Affinitweet of the site. Use of any such linked website is at the user's own risk.",
+            "h7": "Modifications",
+            "p5": "Affinitweet may revise these terms of service for its website at any time without notice. By using this website you are agreeing to be bound by the then current version of these terms of service.",
+            "h8": "Governing Law",
+            "p6": "These terms and conditions are governed by and construed in accordance with the laws of France and you irrevocably submit to the exclusive jurisdiction of the courts in that State or location."
+        },
         "new": {
             "title": "Witaj w nowej wersji Affinitweet",
             "p1": "Od uruchomienia Affinitweet minęły trzy lata. W tym czasie odnieśliśmy spory sukces i zabłysnęliśmy na osiach czasu naszych hejterów (ale zwłaszcza naszych użytkowników ❤️). Po tych trzech latach przyszedł czas na odświeżenie szaty graficznej i wszystkiego innego... od zera!",
@@ -258,8 +289,124 @@
             "h6": "Co dalej?",
             "p15": "Będziemy dalej ulepszać Affinitweet i dodawać nowe funkcje tak, jak to miało miejsce do tej pory.",
             "p16": "Dziękujemy za to, że jesteście z nami przez ten cały czas. Mamy nadzieję, że nowa wersja się wam spodoba. Dajcie nam znać, co o niej sądzicie i koniecznie nas oznaczcie: @affinitweet_ 😄"
+        },
+        "faq": {
+            "title": "Frequenlty asked questions",
+            "tinyTitle": "FAQ",
+            "searchTerms": "Search terms...",
+            "intro": "Welcome on our frequently asked questions page! If you don't find your answers, contact us! Click on the right category corresponding to your search or search terms in the input field below.",
+            "global": "Global",
+            "features": "Features",
+            "security": "Security",
+            "privacy": "Privacy",
+            "monetisation": "Monetisation",
+            "questions": {
+                "global": [
+                    [
+                        "What is Affinitweet's purpose?",
+                        "This is a very often asked question, Affinitweet brings two things: entertaining features and statistics, separated into two distinct categories. You certainly know Affinitweet for its viral and entertaining features shared on Twitter, but we offer other useful and interesting features!"
+                    ],
+                    [
+                        "How to use our services / login?",
+                        "To use our services, you must log in with your Twitter account. To do so, simply click on \"Log in\" at the top right, then go to the page of your choice."
+                    ],
+                    [
+                        "How do I access my profile or log out?",
+                        "Once logged in with your Twitter account, you can access your profile or log out by clicking or hovering your Twitter nickname at the top right."
+                    ],
+                    [
+                        "But Affinitweet is French?",
+                        "Absolutely, Affinitweet was created and is hosted in France 🇫🇷, do not be surprised if we speak better french than english or if we answer you on Twitter more easily in this language!"
+                    ],
+                    [
+                        "Affinitweet is not available in my language, how do I do?",
+                        "If your language is not supported, you will see Affinitweet in english by default. If you have the courage and desire to help us internationalize and appear as a translator on Affinitweet, you can participate and translate the texts available here."
+                    ],
+                    [
+                        "Why is there a mining script?",
+                        "When we released our new version, it included a mining script on all pages, inactive by default, now included only when the option is enabled. We have taken the initiative to offer two kinds of remuneration by giving you the choice between advertising (by default) or mining. To activate it, simply switch the monetisation mode in your profile to enjoy Affinitweet without ads."
+                    ],
+                    [
+                        "Why are you asking for write access to my Twitter account?",
+                        "For ease of use, we request read and write access to your Twitter account so that we can publish a tweet if you allow us to do so. This saves us having to create two applications, and you having to log in twice."
+                    ],
+                    [
+                        "Why was a tweet published without my consent?",
+                        "This is not the case and it never will be, we always obtain your consent via an action on your part before doing anything. If a tweet has been posted to your Twitter profile, you have authorized us to do so by clicking an approval button."
+                    ],
+                    [
+                        "What do \"POP\" and \"NEW\" mean?",
+                        "These labels are attached to features and are visible next to them. \"POP\" means \"popular.\" It's a popular feature. \"NEW\" means \"new\". It's a feature that was added a while ago."
+                    ],
+                    [
+                        "How do I log in with another account?",
+                        "When you log in to Affinitweet, the Twitter account to which you are connected on the browser is used. If you wish to use Affinitweet with an account other than this one, you have several possibilities: (1) switch to private browsing; (2) disconnect from Twitter and reconnect with the new account; (3) use another browser not connected with that same Twitter account."
+                    ]
+                ],
+                "features": [
+                    [
+                        "How is the Top Friends determined?",
+                        "The Top Friends is mainly determined from tweets, we go back to your last 3200 tweets to establish a ranking over a long period."
+                    ],
+                    [
+                        "Why doesn't my Top Friends stick to reality?",
+                        "We try to get as close as possible to reality with the information we collect. Sometimes someone you don't talk to anymore but have talked to a lot in the past is present in your Top Friends if you haven't been tweeting a lot for a while for example."
+                    ],
+                    [
+                        "How are the results of the other features determined?",
+                        "The algorithms used to determine these results are strictly confidential, unfortunately we do not wish to communicate on them."
+                    ],
+                    [
+                        "I got my sister at Valentine's and my dad in Secret Crush!",
+                        "\"Fun\" features are only intended to entertain as the category name indicates. Although we try to get as close to reality as possible with our algorithm parameters, if we come across the right person(s) it would only be by chance!"
+                    ],
+                    [
+                        "How does First To Follow work?",
+                        "The First To Follow is an exclusive feature and is not available anywhere else. It lets you know when a given person has followed you and vice versa. Gourmet functionality, you can only make a limited number per 15 minutes."
+                    ],
+                    [
+                        "How does Emoji Mood work?",
+                        "The Emoji Mood lets you know which emojis you've been tweeting the most lately, we go back to your last 3200 tweets and simply count that!"
+                    ]
+                ],
+                "security": [
+                    [
+                        "Is the site secure?",
+                        "Yes, Affinitweet is only accessible in https in order to secure your connection as much as possible. You can check our security certificates by a recognized organization like SSLLabs."
+                    ],
+                    [
+                        "Is the site reliable?",
+                        "Yes, since some time we created a TrustPilot page to collect the opinion of our users, you can consult them and add one if you want."
+                    ],
+                    [
+                        "Are there viruses or malware?",
+                        "Absolutely not, we are doing everything we can to avoid that. Affinitweet is 100% secure, we guarantee you not to catch anything like this on our site."
+                    ],
+                    [
+                        "Where is my data and is it safe?",
+                        "Your data is stored on the servers we rent in Paris. We are hosted by one of the leaders and guarantee that your data is secure."
+                    ]
+                ],
+                "privacy": [
+                    [
+                        "What do you do with my data?",
+                        "We explain everything we do with the data we collect and process in our Data and Privacy page. But to make it short, we recover and store the bare minimum. We will never communicate them to anyone, ever."
+                    ],
+                    [
+                        "How do I delete my account?",
+                        "Once logged in, simply go to your profile and scroll down and click the delete account button. All data relating to your account will then be immediately deleted."
+                    ]
+                ],
+                "monetisation": [
+                    [
+                        "It's free so I'm the product?",
+                        "Yes, but no. Our source of revenue comes only from the ads displayed on the feature pages as well as the mining if you have it enabled in your profile. These revenues are used to cover the costs of servers, development and eventually pay for a few beers if there is anything left!"
+                    ]
+                ]
+            }
         }
     },
+
     "back": {
         "features": {
             "friendships": {
@@ -321,6 +468,7 @@
             "first-to-follow": "#Affinitweet First To Follow\n{{{text}}}\nvia https://affinitweet.com/first-to-follow",
             "friendships": "#Affinitweet Friendships\n{{text}}\nvia https://affinitweet.com/friendships",
             "top-friends": "#Affinitweet Top Friends\n{{users}}\nvia https://affinitweet.com/top-friends",
+            "famous-followers": "#Affinitweet Famous Followers\n{{users}}\nvia https://affinitweet.com/famous-followers",
             "color-matching": "",
             "common-friends": "#Affinitweet Common Friends\n{{text}}\nhttps://affinitweet.com/common-friends",
             "common-sources": "",
