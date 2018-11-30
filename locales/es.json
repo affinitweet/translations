@@ -9,7 +9,9 @@
         "home": "Inicio",
         "mainFeatures": "Real",
         "otherFeatures": "Diversión",
+        "sidebarHint": "Discover all our features by clicking on the menu icon here! 😉",
         "myAccount": "Mi cuenta",
+        "switchAccount": "Cambiar cuenta",
         "welcomeTips": "Consejos e información",
         "logout": "Cerrar sesión",
         "allRightsReserved": "Todos los derechos reservados.",
@@ -30,6 +32,7 @@
         "enable": "Activar",
         "cancel": "Cancelar",
         "seconds": "segundo | segundo | segundos",
+        "questions": "question | question | questions",
         "thatPage": "esta página",
         "yourProfile": "su perfil",
         "yourTwitterProfile": "su perfil de Twitter",
@@ -60,15 +63,15 @@
             "noAdsNoVirusDescription": "Affinitweet se ha creado solo por diversión, no hay virus y solo hay 2 anuncios en todo el sitio web (sin ventanas emergentes, sin redirecciones).",
             "multilingualOpen": "Multilingüe y abierto",
             "multilingualOpenDescription": "Affinitweet está disponible en varios idiomas y cualquiera puede contribuir y agregar el suyo propio.",
-            "trustPilotH1": "¡Revise las reseñas de nuestros usuarios en TrustPilot!",
-            "trustPilotH2": "Nuestros usuarios nos califican con {rate}, ¿serás el próximo en opinar sobre nosotros?",
-            "trustPilotButton": "Ver y enviar una reseña",
+            "trustpilotH1": "¡Revise las reseñas de nuestros usuarios en Trustpilot!",
+            "trustpilotH2": "Nuestros usuarios nos califican con {rate}, ¿serás el próximo en opinar sobre nosotros?",
+            "trustpilotButton": "Ver y enviar una reseña",
             "statistics": "Estadísticas",
             "totalUsers": "2 millones",
             "totalUsersDescription": "Los usuarios confían en nosotros y usan nuestros servicios",
             "monthlyUsers": "60 000",
             "monthlyUsersDescription": "Usuarios únicos que regresan en promedio cada mes",
-            "totalFeatures": "2,5 millones",
+            "totalFeatures": "3,5 millones",
             "totalFeaturesDoneDescription": "Funciones hechas desde nuestra apertura en 2014",
             "features": "Funciones",
             "latestNews": "Últimas noticias",
@@ -76,13 +79,13 @@
             "getInTouchP1": "Estamos disponibles en cualquier momento en nuestra cuenta de Twitter {twitterName}.",
             "getInTouchP2": "¡Síganos y reciba notificaciones sobre actualizaciones y novedades!",
             "getInTouchP3": "No dude en enviarnos un tweet o mensaje directo si tiene alguna pregunta, sugerencia o error.",
-            "getInTouchP4": "Para fines comerciales, puede contactarnos por correo electrónico, consulte nuestra página {page Name}."
+            "getInTouchP4": "Para fines comerciales, puede contactarnos por correo electrónico, consulte nuestra página {pageName}."
         },
         "profile": {
             "profile": "Perfil",
             "history": "Historial",
             "preferences": "Preferencias",
-            "monetisation": "Monetización",
+            "monetization": "Monetización",
             "language": "Idioma",
             "addLanguage": "Agregar idioma...",
             "contributeOnGitHub": "contribuir en GitHub",
@@ -109,10 +112,13 @@
             "androidEmojis": "Android (Google)",
             "androidEmojisDescription": "Sus resultados se generarán con Emojis de Android.",
             "clearHistory": "Borrar historial",
+            "clearHistoryConfirm": "Your history will be lost forever, are you sure?",
             "clearingHistory": "Borrando historial...",
             "historyCleared": "¡Historial borrado!",
             "clearHistoryDescription": "Borrar su historial de resultados Affinitweet.",
             "deleteAccount": "Eliminar cuenta",
+            "deleteAccountConfirm1": "If something goes wrong, tell us on our Twitter account @affinitweet_ so we can be better next time!",
+            "deleteAccountConfirm2": "Your data will be lost forever. Nothing will remain about you on our servers and you'll be logged out, are you sure?",
             "deleteAccountDescription": "Eliminar su cuenta de Affinitweet, todo se perderá."
         },
         "features": {
@@ -129,6 +135,7 @@
                 "time": "Esta función tiene un tiempo de reutilización de %{cooldown} segundos. Por favor vuelva a intentarlo en %{remainingTime} {seconds}.",
                 "unknown": "Ha ocurrido un error. Nuestro equipo ha sido notificado.",
                 "notEnoughData": "No hay suficientes datos.",
+                "accountProtected": "No puede utilizar esta función mientras su cuenta esté protegida.",
                 "refreshPage": "Por favor actualice la página.",
                 "timeout": "Tiempo de espera excedido.",
                 "twitterError": "Twitter devolvió un error:",
@@ -174,7 +181,9 @@
             "pokemon-go-buddy": "¿Qué pasaría si usted fuera un Buddy Pokémon Go? ¡Descúbrelo!",
             "tweet-rate": "¡Calcule y compare su Tweet Rate con un usuario específico!",
             "first-to-follow": "¡Averigüe la fecha y la hora en la que siguió a uno de sus amigos de Twitter, y viceversa! ¿Quién siguió primero al otro?",
-            "emoji-mood": "¿Cuál es su Emoji Mood? ¿Qué Emojis usa más?"
+            "emoji-mood": "¿Cuál es su Emoji Mood? ¿Qué Emojis usa más?",
+            "christmas-gift": "Find out what gift is waiting for you this year for Christmas! 🎁",
+            "new-years-kiss": "Who are you going to kiss this year under the mistletoe? 😘"
         },
         "legal": {
             "intro": "De acuerdo con el artículo 6 de la ley n° 2004-575 del 21 de junio de 2004 sobre la confianza en la economía digital, los usuarios del sitio {site} están informados de la identidad de las diversas partes involucradas en su implementación y supervisión:",
@@ -442,7 +451,24 @@
             "hidden-twin": "Su Hidden Twin es",
             "secret-crush": "Su Secret Crush es",
             "may-day": "Le doy un Lily-del-Valle 💐 a",
-            "halloween-duo": "Su Halloween Duo es"
+            "halloween-duo": "Su Halloween Duo es",
+            "christmas-gift": {
+                "textBefore": "Your Christmas Gift is",
+                "pikachu": "Pikachu",
+                "eevee": "Eevee",
+                "tesla": "Tesla Roadster",
+                "iphone-xs": "iPhone XS",
+                "poop": "Poop Pillow",
+                "hand-spinner-yellow": "Yellow Hand Spinner",
+                "hand-spinner-red": "Red Hand Spinner",
+                "hand-spinner-blue": "Blue Hand Spinner",
+                "hand-spinner-green": "Green Hand Spinner",
+                "hand-spinner-gold": "Gold Hand Spinner",
+                "nutella": "Nutella",
+                "pig": "Pig Plush",
+                "trump": "Trump Toy"
+            },
+            "new-years-kiss": "My New Year's Kiss is"
         },
         "youAreNotFollowing": "Usted no está siguiendo a {{user}}...",
         "notFollowingYou": "{{user}} no lo está siguiendo...",
@@ -478,7 +504,9 @@
             "hidden-twin": "#Affinitweet Hidden Twin\n{{user}} es mi gemelo secreto 😱\n¡Descubre quién es el tuyo!\nvia https://affinitweet.com/hidden-twin",
             "stolen-kiss": "#Affinitweet Stolen Kiss\n{{user}} te besaría a la vuelta de la esquina... 😏\nY a ti, ¿quién te besaría?\nvia https://affinitweet.com/stolen-kiss",
             "may-day": "#Affinitweet May Day\n{{user}}, ¡Te doy mi mejor ramo de lily-del-valle! 💐\n¿A quién le darás el tuyo?\nvia https://affinitweet.com/may-day",
-            "halloween-duo": "#Affinitweet Halloween Duo\nNi siquiera tengo que disfrazarme este año para dar miedo, estoy con {{user}}! 🎃👻\nY tú, ¿con quién vas a asustar más?\nvia https://affinitweet.com/halloween-duo"
+            "halloween-duo": "#Affinitweet Halloween Duo\nNi siquiera tengo que disfrazarme este año para dar miedo, estoy con {{user}}! 🎃👻\nY tú, ¿con quién vas a asustar más?\nvia https://affinitweet.com/halloween-duo",
+            "christmas-gift": "#Affinitweet Christmas Gift\nWow! Look what I'm getting for Christmas, I'm going to make people jealous 🙈😍\nAnd you, what will be your gift for christmas?\nvia https://affinitweet.com/christmas-gift",
+            "new-years-kiss": "#Affinitweet New Year's Kiss\nI'm preparing my best last year kiss and first of the next year {{user}} 😘💕\nAnd you, who will you kiss at midnight?\nvia https://affinitweet.com/christmas-gift"
         }
     }
 }
