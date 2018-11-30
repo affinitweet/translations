@@ -9,7 +9,9 @@
 		"home": "Home",
 		"mainFeatures": "Real",
 		"otherFeatures": "Fun",
+		"sidebarHint": "Discover all our features by clicking on the menu icon here! 😉",
 		"myAccount": "My account",
+		"switchAccount": "Switch account",
 		"welcomeTips": "Tips & infos",
 		"logout": "Log out",
 		"allRightsReserved": "All rights reserved.",
@@ -61,15 +63,15 @@
 			"noAdsNoVirusDescription": "Affinitweet has been created just for fun, there's no virus and only 2 ads on the entire website (no popups, no redirects).",
 			"multilingualOpen": "Multilingual & open",
 			"multilingualOpenDescription": "Affinitweet is available in several different languages and everyone can contribute and add their own.",
-			"trustPilotH1": "Check our users' reviews on TrustPilot!",
-			"trustPilotH2": "We are rated {rate} by our users, will you be the next one to review us?",
-			"trustPilotButton": "See & submit a review",
+			"trustpilotH1": "Check our users' reviews on Trustpilot!",
+			"trustpilotH2": "We are rated {rate} by our users, will you be the next one to review us?",
+			"trustpilotButton": "See & submit a review",
 			"statistics": "Statistics",
 			"totalUsers": "2 million",
 			"totalUsersDescription": "Users trust us and use our services",
 			"monthlyUsers": "60 000",
 			"monthlyUsersDescription": "Unique users which come back in average each month",
-			"totalFeatures": "2,5 million",
+			"totalFeatures": "3,5 million",
 			"totalFeaturesDoneDescription": "Features done since our opening in 2014",
 			"features": "Features",
 			"latestNews": "Latest news",
@@ -83,7 +85,7 @@
 			"profile": "Profile",
 			"history": "History",
 			"preferences": "Preferences",
-			"monetisation": "Monetization",
+			"monetization": "Monetization",
 			"language": "Language",
 			"addLanguage": "Add language...",
 			"contributeOnGitHub": "contribute on GitHub",
@@ -110,11 +112,14 @@
 			"androidEmojis": "Android (Google)",
 			"androidEmojisDescription": "Your results will be generated with Android Emojis.",
 			"clearHistory": "Clear history",
+			"clearHistoryConfirm": "Your history will be lost forever, are you sure?",
 			"clearingHistory": "Clearing history...",
 			"historyCleared": "History cleared!",
 			"clearHistoryDescription": "Clear your Affinitweet results history.",
 			"deleteAccount": "Delete account",
-			"deleteAccountDescription": "Delete your Affinitweet account, all will be lost."
+			"deleteAccountConfirm1": "If something goes wrong, tell us on our Twitter account @affinitweet_ so we can be better next time!",
+			"deleteAccountConfirm2": "Your data will be lost forever. Nothing will remain about you on our servers and you'll be logged out, are you sure?",
+			"deleteAccountDescription": "Delete your Affinitweet account, everything will be lost."
 		},
 		"features": {
 			"login": "Log in to continue...",
@@ -130,6 +135,7 @@
 				"time": "This feature have a %{cooldown} seconds cooldown. Please retry in %{remainingTime} {seconds}.",
 				"unknown": "An error has occured. Our team has been notified.",
 				"notEnoughData": "Not enough data.",
+				"accountProtected": "You can't use this feature while your account is protected.",
 				"refreshPage": "Please refresh the page.",
 				"timeout": "Timeout exceeded.",
 				"twitterError": "Twitter returned an error:",
@@ -175,7 +181,9 @@
 			"pokemon-go-buddy": "What if you were a Buddy Pokémon Go? Discover it!",
 			"tweet-rate": "Calculate and compare your Tweet Rate with a targeted user!",
 			"first-to-follow": "Find out the date and time you followed one of your Twitter friends, and vice versa! Who followed the other one first?",
-			"emoji-mood": "What's your Emoji Mood? Which Emojis do you use the most?"
+			"emoji-mood": "What's your Emoji Mood? Which Emojis do you use the most?",
+			"christmas-gift": "Find out what gift is waiting for you this year for Christmas! 🎁",
+			"new-years-kiss": "Who are you going to kiss this year under the mistletoe? 😘"
 		},
 		"legal": {
 			"intro": "In accordance with Article 6 of the law n° 2004-575 of 21 June 2004 on trust in the digital economy, users of the site {site} are informed of the identity of the various parties involved in its implementation and monitoring:",
@@ -300,7 +308,7 @@
 			"features": "Features",
 			"security": "Security",
 			"privacy": "Privacy",
-			"monetisation": "Monetisation",
+			"monetization": "Monetization",
 			"questions": {
 				"global": [
 					[
@@ -325,7 +333,7 @@
 					],
 					[
 						"Why is there a mining script?",
-						"When we released our new version, it included a mining script on all pages, inactive by default, now included only when the option is enabled. We have taken the initiative to offer two kinds of remuneration by giving you the choice between advertising (by default) or mining. To activate it, simply switch the monetisation mode in your profile to enjoy Affinitweet without ads."
+						"When we released our new version, it included a mining script on all pages, inactive by default, now included only when the option is enabled. We have taken the initiative to offer two kinds of remuneration by giving you the choice between advertising (by default) or mining. To activate it, simply switch the monetization mode in your profile to enjoy Affinitweet without ads."
 					],
 					[
 						"Why are you asking for write access to my Twitter account?",
@@ -341,7 +349,7 @@
 					],
 					[
 						"How do I log in with another account?",
-						"When you log in to Affinitweet, the Twitter account to which you are connected on the browser is used. If you wish to use Affinitweet with an account other than this one, you have several possibilities: (1) switch to private browsing; (2) disconnect from Twitter and reconnect with the new account; (3) use another browser not connected with that same Twitter account."
+						"When you log in to Affinitweet, the Twitter account to which you are connected on the browser is used. If you want to switch your account and use Affinitweet with an account other than this one, you have several possibilities: (1) while connected, hover your username on the top right and click on \"Switch account\", you will be redirected to Twitter and asked to log in with your new account ; (2) switch to private browsing; (3) disconnect from Twitter and reconnect with the new account; (4) use another browser not connected with that same Twitter account."
 					]
 				],
 				"features": [
@@ -377,7 +385,7 @@
 					],
 					[
 						"Is the site reliable?",
-						"Yes, since some time we created a TrustPilot page to collect the opinion of our users, you can consult them and add one if you want."
+						"Yes, since some time we created a Trustpilot page to collect the opinion of our users, you can consult them and add one if you want."
 					],
 					[
 						"Are there viruses or malware?",
@@ -398,7 +406,7 @@
 						"Once logged in, simply go to your profile and scroll down and click the delete account button. All data relating to your account will then be immediately deleted."
 					]
 				],
-				"monetisation": [
+				"monetization": [
 					[
 						"It's free so I'm the product?",
 						"Yes, but no. Our source of revenue comes only from the ads displayed on the feature pages as well as the mining if you have it enabled in your profile. These revenues are used to cover the costs of servers, development and eventually pay for a few beers if there is anything left!"
@@ -443,7 +451,24 @@
 			"hidden-twin": "Your Hidden Twin is",
 			"secret-crush": "Your Secret Crush is",
 			"may-day": "I give a Lily-of-the-Valley 💐 to",
-			"halloween-duo": "Your Halloween Duo is"
+			"halloween-duo": "Your Halloween Duo is",
+			"christmas-gift": {
+				"textBefore": "Your Christmas Gift is",
+				"pikachu": "Pikachu",
+				"eevee": "Eevee",
+				"tesla": "Tesla Roadster",
+				"iphone-xs": "iPhone XS",
+				"poop": "Poop Pillow",
+				"hand-spinner-yellow": "Yellow Hand Spinner",
+				"hand-spinner-red": "Red Hand Spinner",
+				"hand-spinner-blue": "Blue Hand Spinner",
+				"hand-spinner-green": "Green Hand Spinner",
+				"hand-spinner-gold": "Gold Hand Spinner",
+				"nutella": "Nutella",
+				"pig": "Pig Plush",
+				"trump": "Trump Toy"
+			},
+			"new-years-kiss": "My New Year's Kiss is"
 		},
 		"youAreNotFollowing": "You're not following {{user}}...",
 		"notFollowingYou": "{{user}} is not following you...",
@@ -479,7 +504,9 @@
 			"hidden-twin": "#Affinitweet Hidden Twin\n{{user}} is my hidden twin 😱\nFind out who is yours!\nvia https://affinitweet.com/hidden-twin",
 			"stolen-kiss": "#Affinitweet Stolen Kiss\n{{user}} would kiss you around the corner... 😏\nAnd you, who would do it?\nvia https://affinitweet.com/stolen-kiss",
 			"may-day": "#Affinitweet May Day\n{{user}}, I give you my best bouquet of lily-of-the-valley! 💐\nTo whom will you give yours?\nvia https://affinitweet.com/may-day",
-			"halloween-duo": "#Affinitweet Halloween Duo\nI don't even have to dress up this year to be scary, I'm with {{user}}! 🎃👻\nAnd you, with whom will you scare the most?\nvia https://affinitweet.com/halloween-duo"
+			"halloween-duo": "#Affinitweet Halloween Duo\nI don't even have to dress up this year to be scary, I'm with {{user}}! 🎃👻\nAnd you, with whom will you scare the most?\nvia https://affinitweet.com/halloween-duo",
+			"christmas-gift": "#Affinitweet Christmas Gift\nWow! Look what I'm getting for Christmas, I'm going to make people jealous 🙈😍\nAnd you, what will be your gift for christmas?\nvia https://affinitweet.com/christmas-gift",
+			"new-years-kiss": "#Affinitweet New Year's Kiss\nI'm preparing my best last year kiss and first of the next year {{user}} 😘💕\nAnd you, who will you kiss at midnight?\nvia https://affinitweet.com/christmas-gift"
 		}
 	}
 }
