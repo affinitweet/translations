@@ -9,7 +9,9 @@
 		"home": "Accueil",
 		"mainFeatures": "Réelles",
 		"otherFeatures": "Amusantes",
+		"sidebarHint": "Découvrez toutes nos fonctionnalités en cliquant sur l'icône menu ici ! 😉",
 		"myAccount": "Mon compte",
+		"switchAccount": "Changer de compte",
 		"welcomeTips": "Astuces & infos",
 		"logout": "Se déconnecter",
 		"allRightsReserved": "Tous droits réservés.",
@@ -61,15 +63,15 @@
 			"noAdsNoVirusDescription": "Affinitweet a été créé pour s'amuser, il n'y a aucun virus, et seulement 2 publicités sur tout le site (pas de popups, ni redirections).",
 			"multilingualOpen": "Multilingues et ouvert",
 			"multilingualOpenDescription": "Affinitweet est disponible en plusieurs langues, et tout le monde peut contribuer en y ajoutant la sienne.",
-			"trustPilotH1": "Consultez les évaluations de nos utilisateurs sur TrustPilot !",
-			"trustPilotH2": "{rate} est notre moyenne selon nos utilisateurs, serez-vous le prochain à nous évaluer ?",
-			"trustPilotButton": "Voir & soumettre une évaluation",
+			"trustpilotH1": "Consultez les évaluations de nos utilisateurs sur Trustpilot !",
+			"trustpilotH2": "{rate} est notre moyenne selon nos utilisateurs, serez-vous le prochain à nous évaluer ?",
+			"trustpilotButton": "Voir & soumettre une évaluation",
 			"statistics": "En chiffres",
 			"totalUsers": "2 millions",
 			"totalUsersDescription": "D'utilisateurs nous font confiance et utilisent nos services",
 			"monthlyUsers": "60 000",
 			"monthlyUsersDescription": "Utilisateurs uniques qui reviennent tous les mois en moyenne",
-			"totalFeatures": "2,5 millions",
+			"totalFeatures": "3,5 millions",
 			"totalFeaturesDoneDescription": "Fonctionnalités utilisées depuis notre lancement en 2014",
 			"features": "Fonctionnalités",
 			"latestNews": "Dernières actualités",
@@ -83,7 +85,7 @@
 			"profile": "Profil",
 			"history": "Historique",
 			"preferences": "Préférences",
-			"monetisation": "Monétisation",
+			"monetization": "Monétisation",
 			"language": "Langue",
 			"addLanguage": "Ajouter une langue...",
 			"contributeOnGitHub": "contribuer sur GitHub",
@@ -110,10 +112,13 @@
 			"androidEmojis": "Android (Google)",
 			"androidEmojisDescription": "Vos résultats seront générés avec les émojis Android.",
 			"clearHistory": "Nettoyer l'historique",
+			"clearHistoryConfirm": "Votre historique sera perdu pour toujours, êtes-vous sûr(e) ?",
 			"clearingHistory": "Nettoyage de l'historique...",
 			"historyCleared": "Historique nettoyé !",
 			"clearHistoryDescription": "Supprime l'historique de vos résultats Affinitweet.",
 			"deleteAccount": "Supprimer mon compte",
+			"deleteAccountConfirm1": "Si quelque chose s'est mal passé, dites-le nous sur notre compte Twitter @affinitweet_ afin que nous puissions nous améliorer !",
+			"deleteAccountConfirm2": "Vos données seront perdues pour toujourrs. Rien vous concernant ne restera sur nos serveurs et vous serez déconnecté(e), êtes-vous sûr(e) ?",
 			"deleteAccountDescription": "Supprime votre compte Affinitweet, tout sera perdu."
 		},
 		"features": {
@@ -131,6 +136,7 @@
 				"unknown": "Un problème est survenu. L'équipe a été notifiée.",
 				"twitterError": "Twitter a retourné une erreur :",
 				"notEnoughData": "Pas assez de données.",
+				"accountProtected": "Vous ne pouvez pas utiliser cette fontionnalité avec un compte protégé.",
 				"refreshPage": "Merci de rafraîchir la page.",
 				"timeout": "Délai d'attente maximum dépassé.",
 				"twitterErrors": {
@@ -175,7 +181,9 @@
 			"pokemon-go-buddy": "What if you were a Buddy Pokémon Go? Discover it!",
 			"tweet-rate": "Découvre le nombre de tweets que tu publies en moyenne par jour depuis ton inscription sur Twitter ! Es-tu le plus actif ?",
 			"first-to-follow": "Découvre la date et l'heure à laquelle tu as suivi un de tes amis Twitter, et vice-versa ! Qui a suivi l'autre en premier ? 😉",
-			"emoji-mood": "Quels emojis utilises-tu le plus ces derniers temps ? La réponse n'est plus très loin..."
+			"emoji-mood": "Quels emojis utilises-tu le plus ces derniers temps ? La réponse n'est plus très loin...",
+			"christmas-gift": "Découvrez quel cadeau vous attend cette année pour Noël ! 🎁",
+			"new-years-kiss": "Qui allez-vous embrasser cette année sous le gui ? 😘"
 		},
 		"legal": {
 			"intro": "En vertu de l’article 6 de la loi n° 2004-575 du 21 juin 2004 pour la confiance dans l’économie numérique, il est précisé aux utilisateurs du site {site} l’identité des différents intervenants dans le cadre de sa réalisation et de son suivi :",
@@ -201,7 +209,7 @@
 			"intro": "Prenant très à cœur la confidentialité des données et dans le cadre de notre activité, nous souhaitons informer nos utilisateurs de ce que nous faisons de celles-ci. Vous trouverez ci-dessous toutes les informations nécessaires concernant le stockage et traitement de ces données. Des informations sur les cookies sont également disponible sur {thatPage}.",
 			"storage": "Stockage",
 			"personalData": "DONNÉES PERSONNELLES",
-			"p1": "Lorsque vous vous connectez sur Affinitweet, nous récupérons les informations de votre profil Twitter dont nous avons besoin afin de pouvoir vous proposer nos services. Parmi ces informations, nous stockons votre :",
+			"p1": "Lorsque vous vous connectez sur Affinitweet, nous récupérons les informations de votre profil Twitter dont nous avons besoin afin que vous puissiez utiliser nos services. Parmi ces informations, nous stockons votre :",
 			"l1-1": "ID unique Twitter",
 			"l1-2": "nom d'utilisateur (@)",
 			"l1-3": "nom d'affichage",
@@ -300,7 +308,7 @@
 			"features": "Fonctionnalités",
 			"security": "Sécurité",
 			"privacy": "Confidentialité",
-			"monetisation": "Monétisation",
+			"monetization": "Monétisation",
 			"questions": {
 				"global": [
 					[
@@ -337,11 +345,11 @@
 					],
                     [
                         "Que signifient \"POP\" et \"NEW\" ?",
-                        "Ces labels sont rattachés à des fonctionnalités et sont visibles à côté de celles-ci. \"POP\" signifie \"populaire\", c'est une fonctionnalité très utilisée. \"NEW\" signigie \"nouveau\", c'est une fonctionnalité qui a été ajoutée il y a peu de temps."
+                        "Ces labels sont rattachés à des fonctionnalités et sont visibles à côté de celles-ci. \"POP\" signifie \"populaire\", c'est une fonctionnalité très utilisée. \"NEW\" signifie \"nouveau\", c'est une fonctionnalité qui a été ajoutée il y a peu de temps."
                     ],
                     [
                         "Comment me connecter avec un autre compte ?",
-                        "Lorsque vous vous connectez sur Affinitweet, le compte Twitter auquel vous êtes connecté sur le navigateur est utilisé. Si vous souhaitez utiliser Affinitweet avec un autre compte que celui-ci, vous avez plusieurs possibilités : (1) passer en navigation privée ; (2) vous déconnecter de Twitter et vous reconnecter avec le nouveau compte ; (3) utiliser un autre navigateur non connecté avec ce même compte Twitter."
+                        "Lorsque vous vous connectez sur Affinitweet, le compte Twitter auquel vous êtes connecté sur le navigateur est utilisé. Si vous souhaitez changer de compte et utiliser Affinitweet avec un autre compte que celui-ci, vous avez plusieurs possibilités : (1) en étant connecté, survolez votre pseudo en haut à droite et cliquez sur \"Changer de compte\", vous serez redirigé vers Twitter et vous devrez renseigner vos identifiants de votre nouveau compte ; (2) passer en navigation privée ; (3) vous déconnecter de Twitter et vous reconnecter avec le nouveau compte ; (4) utiliser un autre navigateur non connecté avec ce même compte Twitter."
                     ]
 				],
 				"features": [
@@ -373,19 +381,19 @@
 				"security": [
 					[
 						"Est-ce le site est sécurisé ?",
-						"Tout à fait, Affinitweet est accessible uniquement en <b>https</b> afin de sécuriser un maximum votre connexion. Vous pouvez vérifier notre nos certificats de sécurité par un organisme reconnu <a href=\"https://www.ssllabs.com/ssltest/analyze.html?d=affinitweet.com&s=212.47.240.132\" rel=\"nofollow\" target=\"_blank\">ici</a>."
+						"Oui. Affinitweet est accessible uniquement en <b>https</b> afin de sécuriser un maximum votre connexion. Vous pouvez vérifier notre nos certificats de sécurité par un organisme reconnu <a href=\"https://www.ssllabs.com/ssltest/analyze.html?d=affinitweet.com&s=212.47.240.132\" rel=\"nofollow\" target=\"_blank\">ici</a>."
 					],
 					[
 						"Est-ce le site est fiable ?",
-						"Depuis quelques temps nous avons créé une page TrustPilot afin de recueillir l'avis de nos utilisateurs, vous pouvez les consulter et en ajouter un sur <a href=\"https://www.trustpilot.com/review/affinitweet.com\" rel=\"nofollow\" target=\"_blank\">cette page</a>."
+						"Oui. Depuis quelques temps nous avons créé une page Trustpilot afin de recueillir l'avis de nos utilisateurs, vous pouvez les consulter et en ajouter un sur <a href=\"https://www.trustpilot.com/review/affinitweet.com\" rel=\"nofollow\" target=\"_blank\">cette page</a>."
 					],
 					[
 						"Est-ce qu'il y a des virus ou malwares ?",
-						"Absolument pas, nous mettons tout en oeuvre pour éviter cela. Affinitweet est 100% sécurisé, nous vous garantissons d'attraper aucune chose de ce genre sur notre site."
+						"Non. Nous mettons tout en oeuvre pour éviter cela. Affinitweet est 100% sécurisé, nous vous garantissons d'attraper aucune chose de ce genre sur notre site."
 					],
 					[
 						"Où sont mes données et sont-elles en sécurité ?",
-						"Vos données sont stockés sur les serveurs que nous louons à Paris. Nous sommes hébergés par l'un des leaders et vous garantissons que vos données sont en sécurité."
+						"Vos données sont stockées sur les serveurs que nous louons à Paris. Nous sommes hébergés par l'un des leaders de l'hébergement et vous garantissons que vos données sont en sécurité."
 					]
 				],
 				"privacy": [
@@ -398,7 +406,7 @@
 						"Une fois connecté, il vous suffit d'aller sur votre profil et de descendre tout en bas puis de cliquer sur le bouton de suppression de compte. Toutes les données relatives à votre compte seront alors immédiatement supprimées."
 					]
 				],
-				"monetisation": [
+				"monetization": [
 					[
 						"C'est gratuit donc c'est moi le produit ?",
 						"Oui, mais non. Notre source de revenus découle uniquement des publicités affichées sur les pages des fonctionnalités ainsi que le minage si vous l'avez activé dans votre profil. Ces revenus servent à couvrir les frais de serveurs, de développement et eventuellement payer quelques bières s'il reste quelque chose !"
@@ -443,7 +451,24 @@
             "hidden-twin": "Mon Hidden Twin est",
             "secret-crush": "Mon Secret Crush est",
             "may-day": "J'offre mon muguet 💐 à",
-            "halloween-duo": "Mon Halloween Duo est"
+            "halloween-duo": "Mon Halloween Duo est",
+			"christmas-gift": {
+				"textBefore": "Mon Christmas Gift est",
+				"pikachu": "Pikachu",
+				"eevee": "Évoli",
+				"tesla": "Tesla Roadster",
+				"iphone-xs": "iPhone XS",
+				"poop": "Coussin Caca",
+				"hand-spinner-yellow": "Hand Spinner Jaune",
+				"hand-spinner-red": "Hand Spinner Rouge",
+				"hand-spinner-blue": "Hand Spinner Bleu",
+				"hand-spinner-green": "Hand Spinner Vert",
+				"hand-spinner-gold": "Hand Spinner Doré",
+				"nutella": "Nutella",
+				"pig": "Peluche Cochon",
+				"trump": "Figurine Trump"
+			},
+			"new-years-kiss": "Mon New Year's Kiss est"
 		},
 		"youAreNotFollowing": "Vous ne suivez pas {{user}}...",
 		"notFollowingYou": "{{user}} ne vous suit pas...",
@@ -479,7 +504,9 @@
 			"hidden-twin": "#Affinitweet Hidden Twin\n{{user}} est mon jumeau caché 😱\nDécouvre vite qui est le tien !\nvia https://affinitweet.com/hidden-twin",
 			"stolen-kiss": "#Affinitweet Stolen Kiss\n{{user}} t'embrasserait bien au coin d'une rue... 😏\nEt toi, qui t'embrasserait ?\nvia https://affinitweet.com/stolen-kiss",
 			"may-day": "#Affinitweet May Day\n{{user}}, je t'offre mon plus beau bouquet de muguet cette année ! 💐\nÀ qui offriras-tu le tien ?\nvia https://affinitweet.com/may-day",
-			"halloween-duo": "#Affinitweet Halloween Duo\nMême pas besoin de me déguiser cette année pour faire peur, je suis avec {{user}} ! 🎃👻\nEt toi, avec qui seras-tu ?\nvia https://affinitweet.com/halloween-duo"
+			"halloween-duo": "#Affinitweet Halloween Duo\nMême pas besoin de me déguiser cette année pour faire peur, je suis avec {{user}} ! 🎃👻\nEt toi, avec qui seras-tu ?\nvia https://affinitweet.com/halloween-duo",
+			"christmas-gift": "#Affinitweet Christmas Gift\nWow! Regardez ce que j'ai pour noël cette année, je vais faire des jaloux ! 🙈😍E\nt toi, que vas-tu avoir pour noël ?\nvia https://affinitweet.com/christmas-gift",
+			"new-years-kiss": "#Affinitweet New Year's Kiss\nJe te prépare mon dernier baiser de l'année et le premier de l'année suivante {{user}} !🙈😍\nEt toi, qui vas-tu embrasser à minuit ?\nvia https://affinitweet.com/new-years-kiss"
 		}
 	}
 }
