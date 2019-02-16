@@ -346,11 +346,11 @@
 					],
 					[
 						"O que significa \"POP\" e \"NEW\"?",
-						"Essas etiquetas são anexadas as funcionalidades e são visíveis ao lado delas. \"POP\" significa \"popular\". É uma funcionalidade popular. "\NEW\" significa \"novo\". É um recurso que foi adicionado há pouco tempo."
+						"Essas etiquetas são anexadas as funcionalidades e são visíveis ao lado delas. \"POP\" significa \"popular\". É uma funcionalidade popular. \"NEW\" significa \"novo\". É um recurso que foi adicionado há pouco tempo."
 					],
 					[
 						"Como faço para entrar com outra conta?",
-						"Quando você entra no Affinitweet, a conta do Twitter à qual você está conectado no navegador é usada. Se você quiser mudar de conta e usar o Affinitweet com uma conta diferente desta, você tem várias possibilidades: (1) enquanto estiver conectado, passe o mouse sobre o seu nome de usuário no canto superior direito e clique em "Mudar de conta\", você será redirecionado para o Twitter e solicitado a entrar com sua nova conta; (2) mudar para navegação privada; (3) desconectar do Twitter e reconectar com a nova conta; (4) usar outro navegador não conectado com a mesma conta do Twitter."
+						"Quando você entra no Affinitweet, a conta do Twitter à qual você está conectado no navegador é usada. Se você quiser mudar de conta e usar o Affinitweet com uma conta diferente desta, você tem várias possibilidades: (1) enquanto estiver conectado, passe o mouse sobre o seu nome de usuário no canto superior direito e clique em \"Mudar de conta\", você será redirecionado para o Twitter e solicitado a entrar com sua nova conta; (2) mudar para navegação privada; (3) desconectar do Twitter e reconectar com a nova conta; (4) usar outro navegador não conectado com a mesma conta do Twitter."
 					]
 				],
 				"features": [
