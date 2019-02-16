@@ -172,11 +172,11 @@
 			"mentions": "Mentions conta todas as menções enviadas ao usuário alvo.",
 			"top-friends": "Confira as pessoas com as quais você mais interagiu ultimamente no Twitter!",
 			"famous-followers": "Descubra seus seguidores famosos! Vamos lá!",
-			"valentine": "Quem será seu namorado esse ano? Descubra agora! 💏",
+			"valentine": "Quem será seu(sua) namorado(a) esse ano? Descubra agora! 💏",
 			"secret-crush": "Quem te ama secretamente? 😳",
 			"hidden-twin": "Você tem um gêmeo escondido, sim... Mas quem é? 🤔",
 			"stolen-kiss": "Quem quer lhe roubar um beijo numa esquina? 💋",
-			"may-day": "Para quem você vai dar o seu melhor buquê de lírios do vale este ano? 💐",
+			"may-day": "Para quem você vai dar o seu melhor buquê de Lírio-do-Vale este ano? 💐",
 			"halloween-duo": "Com quem você fará a melhor dupla para assustar mais no Halloween deste ano? 🎃👻",
 			"bunbun-transform": "Transforme-se em um coelhinho fofo! Sua foto do perfil do Twitter será atualizada!",
 			"pokemon-go-buddy": "E se você fosse um Buddy Pokémon Go? Descubra!",
@@ -248,169 +248,169 @@
 			"h1": "Termos",
 			"p1": "Ao acessar o site em {url}, você concorda em cumprir estes termos de serviço, todas as leis e regulamentações aplicáveis e concorda que é responsável pela conformidade com as leis locais aplicáveis. Se você não concorda com algum destes termos, você está proibido de usar ou acessar este site. Os materiais contidos neste site são protegidos pela lei aplicável de direitos autorais e marcas registradas.",
 			"h2": "Licença de Uso",
-			"l1-1": "Permission is granted to temporarily download one copy of the materials (information or software) on Affinitweet's website for personal, non-commercial transitory viewing only. This is the grant of a license, not a transfer of title, and under this license you may not:",
-			"l2-1": "modify or copy the materials;",
-			"l2-2": "use the materials for any commercial purpose, or for any public display (commercial or non-commercial);",
-			"l2-3": "attempt to decompile or reverse engineer any software contained on Affinitweet's website;",
-			"l2-4": "remove any copyright or other proprietary notations from the materials; or",
-			"l2-5": "transfer the materials to another person or \"mirror\" the materials on any other server.",
-			"l1-2": "This license shall automatically terminate if you violate any of these restrictions and may be terminated by Affinitweet at any time. Upon terminating your viewing of these materials or upon the termination of this license, you must destroy any downloaded materials in your possession whether in electronic or printed format.",
-			"h3": "Disclaimer",
-			"l3-1": "The materials on Affinitweet's website are provided on an 'as is' basis. Affinitweet makes no warranties, expressed or implied, and hereby disclaims and negates all other warranties including, without limitation, implied warranties or conditions of merchantability, fitness for a particular purpose, or non-infringement of intellectual property or other violation of rights.",
-			"l3-2": "Further, Affinitweet does not warrant or make any representations concerning the accuracy, likely results, or reliability of the use of the materials on its website or otherwise relating to such materials or on any sites linked to this site.",
-			"h4": "Limitations",
-			"p2": "In no event shall Affinitweet or its suppliers be liable for any damages (including, without limitation, damages for loss of data or profit, or due to business interruption) arising out of the use or inability to use the materials on Affinitweet's website, even if Affinitweet or a Affinitweet authorized representative has been notified orally or in writing of the possibility of such damage. Because some jurisdictions do not allow limitations on implied warranties, or limitations of liability for consequential or incidental damages, these limitations may not apply to you.",
-			"h5": "Accuracy of materials",
-			"p3": "The materials appearing on Affinitweet's website could include technical, typographical, or photographic errors. Affinitweet does not warrant that any of the materials on its website are accurate, complete or current. Affinitweet may make changes to the materials contained on its website at any time without notice. However Affinitweet does not make any commitment to update the materials.",
-			"h6": "Links",
-			"p4": "Affinitweet has not reviewed all of the sites linked to its website and is not responsible for the contents of any such linked site. The inclusion of any link does not imply endorsement by Affinitweet of the site. Use of any such linked website is at the user's own risk.",
-			"h7": "Modifications",
-			"p5": "Affinitweet may revise these terms of service for its website at any time without notice. By using this website you are agreeing to be bound by the then current version of these terms of service.",
-			"h8": "Governing Law",
-			"p6": "These terms and conditions are governed by and construed in accordance with the laws of France and you irrevocably submit to the exclusive jurisdiction of the courts in that State or location."
+			"l1-1": "É concedida permissão para baixar temporariamente uma cópia dos materiais (informações ou software) no site do Affinitweet para visualização pessoal, não comercial e transitória apenas. Esta é a concessão de uma licença, não uma transferência de título, e sob esta licença você não pode: ",
+			"l2-1": "modificar ou copiar os conteúdos;",
+			"l2-2": "utilizar os conteúdos para qualquer fim comercial, ou para qualquer exibição pública (comercial ou não comercial);",
+			"l2-3": "tentar descompilar ou fazer engenharia reversa em qualquer software contido no website do Affinitweet;",
+			"l2-4": "remover quaisquer direitos autorais ou outras notações proprietárias dos conteúdos; ou",
+			"l2-5": "transferir os conteúdos para outra pessoa ou \"espelhar\" os conteúdos em qualquer outro servidor.",
+			"l1-2": "Esta licença será automaticamente cancelada se você violar qualquer uma dessas restrições e poderá ser cancelada pelo Affinitweet a qualquer momento. Ao terminar sua visualização destes conteúdos ou ao terminar esta licença, você deve destruir qualquer conteúdo baixado em sua posse, seja em formato eletrônico ou impresso.",
+			"h3": "Declaração de exoneração de responsabilidade",
+			"l3-1": "Os conteúdos do Affinitweet são fornecidos "como estão". Affinitweet não oferece garantias, expressas ou implícitas, e por este meio se isenta e nega todas as outras garantias, incluindo, sem limitação, garantias implícitas ou condições de comercialização, adequação a uma finalidade específica, ou não violação de propriedade intelectual ou outra violação de direitos.",
+			"l3-2": "Além disso, o Affinitweet não garante ou faz quaisquer representações relativas à precisão, resultados prováveis, ou confiabilidade do uso dos conteúdos em seu site ou de outra forma relacionados a tais conteúdos ou em quaisquer sites vinculados a este site.",
+			"h4": "Limitações",
+			"p2": "Em nenhum caso o Affinitweet ou seus provedores serão responsáveis por quaisquer danos (incluindo, sem limitação, danos por perda de dados ou lucro, ou devido a interrupção de negócios) decorrentes do uso ou incapacidade de usar os conteúdos do website do Affinitweet, mesmo que Affinitweet ou um representante autorizado do Affinitweet tenha sido notificado verbalmente ou por escrito da possibilidade de tal dano. Como algumas jurisdições não permitem limitações de garantias implícitas, ou limitações de responsabilidade por danos consequentes ou incidentais, essas limitações podem não se aplicar a você.",
+			"h5": "Precisão dos conteúdos",
+			"p3": "Os conteúdos que aparecem no site do Affinitweet podem incluir erros técnicos, tipográficos ou fotográficos. O Affinitweet não garante que nenhum dos conteúdos do seu website sejam exatos, completos ou atuais. Affinitweet pode fazer alterações nos conteúdos contidos em seu website a qualquer momento sem aviso prévio. No entanto, o Affinitweet não se compromete a atualizar os conteúdos.",
+			"h6": "Vínculos",
+			"p4": "Affinitweet não revisou todos os sites vinculados ao seu site e não é responsável pelo conteúdo de nenhum desses sites vinculados. A inclusão de qualquer link não implica endosso por parte do Affinitweet do site. O uso de qualquer desses sites vinculados é por conta e risco do usuário.",
+			"h7": "Alterações",
+			"p5": "Affinitweet pode revisar estes termos de serviço para seu website a qualquer momento sem aviso prévio. Ao usar este website você está concordando em estar vinculado à versão atual desses termos de serviço.",
+			"h8": "Legislação Aplicável",
+			"p6": "Estes termos e condições são regidos e interpretados de acordo com as leis da França e você se submete irrevogavelmente à jurisdição exclusiva dos tribunais desse Estado ou local."
 		},
 		"new": {
-			"title": "Welcome to the new version of Affinitweet",
-			"p1": "3 years after our launch and a great success flooding the TL of our haters (but especially with our users ❤️), Affinitweet is getting a new look but not only on the visual, everything has been redone... from scratch!",
-			"p2": "We decided to make Affinitweet more serious and professional. Indeed, we want to become THE reference hub for everything you can do from Twitter, nothing but that!",
-			"p3": "And to achieve this, we have set ourselves no limits and have given our best for this new version. In detail, here's what you can expect...",
-			"h1": "New identity",
-			"p4": "After having used the Twitter logo for a long time, we decided to create a real identity. And it's done. As you can see, Affinitweet now has its own logo with its own colours. A nice gradient that can be found all over the site with shades of white and grey variations.",
-			"p5": "The icons of the functionalities have also been reworked, the generated images are of better quality and more advanced. The categories have been renamed and their content revised.",
-			"p6": "Always looking for maximum quality, the site is \"pixel-perfect\". If this is not the case for you, please let us know and we will deal with it as soon as possible!",
-			"h2": "New technologies",
-			"p7": "We have based this new version on the latest web technologies. The result: a huge gain in speed that is felt by simply browsing the site or even waiting for the results of the requested functionalities!",
-			"p8": "Coupled with this, you will be able to see the progress of your results in real time, which will pass the time even faster!",
-			"p9": "We have also developed much more rigorously, so there will be far fewer bugs not to say \"none\" because we are never safe from a clever little well hidden!",
-			"h3": "Res-pon-sive!",
-			"p10": "Finally! During these 3 years we have been collecting statistics about our users and it turns out that you are mostly connecting to Affinitweet from your phones. But we suspected that a little bit, because since the time we were asked for it...",
-			"p11": "The site is now completely responsive, i. e. it adapts to all screen sizes and displays correctly even for the smallest phones 😉",
-			"h4": "Parameters and data",
-			"p12": "We have focused on the management of personal data, you now have complete control over it directly and all options are disabled by default. You will find all the necessary information about how we store and use them on the {button} page.",
-			"p13": "When you go to your profile page, you should see something more accomplished among these options:",
-			"l1-1": "manage the automatic tweet when results are returned",
-			"l1-2": "save the results in your Affinitweet history",
-			"l1-3": "change the site monetization method",
-			"l1-4": "change the interface language among those proposed",
-			"l1-5": "clean up your Affinitweet results history",
-			"l1-6": "delete your account and all associated data",
-			"h5": "Languages and contribution",
-			"p14": "Don't hesitate to help us internationalize the platform by translating texts from the space provided on {button}. We will credit you just below the language in which you translated Affinitweet to show our gratitude and thank you ❤️",
-			"h6": "And then?",
-			"p15": "We will continue to improve Affinitweet with new features as we have been able to do until now.",
-			"p16": "Many thanks to you for having been with us for so many years, hoping that this new version will please you! Do not hesitate to tell us your opinion about this one on Twitter by mentioning @affinitweet_ 😄"
+			"title": "Bem-vindo à nova versão do Affinitweet",
+			"p1": "3 anos após nosso lançamento e um grande sucesso inundando a TL de nossos haters (mas especialmente com nossos usuários ❤️), Affinitweet está recebendo um novo visual, mas não só no visual, tudo foi refeito... do zero!",
+			"p2": "Decidimos tornar o Affinitweet mais sério e profissional. Na verdade, queremos nos tornar O centro de referência para tudo o que você pode fazer no Twitter, nada além disso!",
+			"p3": "E para isso, não estabelecemos limites e demos o nosso melhor por esta nova versão. Em detalhes, aqui está o que você pode esperar...",
+			"h1": "Nova identidade",
+			"p4": "Depois de termos usado o logotipo do Twitter por muito tempo, decidimos criar uma identidade real. E está feito. Como podem ver, o Affinitweet tem agora o seu próprio logotipo com as suas próprias cores. Um belo gradiente que pode ser encontrado em todo o site com tons de branco e variações de cinza.",
+			"p5": "Os ícones das funcionalidades também foram retrabalhados, as imagens geradas são de melhor qualidade e mais avançadas. As categorias foram renomeadas e seu conteúdo revisado.",
+			"p6": "Sempre à procura da máxima qualidade, o site é \"pixel-perfect\". Se este não é o caso para você, por favor nos avise e nós trataremos disso o mais rápido possível!",
+			"h2": "Novas tecnologias",
+			"p7": "Baseámos esta nova versão nas mais recentes tecnologias web. O resultado: um enorme ganho de velocidade que é sentido simplesmente navegando pelo site ou mesmo esperando pelos resultados das funcionalidades solicitadas!",
+			"p8": "Juntamente com isso, você poderá ver o progresso de seus resultados em tempo real, que passará o tempo ainda mais rápido!",
+			"p9": "Nós também desenvolvemos muito mais rigorosamente, então haverá muito menos bugs para não dizer \"nenhum\", porque nunca estamos a salvo de um inteligente pouco bem escondido!",
+			"h3": "Res-pon-si-vo!",
+			"p10": "Finalmente! Durante esses 3 anos temos coletado estatísticas sobre nossos usuários e percebemos que a maioria de vocês está se conectando ao Affinitweet através de seus telefones. Mas nós suspeitamos um pouco disso, porque desde o tempo em que nos pediram...",
+			"p11": "O site agora é completamente responsivo, ou seja, ele se adapta a todos os tamanhos de tela e exibe corretamente mesmo para os telefones mais pequenos 😉",
+			"h4": "Dados e parâmetros",
+			"p12": "Nós nos concentramos na gestão de dados pessoais, agora você tem controle total sobre eles diretamente e todas as opções são desativadas por padrão. Você encontrará todas as informações necessárias sobre como armazenamos e usamos esses dados na página {button}.",
+			"p13": "Quando você vai para a sua página de perfil, você deve ver algo entre essas opções: ",
+			"l1-1": "gerenciar o tweet automático quando os resultados são retornados",
+			"l1-2": "salvar os resultados em seu histórico Affinitweet",
+			"l1-3": "alterar o método de monetização do site",
+			"l1-4": "alterar o idioma da interface entre os oferecidos",
+			"l1-5": "limpe seu histórico de resultados Affinitweet",
+			"l1-6": "apagar sua conta e todos os dados associados",
+			"h5": "Idiomas e contribuição",
+			"p14": "Não hesite em nos ajudar a internacionalizar a plataforma, traduzindo textos a partir do espaço disponível no {button}. Nós o creditaremos logo abaixo do idioma em que você traduziu o Affinitweet para mostrar nossa gratidão e agradecimento a você ❤️",
+			"h6": "E depois?",
+			"p15": "Vamos continuar a melhorar o Affinitweet com novas funcionalidades como temos sido capazes de fazer até agora.",
+			"p16": "Muito obrigado por terem estado conosco durante tantos anos, esperando que esta nova versão vos agrade! Não hesite em nos dizer sua opinião sobre esta no Twitter mencionando @affinitweet_ 😄"
 		},
 		"faq": {
-			"title": "Frequenlty asked questions",
+			"title": "Perguntas mais frequentes",
 			"tinyTitle": "FAQ",
-			"searchTerms": "Search terms...",
-			"intro": "Welcome on our frequently asked questions page! If you don't find your answers, contact us! Click on the right category corresponding to your search or search terms in the input field below.",
-			"global": "Global",
-			"features": "Features",
-			"security": "Security",
-			"privacy": "Privacy",
-			"monetization": "Monetization",
+			"searchTerms": "Procurar termos...",
+			"intro": "Bem-vindo à nossa página de perguntas frequentes! Se você não encontrar suas respostas, entre em contato conosco! Clique na categoria correspondente à sua pesquisa ou pesquise os termos no campo abaixo.",
+			"global": "Geral",
+			"features": "Funcionalidades",
+			"security": "Segurança",
+			"privacy": "Privacidade",
+			"monetization": "Monetização",
 			"questions": {
 				"global": [
 					[
-						"What is Affinitweet's purpose?",
-						"This is a very often asked question, Affinitweet brings two things: entertaining features and statistics, separated into two distinct categories. You certainly know Affinitweet for its viral and entertaining features shared on Twitter, but we offer other useful and interesting features!"
+						"Qual é o propósito do Affinitweet?",
+						"Esta é uma pergunta muito frequente, Affinitweet traz duas coisas: funcionalidades divertidas e estatísticas, separadas em duas categorias distintas. Você certamente conhece Affinitweet por suas características virais e divertidas compartilhadas no Twitter, mas nós oferecemos outras características úteis e interessantes!"
 					],
 					[
-						"How to use our services / login?",
-						"To use our services, you must log in with your Twitter account. To do so, simply click on \"Log in\" at the top right, then go to the page of your choice."
+						"Como utilizar os nossos serviços / login?",
+						"Para usar nossos serviços, você deve entrar com sua conta do Twitter. Para isso, basta clicar em \"Log in\" no canto superior direito e ir para a página de sua preferência."
 					],
 					[
-						"How do I access my profile or log out?",
-						"Once logged in with your Twitter account, you can access your profile or log out by clicking or hovering your Twitter nickname at the top right."
+						"Como faço para acessar meu perfil ou sair?",
+						"Uma vez conectado com sua conta do Twitter, você pode acessar seu perfil ou sair clicando ou passando o mouse sobre seu apelido do Twitter no canto superior direito."
 					],
 					[
-						"But Affinitweet is French?",
-						"Absolutely, Affinitweet was created and is hosted in France 🇫🇷, do not be surprised if we speak better french than english or if we answer you on Twitter more easily in this language!"
+						"Mas Affinitweet é francês?",
+						"Sem dúvida, Affinitweet foi criado e está hospedado na França 🇫🇷, não se surpreenda se falamos melhor francês do que inglês ou se respondemos no Twitter mais facilmente nesta língua!"
 					],
 					[
-						"Affinitweet is not available in my language, how do I do?",
-						"If your language is not supported, you will see Affinitweet in english by default. If you have the courage and desire to help us internationalize and appear as a translator on Affinitweet, you can participate and translate the texts available here."
+						"Affinitweet não está disponível no meu idioma, como faço?",
+						"Se o seu idioma não for suportado, você verá Affinitweet em inglês por padrão. Se você tem a coragem e o desejo de nos ajudar a internacionalizar e aparecer como tradutor em Affinitweet, você pode colaborar e traduzir os textos disponíveis aqui."
 					],
 					[
-						"Why is there a mining script?",
-						"When we released our new version, it included a mining script on all pages, inactive by default, now included only when the option is enabled. We have taken the initiative to offer two kinds of remuneration by giving you the choice between advertising (by default) or mining. To activate it, simply switch the monetization mode in your profile to enjoy Affinitweet without ads."
+						"Porque é que há um script de mineração?",
+						"Quando lançamos nossa nova versão, ela incluía um script de mineração em todas as páginas, inativo por padrão, agora incluído apenas quando a opção está habilitada. Tomamos a iniciativa de oferecer dois tipos de remuneração, dando-lhe a escolha entre publicidade (por padrão) ou mineração. Para ativá-lo, basta mudar o modo de monetização no seu perfil para desfrutar de Affinitweet sem anúncios."
 					],
 					[
-						"Why are you asking for write access to my Twitter account?",
-						"For ease of use, we request read and write access to your Twitter account so that we can publish a tweet if you allow us to do so. This saves us having to create two applications, and you having to log in twice."
+						"Por que você está pedindo acesso de gravação à minha conta do Twitter?",
+						"Para facilidade de uso, solicitamos acesso de leitura e gravação à sua conta do Twitter para que possamos publicar um tweet se você nos permitir. Isso evita que tenhamos que criar duas aplicações, e que você tenha que fazer login duas vezes."
 					],
 					[
-						"Why was a tweet published without my consent?",
-						"This is not the case and it never will be, we always obtain your consent via an action on your part before doing anything. If a tweet has been posted to your Twitter profile, you have authorized us to do so by clicking an approval button."
+						"Por que um tweet foi publicado sem o meu consentimento?",
+						"Este não é o caso e nunca será, sempre obtemos o seu consentimento através de uma ação de sua parte antes de fazer qualquer coisa. Se um tweet tiver sido postado no seu perfil do Twitter, você nos autorizou a fazê-lo clicando em um botão de autorização."
 					],
 					[
-						"What do \"POP\" and \"NEW\" mean?",
-						"These labels are attached to features and are visible next to them. \"POP\" means \"popular.\" It's a popular feature. \"NEW\" means \"new\". It's a feature that was added a while ago."
+						"O que significa \"POP\" e \"NEW\"?",
+						"Essas etiquetas são anexadas as funcionalidades e são visíveis ao lado delas. \"POP\" significa \"popular\". É uma funcionalidade popular. "\NEW\" significa \"novo\". É um recurso que foi adicionado há pouco tempo."
 					],
 					[
-						"How do I log in with another account?",
-						"When you log in to Affinitweet, the Twitter account to which you are connected on the browser is used. If you want to switch your account and use Affinitweet with an account other than this one, you have several possibilities: (1) while connected, hover your username on the top right and click on \"Switch account\", you will be redirected to Twitter and asked to log in with your new account ; (2) switch to private browsing; (3) disconnect from Twitter and reconnect with the new account; (4) use another browser not connected with that same Twitter account."
+						"Como faço para entrar com outra conta?",
+						"Quando você entra no Affinitweet, a conta do Twitter à qual você está conectado no navegador é usada. Se você quiser mudar de conta e usar o Affinitweet com uma conta diferente desta, você tem várias possibilidades: (1) enquanto estiver conectado, passe o mouse sobre o seu nome de usuário no canto superior direito e clique em "Mudar de conta\", você será redirecionado para o Twitter e solicitado a entrar com sua nova conta; (2) mudar para navegação privada; (3) desconectar do Twitter e reconectar com a nova conta; (4) usar outro navegador não conectado com a mesma conta do Twitter."
 					]
 				],
 				"features": [
 					[
-						"How is the Top Friends determined?",
-						"The Top Friends is mainly determined from tweets, we go back to your last 3200 tweets to establish a ranking over a long period."
+						"Como é determinado o Top Friends?",
+						"O Top Friends é determinado principalmente a partir de tweets, voltamos aos seus últimos 3200 tweets para estabelecer um ranking durante um longo período."
 					],
 					[
-						"Why doesn't my Top Friends stick to reality?",
-						"We try to get as close as possible to reality with the information we collect. Sometimes someone you don't talk to anymore but have talked to a lot in the past is present in your Top Friends if you haven't been tweeting a lot for a while for example."
+						"Por que é que os meus Top Friends não seguem a realidade?",
+						"Tentamos nos aproximar o mais possível da realidade com as informações que coletamos. Às vezes, alguém com quem você não conversa mais, mas que já conversou muito no passado, está presente em seus Top Friends se você não estiver twittando muito por um tempo, por exemplo."
 					],
 					[
-						"How are the results of the other features determined?",
-						"The algorithms used to determine these results are strictly confidential, unfortunately we do not wish to communicate on them."
+						"Como são determinados os resultados das outras funcionalidades?",
+						"Os algoritmos utilizados para determinar estes resultados são estritamente confidenciais, infelizmente não queremos divulgar sobre eles."
 					],
 					[
-						"I got my sister at Valentine's and my dad in Secret Crush!",
-						"\"Fun\" features are only intended to entertain as the category name indicates. Although we try to get as close to reality as possible with our algorithm parameters, if we come across the right person(s) it would only be by chance!"
+						"Encontrei a minha irmã no Valentine's e o meu pai no Secret Crush!",
+						"As funcionalidades "Diversão" destinam-se apenas a entreter como o nome da categoria indica. Apesar de tentarmos chegar o mais perto possível da realidade com os nossos parâmetros de algoritmo, se encontrarmos a(s) pessoa(s) certa(s), será apenas por acaso!"
 					],
 					[
-						"How does First To Follow work?",
-						"The First To Follow is an exclusive feature and is not available anywhere else. It lets you know when a given person has followed you and vice versa. Gourmet functionality, you can only make a limited number per 15 minutes."
+						"Como funciona o First To Follow?",
+						"O First To Follow é um recurso exclusivo e não está disponível em nenhum outro lugar. Ele permite que você saiba quando uma determinada pessoa o seguiu e vice-versa. Funcionalidade Gourmet, você só pode fazer um número limitado por 15 minutos."
 					],
 					[
-						"How does Emoji Mood work?",
-						"The Emoji Mood lets you know which emojis you've been tweeting the most lately, we go back to your last 3200 tweets and simply count that!"
+						"Como funciona o Emoji Mood?",
+						"O Emoji Mood permite que você saiba quais emojis você tem tweetado mais recentemente, voltamos aos seus últimos 3200 tweets e simplesmente contamos isso!"
 					]
 				],
 				"security": [
 					[
-						"Is the site secure?",
-						"Yes, Affinitweet is only accessible in https in order to secure your connection as much as possible. You can check our security certificates by a recognized organization like SSLLabs."
+						"O site é seguro?",
+						"Sim, Affinitweet só é acessível em https para proteger sua conexão o máximo possível. Você pode verificar nossos certificados de segurança por alguma organização reconhecida como a SSLLabs."
 					],
 					[
-						"Is the site reliable?",
-						"Yes, since some time we created a Trustpilot page to collect the opinion of our users, you can consult them and add one if you want."
+						"O site é confiável?",
+						"Sim, já que há algum tempo criamos uma página do Trustpilot para coletar a opinião de nossos usuários, você pode consultá-los e adicionar um se quiser."
 					],
 					[
-						"Are there viruses or malware?",
-						"Absolutely not, we are doing everything we can to avoid that. Affinitweet is 100% secure, we guarantee you not to catch anything like this on our site."
+						"Existem vírus ou malware?",
+						"Absolutamente não, estamos a fazer tudo o que podemos para evitar isso. Affinitweet é 100% seguro, nós garantimos que você não vai pegar nada parecido no nosso site."
 					],
 					[
-						"Where is my data and is it safe?",
-						"Your data is stored on the servers we rent in Paris. We are hosted by one of the leaders and guarantee that your data is secure."
+						"Onde estão os meus dados e estão seguros?",
+						"Os seus dados são armazenados nos servidores que alugamos em Paris. Estamos hospedados por um dos líderes e garantimos a segurança dos seus dados."
 					]
 				],
 				"privacy": [
 					[
-						"What do you do with my data?",
-						"We explain everything we do with the data we collect and process in our Data and Privacy page. But to make it short, we recover and store the bare minimum. We will never communicate them to anyone, ever."
+						"O que fazes com os meus dados?",
+						"Explicamos tudo o que fazemos com os dados que coletamos e processamos em nossa página Dados e Privacidade. Mas para resumir, recuperamos e armazenamos o mínimo necessário. Nunca os divulgaremos a ninguém, nunca."
 					],
 					[
-						"How do I delete my account?",
-						"Once logged in, simply go to your profile and scroll down and click the delete account button. All data relating to your account will then be immediately deleted."
+						"Como faço para excluir minha conta?",
+						"Uma vez logado, basta ir até o seu perfil e rolar para baixo e clicar no botão excluir conta. Todos os dados relativos à sua conta serão eliminados imediatamente."
 					]
 				],
 				"monetization": [
 					[
-						"It's free so I'm the product?",
-						"Yes, but no. Our source of revenue comes only from the ads displayed on the feature pages as well as the mining if you have it enabled in your profile. These revenues are used to cover the costs of servers, development and eventually pay for a few beers if there is anything left!"
+						"É grátis, então eu sou o produto?",
+						"Sim, mas não. Nossa fonte de receita vem apenas dos anúncios exibidos nas páginas de funcionalidades, bem como da mineração, caso você tenha ativado em seu perfil. Estas receitas são usadas para cobrir os custos de servidores, desenvolvimento e, eventualmente, pagar por algumas cervejas se restar alguma coisa!"
 					]
 				]
 			}
@@ -419,76 +419,76 @@
 	"back": {
 		"features": {
 			"friendships": {
-				"average": "Friendships average of",
-				"following": "Your follow him",
-				"not-following": "You're not folling him",
-				"followed_by": "He follows you",
-				"not-followed_by": "He's not following you",
-				"notifications_enabled": "You are notified when he tweets",
-				"not-notifications_enabled": "You're not notified when he tweets",
-				"blocking": "You blocked him",
-				"not-blocking": "You didn't block him",
-				"blocked_by": "He blocked you",
-				"not-blocked_by": "He didn't block you",
-				"muting": "You mute him",
-				"not-muting": "You didn't mute him",
-				"want_retweets": "You see his retweets",
-				"not-want_retweets": "You don't see his retweets",
-				"marked_spam": "You marked him as spam",
-				"not-marked_spam": "You didn't mark him as spam"
+				"average": "Média de amizades de",
+				"following": "Você o(a) segue",
+				"not-following": "Você não o(a) segue",
+				"followed_by": "Ele(a) segue você",
+				"not-followed_by": "Ele(a) não está te seguindo",
+				"notifications_enabled": "Você é notificado quando ele(a) tweeta",
+				"not-notifications_enabled": "Você não é notificado quando ele(a) tweeta",
+				"blocking": "Você o(a) bloqueou",
+				"not-blocking": "Você não o(a) bloqueou",
+				"blocked_by": "Ele(a) te bloqueou",
+				"not-blocked_by": "Ele(a) não te bloqueou",
+				"muting": "Você o(a) silenciou",
+				"not-muting": "Você não o(a) silenciou",
+				"want_retweets": "Você vê os retweets dele(a)",
+				"not-want_retweets": "Você não vê os retweets dele(a)",
+				"marked_spam": "Você o(a) marcou como spam",
+				"not-marked_spam": "Você não o(a) marcou como spam"
 			},
 			"tweet-rate": {
-				"average": "{{user}} tweets on average...",
-				"tweetsPerDay": "{{count}} times a day"
+				"average": "{{user}} tweets em média...",
+				"tweetsPerDay": "{{count}} vezes por dia"
 			},
 			"common-friends": {
-				"friendsRemaining": "... and {{count}} other friends !",
-				"noFriends": "No common friends...",
-				"commonFriends": "I have {{count}} common friends with {{user}} !",
-				"noCommonFriends": "I have no common friends with {{user}}..."
+				"friendsRemaining": "... e {{count}} outros amigos!",
+				"noFriends": "Nenhum amigo em comum...",
+				"commonFriends": "Tenho {{count}} amigos em comum com {{user}}!",
+				"noCommonFriends": "Não tenho amigos em comum com {{user}}..."
 			},
-			"valentine": "Your Valentine {{year}} is",
-			"stolen-kiss": "Your Stolen Kiss is",
-			"hidden-twin": "Your Hidden Twin is",
-			"secret-crush": "Your Secret Crush is",
-			"may-day": "I give a Lily-of-the-Valley 💐 to",
-			"halloween-duo": "Your Halloween Duo is",
+			"valentine": "Seu Valentine de {{year}} é",
+			"stolen-kiss": "Seu Stolen Kiss é",
+			"hidden-twin": "Seu Hidden Twin é",
+			"secret-crush": "Seu Secret Crush é",
+			"may-day": "Eu dou um Lírio-do-Vale 💐 para",
+			"halloween-duo": "Sua dupla de Halloween é",
 			"christmas-gift": {
-				"textBefore": "Your Christmas Gift is",
+				"textBefore": "Seu presente de Natal é",
 				"pikachu": "Pikachu",
 				"eevee": "Eevee",
 				"tesla": "Tesla Roadster",
 				"iphone-xs": "iPhone XS",
-				"poop": "Poop Pillow",
-				"hand-spinner-yellow": "Yellow Hand Spinner",
-				"hand-spinner-red": "Red Hand Spinner",
-				"hand-spinner-blue": "Blue Hand Spinner",
-				"hand-spinner-green": "Green Hand Spinner",
-				"hand-spinner-gold": "Gold Hand Spinner",
+				"poop": "Almofada de cocô",
+				"hand-spinner-yellow": "Hand Spinner Amarelo",
+				"hand-spinner-red": "Hand Spinner Vermelho",
+				"hand-spinner-blue": "Hand Spinner Azul",
+				"hand-spinner-green": "Hand Spinner Verde",
+				"hand-spinner-gold": "Hand Spinner Dourado",
 				"nutella": "Nutella",
-				"pig": "Pig Plush",
-				"trump": "Trump Toy"
+				"pig": "Porco de Pelúcia",
+				"trump": "Brinquedo Trump"
 			},
-			"new-years-kiss": "My New Year's Kiss is"
+			"new-years-kiss": "O meu beijo de Ano Novo é"
 		},
-		"youAreNotFollowing": "You're not following {{user}}...",
-		"notFollowingYou": "{{user}} is not following you...",
-		"youFollowed": "You followed {{user}}: ",
-		"followedYou": "{{user}} followed you: ",
-		"dateFormat": "on {{month}}/{{day}}/{{year}} at {{hour}}:{{minute}}:{{second}}",
-		"dateFormat2": "on {{month}}/{{day}}/{{year}} at {{hour}}h",
-		"unknownFeature": "Unknown feature.",
-		"selfUsername": "Type a different username than yourself.",
-		"badUsername": "Bad username.",
-		"received": "Request received by the server...",
-		"starting": "Starting...",
-		"fetchingData": "Fetching data...",
-		"fetchingTweets": "Fetching tweets...",
-		"computingData": "Computing data...",
-		"generatingImage": "Generating image...",
-		"uploadingMedia": "Uploading image...",
-		"publishingTweet": "Publishing tweet...",
-		"savingResults": "Saving results...",
+		"youAreNotFollowing": "Você não está seguindo {{user}}...",
+		"notFollowingYou": "{{user}} não está seguindo você...",
+		"youFollowed": "Você seguiu {{user}}: ",
+		"followedYou": "{{user}} seguiu você: ",
+		"dateFormat": "em {{day}}/{{month}}/{{year}} às {{hour}}:{{minute}}:{{second}}",
+		"dateFormat2": "em {{day}}/{{month}}/{{year}} às {{hour}}h",
+		"unknownFeature": "Funcionalidade desconhecida.",
+		"selfUsername": "Digite um nome de usuário diferente do seu.",
+		"badUsername": "Nome de usuário incorreto.",
+		"received": "Solicitação recebida pelo servidor...",
+		"starting": "Iniciando...",
+		"fetchingData": "Obtendo dados...",
+		"fetchingTweets": "Obtendo tweets...",
+		"computingData": "Computando dados...",
+		"generatingImage": "Gerando imagem...",
+		"uploadingMedia": "Enviando imagem...",
+		"publishingTweet": "Publicando tweet...",
+		"savingResults": "Salvando resultados...",
 		"tweetContent": {
 			"all-in-one": "",
 			"first-to-follow": "#Affinitweet First To Follow\n{{{text}}}\nvia https://affinitweet.com/first-to-follow",
@@ -500,14 +500,14 @@
 			"common-sources": "",
 			"tweet-rate": "#Affinitweet Tweet Rate\n\nhttps://affinitweet.com/tweet-rate",
 			"emoji-mood": "#Affinitweet Emoji Mood\n{{emojis}}\nvia https://affinitweet.com/emoji-mood",
-			"valentine": "#Affinitweet Valentine\nThis year you're mine {{user}}! ❤️\nAnd you, whom will be yours?\nvia https://affinitweet.com/valentine",
-			"secret-crush": "#Affinitweet Secret Crush\n{{user}} secretly loves you! 😳\nWho loves you in secret?\nvia https://affinitweet.com/secret-crush",
-			"hidden-twin": "#Affinitweet Hidden Twin\n{{user}} is my hidden twin 😱\nFind out who is yours!\nvia https://affinitweet.com/hidden-twin",
-			"stolen-kiss": "#Affinitweet Stolen Kiss\n{{user}} would kiss you around the corner... 😏\nAnd you, who would do it?\nvia https://affinitweet.com/stolen-kiss",
-			"may-day": "#Affinitweet May Day\n{{user}}, I give you my best bouquet of lily-of-the-valley! 💐\nTo whom will you give yours?\nvia https://affinitweet.com/may-day",
-			"halloween-duo": "#Affinitweet Halloween Duo\nI don't even have to dress up this year to be scary, I'm with {{user}}! 🎃👻\nAnd you, with whom will you scare the most?\nvia https://affinitweet.com/halloween-duo",
-			"christmas-gift": "#Affinitweet Christmas Gift\nWow! Look what I'm getting for Christmas, I'm going to make people jealous 🙈😍\nAnd you, what will be your gift for christmas?\nvia https://affinitweet.com/christmas-gift",
-			"new-years-kiss": "#Affinitweet New Year's Kiss\nI'm preparing my best last year kiss and first of the next year {{user}} 😘💕\nAnd you, who will you kiss at midnight?\nvia https://affinitweet.com/christmas-gift"
+			"valentine": "#Affinitweet Valentine\nEste ano você é meu(minha) {{user}}! ❤️\nE você, quem será seu?\nvia https://affinitweet.com/valentine",
+			"secret-crush": "#Affinitweet Secret Crush\n{{user}} te ama secretamente! 😳\nQuem te ama secretamente?\nvia https://affinitweet.com/secret-crush",
+			"hidden-twin": "#Affinitweet Hidden Twin\n{{user}} é o meu gêmeo escondido 😱\nDescubra quem é o seu!\nvia https://affinitweet.com/hidden-twin",
+			"stolen-kiss": "#Affinitweet Stolen Kiss\n{{user}} te beijaria ao virar da esquina... 😏\nE você, quem o faria?\nvia https://affinitweet.com/stolen-kiss",
+			"may-day": "#Affinitweet May Day\n{{user}}, eu te dou meu melhor buquê de lírio-do-vale! 💐\nA quem você dará o seu?\nvia https://affinitweet.com/may-day",
+			"halloween-duo": "#Affinitweet Halloween Duo\nEu nem sequer tenho que me vestir este ano para ser assustador, estou com {{user}}! 🎃👻\nE você, com quem vai assustar mais?\nvia https://affinitweet.com/halloween-duo",
+			"christmas-gift": "#Affinitweet Christmas Gift\nUau! Olha o que vou receber no Natal, vou deixar as pessoas com ciúmes 🙈😍\nE você, qual será o seu presente de Natal?\nvia https://affinitweet.com/christmas-gift",
+			"new-years-kiss": "#Affinitweet New Year's Kiss\nEstou preparando meu último beijo do ano e o primeiro do ano seguinte para você {{user}} 😘💕\nE você, quem vai beijar à meia-noite?\nvia https://affinitweet.com/new-years-kiss"
 		}
 	}
 }
