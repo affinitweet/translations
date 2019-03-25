@@ -67,5 +67,6 @@ Don't change "`account`", "`clearHistory`", "`profile`" and "`username`".
 - 🇮🇩 Indonesian → Asyariruby ([@asyariruby](https://github.com/asyariruby))
 - 🇨🇳 Traditional Chinese → Kagurazaka Yashi ([@kagurazakayashi](https://github.com/kagurazakayashi))
 - 🇨🇳 Simplified Chinese → Kagurazaka Yashi ([@kagurazakayashi](https://github.com/kagurazakayashi))
+- 🇧🇷 Portuguese → Allan Fernando ([@allanf181](https://github.com/allanf181))
 
 Thank you for your help ❤️
