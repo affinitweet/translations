@@ -4,7 +4,6 @@ export default {
   _lt: {
 
     default: {
-      loading: '正在载入...',
       cookiesBanner: '我们使用 cookies 🍪 来为您提供更好的使用体验。如果您继续访问我们的网站，则代表您同意我们的 cookies 策略。 {button}',
       readMore: '阅读更多...',
     },
@@ -17,6 +16,8 @@ export default {
     contactUs: 'Contact us', // TODO
     followUs: 'Follow us', // TODO
     reviewUs: '评价我们',
+    close: 'Close', // TODO
+    cancel: 'Cancel', // TODO
   },
 
   /* Languages */
@@ -47,7 +48,6 @@ export default {
       logIn: 'Log in', // TODO
       myAccount: '我的账户',
       switchAccount: '切换账户',
-      welcomeTips: '信息提示',
       logout: '登出',
     },
 
@@ -56,8 +56,35 @@ export default {
       madeWithLove: 'Affinitweet is a Twitter-based statistics and entertainment platform created in 2015 with ❤️ in France.', // TODO
       allRightsReserved: '版权所有。',
       about: '关于',
+      changelog: '更新日志',
       legal: '法律信息',
       partners: '伙伴',
+    },
+
+    stateButton: {
+      hold: 'Hold to confirm', // TODO
+      submit: 'Click to confirm', // TODO
+      loading: 'Action in process...', // TODO
+      cancel: 'Cancel', // TODO
+    },
+
+    clearHistory: {
+      title: 'Clear history', // TODO
+      description: 'By cleaning up your history, all information and images of your currently saved results will be deleted.', // TODO
+      description2: 'You won\'t be able to see your previous results after this cleaning, do you really want to perform this action?', // TODO
+      holdButton: 'Hold to clear', // TODO
+      loadingButton: 'Clearing history...', // TODO
+      successModal: 'Your history has been cleared.', // TODO
+    },
+
+    deleteAccount: {
+      title: 'Delete account', // TODO
+      description: 'Did something go wrong? Tell us on our Twitter account so we can improve!', // TODO
+      description2: 'By deleting your account, all data about you will be deleted, including your history. No data will be kept and you will be automatically logged out of Affinitweet.', // TODO
+      description3: 'You will not be able to retrieve your current account after this deletion, do you really want to perform this action?', // TODO
+      holdButton: 'Hold to delete', // TODO
+      loadingButton: 'Deleting account...', // TODO
+      successModal: 'Your account has been deleted.', // TODO
     },
 
   },
@@ -70,63 +97,63 @@ export default {
     real: '主要功能',
     fun: '趣味功能',
 
-    list: { // TODO
+    list: {
 
       friendships: {
-        description: '「友情」会检查您与指定用户之间的 #亲密推友 关系。（比如：是否屏蔽，是否关注……）',
-        longDescription: '',
+        description: 'Everything you need to know about the links between you and a user! 🙌', // TODO
+        longDescription: 'Thanks to Friendships you will know how much you are friends with another user of your choice: the more blue pellets you have, the stronger the links are! Enter the Twitter nickname of the chosen person and discover your Friendships!', // TODO
       },
       'common-friends': {
-        description: '「共同朋友」可以检查您关注、跟随指定用户的用户情况。',
-        longDescription: '',
+        description: 'Discover your friends in common with another user! 👥', // TODO
+        longDescription: 'The Common Friends allows you to discover the subscriptions/friends you have in common with another person. Do you have the same tastes, and how much?', // TODO
       },
       'top-friends': {
-        description: '想了解您的热门朋友排名吗？让我们开始吧！',
-        longDescription: '',
+        description: 'Discover your best Twitter friends of late! 🤗', // TODO
+        longDescription: 'The Top Friends allows you to know who your best friends are on Twitter. We establish a ranking by analyzing the information sent and received by your account. Then we count, add and sort them to generate your Top Friends!', // TODO
       },
       'famous-followers': {
-        description: '找到您的关注者中最有名的人，让我们开始吧！',
-        longDescription: '',
+        description: 'Discover the most popular people in your followers! 💅', // TODO
+        longDescription: 'The Famous Followers allows you to know which people have the most followers among your followers. We collect each of your followers and their number of followers and sort them to generate your Famous Followers!', // TODO
       },
       valentine: {
-        description: '在情人节试试 Affinitweet 的新功能吧！「情人节」功能可以让您知道您应该和谁一起度过 2018 年的情人节 ;)',
-        longDescription: '',
+        description: 'We know who your Valentine will be this year... What about you? 💏', // TODO
+        longDescription: 'We keep the algorithm of this feature secret. All we can say is that we are trying to stick to reality, will our Valentine delight you... ?', // TODO
       },
       'secret-crush': {
-        description: '谁是您的暗恋对象呢？',
-        longDescription: '',
+        description: 'Someone loves you in secret... and hides it from you... 😳', // TODO
+        longDescription: 'We keep the algorithm of this feature secret. All we can say is that your Secret Crush will impress you, good or bad?', // TODO
       },
       'hidden-twin': {
-        description: '茫茫人海中谁和您是隐藏的双胞胎？让我们去寻找他吧！',
-        longDescription: '',
+        description: 'Yes, you have a hidden twin.... who the hell is it? 🤔', // TODO
+        longDescription: 'We keep the algorithm of this feature secret. All we can say is that your Hidden Twin will impress you, good or bad?', // TODO
       },
       'stolen-kiss': {
-        description: '您被偷吻的是？试试这个功能就知道了！',
-        longDescription: '',
+        description: 'Who wants to steal a kiss from you on a street corner? 💋', // TODO
+        longDescription: 'We keep the algorithm of this feature secret. All we can say is that your Stolen Kiss will impress you, good or bad?', // TODO
       },
       'may-day': {
-        description: '给您的朋友们一个铃兰，庆祝五朔节！',
-        longDescription: '',
+        description: 'Who\'s your best bouquet for this year? 💐', // TODO
+        longDescription: 'We keep the algorithm of this feature secret. All we can say is that you\'re going to make someone very happy!', // TODO
       },
       'halloween-duo': {
-        description: '万圣节您最怕谁？',
-        longDescription: '',
+        description: 'Who will you be most afraid with this year? 🎃👻', // TODO
+        longDescription: 'We keep the algorithm of this feature secret. All we can say is that you\'re going to be scary for Halloween this year!', // TODO
       },
       'tweet-rate': {
-        description: '计算并与目标用户比较您的推文率！',
-        longDescription: '',
+        description: 'Compare your tweet rate with another user! 📊', // TODO
+        longDescription: 'The Tweet Rate allows you to know the average number of tweets you publish per day since you registered on Twitter and compare yourself with another person! Are you the most active?', // TODO
       },
       'first-to-follow': {
-        description: '找出关注您的某个 Twitter 网友的关注日期和时间，反之亦然！到底是谁先关注的谁呢？',
-        longDescription: '',
+        description: 'Find out when you\'ve been following a user and vice versa! 😮', // TODO
+        longDescription: 'The First To Follow allows you to discover the date and time you followed another person on Twitter, and vice versa! Who followed the other first?', // TODO
       },
       'emoji-mood': {
-        description: '哪款表情符号与您最搭？您最常用的表情符号都是哪些呢？',
-        longDescription: '',
+        description: 'What are the emojis you tweet the most? 🤖', // TODO
+        longDescription: 'Thanks to the Emoji Mood, you will discover which emotions you have been tweeting the most recently... Would you be willing to bet on your TOP 3?', // TODO
       },
       'new-years-kiss': {
-        description: '今年您将在槲寄生之下与谁热吻呢? 😘',
-        longDescription: '',
+        description: 'Who are you going to kiss this year under the mistletoe? 😘', // TODO
+        longDescription: 'We keep the algorithm of this feature secret. All we can say is that you will kiss someone at midnight!', // TODO
       },
 
     },
@@ -139,7 +166,7 @@ export default {
     /* Home page */
     index: {
       title: 'Home', // TODO
-      description: '', // TODO
+      description: '最适合与 Twitter 上的朋友们一来玩的地方！还有查看统计数据等功能喔！',
       titleH1: '最适合与 Twitter 上的朋友们一来玩的地方！',
       titleH2: '还有查看统计数据等功能喔！',
       highlights: '亮点',
@@ -159,9 +186,9 @@ export default {
       trustpilotH2: '我们的用户评分为 {rate} ，您会是下一位评论者吗？',
       trustpilotButton: '查看并发表评论',
       statistics: '统计',
-      totalUsers: '450 万',
+      totalUsers: '500 万',
       totalUsersDescription: '信任并使用我们服务的用户',
-      monthlyUsers: '200 000',
+      monthlyUsers: '350 000',
       monthlyUsersDescription: '平均每个月都会来访的回头客',
       totalFeatures: '900 万',
       totalFeaturesDoneDescription: '自 2014 年创立以来带来的功能',
@@ -176,8 +203,8 @@ export default {
 
     /* User profile page */
     profile: {
-      title: '', // TODO
-      description: '', // TODO
+      title: '个人资料',
+      description: 'Account, settings and history of your profile.', // TODO
       profile: '个人资料',
       history: '历史记录',
       preferences: '偏好',
@@ -186,38 +213,28 @@ export default {
       addLanguage: '添加语言...',
       contributeOnGitHub: '在 GitHub 上提交贡献',
       account: '帐户',
-      viewProfile: '在 Twitter 上查看',
       followers: '粉丝',
       followings: '关注者',
       noHistory: '没有历史数据。',
-      autoTweet: '生成完毕后自动发布结果',
-      autoTweetDescription: '选中此选项可自动发布生成结果。一旦内容生成完毕，将自动发送推文，只会发布一次。',
-      saveResults: '保存生成结果',
-      saveResultsDescription: '选中此选项可以保存生成结果（包括功能名称和生成时间）。在默认情况下， Affinitweet 不会把这些生成结果存储在数据库中。',
+      autoTweet: '生成完毕后自动发布结果', // TODO
+      autoTweetDescription: '选中此选项可自动发布生成结果。一旦内容生成完毕，将自动发送推文，只会发布一次。', // TODO
+      saveResults: '保存生成结果', // TODO
+      saveResultsDescription: '选中此选项可以保存生成结果（包括功能名称和生成时间）。在默认情况下， Affinitweet 不会把这些生成结果存储在数据库中。', // TODO
       emojis: '表情符号',
       iOSemojis: 'iOS (苹果)',
       iOSemojisDescription: '您的生成结果中的表情符号将采用 iOS 样式。',
       androidEmojis: 'Android (谷歌)',
       androidEmojisDescription: '您的生成结果中的表情符号将采用 Android 样式。',
       clearHistory: '清除历史记录',
-      clearHistoryConfirm: '您的历史记录会被永久删除，确定吗？',
-      clearingHistory: '正在清除历史记录...',
-      historyCleared: '历史记录已清除！',
       clearHistoryDescription: '清除您在 Affinitweet 中生成的结果的历史记录。',
       deleteAccount: '删除账户',
-      deleteAccountConfirm1: '如果您发现了什么问题，请在 Twitter 上面找到 @affinitweet_ 来告诉我们，让我们变得更好！',
-      deleteAccountConfirm2: '您的数据将会被永久删除，并且我们不会在服务器上存储关于您的任何信息。您确定要删除吗？',
       deleteAccountDescription: '删除您的 Affinitweet 账户，将会丢失所有数据。',
       showMore: '显示更多...',
       saved: '已保存。',
-      updated: '已更新。',
-      cleared: '已清除。',
     },
 
     /* Feature page */
     feature: {
-      title: '', // TODO
-      description: '', // TODO
       login: '请登录以继续...',
       startFeature: '让我们开始吧！',
       results: '这是您的生成结果！',
@@ -234,14 +251,17 @@ export default {
     /* Features listing page */
     features: {
       title: 'Features', // TODO
-      description: '', // TODO
+      description: 'Discover all our features to know everything about your Twitter account.', // TODO
+      searchFeatures: 'Search features... (ex: Top Friends, Valentine...)', // TODO
+      noFeatureFound: 'Unfortunately no feature matches this search... 😔', // TODO
+      resetSearch: 'Reset search', // TODO
       letsGo: 'Let\'s go!', // TODO
     },
 
     /* Frequently asked questions page */
     faq: {
       title: '在 Frequenlty 上被询问的一些问题',
-      description: '', // TODO
+      description: 'All the answers to your questions about us are here!', // TODO
       searchTerms: '查找问题...',
       intro: '欢迎来到我们的常见问题页面！如果您找不到答案，请与我们联系！请在下面的搜索框中搜索或选择一个问题类别。',
       global: '通用',
@@ -278,6 +298,10 @@ export default {
           [
             '为什么未经我的同意发布推文？',
             '事实并非如此，我们总是在做任何事之前通过您的行动获得您的同意。如果已将推文发布到您的 Twitter 个人资料中，则您已通过单击批准按钮授权我们这样做。',
+          ],
+          [
+            'Why ask so much permission to log in?', // TODO
+            'Unfortunately, we do not choose which permissions we wish to request for our application. We would like to offer our users to be able to automatically publish their results with their consent, and for this we are obliged to have the "pack" of other permissions.', // TODO
           ],
           [
             '「POP」和「NEW」是什么意思？',
@@ -338,6 +362,10 @@ export default {
             '我们会在数据和隐私页面中解释我们收集和处理的数据。但为了减少数据使用，我们备份和存储最低限度的数据。我们永远不会将它们传达给任何人。',
           ],
           [
+            'Are you selling my data?', // TODO
+            'No, and we never will. Affinitweet is a platform created for the sole purpose of entertainment. We derive our revenue from the ads displayed on the site and nothing else.', // TODO
+          ],
+          [
             '如何删除我的帐户？',
             '登录后，只需转到您的个人资料并向下滚动，然后点击删除帐户按钮。然后，系统会立即删除与您的帐户相关的所有数据。',
           ],
@@ -351,16 +379,10 @@ export default {
       },
     },
 
-    /* Updates changelog page */
-    changelog: {
-      title: '更新日志',
-      description: '', // TODO
-    },
-
     /* Legal page */
     legal: {
       title: 'Legal', // TODO
-      description: '', // TODO
+      description: 'Information about us and cookies.', // TODO
       intro: '根据2004年6月21日数字经济法案2004-575号第6条，网站 {site} 的用户应被告知参与其实施和监测的各方的身份：',
       owner: '所有者',
       creator: '制作者',
@@ -384,7 +406,7 @@ export default {
     /* Terms of service page */
     terms: {
       title: '服务条款',
-      description: '', // TODO
+      description: 'Consult our general terms and conditions of use.', // TODO
       h1: '条款',
       p1: '访问 {url} 网站，即表示您同意遵守这些服务条款，所有适用法律和法规，并同意您有责任遵守任何适用的当地法律。如果您不同意这些条款，则禁止您使用或访问本网站。本网站包含的材料受适用的版权和商标法保护。',
       h2: '使用许可',
@@ -413,7 +435,7 @@ export default {
     /* Data and privacy page */
     privacy: {
       title: '数据和隐私',
-      description: '', // TODO
+      description: 'Information on how we retrieve, analyze and store your data.', // TODO
       intro: '我们非常重视数据的隐私，在我们的业务过程中，我们希望告知用户我们如何处理它。您将在下面找到有关此数据的存储和处理的所有必要信息。有关cookie的信息也可在 {thatPage} 此页面上找到。',
       storage: '存储',
       personalData: '个人资料',
@@ -459,10 +481,10 @@ export default {
 
   /* Errors */
   _er: {
-    cooldown: '这项功能还需要 %{cooldown} 秒才能继续使用. 请在:', // TODO
+    cooldown: 'This feature have a %{cooldown} seconds cooldown. Please retry in:', // TODO
     unknown: '发生了一个错误。已自动报告给我们的团队。',
     unknownFeature: '未知。',
-    unavailableFeature: '', // TODO
+    unavailableFeature: 'Unavailable feature.', // TODO
     selfUsername: '不要输入自己。',
     badUsername: '错误的用户名。',
     notEnoughData: '数据不够。',

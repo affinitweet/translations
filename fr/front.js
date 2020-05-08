@@ -4,8 +4,7 @@ export default {
   _lt: {
 
     default: {
-      loading: 'Chargement...',
-      cookiesBanner: 'Nous utilisons des cookies 🍪 pour vous offrir la meilleure expérience possible. En continuant à utiliser notre site web, vous acceptez notre politique cookies. {button}',
+      cookiesBanner: 'Nous utilisons des cookies 🍪 pour t\'offrir la meilleure expérience possible. En continuant à utiliser notre site web, tu acceptes notre politique cookies. {button}',
       readMore: 'En savoir plus...',
     },
 
@@ -14,9 +13,11 @@ export default {
   /* Common */
   _cm: {
     lastRevision: 'Dernière révision :',
-    contactUs: 'Contactez-nous',
-    followUs: 'Suivez-nous',
-    reviewUs: 'Évaluez-nous',
+    contactUs: 'Contacte-nous',
+    followUs: 'Suis-nous',
+    reviewUs: 'Évalue-nous',
+    close: 'Fermer',
+    cancel: 'Annuler',
   },
 
   /* Languages */
@@ -43,11 +44,10 @@ export default {
 
     /* Header component */
     header: {
-      sidebarHint: "Découvrez toutes nos fonctionnalités en cliquant sur l'icône menu ici ! 😉",
+      sidebarHint: "Découvre toutes nos fonctionnalités en cliquant sur l'icône menu ici ! 😉",
       logIn: 'Se connecter',
       myAccount: 'Mon compte',
       switchAccount: 'Changer de compte',
-      welcomeTips: 'Astuces & infos',
       logout: 'Se déconnecter',
     },
 
@@ -56,8 +56,35 @@ export default {
       madeWithLove: 'Affinitweet est une plateforme de statistiques et divertissement basée sur Twitter créée en 2015 avec ❤️ en France.',
       allRightsReserved: 'Tous droits réservés.',
       about: 'À propos',
+      changelog: 'Mises à jour',
       legal: 'Légal',
       partners: 'Partenaires',
+    },
+
+    stateButton: {
+      hold: 'Maintenir pour confirmer',
+      submit: 'Cliquer pour confirmer',
+      loading: 'Action en cours...',
+      cancel: 'Annuler',
+    },
+
+    clearHistory: {
+      title: 'Nettoyage de l\'historique',
+      description: 'En nettoyant ton historique, toutes les informations et images de tes résultats actuellement enregistrés seront supprimés.',
+      description2: 'Tu ne pourras plus visualiser tes précédents résultats après ce nettoyage, souhaites-tu vraiment effectuer cette action ?',
+      holdButton: 'Maintenir pour nettoyer',
+      loadingButton: 'Nettoyage en cours...',
+      successModal: 'Ton historique a été nettoyé.',
+    },
+
+    deleteAccount: {
+      title: 'Suppression de compte',
+      description: 'Quelque chose s\'est mal passé ? Dis-le nous sur notre compte Twitter afin que nous puissions nous améliorer !',
+      description2: 'En supprimant ton compte, toutes les données te concernant seront supprimées, incluant ton historique. Aucune donnée ne sera conservée et tu seras automatiquement déconnecté d\'Affinitweet.',
+      description3: 'Tu ne pourras plus retrouver ton compte actuel après cette suppression, souhaites-tu vraiment effectuer cette action ?',
+      holdButton: 'Maintenir pour supprimer',
+      loadingButton: 'Suppression en cours...',
+      successModal: 'Ton compte a été supprimé.',
     },
 
   },
@@ -73,12 +100,12 @@ export default {
     list: {
 
       friendships: {
-        description: 'Tout ce que tu as à savoir sur les liens entre un utilisateur et toi ! 🙌',
+        description: 'Découvre tous les liens qui t\'unissent à la personne de ton choix ! 🙌',
         longDescription: 'Grâce au Friendships tu sauras à quel point tu es ami avec un autre utilisateur de ton choix : plus tu as de pastilles bleues, plus les liens sont forts ! Entre le pseudo Twitter de la personne choisie et découvre ton Friendships !',
       },
       'common-friends': {
-        description: 'Découvre tes amis en commun avec une autre personne ! 👥',
-        longDescription: 'Le Common Friends permet de découvrir les abonnements/amis que tu as en commun avec une autre personne. Est-ce que vous avez les mêmes goûts, et à quel point ?',
+        description: 'Découvre tes amis en commun avec une personne de ton choix ! 👥',
+        longDescription: 'Le Common Friends permet de découvrir les abonnements/amis que tu as en commun avec une autre personne. Est-ce que tu as les mêmes goûts, et à quel point ?',
       },
       'top-friends': {
         description: 'Découvre tes meilleurs amis Twitter de ces derniers temps ! 🤗',
@@ -105,7 +132,7 @@ export default {
         longDescription: 'Nous gardons secrètement l\'algorithme de cette fonctionnalité. Tout ce que l\'on est en mesure de dire c\'est que ton Stolen Kiss va t\'impressionner, en bon ou en mauvais ?',
       },
       'may-day': {
-        description: 'Pour qui sera ton plus beau bouquet de muguet cette année ? 💐',
+        description: 'Pour qui sera ton plus beau bouquet cette année ? 💐',
         longDescription: 'Nous gardons secrètement l\'algorithme de cette fonctionnalité. Tout ce que l\'on est en mesure de dire c\'est que tu vas faire grand plaisir à quelqu\'un !',
       },
       'halloween-duo': {
@@ -113,19 +140,19 @@ export default {
         longDescription: 'Nous gardons secrètement l\'algorithme de cette fonctionnalité. Tout ce que l\'on est en mesure de dire c\'est que tu vas faire peur pour Halloween cette année !',
       },
       'tweet-rate': {
-        description: 'Compare ton taux de tweet avec un autre ! 📊',
+        description: 'Compare ton taux de tweet avec une personne de ton choix ! 📊',
         longDescription: 'Le Tweet Rate permet de connaître le nombre de tweets que tu publies en moyenne par jour depuis ton inscription sur Twitter et compare-toi avec une autre personne ! Es-tu le plus actif ?',
       },
       'first-to-follow': {
-        description: 'Qui a été le premier à suivre ? 😮',
+        description: 'Découvre quand vous tu as suivi une personne et vice-versa ! 😮',
         longDescription: 'Le First To Follow te permet de découvrir la date et l\'heure à laquelle tu as suivi une autre personne sur Twitter, et vice-versa ! Qui des deux a suivi l\'autre en premier ?',
       },
       'emoji-mood': {
-        description: 'Quels sont les émojis que tu tweetes le plus ? 🤖',
+        description: 'Découvre quels sont les émojis que tu tweetes le plus 🤖',
         longDescription: 'Grâce à l\'Emoji Mood, tu découvriras quels sont les émojis que tu tweetes le plus ces derniers temps... Serais-tu prêt à parier quel est ton TOP 3 ?',
       },
       'new-years-kiss': {
-        description: 'Qui allez-vous embrasser cette année sous le gui ? 😘',
+        description: 'Qui vas-tu embrasser cette année sous le gui ? 😘',
         longDescription: 'Nous gardons secrètement l\'algorithme de cette fonctionnalité. Tout ce que l\'on est en mesure de dire c\'est que tu embrasseras quelqu\'un à minuit !',
       },
 
@@ -138,15 +165,15 @@ export default {
 
     /* Home page */
     index: {
-      title: 'Accueil', // TODO
-      description: '', // TODO
-      titleH1: 'Le meilleur endroit pour vous amuser avec vos amis Twitter !',
-      titleH2: 'Consultez vos statistiques, et plus encore !',
+      title: 'Accueil',
+      description: 'Affinitweet est le meilleur endroit pour t\'amuser avec tes amis Twitter ! Consulte tes statistiques et plus encore !',
+      titleH1: 'Le meilleur endroit pour t\'amuser avec tes amis Twitter !',
+      titleH2: 'Consulte tes statistiques, et plus encore !',
       highlights: 'Points clés',
       generatedResults: 'Génération de beaux résultats',
-      generatedResultsDescription: "Affinitweet est connu pour ses belles générations d'images, nous utilisons les meilleurs outils pour vos résultats.",
+      generatedResultsDescription: "Affinitweet est connu pour ses belles générations d'images, nous utilisons les meilleurs outils pour tes résultats.",
       userConsentPrivacy: "Consentement de l'utilisateur",
-      userConsentPrivacyDescription: "Tout ce que nous faisons avec vos données est expliqué dans notre politique, pas de surprise, d'auto-follow ou d'auto-tweet.",
+      userConsentPrivacyDescription: "Tout ce que nous faisons avec tes données est expliqué dans notre politique, pas de surprise, d'auto-follow ou d'auto-tweet.",
       worldFamousLeader: 'Leader mondialement connu',
       worldFamousLeaderDescription: 'Affinitweet est ouvert depuis février 2014 et plus de deux millions de personnes utilisent nos services, partout dans le monde.',
       fastRealTimeResults: 'Résultats rapides en temps réel',
@@ -155,13 +182,13 @@ export default {
       noAdsNoVirusDescription: "Affinitweet a été créé pour s'amuser, il n'y a aucun virus, et seulement 2 publicités sur tout le site (pas de popups, ni redirections).",
       multilingualOpen: 'Multilingues et ouvert',
       multilingualOpenDescription: 'Affinitweet est disponible en plusieurs langues, et tout le monde peut contribuer en y ajoutant la sienne.',
-      trustpilotH1: 'Consultez les évaluations de nos utilisateurs sur Trustpilot !',
-      trustpilotH2: '{rate} est notre moyenne selon nos utilisateurs, serez-vous le prochain à nous évaluer ?',
+      trustpilotH1: 'Consulte les évaluations de nos utilisateurs sur Trustpilot !',
+      trustpilotH2: '{rate} est notre moyenne selon nos utilisateurs, seras-tu le prochain à nous évaluer ?',
       trustpilotButton: 'Voir & soumettre une évaluation',
       statistics: 'En chiffres',
-      totalUsers: '4,5 millions',
+      totalUsers: '5 millions',
       totalUsersDescription: "D'utilisateurs nous font confiance et utilisent nos services",
-      monthlyUsers: '200 000',
+      monthlyUsers: '350 000',
       monthlyUsersDescription: 'Utilisateurs uniques qui reviennent tous les mois en moyenne',
       totalFeatures: '9 millions',
       totalFeaturesDoneDescription: 'Fonctionnalités utilisées depuis notre lancement en 2014',
@@ -169,15 +196,15 @@ export default {
       latestNews: 'Dernières actualités',
       getInTouch: 'Restons connectés !',
       getInTouchP1: 'Nous sommes disponibles à tout moment sur notre compte Twitter {twitterName}.',
-      getInTouchP2: 'Suivez-nous et soyez notifié des mises à jour et choses à venir !',
-      getInTouchP3: "N'hésitez pas à nous envoyer un tweet ou message privé si vous avez une question, suggestion ou un bug.",
-      getInTouchP4: 'Pour les propositions commerciales, vous pouvez nous contacter par mail, retrouvez-le dans nos {pageName}.',
+      getInTouchP2: 'Suis-nous et sois notifié des mises à jour et choses à venir !',
+      getInTouchP3: "N'hésite pas à nous envoyer un tweet ou message privé si tu as une question, suggestion ou un bug.",
+      getInTouchP4: 'Pour les propositions commerciales, tu peux nous contacter par mail, retrouve-le dans nos {pageName}.',
     },
 
     /* User profile page */
     profile: {
       title: 'Profil',
-      description: '', // TODO
+      description: 'Comptes, paramètres et historique de ton profil.',
       profile: 'Profil',
       history: 'Historique',
       preferences: 'Préférences',
@@ -186,44 +213,35 @@ export default {
       addLanguage: 'Ajouter une langue...',
       contributeOnGitHub: 'contribuer sur GitHub',
       account: 'Compte',
-      viewProfile: 'Voir sur Twitter',
       followers: 'Abonnés',
       followings: 'Abonnements',
       noHistory: "Pas d'historique.",
-      autoTweet: 'Tweeter automatiquement les résultats',
-      autoTweetDescription: 'Cochez cette option pour tweeter automatiquement les résultats. Un tweet contenant le résultat de celles-ci sera publié sur votre profil, rien de plus.',
+      autoTweet: 'Tweeter les résultats',
+      autoTweetDescription: 'Coche cette option pour tweeter automatiquement les résultats. Un tweet contenant le résultat de celles-ci sera publié sur ton profil, rien de plus.',
       saveResults: 'Enregistrer les résultats',
-      saveResultsDescription: 'Cochez cette option pour sauvegarder vos résultats (nom de la fonctionnalité + date). Par défaut, Affinitweet ne les sauvegarde pas.',
+      saveResultsDescription: 'Coche cette option pour sauvegarder tes résultats dans l\'historique (nom de la fonctionnalité + image + date). Par défaut, nous ne les sauvegardons pas.',
       emojis: "Pack d'émojis",
       iOSemojis: 'iOS (Apple)',
-      iOSemojisDescription: 'Vos résultats seront générés avec les émojis iOS.',
+      iOSemojisDescription: 'Tes résultats seront générés avec les émojis iOS.',
       androidEmojis: 'Android (Google)',
-      androidEmojisDescription: 'Vos résultats seront générés avec les émojis Android.',
+      androidEmojisDescription: 'Tes résultats seront générés avec les émojis Android.',
       clearHistory: "Nettoyer l'historique",
-      clearHistoryConfirm: 'Votre historique sera perdu pour toujours, êtes-vous sûr(e) ?',
-      clearingHistory: "Nettoyage de l'historique...",
-      historyCleared: 'Historique nettoyé !',
-      clearHistoryDescription: "Supprime l'historique de vos résultats Affinitweet.",
+      clearHistoryDescription: "Supprime l'historique de tes résultats Affinitweet.",
       deleteAccount: 'Supprimer mon compte',
-      deleteAccountConfirm1: "Si quelque chose s'est mal passé, dites-le nous sur notre compte Twitter @affinitweet_ afin que nous puissions nous améliorer !",
-      deleteAccountConfirm2: 'Vos données seront perdues pour toujourrs. Rien vous concernant ne restera sur nos serveurs et vous serez déconnecté(e), êtes-vous sûr(e) ?',
-      deleteAccountDescription: 'Supprime votre compte Affinitweet, tout sera perdu.',
+      deleteAccountDescription: 'Supprime ton compte Affinitweet, tout sera perdu.',
+      show: 'afficher',
       showMore: 'Voir plus...',
       saved: 'Sauvegardé',
-      updated: 'Mis à jour',
-      cleared: 'Nettoyé',
     },
 
     /* Feature page */
     feature: {
-      title: '', // TODO
-      description: '', // TODO
-      login: 'Connectez-vous pour continuer...',
+      login: 'Connecte-toi pour continuer...',
       startFeature: 'En avant !',
-      results: 'Voici vos résultats !',
+      results: 'Voici tes résultats !',
       tweetResults: 'Tweeter les résultats !',
       tweetingResults: 'Publication du tweet...',
-      requireAutoTweetDescription: 'Voulez-vous activer le tweet automatique des résultats ? Vous pourrez désactiver cette option depuis votre profil.',
+      requireAutoTweetDescription: 'Veux-tu activer le tweet automatique des résultats ? Tu peux désactiver cette option depuis ton profil.',
       yesEnable: 'Oui, activer',
       no: 'Non',
       retry: 'Réessayer !',
@@ -234,16 +252,19 @@ export default {
     /* Features listing page */
     features: {
       title: 'Fonctionnalités',
-      description: '', // TODO
+      description: 'Découvre toutes nos fonctionnalités pour tout savoir sur ton compte Twitter.',
+      searchFeatures: 'Chercher des fonctionnalités... (ex : Top Friends, Valentine...)',
+      noFeatureFound: 'Malheureusement aucune fonctionnalité ne correspond à cette recherche... 😔',
+      resetSearch: 'Réinitialiser la recherche',
       letsGo: 'Allons-y !',
     },
 
     /* Frequently asked questions page */
     faq: {
       title: 'Foire aux questions',
-      description: '', // TODO
+      description: 'Toutes les réponses aux questions que tu te poses à propos de nous sont ici !',
       searchTerms: 'Rechercher des termes...',
-      intro: "Bienvenue sur notre foire aux questions ! Vous trouverez ici toutes les réponses aux questions fréquemment posées, si vous ne trouvez pas votre bonheur, n'hésitez pas à nous contacter :) Cliquez sur la ou les catégories correspondant à votre recherche pour dérouler les questions ou entrez des termes de recherche dans le champ texte ci-dessous.",
+      intro: "Bienvenue sur notre foire aux questions ! Tu trouveras ici toutes les réponses aux questions fréquemment posées, si tu ne trouves pas ton bonheur, n'hésite pas à nous contacter :) Clique sur la ou les catégories correspondant à ta recherche pour dérouler les questions ou entre des termes de recherche dans le champ texte ci-dessous.",
       global: 'Générales',
       features: 'Fonctionnalités',
       security: 'Sécurité',
@@ -253,31 +274,35 @@ export default {
         global: [
           [
             "Quelle est l'utilité et le but d'Affinitweet ?",
-            "C'est une question très souvent posée, Affinitweet apporte deux choses : des fonctionnalitées divertissantes et des statistiques, séparées dans deux catégories distinctes. Vous connaissez certainement Affinitweet pour ses fonctionnalitées virales et divertissantes partagées sur Twitter, mais pour autant nous en proposons d'autres utiles et intéressantes !",
+            "C'est une question très souvent posée, Affinitweet apporte deux choses : des fonctionnalitées divertissantes et des statistiques, séparées dans deux catégories distinctes. Tu connais certainement Affinitweet pour ses fonctionnalitées virales et divertissantes partagées sur Twitter, mais pour autant nous en proposons d'autres utiles et intéressantes !",
           ],
           [
             'Comment utiliser nos services / se connecter ?',
-            'Pour utiliser nos services, il faut vous connecter avec votre compte Twitter. Pour cela, il suffit simplement de cliquer en haut à droite sur "Log in", puis de vous rendre sur la page de votre choix.',
+            'Pour utiliser nos services, il faut te connecter avec ton compte Twitter. Pour cela, il suffit simplement de cliquer en haut à droite sur "Log in", puis de te rendre sur la page de ton choix.',
           ],
           [
             'Comment accéder à mon profil ou me déconnecter ?',
-            'Une fois connecté avec votre compte Twitter, vous pouvez accéder à votre profil ou vous déconnecter en cliquant ou survolant votre pseudo Twitter en haut à droite.',
+            'Une fois connecté avec ton compte Twitter, tu peux accéder à ton profil ou te déconnecter en cliquant ou survolant ton pseudo Twitter en haut à droite.',
           ],
           [
             "Mais Affinitweet c'est français ?",
-            "Tout à fait, Affinitweet a été créé et est hébergé en France 🇫🇷, ne vous étonnez pas si on parle mieux français qu'anglais ou qu'on vous réponde sur Twitter avec plus de facilité dans cette langue !",
+            "Tout à fait, Affinitweet a été créé et est hébergé en France 🇫🇷, ne t'étonne pas si on parle mieux français qu'anglais ou qu'on te réponde sur Twitter avec plus de facilité dans cette langue !",
           ],
           [
             "Affinitweet n'est pas disponible dans ma langue, comment faire ?",
-            "Si votre langue n'est pas supportée, vous verrez Affinitweet en anglais par défaut. Si vous avez le courage et l'envie de nous aider à nous internationaliser et d'apparaître en tant que traducteur sur Affinitweet, vous pouvez participer et traduire les textes disponibles ici.",
+            "Si ta langue n'est pas supportée, tu verras Affinitweet en anglais par défaut. Si tu as le courage et l'envie de nous aider à nous internationaliser et d'apparaître en tant que traducteur sur Affinitweet, tu peux participer et traduire les textes disponibles ici.",
           ],
           [
             "Pourquoi demandez-vous l'accès en écriture à mon compte Twitter ?",
-            "Dans un souci de facilité, nous demandons l'accès en lecture simple et écriture à votre compte Twitter afin de pouvoir publier un tweet si vous nous autorisez à le faire. Cela nous évite d'avoir à créer deux applications, et pour vous de vous connecter deux fois.",
+            "Dans un souci de facilité, nous demandons l'accès en lecture simple et écriture à ton compte Twitter afin de pouvoir publier un tweet si tu nous autorise à le faire. Cela nous évite d'avoir à créer deux applications, et pour toi de te connecter deux fois.",
           ],
           [
             'Pourquoi un tweet a été publié sans mon consentement ?',
-            "Ce n'est pas le cas et ça ne le sera jamais, nous recueillons toujours votre consentement via une action de votre part avant de faire quoi que ce soit. Si un tweet a été publié sur votre profil Twitter, c'est que vous nous avez autorisé à le faire en cliquant sur un bouton d'approbation.",
+            "Ce n'est pas le cas et ça ne le sera jamais, nous recueillons toujours ton consentement via une action de ta part avant de faire quoi que ce soit. Si un tweet a été publié sur ton profil Twitter, c'est que tu nous as autorisé à le faire en cliquant sur un bouton d'approbation.",
+          ],
+          [
+            'Pourquoi demander autant de permission pour se connecter ?',
+            'Ce n\'est malheureusement pas nous qui choisissons quelles permissions nous souhaitons demander pour notre application. Nous souhaitons proposer à nos utilisateurs de pouvoir publier automatiquements leurs résultats avec leur consentement, et pour cela nous sommes obligés de d\'avoir le "pack" des autres permissions.',
           ],
           [
             'Que signifient "POP" et "NEW" ?',
@@ -285,17 +310,17 @@ export default {
           ],
           [
             'Comment me connecter avec un autre compte ?',
-            'Lorsque vous vous connectez sur Affinitweet, le compte Twitter auquel vous êtes connecté sur le navigateur est utilisé. Si vous souhaitez changer de compte et utiliser Affinitweet avec un autre compte que celui-ci, vous avez plusieurs possibilités : (1) en étant connecté, survolez votre pseudo en haut à droite et cliquez sur "Changer de compte", vous serez redirigé vers Twitter et vous devrez renseigner vos identifiants de votre nouveau compte ; (2) passer en navigation privée ; (3) vous déconnecter de Twitter et vous reconnecter avec le nouveau compte ; (4) utiliser un autre navigateur non connecté avec ce même compte Twitter.',
+            'Lorsque tu te connectes sur Affinitweet, le compte Twitter auquel tu êtes connecté sur le navigateur est utilisé. Si tu souhaites changer de compte et utiliser Affinitweet avec un autre compte que celui-ci, tu as plusieurs possibilités : (1) en étant connecté, survole ton pseudo en haut à droite et clique sur "Changer de compte", tu seras redirigé vers Twitter et tu devras renseigner tes identifiants de ton nouveau compte ; (2) passer en navigation privée ; (3) te déconnecter de Twitter et te reconnecter avec le nouveau compte ; (4) utiliser un autre navigateur non connecté avec ce même compte Twitter.',
           ],
         ],
         features: [
           [
             'Comment est déterminé le Top Friends ?',
-            "Le Top Friends est principalement déterminé à partir des tweets, nous remontons jusqu'à vos 3200 derniers tweets afin d'établir un classement sur une longue durée.",
+            "Le Top Friends est principalement déterminé à partir des tweets, nous remontons jusqu'à tes 3200 derniers tweets afin d'établir un classement sur une longue durée.",
           ],
           [
             'Pourquoi mon Top Friends ne colle pas à la réalité ?',
-            "Nous essayons de nous rapprocher un maximum de la réalité avec les informations collectées. Il arrive parfois qu'une personne à qui vous ne parlez plus mais à qui vous avez beaucoup parlé par le passé soit présente dans votre Top Friends si vous ne tweetez pas beaucoup depuis quelques temps par exemple.",
+            "Nous essayons de nous rapprocher un maximum de la réalité avec les informations collectées. Il arrive parfois qu'une personne à qui tu ne parles plus mais à qui tu as beaucoup parlé par le passé soit présente dans ton Top Friends si tu ne tweetes pas beaucoup depuis quelques temps par exemple.",
           ],
           [
             'Comment sont déterminés les résultats des autres fonctionnalités ?',
@@ -307,29 +332,29 @@ export default {
           ],
           [
             'Comment fonctionne le First To Follow ?',
-            "Le First To Follow est une fonctionnalité exclusive et n'est disponible nulle part ailleurs. Elle permet de savoir quand une personne donnée vous a suivi et vice-versa. Fonctionnalité gourmande, vous ne pourrez en faire qu'un nombre limité par tranche de 15 minutes.",
+            "Le First To Follow est une fonctionnalité exclusive et n'est disponible nulle part ailleurs. Elle permet de savoir quand une personne donnée t'a suivi et vice-versa. Fonctionnalité gourmande, tu ne pourras en faire qu'un nombre limité par tranche de 15 minutes.",
           ],
           [
             "Comment fonctionne l'Emoji Mood ?",
-            "L'Emoji Mood vous permet de savoir quels émojis vous tweetez le plus ces derniers temps, nous remontons jusqu'à vos 3200 derniers tweets et comptons cela, tout simplement !",
+            "L'Emoji Mood te permet de savoir quels émojis tu tweetes le plus ces derniers temps, nous remontons jusqu'à tes 3200 derniers tweets et comptons cela, tout simplement !",
           ],
         ],
         security: [
           [
             'Est-ce le site est sécurisé ?',
-            'Oui. Affinitweet est accessible uniquement en <b>https</b> afin de sécuriser un maximum votre connexion. Vous pouvez vérifier notre nos certificats de sécurité par un organisme reconnu <a href="https://www.ssllabs.com/ssltest/analyze.html?d=affinitweet.com&s=212.47.240.132" class="link" rel="nofollow" target="_blank">ici</a>.',
+            'Oui. Affinitweet est accessible uniquement en <b>https</b> afin de sécuriser un maximum ta connexion. Tu peux vérifier notre nos certificats de sécurité par un organisme reconnu <a href="https://www.ssllabs.com/ssltest/analyze.html?d=affinitweet.com&s=212.47.240.132" class="link" rel="nofollow" target="_blank">ici</a>.',
           ],
           [
             'Est-ce le site est fiable ?',
-            "Oui. Depuis quelques temps nous avons créé une page Trustpilot afin de recueillir l'avis de nos utilisateurs, vous pouvez les consulter et en ajouter un sur <a href=\"https://www.trustpilot.com/review/affinitweet.com\" rel=\"nofollow\" target=\"_blank\">cette page</a>.",
+            "Oui. Depuis quelques temps nous avons créé une page Trustpilot afin de recueillir l'avis de nos utilisateurs, tu peux les consulter et en ajouter un sur <a href=\"https://www.trustpilot.com/review/affinitweet.com\" rel=\"nofollow\" target=\"_blank\">cette page</a>.",
           ],
           [
             "Est-ce qu'il y a des virus ou malwares ?",
-            "Non. Nous mettons tout en oeuvre pour éviter cela. Affinitweet est 100% sécurisé, nous vous garantissons d'attraper aucune chose de ce genre sur notre site.",
+            "Non. Nous mettons tout en oeuvre pour éviter cela. Affinitweet est 100% sécurisé, nous te garantissons d'attraper aucune chose de ce genre sur notre site.",
           ],
           [
             'Où sont mes données et sont-elles en sécurité ?',
-            "Vos données sont stockées sur les serveurs que nous louons à Paris. Nous sommes hébergés par l'un des leaders de l'hébergement et vous garantissons que vos données sont en sécurité.",
+            "Tes données sont stockées sur les serveurs que nous louons à Paris. Nous sommes hébergés par l'un des leaders de l'hébergement et te garantissons que tes données sont en sécurité.",
           ],
         ],
         privacy: [
@@ -338,8 +363,12 @@ export default {
             'Nous expliquons tout ce que nous faisons avec les données que nous récupérons et traitons dans notre page Données et confidentialité. Mais pour la faire courte, nous récupérons et stockons le strict minimum. Nous ne les communiquerons à personne, jamais.',
           ],
           [
+            'Est-ce que vous vendez mes données ?',
+            'Non, et nous ne le ferons jamais. Affinitweet est une plateforme créée dans le seul but de divertir. Nous tirons nos revenus des publicités affichées sur le site et rien d\'autre.',
+          ],
+          [
             'Comment supprimer mon compte ?',
-            "Une fois connecté, il vous suffit d'aller sur votre profil et de descendre tout en bas puis de cliquer sur le bouton de suppression de compte. Toutes les données relatives à votre compte seront alors immédiatement supprimées.",
+            "Une fois connecté, il te suffit d'aller sur ton profil et de descendre tout en bas puis de cliquer sur le bouton de suppression de compte. Toutes les données relatives à ton compte seront alors immédiatement supprimées.",
           ],
         ],
         monetization: [
@@ -351,17 +380,11 @@ export default {
       },
     },
 
-    /* Updates changelog page */
-    changelog: {
-      title: 'Mises à jour',
-      description: '', // TODO
-    },
-
     /* Legal page */
     legal: {
       title: 'Mentions légales',
-      description: '', // TODO
-      intro: 'En vertu de l’article 6 de la loi n° 2004-575 du 21 juin 2004 pour la confiance dans l’économie numérique, il est précisé aux utilisateurs du site {site} l’identité des différents intervenants dans le cadre de sa réalisation et de son suivi :',
+      description: 'Renseignements à propos de nous et des cookies.',
+      intro: 'En vertu de l\'article 6 de la loi n° 2004-575 du 21 juin 2004 pour la confiance dans l\'économie numérique, il est précisé aux utilisateurs du site {site} l\'identité des différents intervenants dans le cadre de sa réalisation et de son suivi :',
       owner: 'Propriétaire',
       creator: 'Créateur',
       publisher: 'Responsable publication',
@@ -370,21 +393,21 @@ export default {
       host: 'Hébergeur',
       requestAddress: 'Adresse complète disponible sur simple demande par email à {email}.',
       warningCookies: 'À propos des cookies',
-      p1: 'Un cookie est un petit fichier texte envoyé à votre navigateur via le site Web consulté. Grâce à ce cookie, des informations sur votre visite sont enregistrées sur le site Web, par exemple votre langue de prédilection et d’autres paramètres. Cela peut faciliter votre visite suivante sur ce site et renforcer l’utilité de ce dernier pour vous. Les cookies jouent un rôle important. Sans les cookies, l’utilisation du Web pourrait s’avérer beaucoup plus frustrante.',
+      p1: 'Un cookie est un petit fichier texte envoyé à ton navigateur via le site Web consulté. Grâce à ce cookie, des informations sur ta visite sont enregistrées sur le site Web, par exemple ta langue de prédilection et d\'autres paramètres. Cela peut faciliter ta visite suivante sur ce site et renforcer l\'utilité de ce dernier pour toi. Les cookies jouent un rôle important. Sans les cookies, l\'utilisation du Web pourrait s\'avérer beaucoup plus frustrante.',
       t1: 'Quel est le cadre juridique applicable ?',
-      p2: 'En modifiant l’article 5(3) de la directive 2002/58/CE par l’adoption de la directive 2009/136/CE, le législateur européen a posé le principe selon lequel le stockage d’informations sur l’équipement d’un utilisateur ou l’accès à des informations déjà stockées, ne devaient être mis en œuvre qu’avec le consentement préalable de l’utilisateur, sauf si ces actions sont strictement nécessaires au fournisseur pour la délivrance d’un service expressément demandé par l’abonné ou l’utilisateur. L’article 32-II de la loi du 6 janvier 1978 reprend ce principe.',
+      p2: 'En modifiant l\'article 5(3) de la directive 2002/58/CE par l\'adoption de la directive 2009/136/CE, le législateur européen a posé le principe selon lequel le stockage d\'informations sur l\'équipement d\'un utilisateur ou l\'accès à des informations déjà stockées, ne devaient être mis en œuvre qu\'avec le consentement préalable de l\'utilisateur, sauf si ces actions sont strictement nécessaires au fournisseur pour la délivrance d\'un service expressément demandé par l\'abonné ou l\'utilisateur. L\'article 32-II de la loi du 6 janvier 1978 reprend ce principe.',
       t2: 'Le présent site utilise des cookies aux fins suivantes :',
-      'l1-1': 'Pour nous aider à reconnaître votre navigateur et pour enregistrer les préférences que vous avez déterminées lors de vos précédentes visites sur ce site',
-      'l1-2': 'Pour nous aider à mesurer et étudier l’efficacité de notre contenu interactif en ligne, de ses caractéristiques, publicités et autres communications',
-      'l1-3': 'Pour suivre les données analytiques sur le site, l’utilisation faite du site par les utilisateurs et pour améliorer les services et les contenus du présent site',
+      'l1-1': 'Pour nous aider à reconnaître ton navigateur et pour enregistrer les préférences que tu as déterminées lors de tes précédentes visites sur ce site',
+      'l1-2': 'Pour nous aider à mesurer et étudier l\'efficacité de notre contenu interactif en ligne, de ses caractéristiques, publicités et autres communications',
+      'l1-3': 'Pour suivre les données analytiques sur le site, l\'utilisation faite du site par les utilisateurs et pour améliorer les services et les contenus du présent site',
       t3: 'Comment supprimer les cookies liés à ma navigation ?',
-      p3: 'Vous pouvez choisir de désactiver les cookies dans votre navigateur à tout moment en suivant les instructions fournies dans les fichiers d’aide de votre navigateur. Vous pouvez également paramétrer vos cookies directement dans les réglages de votre navigateur :',
+      p3: 'Tu peux choisir de désactiver les cookies dans ton navigateur à tout moment en suivant les instructions fournies dans les fichiers d\'aide de ton navigateur. Tu peux également paramétrer tes cookies directement dans les réglages de ton navigateur :',
     },
 
     /* Terms of service page */
     terms: {
       title: 'Conditions d\'utilisation',
-      description: '', // TODO
+      description: 'Consulte nos conditions générales d\'utilisation.',
       h1: 'Conditions',
       p1: "En accédant au site {url}, vous acceptez d'être lié par les présentes conditions d'utilisation, toutes les lois et réglementations applicables, et acceptez que vous êtes responsable du respect de toutes les lois locales applicables. Si vous n'êtes pas d'accord avec l'une de ces conditions, il vous est interdit d'utiliser ou d'accéder à ce site. Le matériel contenu dans ce site web est protégé par les lois applicables en matière de droit d'auteur et de marques de commerce.",
       h2: "Licence d'utilisation",
@@ -413,84 +436,84 @@ export default {
     /* Data and privacy page */
     privacy: {
       title: 'Données et confidentialité',
-      description: '', // TODO
-      intro: 'Prenant très à cœur la confidentialité des données et dans le cadre de notre activité, nous souhaitons informer nos utilisateurs de ce que nous faisons de celles-ci. Vous trouverez ci-dessous toutes les informations nécessaires concernant le stockage et traitement de ces données. Des informations sur les cookies sont également disponible sur {thatPage}.',
+      description: 'Informations sur la manière dont nous récupérons, analysons et stockons vos données.',
+      intro: 'Prenant très à cœur la confidentialité des données et dans le cadre de notre activité, nous souhaitons informer nos utilisateurs de ce que nous faisons de celles-ci. Tu trouveras ci-dessous toutes les informations nécessaires concernant le stockage et traitement de ces données. Des informations sur les cookies sont également disponible sur {thatPage}.',
       storage: 'Stockage',
       personalData: 'DONNÉES PERSONNELLES',
-      p1: 'Lorsque vous vous connectez sur Affinitweet, nous récupérons les informations de votre profil Twitter dont nous avons besoin afin que vous puissiez utiliser nos services. Parmi ces informations, nous stockons votre :',
+      p1: 'Lorsque tu te connectes sur Affinitweet, nous récupérons les informations de ton profil Twitter dont nous avons besoin afin que tu puisses utiliser nos services. Parmi ces informations, nous stockons ton :',
       'l1-1': 'ID unique Twitter',
       'l1-2': "nom d'utilisateur (@)",
       'l1-3': "nom d'affichage",
       'l1-4': "token d'authentification",
       'l1-5': "token d'authentification secret",
       'l1-6': 'langue',
-      p2: 'Les autres informations que vous pouvez voir sur votre profil sont stockées temporairement dans votre session, il suffit de vous déconnecter pour les effacer.',
-      i1: 'Information : ces données peuvent être supprimées dans leur intégralité et immédiatement sur simple action de votre part en bas de {yourProfile} en cliquant sur {button}.',
+      p2: 'Les autres informations que tu peux voir sur ton profil sont stockées temporairement dans ta session, il suffit de te déconnecter pour les effacer.',
+      i1: 'Information : ces données peuvent être supprimées dans leur intégralité et immédiatement sur simple action de ta part en bas de {yourProfile} en cliquant sur {button}.',
       results: 'Résultats',
-      p3: 'Par défaut, Affinitweet ne stocke pas les résultats de ce que vous faites. Vous pouvez cependant activer cette option pour avoir un historique de vos résultats dans votre profil. Parmi ces informations, nous stockons :',
+      p3: 'Par défaut, Affinitweet ne stocke pas les résultats de ce que tu fais. Tu peux cependant activer cette option pour avoir un historique de tes résultats dans ton profil. Parmi ces informations, nous stockons :',
       'l2-1': "l'utilisateur a qui appartient le résultat",
       'l2-2': 'le nom de la fonctionnalité',
       'l2-3': "l'horodatage du résultat",
-      i2: 'Information : ces données peuvent être supprimées dans leur intégralité et immédiatement sur simple action de votre part en bas de {yourProfile} en cliquant sur {button}.',
+      i2: 'Information : ces données peuvent être supprimées dans leur intégralité et immédiatement sur simple action de ta part en bas de {yourProfile} en cliquant sur {button}.',
       computing: 'Traitement',
-      p4: "Lorsque vous effectuez les différentes fonctionnalités présentes sur le site, nous faisons des appels à l'API Twitter avec vos tokens précedemment stockés.",
-      i3: 'Information : nous utilisons vos tokens afin de pouvoir être au plus juste dans nos résultats. Ainsi, si vous suivez un ou plusieurs utilisateurs avec un compte protégé par exemple, nous pourrons les inclure dans les résultats le cas échéant.',
+      p4: "Lorsque tu effectues les différentes fonctionnalités présentes sur le site, nous faisons des appels à l'API Twitter avec tes tokens précedemment stockés.",
+      i3: 'Information : nous utilisons tes tokens afin de pouvoir être au plus juste dans nos résultats. Ainsi, si tu suis un ou plusieurs utilisateurs avec un compte protégé par exemple, nous pourrons les inclure dans les résultats le cas échéant.',
       p5: 'Voici ce que nous pouvons être amenés à récupérer :',
-      'l3-1': "votre fil d'actualités",
-      'l3-2': 'vos tweets/retweets',
-      'l3-3': 'vos mentions',
-      'l3-4': "votre liste d'abonnés",
-      'l3-5': "votre liste d'abonnements",
+      'l3-1': "ton fil d'actualités",
+      'l3-2': 'tes tweets/retweets',
+      'l3-3': 'tes mentions',
+      'l3-4': "ta liste d'abonnés",
+      'l3-5': "ta liste d'abonnements",
       p6: 'Ces informations sont uniquement récupérées puis traitées, nous ne les stockons pas.',
       publish: 'Publication',
-      p7: "Lorsque vous vous connectez sur Affinitweet, nous vous demandons l'accès basique en lecture à votre compte ainsi que l'accès en écriture. Nous n'effectuerons aucune action sans que vous l'ayez expressément demandé en activant une option depuis le site.",
-      i4: "Information : vous pouvez révoquer l'accès que vous nous avez donné lors de votre connexion à tout moment depuis {yourTwitterProfile}.",
+      p7: "Lorsque tu te connectes sur Affinitweet, nous te demandons l'accès basique en lecture à ton compte ainsi que l'accès en écriture. Nous n'effectuerons aucune action sans que tu l'aies expressément demandé en activant une option depuis le site.",
+      i4: "Information : tu peux révoquer l'accès que tu nous as donné lors de ta connexion à tout moment depuis {yourTwitterProfile}.",
       autoTweet: 'Tweet automatique',
-      p8: "Afin de pouvoir utiliser certaines fonctionnalités, nous pouvons vous demander d'activer l'option de tweet automatique des résultats. Si vous acceptez d'activer cette option, un tweet sera publié à chaque résultat avec l'image générée.",
-      i5: 'Information : vous pouvez désactiver cette option à tout moment depuis {yourProfile} dans la partie {button}.',
+      p8: "Afin de pouvoir utiliser certaines fonctionnalités, nous pouvons te demander d'activer l'option de tweet automatique des résultats. Si tu acceptes d'activer cette option, un tweet sera publié à chaque résultat avec l'image générée.",
+      i5: 'Information : tu peux désactiver cette option à tout moment depuis {yourProfile} dans la partie {button}.',
       question: 'Une question ?',
-      p9: "Si certains points ne sont pas clairs pour vous à propos d'Affinitweet ou si vous avez d'autres questions, n'hésitez pas à nous contacter via Twitter ou par email, nous vous répondrons avec grand plaisir !",
+      p9: "Si certains points ne sont pas clairs pour toi à propos d'Affinitweet ou si tu as d'autres questions, n'hésite pas à nous contacter via Twitter ou par email, nous te répondrons avec grand plaisir !",
       thatPage: 'cette page',
-      yourProfile: 'votre profil',
-      yourTwitterProfile: 'votre profil Twitter',
+      yourProfile: 'ton profil',
+      yourTwitterProfile: 'ton profil Twitter',
     },
 
   },
 
   /* Errors */
   _er: {
-    cooldown: 'Cette fonctionnalité a un temps de rechargement de %{cooldown} secondes. Merci de réessayer dans:',
+    cooldown: 'Cette fonctionnalité a un temps de rechargement de %{cooldown} secondes. Merci de réessayer dans :',
     unknown: "Un problème est survenu. L'équipe a été notifiée.",
     unknownFeature: 'Fonctionnalité inconnue.',
     unavailableFeature: 'Fonctionnalité non disponible.',
-    selfUsername: 'Entrez un utilisateur différent de vous-même.',
+    selfUsername: 'Entre un utilisateur différent de toi-même.',
     badUsername: "Nom d'utilisateur incorrect.",
     twitterError: 'Twitter a retourné une erreur :',
     notEnoughData: 'Pas assez de données.',
-    accountProtected: 'Vous ne pouvez pas utiliser cette fontionnalité avec un compte protégé.',
+    accountProtected: 'Tu ne peux pas utiliser cette fontionnalité avec un compte protégé.',
     refreshPage: 'Merci de rafraîchir la page.',
     timeout: "Délai d'attente maximum dépassé.",
     twitterErrors: {
-      32: 'Impossible de vous identifier.',
+      32: 'Impossible de t\'identifier.',
       34: "Désolé, cette page n'existe pas.",
       50: 'Utilisateur non trouvé.',
       63: "L'utilisateur a été suspendu.",
-      64: 'Votre compte Twitter a été suspendu et ne peut accéder à cette fonctionnalité.',
+      64: 'Ton compte Twitter a été suspendu et tu ne peux accéder à cette fonctionnalité.',
       87: "Impossible d'effectuer cette action.",
-      88: "Limite d'actions dépassée. Réessayez dans 15 minutes.",
-      89: 'Token invalide ou expiré. Reconnectez-vous.',
-      99: 'Impossible de vérifier vos identifiants.',
+      88: "Limite d'actions dépassée. Réessaye dans 15 minutes.",
+      89: 'Token invalide ou expiré. Reconnecte-toi.',
+      99: 'Impossible de vérifier tes identifiants.',
       130: 'Twitter est surchargé.',
       131: 'Erreur interne provenant de Twitter.',
-      135: 'Impossible de vous authentifier.',
+      135: 'Impossible de t\'authentifier.',
       144: 'Tweet non trouvé avec cet ID.',
-      179: "Désolé, vous n'êtes pas autorisé à voir ce tweet.",
-      185: 'Vous avez dépassé votre quota de tweet quotidien.',
+      179: "Désolé, tu n'es pas autorisé à voir ce tweet.",
+      185: 'Tu as dépassé ton quota de tweet quotidien.',
       186: 'Tweet trop long.',
       187: 'Tweet dupliqué.',
-      220: "Vos identifiants ne vous permettent pas d'accéder à cette ressource.",
+      220: "Tes identifiants ne te permettent pas d'accéder à cette ressource.",
       261: "Nous n'avons pas réussi à publier les résultats.",
-      326: 'Votre compte Twitter est temporairement bloqué.',
+      326: 'Ton compte Twitter est temporairement bloqué.',
     },
   },
 

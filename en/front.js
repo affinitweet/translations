@@ -4,7 +4,6 @@ export default {
   _lt: {
 
     default: {
-      loading: 'Loading...',
       cookiesBanner: 'We use cookies 🍪 to provide the best experience. By continuing to use our website, you agree to our cookies policy. {button}',
       readMore: 'Read more...',
     },
@@ -17,6 +16,8 @@ export default {
     contactUs: 'Contact us',
     followUs: 'Follow us',
     reviewUs: 'Review us',
+    close: 'Close',
+    cancel: 'Cancel',
   },
 
   /* Languages */
@@ -47,7 +48,6 @@ export default {
       logIn: 'Log in',
       myAccount: 'My account',
       switchAccount: 'Switch account',
-      welcomeTips: 'Tips & infos',
       logout: 'Log out',
     },
 
@@ -56,22 +56,35 @@ export default {
       madeWithLove: 'Affinitweet is a Twitter-based statistics and entertainment platform created in 2015 with ❤️ in France.',
       allRightsReserved: 'All rights reserved.',
       about: 'About',
+      changelog: 'Changelog',
       legal: 'Legal',
       partners: 'Partners',
     },
 
+    stateButton: {
+      hold: 'Hold to confirm',
+      submit: 'Click to confirm',
+      loading: 'Action in process...',
+      cancel: 'Cancel',
+    },
+
     clearHistory: {
-      title: '',
-      description: '',
-      holdButton: '',
-      loadingButton: '',
+      title: 'Clear history',
+      description: 'By cleaning up your history, all information and images of your currently saved results will be deleted.',
+      description2: 'You won\'t be able to see your previous results after this cleaning, do you really want to perform this action?',
+      holdButton: 'Hold to clear',
+      loadingButton: 'Clearing history...',
+      successModal: 'Your history has been cleared.',
     },
 
     deleteAccount: {
-      title: '',
-      description: '',
-      holdButton: '',
-      loadingButton: '',
+      title: 'Delete account',
+      description: 'Did something go wrong? Tell us on our Twitter account so we can improve!',
+      description2: 'By deleting your account, all data about you will be deleted, including your history. No data will be kept and you will be automatically logged out of Affinitweet.',
+      description3: 'You will not be able to retrieve your current account after this deletion, do you really want to perform this action?',
+      holdButton: 'Hold to delete',
+      loadingButton: 'Deleting account...',
+      successModal: 'Your account has been deleted.',
     },
 
   },
@@ -91,7 +104,7 @@ export default {
         longDescription: 'Thanks to Friendships you will know how much you are friends with another user of your choice: the more blue pellets you have, the stronger the links are! Enter the Twitter nickname of the chosen person and discover your Friendships!',
       },
       'common-friends': {
-        description: 'Discover your friends in common with another person! 👥',
+        description: 'Discover your friends in common with another user! 👥',
         longDescription: 'The Common Friends allows you to discover the subscriptions/friends you have in common with another person. Do you have the same tastes, and how much?',
       },
       'top-friends': {
@@ -99,8 +112,8 @@ export default {
         longDescription: 'The Top Friends allows you to know who your best friends are on Twitter. We establish a ranking by analyzing the information sent and received by your account. Then we count, add and sort them to generate your Top Friends!',
       },
       'famous-followers': {
-        description: 'Discover the most popular people in your subscribers! 💅',
-        longDescription: 'The Famous Followers allows you to know which people have the most subscribers among your subscribers. We collect each of your subscribers and their number of subscribers and sort them to generate your Famous Followers!',
+        description: 'Discover the most popular people in your followers! 💅',
+        longDescription: 'The Famous Followers allows you to know which people have the most followers among your followers. We collect each of your followers and their number of followers and sort them to generate your Famous Followers!',
       },
       valentine: {
         description: 'We know who your Valentine will be this year... What about you? 💏',
@@ -111,7 +124,7 @@ export default {
         longDescription: 'We keep the algorithm of this feature secret. All we can say is that your Secret Crush will impress you, good or bad?',
       },
       'hidden-twin': {
-        description: 'Yes, you have a hidden twin.... Who the hell is that? 🤔',
+        description: 'Yes, you have a hidden twin.... who the hell is it? 🤔',
         longDescription: 'We keep the algorithm of this feature secret. All we can say is that your Hidden Twin will impress you, good or bad?',
       },
       'stolen-kiss': {
@@ -119,7 +132,7 @@ export default {
         longDescription: 'We keep the algorithm of this feature secret. All we can say is that your Stolen Kiss will impress you, good or bad?',
       },
       'may-day': {
-        description: 'For whom will your best lily of the valley bouquet be this year? 💐',
+        description: 'Who\'s your best bouquet for this year? 💐',
         longDescription: 'We keep the algorithm of this feature secret. All we can say is that you\'re going to make someone very happy!',
       },
       'halloween-duo': {
@@ -127,15 +140,15 @@ export default {
         longDescription: 'We keep the algorithm of this feature secret. All we can say is that you\'re going to be scary for Halloween this year!',
       },
       'tweet-rate': {
-        description: 'Compare your tweet rate with another one! 📊',
+        description: 'Compare your tweet rate with another user! 📊',
         longDescription: 'The Tweet Rate allows you to know the average number of tweets you publish per day since you registered on Twitter and compare yourself with another person! Are you the most active?',
       },
       'first-to-follow': {
-        description: 'Who was the first to follow? 😮',
+        description: 'Find out when you\'ve been following a user and vice versa! 😮',
         longDescription: 'The First To Follow allows you to discover the date and time you followed another person on Twitter, and vice versa! Who followed the other first?',
       },
       'emoji-mood': {
-        description: 'What are the emotions you tweet most? 🤖',
+        description: 'What are the emojis you tweet the most? 🤖',
         longDescription: 'Thanks to the Emoji Mood, you will discover which emotions you have been tweeting the most recently... Would you be willing to bet on your TOP 3?',
       },
       'new-years-kiss': {
@@ -152,8 +165,8 @@ export default {
 
     /* Home page */
     index: {
-      title: 'Home', // TODO
-      description: '', // TODO
+      title: 'Home',
+      description: 'The best place to have fun with your friends on Twitter! Check your statistics and more!',
       titleH1: 'The best place to have fun with your friends on Twitter!',
       titleH2: 'Check your statistics and more!',
       highlights: 'Highlights',
@@ -173,9 +186,9 @@ export default {
       trustpilotH2: 'We are rated {rate} by our users, will you be the next one to review us?',
       trustpilotButton: 'See & submit a review',
       statistics: 'Statistics',
-      totalUsers: '4,5 million',
+      totalUsers: '5 million',
       totalUsersDescription: 'Users trust us and use our services',
-      monthlyUsers: '200 000',
+      monthlyUsers: '350 000',
       monthlyUsersDescription: 'Unique users which come back in average each month',
       totalFeatures: '9 million',
       totalFeaturesDoneDescription: 'Features done since our opening in 2014',
@@ -190,8 +203,8 @@ export default {
 
     /* User profile page */
     profile: {
-      title: 'Profile', // TODO
-      description: '', // TODO
+      title: 'Profile',
+      description: 'Account, settings and history of your profile.',
       profile: 'Profile',
       history: 'History',
       preferences: 'Preferences',
@@ -200,38 +213,29 @@ export default {
       addLanguage: 'Add language...',
       contributeOnGitHub: 'contribute on GitHub',
       account: 'Account',
-      viewProfile: 'View on Twitter',
       followers: 'Followers',
       followings: 'Followings',
       noHistory: 'No history data.',
-      autoTweet: 'Automatically tweet results',
-      autoTweetDescription: 'Check this option to auto-tweet results. A tweet will be published once results are ready, no more.',
-      saveResults: 'Automatically save results',
-      saveResultsDescription: 'Check this option to save your results (feature name + time). By default, Affinitweet do not store your results in its database.',
+      autoTweet: 'Tweet results',
+      autoTweetDescription: 'Check this option to automatically tweet your results. A tweet will be published once results are ready, no more.',
+      saveResults: 'Save results',
+      saveResultsDescription: 'Check this option to save your results in history (feature name + image + time). By default, we do not store your results.',
       emojis: 'Emojis pack',
       iOSemojis: 'iOS (Apple)',
       iOSemojisDescription: 'Your results will be generated with iOS Emojis.',
       androidEmojis: 'Android (Google)',
       androidEmojisDescription: 'Your results will be generated with Android Emojis.',
       clearHistory: 'Clear history',
-      clearHistoryConfirm: 'Your history will be lost forever, are you sure?',
-      clearingHistory: 'Clearing history...',
-      historyCleared: 'History cleared!',
       clearHistoryDescription: 'Clear your Affinitweet results history.',
       deleteAccount: 'Delete account',
-      deleteAccountConfirm1: 'If something goes wrong, tell us on our Twitter account @affinitweet_ so we can be better next time!',
-      deleteAccountConfirm2: "Your data will be lost forever. Nothing will remain about you on our servers and you'll be logged out, are you sure?",
       deleteAccountDescription: 'Delete your Affinitweet account, everything will be lost.',
-      showMore: 'View more...',
+      show: 'view',
+      showMore: 'Show more...',
       saved: 'Saved',
-      updated: 'Updated',
-      cleared: 'Cleared',
     },
 
     /* Feature page */
     feature: {
-      title: '', // TODO
-      description: '', // TODO
       login: 'Log in to continue...',
       startFeature: "Let's go!",
       results: "Here's your results!",
@@ -248,14 +252,17 @@ export default {
     /* Features listing page */
     features: {
       title: 'Features',
-      description: '', // TODO
+      description: 'Discover all our features to know everything about your Twitter account.',
+      searchFeatures: 'Search features... (ex: Top Friends, Valentine...)',
+      noFeatureFound: 'Unfortunately no feature matches this search... 😔',
+      resetSearch: 'Reset search',
       letsGo: 'Let\'s go!',
     },
 
     /* Frequently asked questions page */
     faq: {
       title: 'Frequenlty asked questions',
-      description: '', // TODO
+      description: 'All the answers to your questions about us are here!',
       searchTerms: 'Search terms...',
       intro: "Welcome on our frequently asked questions page! If you don't find your answers, contact us! Click on the right category corresponding to your search or search terms in the input field below.",
       global: 'Global',
@@ -292,6 +299,10 @@ export default {
           [
             'Why was a tweet published without my consent?',
             'This is not the case and it never will be, we always obtain your consent via an action on your part before doing anything. If a tweet has been posted to your Twitter profile, you have authorized us to do so by clicking an approval button.',
+          ],
+          [
+            'Why ask so much permission to log in?',
+            'Unfortunately, we do not choose which permissions we wish to request for our application. We would like to offer our users to be able to automatically publish their results with their consent, and for this we are obliged to have the "pack" of other permissions.',
           ],
           [
             'What do "POP" and "NEW" mean?',
@@ -352,6 +363,10 @@ export default {
             'We explain everything we do with the data we collect and process in our Data and Privacy page. But to make it short, we recover and store the bare minimum. We will never communicate them to anyone, ever.',
           ],
           [
+            'Are you selling my data?',
+            'No, and we never will. Affinitweet is a platform created for the sole purpose of entertainment. We derive our revenue from the ads displayed on the site and nothing else.',
+          ],
+          [
             'How do I delete my account?',
             'Once logged in, simply go to your profile and scroll down and click the delete account button. All data relating to your account will then be immediately deleted.',
           ],
@@ -365,16 +380,10 @@ export default {
       },
     },
 
-    /* Updates changelog page */
-    changelog: {
-      title: 'Changelog', // TODO
-      description: '', // TODO
-    },
-
     /* Legal page */
     legal: {
       title: 'Legal',
-      description: '', // TODO
+      description: 'Information about us and cookies.',
       intro: 'In accordance with Article 6 of the law n° 2004-575 of 21 June 2004 on trust in the digital economy, users of the site {site} are informed of the identity of the various parties involved in its implementation and monitoring:',
       owner: 'Owner',
       creator: 'Creator',
@@ -398,7 +407,7 @@ export default {
     /* Terms of service page */
     terms: {
       title: 'Terms of service',
-      description: '', // TODO
+      description: 'Consult our general terms and conditions of use.',
       h1: 'Terms',
       p1: 'By accessing the website at {url}, you are agreeing to be bound by these terms of service, all applicable laws and regulations, and agree that you are responsible for compliance with any applicable local laws. If you do not agree with any of these terms, you are prohibited from using or accessing this site. The materials contained in this website are protected by applicable copyright and trademark law.',
       h2: 'Use Licence',
@@ -427,7 +436,7 @@ export default {
     /* Data and privacy page */
     privacy: {
       title: 'Data and privacy',
-      description: '', // TODO
+      description: 'Information on how we retrieve, analyze and store your data.',
       intro: 'We take the privacy of data very seriously and in the course of our business, we want to inform our users about what we do with it. You will find below all the necessary information concerning the storage and processing of this data. Information about cookies is also available on {thatPage}.',
       storage: 'Storage',
       personalData: 'Personal data',

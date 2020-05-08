@@ -4,7 +4,6 @@ export default {
   _lt: {
 
     default: {
-      loading: 'Wczytywanie...',
       cookiesBanner: 'Używamy plików cookies 🍪, aby zapewnić jak najlepsze doświadczenie. Korzystając z naszej strony wyrażasz zgodę na naszą politykę cookies. {button}',
       readMore: 'Więcej informacji...',
     },
@@ -17,6 +16,8 @@ export default {
     contactUs: 'Contact us', // TODO
     followUs: 'Follow us', // TODO
     reviewUs: 'Oceń nas',
+    close: 'Close', // TODO
+    cancel: 'Cancel', // TODO
   },
 
   /* Languages */
@@ -47,7 +48,6 @@ export default {
       logIn: 'Log in', // TODO
       myAccount: 'Moje konto',
       switchAccount: 'Konta przełączników',
-      welcomeTips: 'Porady i informacje',
       logout: 'Wyloguj',
     },
 
@@ -56,8 +56,35 @@ export default {
       madeWithLove: 'Affinitweet is a Twitter-based statistics and entertainment platform created in 2015 with ❤️ in France.', // TODO
       allRightsReserved: 'Wszelkie prawa zastrzeżone.',
       about: 'Okazjonalnie',
+      changelog: 'Uaktualnienia',
       legal: 'Informacje prawne',
       partners: 'Wspólnicy',
+    },
+
+    stateButton: {
+      hold: 'Hold to confirm', // TODO
+      submit: 'Click to confirm', // TODO
+      loading: 'Action in process...', // TODO
+      cancel: 'Cancel', // TODO
+    },
+
+    clearHistory: {
+      title: 'Clear history', // TODO
+      description: 'By cleaning up your history, all information and images of your currently saved results will be deleted.', // TODO
+      description2: 'You won\'t be able to see your previous results after this cleaning, do you really want to perform this action?', // TODO
+      holdButton: 'Hold to clear', // TODO
+      loadingButton: 'Clearing history...', // TODO
+      successModal: 'Your history has been cleared.', // TODO
+    },
+
+    deleteAccount: {
+      title: 'Delete account', // TODO
+      description: 'Did something go wrong? Tell us on our Twitter account so we can improve!', // TODO
+      description2: 'By deleting your account, all data about you will be deleted, including your history. No data will be kept and you will be automatically logged out of Affinitweet.', // TODO
+      description3: 'You will not be able to retrieve your current account after this deletion, do you really want to perform this action?', // TODO
+      holdButton: 'Hold to delete', // TODO
+      loadingButton: 'Deleting account...', // TODO
+      successModal: 'Your account has been deleted.', // TODO
     },
 
   },
@@ -70,63 +97,65 @@ export default {
     real: 'Podstawa',
     fun: 'Zabawa',
 
-    list: { // TODO
+    list: {
+
       friendships: {
-        description: 'Pokazuje wszystkie informacje dotyczące twojej relacji z innym użytkownikiem.',
-        longDescription: '',
+        description: 'Everything you need to know about the links between you and a user! 🙌', // TODO
+        longDescription: 'Thanks to Friendships you will know how much you are friends with another user of your choice: the more blue pellets you have, the stronger the links are! Enter the Twitter nickname of the chosen person and discover your Friendships!', // TODO
       },
       'common-friends': {
-        description: 'Pokazuje listę kont obserwowanych zarówno przez ciebie, jak i przez wskazanego użytkownika.',
-        longDescription: '',
+        description: 'Discover your friends in common with another user! 👥', // TODO
+        longDescription: 'The Common Friends allows you to discover the subscriptions/friends you have in common with another person. Do you have the same tastes, and how much?', // TODO
       },
       'top-friends': {
-        description: 'Chcesz poznać swoich najlepszych przyjaciół? Oto oni!',
-        longDescription: '',
+        description: 'Discover your best Twitter friends of late! 🤗', // TODO
+        longDescription: 'The Top Friends allows you to know who your best friends are on Twitter. We establish a ranking by analyzing the information sent and received by your account. Then we count, add and sort them to generate your Top Friends!', // TODO
       },
       'famous-followers': {
-        description: 'Dowiedz się, kto podąża za Tobą najbardziej popularny!',
-        longDescription: '',
+        description: 'Discover the most popular people in your followers! 💅', // TODO
+        longDescription: 'The Famous Followers allows you to know which people have the most followers among your followers. We collect each of your followers and their number of followers and sort them to generate your Famous Followers!', // TODO
       },
       valentine: {
-        description: 'Funkcja dostępna tylko przez kilka dni! Pokazuje, kto powinien być twoją walentynką w 2018 roku. ;)',
-        longDescription: '',
+        description: 'We know who your Valentine will be this year... What about you? 💏', // TODO
+        longDescription: 'We keep the algorithm of this feature secret. All we can say is that we are trying to stick to reality, will our Valentine delight you... ?', // TODO
       },
       'secret-crush': {
-        description: 'W kim się sekretnie podkochujesz?',
-        longDescription: '',
+        description: 'Someone loves you in secret... and hides it from you... 😳', // TODO
+        longDescription: 'We keep the algorithm of this feature secret. All we can say is that your Secret Crush will impress you, good or bad?', // TODO
       },
       'hidden-twin': {
-        description: 'Masz tajemniczego bliźniaka? Teraz możesz się dowiedzieć!',
-        longDescription: '',
+        description: 'Yes, you have a hidden twin.... who the hell is it? 🤔', // TODO
+        longDescription: 'We keep the algorithm of this feature secret. All we can say is that your Hidden Twin will impress you, good or bad?', // TODO
       },
       'stolen-kiss': {
-        description: 'Ktoś wysyła ci całusa! Dowiedz się, to to taki!',
-        longDescription: '',
+        description: 'Who wants to steal a kiss from you on a street corner? 💋', // TODO
+        longDescription: 'We keep the algorithm of this feature secret. All we can say is that your Stolen Kiss will impress you, good or bad?', // TODO
       },
       'may-day': {
-        description: 'Podaruj komuś konwalię majową na 1 maja!',
-        longDescription: '',
+        description: 'Who\'s your best bouquet for this year? 💐', // TODO
+        longDescription: 'We keep the algorithm of this feature secret. All we can say is that you\'re going to make someone very happy!', // TODO
       },
       'halloween-duo': {
-        description: 'Kto powinien świętować z tobą Halloween w tym roku?',
-        longDescription: '',
+        description: 'Who will you be most afraid with this year? 🎃👻', // TODO
+        longDescription: 'We keep the algorithm of this feature secret. All we can say is that you\'re going to be scary for Halloween this year!', // TODO
       },
       'tweet-rate': {
-        description: 'Oblicz częstotliwość swoich tweetów i porównaj się z innym użytkownikiem!',
-        longDescription: '',
+        description: 'Compare your tweet rate with another user! 📊', // TODO
+        longDescription: 'The Tweet Rate allows you to know the average number of tweets you publish per day since you registered on Twitter and compare yourself with another person! Are you the most active?', // TODO
       },
       'first-to-follow': {
-        description: 'Dowiedz się, od kiedy dokładnie obserwujesz swojego znajomego, a od kiedy on ciebie! Kto kogo obserwował pierwszy?',
-        longDescription: '',
+        description: 'Find out when you\'ve been following a user and vice versa! 😮', // TODO
+        longDescription: 'The First To Follow allows you to discover the date and time you followed another person on Twitter, and vice versa! Who followed the other first?', // TODO
       },
       'emoji-mood': {
-        description: 'Których emotikon używasz najczęściej?',
-        longDescription: '',
+        description: 'What are the emojis you tweet the most? 🤖', // TODO
+        longDescription: 'Thanks to the Emoji Mood, you will discover which emotions you have been tweeting the most recently... Would you be willing to bet on your TOP 3?', // TODO
       },
       'new-years-kiss': {
-        description: 'Who are you going to kiss this year under the mistletoe? 😘',
-        longDescription: '',
+        description: 'Who are you going to kiss this year under the mistletoe? 😘', // TODO
+        longDescription: 'We keep the algorithm of this feature secret. All we can say is that you will kiss someone at midnight!', // TODO
       },
+
     },
 
   },
@@ -136,8 +165,8 @@ export default {
 
     /* Home page */
     index: {
-      title: '', // TODO
-      description: '', // TODO
+      title: 'Home', // TODO
+      description: 'Najlepsze miejsce na zabawę ze znajomymi z Twittera! Sprawdź swoje statystyki i wiele więcej!',
       titleH1: 'Najlepsze miejsce na zabawę ze znajomymi z Twittera!',
       titleH2: 'Sprawdź swoje statystyki i wiele więcej!',
       highlights: 'Wyróżnione',
@@ -157,9 +186,9 @@ export default {
       trustpilotH2: 'Nasi użytkownicy ocenili nas na {rate}, może następną opinię otrzymamy od Ciebie...?',
       trustpilotButton: 'Zobacz opinie i dodaj swoją',
       statistics: 'Statystyki',
-      totalUsers: '4,5 miliona',
+      totalUsers: '5 miliona',
       totalUsersDescription: 'użytkowników korzysta z naszych usług i ufa nam',
-      monthlyUsers: '60 tysięcy',
+      monthlyUsers: '350 tysięcy',
       monthlyUsersDescription: 'użytkowników powraca średnio co miesiąc',
       totalFeatures: '9 miliona',
       totalFeaturesDoneDescription: 'wyświetleń od czasu otwarcia w 2014 roku',
@@ -174,8 +203,8 @@ export default {
 
     /* User profile page */
     profile: {
-      title: '', // TODO
-      description: '', // TODO
+      title: 'Profil',
+      description: 'Account, settings and history of your profile.', // TODO
       profile: 'Profil',
       history: 'Historia',
       preferences: 'Ustawienia',
@@ -184,38 +213,29 @@ export default {
       addLanguage: 'Dodaj język...',
       contributeOnGitHub: 'pomóż poprzez serwis GitHub',
       account: 'Konto',
-      viewProfile: 'Zobacz na Twitterze',
       followers: 'Obserwujący',
       followings: 'Obserwowani',
       noHistory: 'Historia jest pusta.',
-      autoTweet: 'Automatycznie tweetuj wyniki',
-      autoTweetDescription: 'Zaznacz tę opcję, aby tweet z wynikami wysyłany był automatycznie. Po uzyskaniu wyników zostanie wysłany jeden tweet i nic więcej.',
+      autoTweet: 'Tweetuj wyniki',
+      autoTweetDescription: 'Zaznacz tę opcję, aby tweet z wynikami wysyłany był automatycznie. Po uzyskaniu wyników zostanie wysłany jeden tweet i nic więcej.', // TODO
       saveResults: 'Zapisz wyniki',
-      saveResultsDescription: 'Zaznacz tę opcję, aby zapisywać swoje wyniki (funkcja + data). Affinitweet domyślnie nie zapisuje twoich wyników w swojej bazie danych.',
+      saveResultsDescription: 'Zaznacz tę opcję, aby zapisywać swoje wyniki (funkcja + data). Affinitweet domyślnie nie zapisuje twoich wyników w swojej bazie danych.', // TODO
       emojis: 'Pakiet emotikon',
       iOSemojis: 'iOS (Apple)',
       iOSemojisDescription: 'W wynikach wyświetlane będą emotikony systemu iOS.',
       androidEmojis: 'Android (Google)',
       androidEmojisDescription: 'W wynikach wyświetlane będą emotikony systemu Android.',
       clearHistory: 'Usuń historię',
-      clearHistoryConfirm: 'Your history will be lost forever, are you sure?',
-      clearingHistory: 'Usuwanie historii...',
-      historyCleared: 'Historia usunięta!',
       clearHistoryDescription: 'Usuń historię swoich wyników na Affinitweet.',
       deleteAccount: 'Usuń konto',
-      deleteAccountConfirm1: 'If something goes wrong, tell us on our Twitter account @affinitweet_ so we can be better next time!',
-      deleteAccountConfirm2: "Your data will be lost forever. Nothing will remain about you on our servers and you'll be logged out, are you sure?",
       deleteAccountDescription: 'Usuń swoje konto na Affinitweet. Wszystkie dane przepadną.',
+      show: 'view', // TODO
       showMore: 'Zobacz więcej...',
       saved: 'Zapisano',
-      updated: 'Zaktualizowano',
-      cleared: 'Usunięto',
     },
 
     /* Feature page */
     feature: {
-      title: '', // TODO
-      description: '', // TODO
       login: 'Zaloguj się, aby kontynuować...',
       startFeature: 'Rozpocznij!',
       results: 'Oto twoje wyniki!',
@@ -232,14 +252,17 @@ export default {
     /* Features listing page */
     features: {
       title: 'Features', // TODO
-      description: '', // TODO
-      letsGo: '', // TODO
+      description: 'Discover all our features to know everything about your Twitter account.', // TODO
+      searchFeatures: 'Search features... (ex: Top Friends, Valentine...)', // TODO
+      noFeatureFound: 'Unfortunately no feature matches this search... 😔', // TODO
+      resetSearch: 'Reset search', // TODO
+      letsGo: 'Let\'s go!', // TODO
     },
 
     /* Frequently asked questions page */
     faq: {
       title: 'Frequenlty asked questions', // TODO
-      description: '', // TODO
+      description: 'All the answers to your questions about us are here!', // TODO
       searchTerms: 'Search terms...',
       intro: "Welcome on our frequently asked questions page! If you don't find your answers, contact us! Click on the right category corresponding to your search or search terms in the input field below.",
       global: 'Global',
@@ -250,115 +273,117 @@ export default {
       questions: {
         global: [
           [
-            "What is Affinitweet's purpose?",
-            'This is a very often asked question, Affinitweet brings two things: entertaining features and statistics, separated into two distinct categories. You certainly know Affinitweet for its viral and entertaining features shared on Twitter, but we offer other useful and interesting features!',
+            "What is Affinitweet's purpose?", // TODO
+            'This is a very often asked question, Affinitweet brings two things: entertaining features and statistics, separated into two distinct categories. You certainly know Affinitweet for its viral and entertaining features shared on Twitter, but we offer other useful and interesting features!', // TODO
           ],
           [
-            'How to use our services / login?',
-            'To use our services, you must log in with your Twitter account. To do so, simply click on "Log in" at the top right, then go to the page of your choice.',
+            'How to use our services / login?', // TODO
+            'To use our services, you must log in with your Twitter account. To do so, simply click on "Log in" at the top right, then go to the page of your choice.', // TODO
           ],
           [
-            'How do I access my profile or log out?',
-            'Once logged in with your Twitter account, you can access your profile or log out by clicking or hovering your Twitter nickname at the top right.',
+            'How do I access my profile or log out?', // TODO
+            'Once logged in with your Twitter account, you can access your profile or log out by clicking or hovering your Twitter nickname at the top right.', // TODO
           ],
           [
-            'But Affinitweet is French?',
-            'Absolutely, Affinitweet was created and is hosted in France 🇫🇷, do not be surprised if we speak better french than english or if we answer you on Twitter more easily in this language!',
+            'But Affinitweet is French?', // TODO
+            'Absolutely, Affinitweet was created and is hosted in France 🇫🇷, do not be surprised if we speak better french than english or if we answer you on Twitter more easily in this language!', // TODO
           ],
           [
-            'Affinitweet is not available in my language, how do I do?',
-            'If your language is not supported, you will see Affinitweet in english by default. If you have the courage and desire to help us internationalize and appear as a translator on Affinitweet, you can participate and translate the texts available here.',
+            'Affinitweet is not available in my language, how do I do?', // TODO
+            'If your language is not supported, you will see Affinitweet in english by default. If you have the courage and desire to help us internationalize and appear as a translator on Affinitweet, you can participate and translate the texts available here.', // TODO
           ],
           [
-            'Why are you asking for write access to my Twitter account?',
-            'For ease of use, we request read and write access to your Twitter account so that we can publish a tweet if you allow us to do so. This saves us having to create two applications, and you having to log in twice.',
+            'Why are you asking for write access to my Twitter account?', // TODO
+            'For ease of use, we request read and write access to your Twitter account so that we can publish a tweet if you allow us to do so. This saves us having to create two applications, and you having to log in twice.', // TODO
           ],
           [
-            'Why was a tweet published without my consent?',
-            'This is not the case and it never will be, we always obtain your consent via an action on your part before doing anything. If a tweet has been posted to your Twitter profile, you have authorized us to do so by clicking an approval button.',
+            'Why was a tweet published without my consent?', // TODO
+            'This is not the case and it never will be, we always obtain your consent via an action on your part before doing anything. If a tweet has been posted to your Twitter profile, you have authorized us to do so by clicking an approval button.', // TODO
           ],
           [
-            'What do "POP" and "NEW" mean?',
-            "These labels are attached to features and are visible next to them. \"POP\" means \"popular.\" It's a popular feature. \"NEW\" means \"new\". It's a feature that was added a while ago.",
+            'Why ask so much permission to log in?', // TODO
+            'Unfortunately, we do not choose which permissions we wish to request for our application. We would like to offer our users to be able to automatically publish their results with their consent, and for this we are obliged to have the "pack" of other permissions.', // TODO
           ],
           [
-            'How do I log in with another account?',
-            'When you log in to Affinitweet, the Twitter account to which you are connected on the browser is used. If you wish to use Affinitweet with an account other than this one, you have several possibilities: (1) switch to private browsing; (2) disconnect from Twitter and reconnect with the new account; (3) use another browser not connected with that same Twitter account.',
+            'What do "POP" and "NEW" mean?', // TODO
+            "These labels are attached to features and are visible next to them. \"POP\" means \"popular.\" It's a popular feature. \"NEW\" means \"new\". It's a feature that was added a while ago.", // TODO
+          ],
+          [
+            'How do I log in with another account?', // TODO
+            'When you log in to Affinitweet, the Twitter account to which you are connected on the browser is used. If you want to switch your account and use Affinitweet with an account other than this one, you have several possibilities: (1) while connected, hover your username on the top right and click on "Switch account", you will be redirected to Twitter and asked to log in with your new account ; (2) switch to private browsing; (3) disconnect from Twitter and reconnect with the new account; (4) use another browser not connected with that same Twitter account.', // TODO
           ],
         ],
         features: [
           [
-            'How is the Top Friends determined?',
-            'The Top Friends is mainly determined from tweets, we go back to your last 3200 tweets to establish a ranking over a long period.',
+            'How is the Top Friends determined?', // TODO
+            'The Top Friends is mainly determined from tweets, we go back to your last 3200 tweets to establish a ranking over a long period.', // TODO
           ],
           [
-            "Why doesn't my Top Friends stick to reality?",
-            "We try to get as close as possible to reality with the information we collect. Sometimes someone you don't talk to anymore but have talked to a lot in the past is present in your Top Friends if you haven't been tweeting a lot for a while for example.",
+            "Why doesn't my Top Friends stick to reality?", // TODO
+            "We try to get as close as possible to reality with the information we collect. Sometimes someone you don't talk to anymore but have talked to a lot in the past is present in your Top Friends if you haven't been tweeting a lot for a while for example.", // TODO
           ],
           [
-            'How are the results of the other features determined?',
-            'The algorithms used to determine these results are strictly confidential, unfortunately we do not wish to communicate on them.',
+            'How are the results of the other features determined?', // TODO
+            'The algorithms used to determine these results are strictly confidential, unfortunately we do not wish to communicate on them.', // TODO
           ],
           [
-            "I got my sister at Valentine's and my dad in Secret Crush!",
-            '"Fun" features are only intended to entertain as the category name indicates. Although we try to get as close to reality as possible with our algorithm parameters, if we come across the right person(s) it would only be by chance!',
+            "I got my sister at Valentine's and my dad in Secret Crush!", // TODO
+            '"Fun" features are only intended to entertain as the category name indicates. Although we try to get as close to reality as possible with our algorithm parameters, if we come across the right person(s) it would only be by chance!', // TODO
           ],
           [
-            'How does First To Follow work?',
-            'The First To Follow is an exclusive feature and is not available anywhere else. It lets you know when a given person has followed you and vice versa. Gourmet functionality, you can only make a limited number per 15 minutes.',
+            'How does First To Follow work?', // TODO
+            'The First To Follow is an exclusive feature and is not available anywhere else. It lets you know when a given person has followed you and vice versa. Gourmet functionality, you can only make a limited number per 15 minutes.', // TODO
           ],
           [
-            'How does Emoji Mood work?',
-            "The Emoji Mood lets you know which emojis you've been tweeting the most lately, we go back to your last 3200 tweets and simply count that!",
+            'How does Emoji Mood work?', // TODO
+            "The Emoji Mood lets you know which emojis you've been tweeting the most lately, we go back to your last 3200 tweets and simply count that!", // TODO
           ],
         ],
         security: [
           [
-            'Is the site secure?',
-            'Yes, Affinitweet is only accessible in https in order to secure your connection as much as possible. You can check our security certificates by a recognized organization like SSLLabs.',
+            'Is the site secure?', // TODO
+            'Yes, Affinitweet is only accessible in https in order to secure your connection as much as possible. You can check our security certificates by a recognized organization like SSLLabs.', // TODO
           ],
           [
-            'Is the site reliable?',
-            'Yes, since some time we created a Trustpilot page to collect the opinion of our users, you can consult them and add one if you want.',
+            'Is the site reliable?', // TODO
+            'Yes, since some time we created a Trustpilot page to collect the opinion of our users, you can consult them and add one if you want.', // TODO
           ],
           [
-            'Are there viruses or malware?',
-            'Absolutely not, we are doing everything we can to avoid that. Affinitweet is 100% secure, we guarantee you not to catch anything like this on our site.',
+            'Are there viruses or malware?', // TODO
+            'Absolutely not, we are doing everything we can to avoid that. Affinitweet is 100% secure, we guarantee you not to catch anything like this on our site.', // TODO
           ],
           [
-            'Where is my data and is it safe?',
-            'Your data is stored on the servers we rent in Paris. We are hosted by one of the leaders and guarantee that your data is secure.',
+            'Where is my data and is it safe?', // TODO
+            'Your data is stored on the servers we rent in Paris. We are hosted by one of the leaders and guarantee that your data is secure.', // TODO
           ],
         ],
         privacy: [
           [
-            'What do you do with my data?',
-            'We explain everything we do with the data we collect and process in our Data and Privacy page. But to make it short, we recover and store the bare minimum. We will never communicate them to anyone, ever.',
+            'What do you do with my data?', // TODO
+            'We explain everything we do with the data we collect and process in our Data and Privacy page. But to make it short, we recover and store the bare minimum. We will never communicate them to anyone, ever.', // TODO
           ],
           [
-            'How do I delete my account?',
-            'Once logged in, simply go to your profile and scroll down and click the delete account button. All data relating to your account will then be immediately deleted.',
+            'Are you selling my data?', // TODO
+            'No, and we never will. Affinitweet is a platform created for the sole purpose of entertainment. We derive our revenue from the ads displayed on the site and nothing else.', // TODO
+          ],
+          [
+            'How do I delete my account?', // TODO
+            'Once logged in, simply go to your profile and scroll down and click the delete account button. All data relating to your account will then be immediately deleted.', // TODO
           ],
         ],
         monetization: [
           [
-            "It's free so I'm the product?",
-            'Yes, but no. Our source of revenue comes only from the ads displayed on the feature pages. These revenues are used to cover the costs of servers, development and eventually pay for a few beers if there is anything left!',
+            "It's free so I'm the product?", // TODO
+            'Yes, but no. Our source of revenue comes only from the ads displayed on the feature pages. These revenues are used to cover the costs of servers, development and eventually pay for a few beers if there is anything left!', // TODO
           ],
         ],
       },
     },
 
-    /* Updates changelog page */
-    changelog: {
-      title: 'Uaktualnienia',
-      description: '', // TODO
-    },
-
     /* Legal page */
     legal: {
       title: 'Legal', // TODO
-      description: '', // TODO
+      description: 'Information about us and cookies.', // TODO
       intro: 'Zgodnie z Artykułem 6 ustawy nr 2004-575 z dnia 21 czerwca 2004 roku prawa francuskiego o zaufaniu do gospodarki cyfrowej, użytkownicy strony {site} mają dostęp do informacji na temat tożsamości stron związanych z implementacją i monitorowaniem strony:',
       owner: 'Właściciel',
       creator: 'Autor',
@@ -382,7 +407,7 @@ export default {
     /* Terms of service page */
     terms: {
       title: 'Warunki świadczenia usług',
-      description: '', // TODO
+      description: 'Consult our general terms and conditions of use.', // TODO
       h1: 'Terms',
       p1: 'By accessing the website at {url}, you are agreeing to be bound by these terms of service, all applicable laws and regulations, and agree that you are responsible for compliance with any applicable local laws. If you do not agree with any of these terms, you are prohibited from using or accessing this site. The materials contained in this website are protected by applicable copyright and trademark law.',
       h2: 'Use Licence',
@@ -411,7 +436,7 @@ export default {
     /* Data and privacy page */
     privacy: {
       title: 'Dane i prywatność',
-      description: '', // TODO
+      description: 'Information on how we retrieve, analyze and store your data.', // TODO
       intro: 'Poufność danych jest dla nas bardzo ważna i chcemy, by nasi użytkownicy wiedzieli, co robimy z ich danymi. Poniżej znajdziesz wszystkie niezbędne informacje dotyczące przechowywania i przetwarzania danych. Informacje na temat cookies są również dostępne na {thatPage}.',
       storage: 'Przechowywanie',
       personalData: 'Dane osobowe',
@@ -460,7 +485,7 @@ export default {
     cooldown: 'Na ponowne skorzystanie z tej funkcji należy poczekać %{cooldown} s. Spróbuj ponownie za:',
     unknown: 'Wystąpił błąd. Nasz zespół został powiadomiony.',
     unknownFeature: 'Funkcja nieznana.',
-    unavailableFeature: '', // TODO
+    unavailableFeature: 'Unavailable feature.', // TODO
     selfUsername: 'Wpisz cudzą nazwę użytkownika.',
     badUsername: 'Nazwa użytkownika nieprawidłowa.',
     notEnoughData: 'Za mało danych.',
