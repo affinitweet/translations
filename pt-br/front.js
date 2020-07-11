@@ -13,11 +13,11 @@ export default {
   /* Common */
   _cm: {
     lastRevision: 'Última revisão:',
-    contactUs: 'Contact us', // TODO
-    followUs: 'Follow us', // TODO
+    contactUs: 'Contate-nos',
+    followUs: 'Siga-nos',
     reviewUs: 'Avalie-nos',
-    close: 'Close', // TODO
-    cancel: 'Cancel', // TODO
+    close: 'Fechar',
+    cancel: 'Cancelar',
   },
 
   /* Languages */
@@ -45,7 +45,7 @@ export default {
     /* Header component */
     header: {
       sidebarHint: 'Descubra todos as nossas funcionalidades clicando no ícone do menu aqui! 😉',
-      logIn: 'Log in', // TODO
+      logIn: 'Entrar',
       myAccount: 'Minha conta',
       switchAccount: 'Mudar de conta',
       logout: 'Sair',
@@ -53,38 +53,38 @@ export default {
 
     /* Footer component */
     footer: {
-      madeWithLove: 'Affinitweet is a Twitter-based statistics and entertainment platform created in 2015 with ❤️ in France.', // TODO
+      madeWithLove: 'Affinitweet é uma plataforma de estatísticas e entretenimento baseada no Twitter criada em 2015 com ❤️ na França.',
       allRightsReserved: 'Todos os direitos reservados.',
       about: 'Sobre',
-      changelog: 'Changelog', // TODO
+      changelog: 'Registro de alterações',
       legal: 'Legal',
       partners: 'Parceiros',
     },
 
     stateButton: {
-      hold: 'Hold to confirm', // TODO
-      submit: 'Click to confirm', // TODO
-      loading: 'Action in process...', // TODO
-      cancel: 'Cancel', // TODO
+      hold: 'Mantenha pressionado para confirmar', 
+      submit: 'Clique para confirmar',
+      loading: 'Ação em andamento...',
+      cancel: 'Cancelar',
     },
 
     clearHistory: {
-      title: 'Clear history', // TODO
-      description: 'By cleaning up your history, all information and images of your currently saved results will be deleted.', // TODO
-      description2: 'You won\'t be able to see your previous results after this cleaning, do you really want to perform this action?', // TODO
-      holdButton: 'Hold to clear', // TODO
-      loadingButton: 'Clearing history...', // TODO
-      successModal: 'Your history has been cleared.', // TODO
+      title: 'Limpar histórico',
+      description: 'Ao limpar seu histórico, todas as informações e imagens dos resultados salvos no momento serão excluídas.',
+      description2: 'Você não poderá ver seus resultados anteriores após esta limpeza, deseja realmente executar esta ação?',
+      holdButton: 'Mantenha pressionado para limpar',
+      loadingButton: 'Limpando o histórico...',
+      successModal: 'Seu histórico foi limpo.',
     },
 
     deleteAccount: {
-      title: 'Delete account', // TODO
-      description: 'Did something go wrong? Tell us on our Twitter account so we can improve!', // TODO
-      description2: 'By deleting your account, all data about you will be deleted, including your history. No data will be kept and you will be automatically logged out of Affinitweet.', // TODO
-      description3: 'You will not be able to retrieve your current account after this deletion, do you really want to perform this action?', // TODO
-      holdButton: 'Hold to delete', // TODO
-      loadingButton: 'Deleting account...', // TODO
-      successModal: 'Your account has been deleted.', // TODO
+      title: 'Deletar conta',
+      description: 'Algo deu errado? Conte-nos em nossa conta no Twitter para que possamos melhorar!',
+      description2: 'Ao deletar sua conta, todos os dados sobre você serão excluídos, incluindo seu histórico. Nenhum dado será mantido e você será desconectado automaticamente do Affinitweet.',
+      description3: 'Você não poderá recuperar sua conta atual após essa exclusão. Deseja realmente executar esta ação?',
+      holdButton: 'Mantenha pressionado para deletar',
+      loadingButton: 'Deletando conta...',
+      successModal: 'Sua conta foi deletada.',
     },
 
   },
@@ -100,60 +100,60 @@ export default {
     list: {
 
       friendships: {
-        description: 'Everything you need to know about the links between you and a user! 🙌', // TODO
-        longDescription: 'Thanks to Friendships you will know how much you are friends with another user of your choice: the more blue pellets you have, the stronger the links are! Enter the Twitter nickname of the chosen person and discover your Friendships!', // TODO
+        description: 'Tudo o que você precisa saber sobre os links entre você e um usuário! 🙌',
+        longDescription: 'Graças a Friendships, você saberá o quanto você é amigo de outro usuário de sua escolha: quanto mais bolinhas azuis você tiver, mais fortes serão os links! Digite o nome de usuário do Twitter da pessoa escolhida e descubra sua Friendships!',
       },
       'common-friends': {
-        description: 'Discover your friends in common with another user! 👥', // TODO
-        longDescription: 'The Common Friends allows you to discover the subscriptions/friends you have in common with another person. Do you have the same tastes, and how much?', // TODO
+        description: 'Descubra seus amigos em comum com outro usuário! 👥',
+        longDescription: 'O Common Friends permite descobrir os seguidores/amigos que você tem em comum com outra pessoa. Vocês tem os mesmos gostos e até que ponto?',
       },
       'top-friends': {
-        description: 'Discover your best Twitter friends of late! 🤗', // TODO
-        longDescription: 'The Top Friends allows you to know who your best friends are on Twitter. We establish a ranking by analyzing the information sent and received by your account. Then we count, add and sort them to generate your Top Friends!', // TODO
+        description: 'Descubra quem são seus melhores amigos do Twitter ultimamente! 🤗',
+        longDescription: 'O Top Friends permite que você saiba quem são seus melhores amigos no Twitter. Estabelecemos uma classificação analisando as informações enviadas e recebidas por sua conta. Então, contamos, adicionamos e classificamos para gerar seu Top Friends!',
       },
       'famous-followers': {
-        description: 'Discover the most popular people in your followers! 💅', // TODO
-        longDescription: 'The Famous Followers allows you to know which people have the most followers among your followers. We collect each of your followers and their number of followers and sort them to generate your Famous Followers!', // TODO
+        description: 'Descubra as pessoas mais populares dos seus seguidores! 💅',
+        longDescription: 'O Famous Followers permitem que você saiba quais pessoas têm mais seguidores entre seus seguidores. Coletamos cada um de seus seguidores e seu número de seguidores e os ordenamos para gerar seu Famous Followers!',
       },
       valentine: {
-        description: 'We know who your Valentine will be this year... What about you? 💏', // TODO
-        longDescription: 'We keep the algorithm of this feature secret. All we can say is that we are trying to stick to reality, will our Valentine delight you... ?', // TODO
+        description: 'Sabemos quem será seu/sua Valentine este ano ... E você? 💏',
+        longDescription: 'Mantemos o algoritmo desta funcionalidade em segredo. Tudo o que podemos dizer é que estamos tentando nos manter o mais próximo possível da realidade, nosso Valentine saberá encantá-lo... ?',
       },
       'secret-crush': {
-        description: 'Someone loves you in secret... and hides it from you... 😳', // TODO
-        longDescription: 'We keep the algorithm of this feature secret. All we can say is that your Secret Crush will impress you, good or bad?', // TODO
+        description: 'Alguém te ama em segredo... e esconde isso de você... 😳',
+        longDescription: 'Mantemos o algoritmo desta funcionalidade em segredo. Tudo que podemos dizer é que seu/sua Secret Crush vai impressionar você, bom ou ruim?',
       },
       'hidden-twin': {
-        description: 'Yes, you have a hidden twin.... who the hell is it? 🤔', // TODO
-        longDescription: 'We keep the algorithm of this feature secret. All we can say is that your Hidden Twin will impress you, good or bad?', // TODO
+        description: 'Sim, você tem um gêmeo escondido... Mas quem é? 🤔',
+        longDescription: 'Mantemos o algoritmo desta funcionalidade em segredo. Tudo que podemos dizer é que seu/sua Hidden Twin vai impressionar você, bom ou ruim?',
       },
       'stolen-kiss': {
-        description: 'Who wants to steal a kiss from you on a street corner? 💋', // TODO
-        longDescription: 'We keep the algorithm of this feature secret. All we can say is that your Stolen Kiss will impress you, good or bad?', // TODO
+        description: 'Quem quer roubar um beijo de você em uma esquina? 💋',
+        longDescription: 'Mantemos o algoritmo desta funcionalidade em segredo. Tudo que podemos dizer é que seu/sua Stolen Kiss vai impressionar você, bom ou ruim?',
       },
       'may-day': {
-        description: 'Who\'s your best bouquet for this year? 💐', // TODO
-        longDescription: 'We keep the algorithm of this feature secret. All we can say is that you\'re going to make someone very happy!', // TODO
+        description: 'Para quem será seu melhor buquê este ano? 💐',
+        longDescription: 'Mantemos o algoritmo desta funcionalidade em segredo. Tudo o que podemos dizer é que você vai fazer alguém muito feliz!',
       },
       'halloween-duo': {
-        description: 'Who will you be most afraid with this year? 🎃👻', // TODO
-        longDescription: 'We keep the algorithm of this feature secret. All we can say is that you\'re going to be scary for Halloween this year!', // TODO
+        description: 'Com quem você mais vai assustar este ano? 🎃👻',
+        longDescription: 'Mantemos o algoritmo desta funcionalidade em segredo. Tudo o que podemos dizer é que você vai ser assustador no Halloween deste ano!',
       },
       'tweet-rate': {
-        description: 'Compare your tweet rate with another user! 📊', // TODO
-        longDescription: 'The Tweet Rate allows you to know the average number of tweets you publish per day since you registered on Twitter and compare yourself with another person! Are you the most active?', // TODO
+        description: 'Compare sua taxa de tweet com outro usuário! 📊',
+        longDescription: 'O Tweet Rate permite que você saiba o número médio de tweets que você publica por dia desde que se registrou no Twitter e compare com outra pessoa! Você é o mais ativo?',
       },
       'first-to-follow': {
-        description: 'Find out when you\'ve been following a user and vice versa! 😮', // TODO
-        longDescription: 'The First To Follow allows you to discover the date and time you followed another person on Twitter, and vice versa! Who followed the other first?', // TODO
+        description: 'Descubra quando você seguiu um usuário e vice versa! 😮',
+        longDescription: 'O First To Follow permite que você descubra a data e hora em que você seguiu outra pessoa no Twitter, e vice-versa! Quem seguiu o outro primeiro?',
       },
       'emoji-mood': {
-        description: 'What are the emojis you tweet the most? 🤖', // TODO
-        longDescription: 'Thanks to the Emoji Mood, you will discover which emotions you have been tweeting the most recently... Would you be willing to bet on your TOP 3?', // TODO
+        description: 'Quais são os emojis que você mais twita? 🤖',
+        longDescription: 'Graças ao Emoji Mood, você descobrirá quais emojis você tem tweetado mais recentemente... Você estaria disposto a apostar no seu TOP 3?',
       },
       'new-years-kiss': {
-        description: 'Who are you going to kiss this year under the mistletoe? 😘', // TODO
-        longDescription: 'We keep the algorithm of this feature secret. All we can say is that you will kiss someone at midnight!', // TODO
+        description: 'Quem você vai beijar este ano sob o azevinho? 😘',
+        longDescription: 'Mantemos o algoritmo desta funcionalidade em segredo. Tudo o que podemos dizer é que você vai beijar alguém à meia-noite!',
       },
 
     },
@@ -165,8 +165,8 @@ export default {
 
     /* Home page */
     index: {
-      title: 'Home', // TODO
-      description: 'O melhor lugar para se divertir com seus amigos no Twitter! Verifique suas estatísticas e muito mais!', // TODO
+      title: 'Página inicial',
+      description: 'O melhor lugar para se divertir com seus amigos no Twitter! Verifique suas estatísticas e muito mais!',
       titleH1: 'O melhor lugar para se divertir com seus amigos no Twitter!',
       titleH2: 'Verifique suas estatísticas e muito mais!',
       highlights: 'Destaques',
@@ -204,7 +204,7 @@ export default {
     /* User profile page */
     profile: {
       title: 'Perfil',
-      description: 'Account, settings and history of your profile.', // TODO
+      description: 'Conta, configurações e histórico do seu perfil.',
       profile: 'Perfil',
       history: 'Histórico',
       preferences: 'Preferências',
@@ -217,9 +217,9 @@ export default {
       followings: 'Seguindo',
       noHistory: 'Não há dados de histórico.',
       autoTweet: 'Twittar resultados',
-      autoTweetDescription: 'Marque esta opção para enviar automaticamente um tweet dos resultados. Um tweet será publicado assim que os resultados estiverem prontos, não mais.', // TODO
+      autoTweetDescription: 'Marque esta opção para enviar automaticamente um tweet dos resultados. Um tweet será publicado assim que os resultados estiverem prontos, não mais.',
       saveResults: 'Salvar resultados',
-      saveResultsDescription: 'Marque esta opção para salvar seus resultados (nome da funcionalidade + hora). Por padrão, o Affinitweet não armazena seus resultados em seu banco de dados.', // TODO
+      saveResultsDescription: 'Marque esta opção para salvar seus resultados (nome da funcionalidade + hora). Por padrão, o Affinitweet não armazena seus resultados em seu banco de dados.',
       emojis: 'Pacote de Emojis',
       iOSemojis: 'iOS (Apple)',
       iOSemojisDescription: 'Seus resultados serão gerados com emojis do iOS.',
@@ -229,7 +229,7 @@ export default {
       clearHistoryDescription: 'Apaga o seu histórico de resultados do Affinitweet.',
       deleteAccount: 'Deletar conta',
       deleteAccountDescription: 'Exclui sua conta Affinitweet, tudo será perdido.',
-      show: 'view', // TODO
+      show: 'ver',
       showMore: 'Mostre mais...',
       saved: 'Salvo',
     },
@@ -245,24 +245,24 @@ export default {
       yesEnable: 'Sim, ativar',
       no: 'Não',
       retry: 'Tente novamente!',
-      doYouWantToKnowMore: 'Do you want to learn more about your Twitter account?', // TODO
-      discoverOtherFeatures: 'Discover more features', // TODO
+      doYouWantToKnowMore: 'Você quer saber mais sobre sua conta no Twitter?',
+      discoverOtherFeatures: 'Descubra mais funcionalidades',
     },
 
     /* Features listing page */
     features: {
-      title: 'Features', // TODO
-      description: 'Discover all our features to know everything about your Twitter account.', // TODO
-      searchFeatures: 'Search features... (ex: Top Friends, Valentine...)', // TODO
-      noFeatureFound: 'Unfortunately no feature matches this search... 😔', // TODO
-      resetSearch: 'Reset search', // TODO
-      letsGo: 'Let\'s go!', // TODO
+      title: 'Funcionalidades',
+      description: 'Descubra todas as nossas funcionalidades para saber tudo sobre sua conta no Twitter.',
+      searchFeatures: 'Pesquisar funcionalidades... (ex: Top Friends, Valentine...)',
+      noFeatureFound: 'Infelizmente nenhuma funcionalidade corresponde a esta busca... 😔',
+      resetSearch: 'Reiniciar a busca',
+      letsGo: 'Vamos lá!',
     },
 
     /* Frequently asked questions page */
     faq: {
       title: 'Perguntas mais frequentes',
-      description: '', // TODO
+      description: 'Todas as respostas para suas perguntas sobre nós estão aqui!',
       searchTerms: 'Procurar termos...',
       intro: 'Bem-vindo à nossa página de perguntas frequentes! Se você não encontrar suas respostas, entre em contato conosco! Clique na categoria correspondente à sua pesquisa ou pesquise os termos no campo abaixo.',
       global: 'Geral',
@@ -301,8 +301,8 @@ export default {
             'Este não é o caso e nunca será, sempre obtemos o seu consentimento através de uma ação de sua parte antes de fazer qualquer coisa. Se um tweet tiver sido postado no seu perfil do Twitter, você nos autorizou a fazê-lo clicando em um botão de autorização.',
           ],
           [
-            'Why ask so much permission to log in?', // TODO
-            'Unfortunately, we do not choose which permissions we wish to request for our application. We would like to offer our users to be able to automatically publish their results with their consent, and for this we are obliged to have the "pack" of other permissions.', // TODO
+            'Por que pedir tanta permissão para fazer o login?',
+            'Infelizmente, não escolhemos quais permissões desejamos solicitar para nossa aplicação. Gostaríamos de oferecer a nossos usuários a possibilidade de publicar automaticamente seus resultados com seu consentimento, e para isso somos obrigados a ter o "pacote" de outras permissões.',
           ],
           [
             'O que significa "POP" e "NEW"?',
@@ -359,12 +359,12 @@ export default {
         ],
         privacy: [
           [
-            'O que fazes com os meus dados?',
+            'O que fazem com os meus dados?',
             'Explicamos tudo o que fazemos com os dados que coletamos e processamos em nossa página Dados e Privacidade. Mas para resumir, recuperamos e armazenamos o mínimo necessário. Nunca os divulgaremos a ninguém, nunca.',
           ],
           [
-            'Are you selling my data?', // TODO
-            'No, and we never will. Affinitweet is a platform created for the sole purpose of entertainment. We derive our revenue from the ads displayed on the site and nothing else.', // TODO
+            'Vocês estão vendendo meus dados?',
+            'Não, e nunca o faremos. Affinitweet é uma plataforma criada com o único objetivo de entretenimento. Nós derivamos nossa receita dos anúncios exibidos no site e nada mais.',
           ],
           [
             'Como faço para excluir minha conta?',
@@ -382,8 +382,8 @@ export default {
 
     /* Legal page */
     legal: {
-      title: 'Legal', // TODO
-      description: 'Information about us and cookies.', // TODO
+      title: 'Legal',
+      description: 'Informações sobre nós e cookies.',
       intro: 'De acordo com o artigo 6 da lei n° 2004-575 de 21 de junho de 2004, sobre Confiança na Economia Digital, os usuários do site {site} são informados sobre a identidade das várias partes envolvidas em sua implementação e monitoramento: ',
       owner: 'Proprietário',
       creator: 'Criador',
@@ -407,7 +407,7 @@ export default {
     /* Terms of service page */
     terms: {
       title: 'Termos de serviço',
-      description: 'Consult our general terms and conditions of use.', // TODO
+      description: 'Consulte nossos termos e condições gerais de uso.',
       h1: 'Termos',
       p1: 'Ao acessar o site em {url}, você concorda em cumprir estes termos de serviço, todas as leis e regulamentações aplicáveis e concorda que é responsável pela conformidade com as leis locais aplicáveis. Se você não concorda com algum destes termos, você está proibido de usar ou acessar este site. Os materiais contidos neste site são protegidos pela lei aplicável de direitos autorais e marcas registradas.',
       h2: 'Licença de Uso',
@@ -436,7 +436,7 @@ export default {
     /* Data and privacy page */
     privacy: {
       title: 'Dados e privacidade',
-      description: 'Information on how we retrieve, analyze and store your data.', // TODO
+      description: 'Informações sobre como obtemos, analisamos e armazenamos seus dados.',
       intro: 'Levamos a privacidade dos dados muito a sério e, no decorrer de nossos negócios, queremos informar nossos usuários sobre o que fazemos com eles. Você encontrará abaixo todas as informações necessárias sobre o armazenamento e processamento desses dados. Informações sobre cookies também estão disponíveis {thatPage}.',
       storage: 'Armazenamento',
       personalData: 'Dados pessoais',
@@ -485,7 +485,7 @@ export default {
     cooldown: 'Esse recurso tem um cooldown de %{cooldown} segundos. Por favor, tente novamente em:',
     unknown: 'Ocorreu um erro. Nossa equipe foi notificada.',
     unknownFeature: 'Funcionalidade desconhecida.',
-    unavailableFeature: 'Unavailable feature.', // TODO
+    unavailableFeature: 'Funcionalidade indisponível.',
     selfUsername: 'Digite um nome de usuário diferente do seu.',
     badUsername: 'Nome de usuário incorreto.',
     notEnoughData: 'Não há dados suficientes.',
