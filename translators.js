@@ -19,6 +19,10 @@ export default {
     author: 'Allan Fernando',
     language: 'portuguese',
   },
+	'sv': {
+		author: 'Fox Wernicke',
+		language: 'swedish',
+	},
   'zh-cn': {
     author: 'Kagurazaka Yashi',
     language: 'simplifiedChinese',
