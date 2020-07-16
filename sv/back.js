@@ -1,4 +1,6 @@
-  /* Steps */
+export default {
+
+/* Steps */
   _st: {
     received: 'Förfrågan mottagen av servern...',
     starting: 'Startar...',
