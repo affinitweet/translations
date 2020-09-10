@@ -92,8 +92,8 @@ export default {
   /* Features */
   _ft: {
 
-    new: 'Novas',
-    popular: 'Populares',
+    new: 'Novo',
+    popular: 'Popular',
     real: 'Real',
     fun: 'Diversão',
 
