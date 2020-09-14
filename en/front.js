@@ -163,6 +163,29 @@ export default {
   /* Pages */
   _pg: {
 
+    /* Welcome page */
+    welcome: {
+      title: 'Welcome',
+      welcomeToAffinitweet: 'Welcome to Affinitweet&nbsp;&nbsp;🎉',
+      proudToWelcomeYou: 'Hi {username}, we are delighted to make your acquaintance and happy to welcome you among our more than 5 million users!',
+      next: 'Next',
+      littleQuestion: 'Quick question...',
+      doYouWantToFollowUs: 'We update Affinitweet regularly, do you want to follow us on Twitter to find out when new features will be available?',
+      iWantToFollowYou: 'I want to follow you 😊',
+      iDontWantToFollowYou: 'No thanks, I\'m good for now!',
+      great: 'Great&nbsp;&nbsp;🥰',
+      doYouWantToEnableNotifications: 'So, while you\'re at it, do you want to be notified of our tweets so you can be the first to test our new features?',
+      iWantToBeNotified: 'I also want to be notified 😇',
+      iDontWantToBeNotified: 'No, I just want the tweets!',
+      noProblem: 'No problem&nbsp;&nbsp;😉',
+      noProblemDescription: 'After all you\'re right, we hardly know each other! Maybe next time then, we hope you\'ll have fun on Affinitweet 💜',
+      nice: 'Nice&nbsp;&nbsp;🤗',
+      niceDescription: 'Hop... hop... and hop!<br />That\'s it, you\'re now following us on Twitter! Thanks a lot and have fun on Affinitweet 💜',
+      awesome: 'Awesome&nbsp;&nbsp;😍',
+      awesomeDescription: 'Hop... hop... and hop!<br /><br />That\'s it, you\'re now following us on Twitter and notifications have been enabled! Thanks a lot and have fun on Affinitweet 💜',
+      letsGo: 'Let\'s go!',
+    },
+
     /* Home page */
     index: {
       title: 'Home',

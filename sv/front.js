@@ -164,6 +164,29 @@ export default {
   /* Pages */
   _pg: {
 
+    /* Welcome page */
+    welcome: {
+      title: 'Welcome', // TODO
+      welcomeToAffinitweet: 'Welcome to Affinitweet&nbsp;&nbsp;🎉', // TODO
+      proudToWelcomeYou: 'Hi {username}, we are delighted to make your acquaintance and happy to welcome you among our more than 5 million users!', // TODO
+      next: 'Next', // TODO
+      littleQuestion: 'Quick question...', // TODO
+      doYouWantToFollowUs: 'We update Affinitweet regularly, do you want to follow us on Twitter to find out when new features will be available?', // TODO
+      iWantToFollowYou: 'I want to follow you 😊', // TODO
+      iDontWantToFollowYou: 'No thanks, I\'m good for now!', // TODO
+      great: 'Great&nbsp;&nbsp;🥰', // TODO
+      doYouWantToEnableNotifications: 'So, while you\'re at it, do you want to be notified of our tweets so you can be the first to test our new features?', // TODO
+      iWantToBeNotified: 'I also want to be notified 😇', // TODO
+      iDontWantToBeNotified: 'No, I just want the tweets!', // TODO
+      noProblem: 'No problem&nbsp;&nbsp;😉', // TODO
+      noProblemDescription: 'After all you\'re right, we hardly know each other! Maybe next time then, we hope you\'ll have fun on Affinitweet 💜', // TODO
+      nice: 'Nice&nbsp;&nbsp;🤗', // TODO
+      niceDescription: 'Hop... hop... and hop!<br />That\'s it, you\'re now following us on Twitter! Thanks a lot and have fun on Affinitweet 💜', // TODO
+      awesome: 'Awesome&nbsp;&nbsp;😍', // TODO
+      awesomeDescription: 'Hop... hop... and hop!<br /><br />That\'s it, you\'re now following us on Twitter and notifications have been enabled! Thanks a lot and have fun on Affinitweet 💜', // TODO
+      letsGo: 'Let\'s go!', // TODO
+    },
+
     /* Home page */
     index: {
       title: 'Hem',

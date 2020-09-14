@@ -163,6 +163,28 @@ export default {
   /* Pages */
   _pg: {
 
+    /* Welcome page */
+    welcome: {
+      welcomeToAffinitweet: 'Bienvenue sur Affinitweet&nbsp;&nbsp;🎉',
+      proudToWelcomeYou: 'Bonjour {username}, nous sommes ravis de faire ta connaissance et heureux de t\'accueillir parmi nos plus de 5 millions d\'utilisateurs !',
+      next: 'Suivant',
+      littleQuestion: 'Petite question...',
+      doYouWantToFollowUs: 'Nous mettons à jour Affinitweet régulièrement, veux-tu nous suivre sur Twitter pour savoir quand de nouvelles fonctionnalités seront disponibles ?',
+      iWantToFollowYou: 'Je veux vous suivre 😊',
+      iDontWantToFollowYou: 'Non merci ça ira pour l\'instant !',
+      great: 'Super&nbsp;&nbsp;🥰',
+      doYouWantToEnableNotifications: 'Du coup, tant qu\'à faire, est-ce que tu veux être notifié.e de nos tweets pour être le ou la première à tester nos nouvelles fonctionnalités ?',
+      iWantToBeNotified: 'Je veux aussi être notifié.e 😇',
+      iDontWantToBeNotified: 'Non, je veux juste les tweets !',
+      noProblem: 'Ça marche&nbsp;&nbsp;😉',
+      noProblemDescription: 'Après tout tu as raison, on se connaît à peine ! Peut-être une prochaine fois alors, on espère que tu t\'amuseras bien sur Affinitweet 💜',
+      nice: 'Super&nbsp;&nbsp;🤗',
+      niceDescription: 'Hop.. hop.... et hop !<br /><br />Ça y est, tu nous suis désormais sur Twitter ! Merci beaucoup et amuse-toi bien sur Affinitweet 💜',
+      awesome: 'Génial&nbsp;&nbsp;😍',
+      awesomeDescription: 'Hop.. hop.... et hop !<br /><br />Ça y est, tu nous suis désormais sur Twitter et les notifications ont été activées ! Merci beaucoup et amuse-toi bien sur Affinitweet 💜',
+      letsGo: 'C\'est parti !',
+    },
+
     /* Home page */
     index: {
       title: 'Accueil',
