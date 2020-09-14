@@ -76,5 +76,6 @@ export default {
 | 🇨🇳 Traditional Chinese | [Kagurazaka Yashi](https://github.com/kagurazakayashi) | ✅ |
 | 🇨🇳 Simplified Chinese | [Kagurazaka Yashi](https://github.com/kagurazakayashi) | ✅ |
 | 🇧🇷 Portuguese | [Allan Fernando](https://github.com/allanf181) | ✅ |
+| 🇸🇪 Swedish | [Fox Wernicke](https://github.com/BreakinBenny) | ✅ |
 
 Thank you for your help ❤️
