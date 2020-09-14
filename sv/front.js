@@ -26,7 +26,7 @@ export default {
     english: 'Engelska',
     polish: 'Polska',
     spanish: 'Spanska',
-	swedish: 'Svenska',
+    swedish: 'Svenska',
     turkish: 'Turkiska',
     indonesian: 'Indonesiska',
     portuguese: 'Portuguesiska',
@@ -203,10 +203,10 @@ export default {
       fastRealTimeResults: 'Snabba och realtidsbaserade resultat',
       fastRealTimeResultsDescription: "We built Affinitweet on the last web technologies, so it's as fast as possible with real-time on feature pages.",
       noAdsNoVirus: 'Ingen påträngande reklam, inga virus',
-      noAdsNoVirusDescription: "Affinitweet har skapats enbart för nöjes skull, det finns inga virus och enbart ads på hela hemsidan (inga popups, inga omdirigeringar).",
+      noAdsNoVirusDescription: 'Affinitweet har skapats enbart för nöjes skull, det finns inga virus och enbart ads på hela hemsidan (inga popups, inga omdirigeringar).',
       multilingualOpen: 'Flerspråkigt & öppet',
       multilingualOpenDescription: 'Affinitweet är tillgängligt på flera olika språk och alla kan bidra och lägga till sitt eget.',
-      trustpilotH1: "Se våra användares recensioner på Trustpilot!",
+      trustpilotH1: 'Se våra användares recensioner på Trustpilot!',
       trustpilotH2: 'Vi är betygsatta med {rate} av våra användare, kommer du att recensera oss härnäst?',
       trustpilotButton: 'Se & skicka in en recension',
       statistics: 'Statistik',
@@ -261,11 +261,11 @@ export default {
     /* Feature page */
     feature: {
       login: 'Logga in för att fortsätta...',
-      startFeature: "Då kör vi!",
-      results: "Här är dina resultat!",
+      startFeature: 'Då kör vi!',
+      results: 'Här är dina resultat!',
       tweetResults: 'Tweeta resultat',
       tweetingResults: 'Tweetar...',
-      requireAutoTweetDescription: "Vill du aktivera automatisk tweetning av resultat? Du kommer att kunna avaktivera detta alternativ från din profil.",
+      requireAutoTweetDescription: 'Vill du aktivera automatisk tweetning av resultat? Du kommer att kunna avaktivera detta alternativ från din profil.',
       yesEnable: 'Ja, aktivera',
       no: 'Nej',
       retry: 'Börja om!',
@@ -281,127 +281,6 @@ export default {
       noFeatureFound: 'Tyvärr matchar inga funktioner den här sökningen... 😔',
       resetSearch: 'Nollställ sökning',
       letsGo: 'Då kör vi!',
-    },
-
-    /* Frequently asked questions page */
-    faq: {
-      title: 'Frågor & svar',
-      description: 'Alla svaren på dina frågor om oss finns här!',
-      searchTerms: 'Sök villkor...',
-      intro: "Välkommen till vår sida för frågor & svar! Om du inte hittar dina svar så kontakta oss! Klicka på rätt kategori som motsvarar din sökning eller sök villkor i fältet för input nedan.",
-      global: 'Globalt',
-      features: 'Funktioner',
-      security: 'Säkerhet',
-      privacy: 'Integritet',
-      monetization: 'Monetarisering',
-      questions: {
-        global: [
-          [
-            "What is Affinitweet's purpose?",
-            'This is a very often asked question, Affinitweet brings two things: entertaining features and statistics, separated into two distinct categories. You certainly know Affinitweet for its viral and entertaining features shared on Twitter, but we offer other useful and interesting features!',
-          ],
-          [
-            'How to use our services / login?',
-            'To use our services, you must log in with your Twitter account. To do so, simply click on "Log in" at the top right, then go to the page of your choice.',
-          ],
-          [
-            'How do I access my profile or log out?',
-            'Once logged in with your Twitter account, you can access your profile or log out by clicking or hovering your Twitter nickname at the top right.',
-          ],
-          [
-            'But Affinitweet is French?',
-            'Absolutely, Affinitweet was created and is hosted in France 🇫🇷, do not be surprised if we speak better french than english or if we answer you on Twitter more easily in this language!',
-          ],
-          [
-            'Affinitweet is not available in my language, how do I do?',
-            'If your language is not supported, you will see Affinitweet in english by default. If you have the courage and desire to help us internationalize and appear as a translator on Affinitweet, you can participate and translate the texts available here.',
-          ],
-          [
-            'Why are you asking for write access to my Twitter account?',
-            'For ease of use, we request read and write access to your Twitter account so that we can publish a tweet if you allow us to do so. This saves us having to create two applications, and you having to log in twice.',
-          ],
-          [
-            'Why was a tweet published without my consent?',
-            'This is not the case and it never will be, we always obtain your consent via an action on your part before doing anything. If a tweet has been posted to your Twitter profile, you have authorized us to do so by clicking an approval button.',
-          ],
-          [
-            'Why ask so much permission to log in?',
-            'Unfortunately, we do not choose which permissions we wish to request for our application. We would like to offer our users to be able to automatically publish their results with their consent, and for this we are obliged to have the "pack" of other permissions.',
-          ],
-          [
-            'What do "POP" and "NEW" mean?',
-            "These labels are attached to features and are visible next to them. \"POP\" means \"popular.\" It's a popular feature. \"NEW\" means \"new\". It's a feature that was added a while ago.",
-          ],
-          [
-            'How do I log in with another account?',
-            'When you log in to Affinitweet, the Twitter account to which you are connected on the browser is used. If you want to switch your account and use Affinitweet with an account other than this one, you have several possibilities: (1) while connected, hover your username on the top right and click on "Switch account", you will be redirected to Twitter and asked to log in with your new account ; (2) switch to private browsing; (3) disconnect from Twitter and reconnect with the new account; (4) use another browser not connected with that same Twitter account.',
-          ],
-        ],
-        features: [
-          [
-            'How is the Top Friends determined?',
-            'The Top Friends is mainly determined from tweets, we go back to your last 3200 tweets to establish a ranking over a long period.',
-          ],
-          [
-            "Why doesn't my Top Friends stick to reality?",
-            "We try to get as close as possible to reality with the information we collect. Sometimes someone you don't talk to anymore but have talked to a lot in the past is present in your Top Friends if you haven't been tweeting a lot for a while for example.",
-          ],
-          [
-            'How are the results of the other features determined?',
-            'The algorithms used to determine these results are strictly confidential, unfortunately we do not wish to communicate on them.',
-          ],
-          [
-            "I got my sister at Valentine's and my dad in Secret Crush!",
-            '"Fun" features are only intended to entertain as the category name indicates. Although we try to get as close to reality as possible with our algorithm parameters, if we come across the right person(s) it would only be by chance!',
-          ],
-          [
-            'How does First To Follow work?',
-            'The First To Follow is an exclusive feature and is not available anywhere else. It lets you know when a given person has followed you and vice versa. Gourmet functionality, you can only make a limited number per 15 minutes.',
-          ],
-          [
-            'How does Emoji Mood work?',
-            "The Emoji Mood lets you know which emojis you've been tweeting the most lately, we go back to your last 3200 tweets and simply count that!",
-          ],
-        ],
-        security: [
-          [
-            'Is the site secure?',
-            'Yes, Affinitweet is only accessible in https in order to secure your connection as much as possible. You can check our security certificates by a recognized organization like SSLLabs.',
-          ],
-          [
-            'Is the site reliable?',
-            'Yes, since some time we created a Trustpilot page to collect the opinion of our users, you can consult them and add one if you want.',
-          ],
-          [
-            'Are there viruses or malware?',
-            'Absolutely not, we are doing everything we can to avoid that. Affinitweet is 100% secure, we guarantee you not to catch anything like this on our site.',
-          ],
-          [
-            'Where is my data and is it safe?',
-            'Your data is stored on the servers we rent in Paris. We are hosted by one of the leaders and guarantee that your data is secure.',
-          ],
-        ],
-        privacy: [
-          [
-            'What do you do with my data?',
-            'We explain everything we do with the data we collect and process in our Data and Privacy page. But to make it short, we recover and store the bare minimum. We will never communicate them to anyone, ever.',
-          ],
-          [
-            'Are you selling my data?',
-            'No, and we never will. Affinitweet is a platform created for the sole purpose of entertainment. We derive our revenue from the ads displayed on the site and nothing else.',
-          ],
-          [
-            'How do I delete my account?',
-            'Once logged in, simply go to your profile and scroll down and click the delete account button. All data relating to your account will then be immediately deleted.',
-          ],
-        ],
-        monetization: [
-          [
-            "It's free so I'm the product?",
-            'Yes, but no. Our source of revenue comes only from the ads displayed on the feature pages. These revenues are used to cover the costs of servers, development and eventually pay for a few beers if there is anything left!',
-          ],
-        ],
-      },
     },
 
     /* Legal page */
@@ -513,7 +392,7 @@ export default {
     selfUsername: 'Skriv ett annat användarnamn än dig själv.',
     badUsername: 'Dåligt användarnamn.',
     notEnoughData: 'Inte tillräckligt med data.',
-    accountProtected: "Du kan inte använda detta material medan ditt konto är skyddat.",
+    accountProtected: 'Du kan inte använda detta material medan ditt konto är skyddat.',
     refreshPage: 'Vänligen ladda om sidan.',
     timeout: 'Timeout exceeded.',
     twitterError: 'Twitter skickade ett fel:',

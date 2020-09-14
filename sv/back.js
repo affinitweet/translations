@@ -1,6 +1,6 @@
 export default {
 
-/* Steps */
+  /* Steps */
   _st: {
     received: 'Förfrågan mottagen av servern...',
     starting: 'Startar...',
@@ -16,7 +16,7 @@ export default {
   /* Features */
   _ft: {
     'first-to-follow': {
-      youAreNotFollowing: "Du följer inte {user}...",
+      youAreNotFollowing: 'Du följer inte {user}...',
       notFollowingYou: '{user} följer inte dig...',
       youFollowed: 'Du följde {user}: ',
       followedYou: '{user} följde dig: ',
@@ -26,21 +26,21 @@ export default {
     friendships: {
       average: 'Vänskapsgenomsnittet är',
       following: 'Du följer dem',
-      'not-following': "Du följer inte dem",
+      'not-following': 'Du följer inte dem',
       followed_by: 'De följer dig',
-      'not-followed_by': "De följer inte dig",
+      'not-followed_by': 'De följer inte dig',
       notifications_enabled: 'Du notifieras när de tweetar',
-      'not-notifications_enabled': "Du notifieras inte när de tweetar",
+      'not-notifications_enabled': 'Du notifieras inte när de tweetar',
       blocking: 'Du blockerade dem',
-      'not-blocking': "Du blockerade inte dem",
+      'not-blocking': 'Du blockerade inte dem',
       blocked_by: 'De blockerade dig',
-      'not-blocked_by': "De blockerade dig inte",
+      'not-blocked_by': 'De blockerade dig inte',
       muting: 'Du tystade inte dem',
-      'not-muting': "De tystade inte dig",
+      'not-muting': 'De tystade inte dig',
       want_retweets: 'Du ser deras retweets',
-      'not-want_retweets': "Du ser inte deras retweets",
+      'not-want_retweets': 'Du ser inte deras retweets',
       marked_spam: 'Du markerade dem som spam',
-      'not-marked_spam': "Du markerade inte dem som spam",
+      'not-marked_spam': 'Du markerade inte dem som spam',
     },
     'tweet-rate': {
       average: '{user} tweetar i genomsnitt...',
@@ -70,12 +70,12 @@ export default {
     'common-friends': '#Affinitweet Gemensamma vänner\n{text}\nhttps://affinitweet.com/common-friends',
     'tweet-rate': '#Affinitweet Tweettakt\n\nhttps://affinitweet.com/tweet-rate',
     'emoji-mood': '#Affinitweet Emoji-humör\n{emojis}\nvia https://affinitweet.com/emoji-mood',
-    valentine: "#Affinitweet Valentine\nDetta år är du min {user}! ❤️\nAnd you, whom will be yours?\nvia https://affinitweet.com/valentine",
+    valentine: '#Affinitweet Valentine\nDetta år är du min {user}! ❤️\nAnd you, whom will be yours?\nvia https://affinitweet.com/valentine',
     'secret-crush': '#Affinitweet Secret Crush\n{user} älskar dig i hemlighet! 😳\nVem älskar du i hemlighet?\nvia https://affinitweet.com/secret-crush',
     'hidden-twin': '#Affinitweet Hidden Twin\n{user} är min hemliga tvilling 😱\nLista ut vem som är din!\nvia https://affinitweet.com/hidden-twin',
     'stolen-kiss': '#Affinitweet Stolen Kiss\n{user} skulle vilja kyssa dig runt hörnet... 😏\nOch du, vem skulle vilja göra det?\nvia https://affinitweet.com/stolen-kiss',
     'may-day': '#Affinitweet May Day\n{user}, jag ger dig min bästa bukett liljekonvalj! 💐\nVem ska du ge din till?\nvia https://affinitweet.com/may-day',
-    'halloween-duo': "#Affinitweet Halloween Duo\nJag behöver inte ens klä ut mig i år för att vara läskig, jag är med {user}! 🎃👻\nOch du, ved vem ska du skrämma som mest med?\nvia https://affinitweet.com/halloween-duo",
+    'halloween-duo': '#Affinitweet Halloween Duo\nJag behöver inte ens klä ut mig i år för att vara läskig, jag är med {user}! 🎃👻\nOch du, ved vem ska du skrämma som mest med?\nvia https://affinitweet.com/halloween-duo',
     'new-years-kiss': "#Affinitweet New Year's Kiss\nJag förbereder mitt bästa förra års kyss och första av nästa år {user} 😘💕\nOch du, vem kommer du att kyssa vid midnatt?\nvia https://affinitweet.com/christmas-gift",
   },
 

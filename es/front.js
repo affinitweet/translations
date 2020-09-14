@@ -26,6 +26,7 @@ export default {
     english: 'Inglés',
     polish: 'Polaco',
     spanish: 'Español',
+    swedish: 'Swedish', // TODO
     turkish: 'Turco',
     indonesian: 'Indonesian',
     portuguese: 'Portugués',
