@@ -390,9 +390,9 @@ export default {
     selfUsername: 'Entre un utilisateur différent de toi-même.',
     badUsername: "Nom d'utilisateur incorrect.",
     twitterError: 'Twitter a retourné une erreur :',
-    notEnoughData: 'Pas assez de données.',
+    notEnoughData: 'Pas assez de tweet à analyser.',
+    errorWhileRendering: 'Erreur lors de la génération.',
     accountProtected: 'Tu ne peux pas utiliser cette fontionnalité avec un compte protégé.',
-    refreshPage: 'Merci de rafraîchir la page.',
     timeout: "Délai d'attente maximum dépassé.",
     twitterErrors: {
       32: 'Impossible de t\'identifier.',

@@ -389,9 +389,9 @@ export default {
     unavailableFeature: 'Unavailable feature.', // TODO
     selfUsername: '不要输入自己。',
     badUsername: '错误的用户名。',
-    notEnoughData: '数据不够。',
+    notEnoughData: '数据不够。', // TODO
+    errorWhileRendering: 'Error while generating image.', // TODO
     accountProtected: '您的账户启用了保护推文功能，所以您无法使用这项功能。',
-    refreshPage: '请刷新网页。',
     timeout: '请求超时。',
     twitterError: 'Twitter 返回了一个错误：',
     twitterErrors: {

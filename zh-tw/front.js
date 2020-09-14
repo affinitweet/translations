@@ -390,9 +390,9 @@ export default {
     unavailableFeature: 'Unavailable feature.', // TODO
     selfUsername: '不要輸入自己。',
     badUsername: '錯誤的用戶名。',
-    notEnoughData: '數據不夠。',
+    notEnoughData: '數據不夠。', // TODO
+    errorWhileRendering: 'Error while generating image.', // TODO
     accountProtected: '您的帳戶啟用了保護推文功能，所以您無法使用這項功能。',
-    refreshPage: '請刷新網頁。',
     timeout: '請求超時。',
     twitterError: 'Twitter 返回了壹個錯誤：',
     twitterErrors: {

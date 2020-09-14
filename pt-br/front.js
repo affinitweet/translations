@@ -62,7 +62,7 @@ export default {
     },
 
     stateButton: {
-      hold: 'Mantenha pressionado para confirmar', 
+      hold: 'Mantenha pressionado para confirmar',
       submit: 'Clique para confirmar',
       loading: 'Ação em andamento...',
       cancel: 'Cancelar',

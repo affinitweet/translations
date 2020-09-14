@@ -390,9 +390,9 @@ export default {
     unavailableFeature: 'Unavailable feature.', // TODO
     selfUsername: 'Escriba un nombre de usuario diferente al de usted.',
     badUsername: 'Nombre de usuario incorrecto.',
-    notEnoughData: 'No hay suficientes datos.',
+    notEnoughData: 'No hay suficientes datos.', // TODO
+    errorWhileRendering: 'Error while generating image.', // TODO
     accountProtected: 'No puede utilizar esta función mientras su cuenta esté protegida.',
-    refreshPage: 'Por favor actualice la página.',
     timeout: 'Tiempo de espera excedido.',
     twitterError: 'Twitter devolvió un error:',
     twitterErrors: {

@@ -390,9 +390,9 @@ export default {
     unavailableFeature: 'Unavailable feature.', // TODO
     selfUsername: 'Wpisz cudzą nazwę użytkownika.',
     badUsername: 'Nazwa użytkownika nieprawidłowa.',
-    notEnoughData: 'Za mało danych.',
+    notEnoughData: 'Za mało danych.', // TODO
+    errorWhileRendering: 'Error while generating image.', // TODO
     accountProtected: 'Nie możesz korzystać z tej funkcji, o ile Twoje konto jest chronione.',
-    refreshPage: 'Odśwież stronę.',
     timeout: 'Przekroczono limit czasu.',
     twitterError: 'Błąd Twittera:',
     twitterErrors: {

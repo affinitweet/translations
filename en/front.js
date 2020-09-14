@@ -390,9 +390,9 @@ export default {
     unavailableFeature: 'Unavailable feature.',
     selfUsername: 'Type a different username than yourself.',
     badUsername: 'Bad username.',
-    notEnoughData: 'Not enough data.',
+    notEnoughData: 'Not enough tweets to analyze.', // TODO
+    errorWhileRendering: 'Error while generating image.', // TODO
     accountProtected: "You can't use this feature while your account is protected.",
-    refreshPage: 'Please refresh the page.',
     timeout: 'Timeout exceeded.',
     twitterError: 'Twitter returned an error:',
     twitterErrors: {
