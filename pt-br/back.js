@@ -43,7 +43,7 @@ export default {
       'not-marked_spam': 'Você não o(a) marcou como spam',
     },
     'tweet-rate': {
-      average: '{user} tweets em média...',
+      average: '{user} tweeta em média...',
       tweetsPerDay: '{count} vezes por dia',
     },
     'common-friends': {
@@ -71,9 +71,9 @@ export default {
     'tweet-rate': '#Affinitweet Tweet Rate\n\nhttps://affinitweet.com/tweet-rate',
     'emoji-mood': '#Affinitweet Emoji Mood\n{emojis}\nvia https://affinitweet.com/emoji-mood',
     valentine: '#Affinitweet Valentine\nEste ano você é meu(minha) {user}! ❤️\nE você, quem será seu?\nvia https://affinitweet.com/valentine',
-    'secret-crush': '#Affinitweet Secret Crush\n{user} te ama secretamente! 😳\nQuem te ama secretamente?\nvia https://affinitweet.com/secret-crush',
+    'secret-crush': '#Affinitweet Secret Crush\n{user} me ama secretamente! 😳\nQuem te ama secretamente?\nvia https://affinitweet.com/secret-crush',
     'hidden-twin': '#Affinitweet Hidden Twin\n{user} é o meu gêmeo escondido 😱\nDescubra quem é o seu!\nvia https://affinitweet.com/hidden-twin',
-    'stolen-kiss': '#Affinitweet Stolen Kiss\n{user} te beijaria ao virar da esquina... 😏\nE você, quem o faria?\nvia https://affinitweet.com/stolen-kiss',
+    'stolen-kiss': '#Affinitweet Stolen Kiss\n{user} me beijaria ao virar da esquina... 😏\nE você, quem o faria?\nvia https://affinitweet.com/stolen-kiss',
     'may-day': '#Affinitweet May Day\n{user}, eu te dou meu melhor buquê de lírio-do-vale! 💐\nA quem você dará o seu?\nvia https://affinitweet.com/may-day',
     'halloween-duo': '#Affinitweet Halloween Duo\nEu nem sequer tenho que me vestir este ano para ser assustador, estou com {user}! 🎃👻\nE você, com quem vai assustar mais?\nvia https://affinitweet.com/halloween-duo',
     'new-years-kiss': "#Affinitweet New Year's Kiss\nEstou preparando meu último beijo do ano e o primeiro do ano seguinte para você {user} 😘💕\nE você, quem vai beijar à meia-noite?\nvia https://affinitweet.com/new-years-kiss",
