@@ -166,6 +166,7 @@ export default {
 
     /* Welcome page */
     welcome: {
+      title: 'Bienvenue',
       welcomeToAffinitweet: 'Bienvenue sur Affinitweet&nbsp;&nbsp;🎉',
       proudToWelcomeYou: 'Bonjour {username}, nous sommes ravis de faire ta connaissance et heureux de t\'accueillir parmi nos plus de 5 millions d\'utilisateurs !',
       next: 'Suivant',
