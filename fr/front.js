@@ -37,7 +37,7 @@ export default {
   /* Pluralization */
   _pl: {
     seconds: 'seconde | seconde | secondes',
-    questions: 'question | question | questions',
+    features: 'fonctionnalité | fonctionnalité | fonctionnalités', // TODO
   },
 
   /* Components */
@@ -120,6 +120,18 @@ export default {
         description: 'On sait qui sera ton/ta Valentin(e) cette année... Et toi ? 💏',
         longDescription: 'Nous gardons secrètement l\'algorithme de cette fonctionnalité. Tout ce que l\'on est en mesure de dire c\'est qu\'on essaie de coller au mieux de la réalité, est-ce que notre Valentine saura te ravir... ?',
       },
+      'twitter-activity': {
+        description: 'Découvre le résumé de ton activité et tes statistiques Twitter 📊',
+        longDescription: 'Grâce à Twitter Activity, tu sauras quand est-ce que tu tweetes le plus souvent, combien d\'interactions (impressions, retweets, likes, réponses) tu as eu au total et la répartition de tes tweets ces derniers temps.',
+      },
+      'first-follower': {
+        description: 'Découvre quelle est la première personne à t\'avoir suivi sur Twitter 1️⃣',
+        longDescription: 'Grâce au First Follower, tu sauras qui est ton premier follower et quand est-ce qu\'il t\'as suivi (ou en tout la le plus vieux, car si on t\'as unfollow entre temps, on ne peut pas le savoir).',
+      },
+      'first-following': {
+        description: 'Découvre quelle est la première personne que tu as suivie sur Twitter 1️⃣',
+        longDescription: 'Grâce au First Following, tu sauras qui est ton premier following et quand est-ce que tu l\'as suivi (ou en tout la le plus vieux, car si tu as unfollow entre temps, on ne peut pas le savoir).',
+      },
       'secret-crush': {
         description: "Quelqu'un t'aime en secret... et te le cache... 😳",
         longDescription: 'Nous gardons secrètement l\'algorithme de cette fonctionnalité. Tout ce que l\'on est en mesure de dire c\'est que ton Secret Crush va t\'impressionner, en bon ou en mauvais ?',
@@ -168,7 +180,9 @@ export default {
     welcome: {
       title: 'Bienvenue',
       welcomeToAffinitweet: 'Bienvenue sur Affinitweet&nbsp;&nbsp;🎉',
-      proudToWelcomeYou: 'Bonjour {username}, nous sommes ravis de faire ta connaissance et heureux de t\'accueillir parmi nos plus de 5 millions d\'utilisateurs !',
+      helloYou: 'Bonjour {username}&nbsp;&nbsp;😊',
+      proudToWelcomeYou: 'Bonjour {username}, nous sommes ravis de faire ta connaissance et heureux de t\'accueillir parmi nos plus de 6 millions d\'utilisateurs !',
+      onboardingCreation: 'Nous sommes ravis de te revoir parmi nous ! On a créé ce petit onboarding pour s\'assurer que tu sois au courant de tout, avant tout le monde...',
       next: 'Suivant',
       littleQuestion: 'Petite question...',
       doYouWantToFollowUs: 'Nous mettons à jour Affinitweet régulièrement, veux-tu nous suivre sur Twitter pour savoir quand de nouvelles fonctionnalités seront disponibles ?',
@@ -229,6 +243,10 @@ export default {
     profile: {
       title: 'Profil',
       description: 'Comptes, paramètres et historique de ton profil.',
+      joinBeta: 'Rejoins le Beta program pour tester nos fonctionnalités avant tout le monde !',
+      betaTerms: 'Le Beta program est gratuit. Certaines fonctionnalités peuvent dysfonctionner et être modifiées à tout moment avant leur publication.',
+      applyForFree: 'Rejoindre gratuitement',
+      noThanks: 'Non, merci',
       profile: 'Profil',
       history: 'Historique',
       preferences: 'Préférences',
@@ -262,6 +280,8 @@ export default {
     feature: {
       login: 'Connecte-toi pour continuer...',
       startFeature: 'En avant !',
+      betaFeature: 'Cette fonctionnalité est actuellement en beta et est disponible pour les utilisateurs faisant partie du Beta program uniquement. Tu peux rejoindre le Beta program si tu veux tester cette fonctionnalité.',
+      applyForFree: 'Rejoindre gratuitement',
       results: 'Voici tes résultats !',
       tweetResults: 'Tweeter les résultats !',
       tweetingResults: 'Publication du tweet...',
@@ -281,6 +301,43 @@ export default {
       noFeatureFound: 'Malheureusement aucune fonctionnalité ne correspond à cette recherche... 😔',
       resetSearch: 'Réinitialiser la recherche',
       letsGo: 'Allons-y !',
+    },
+
+    /* Beta program page */
+    'beta-program': {
+      title: 'Beta program',
+      description: "Rejoins le Beta program gratuitement et teste nos fonctionnalités beta avant qu'elles ne soient disponibles au grand public.",
+      betaProgramDescription: "Le Beta program a été créé pour tester de nouvelles fonctionnalités avant qu'elles ne soient disponibles au public pour être sûr qu'elles fonctionnent correctement. En rejoignant ce programme, tu pourras les tester.",
+      currentBetaFeatures: 'Il y a actuellement {amount} {features} dans le Beta program :', // TODO
+      noCurrentBetaFeatures: 'Il n\'y a actuellement aucune fonctionnalité dans le Beta program, mais elles arrivent bientôt !', // TODO
+      fewThingsToKnow: 'Quelques points à propos du Beta program :',
+      li1: "C'est 100% gratuit",
+      li2: 'Il y a un nombre de places limité',
+      li3: 'Tu peux le quitter à tout moment',
+      li4: 'Support dédié et privilégié sur Twitter par MP',
+      li5: 'Les fonctionnalités peuvent ne pas fonctionner',
+      li6: 'Les fonctionnalités peuvent changer à tout moment',
+      thanksForInterest: 'Merci pour ton intérêt pour le Beta program 💜',
+      alreadyApplied: 'Tu fais déjà partie du Beta program,<br />merci beaucoup pour ton intérêt 💜',
+      leaveBetaProgram: 'Quitter le Beta program',
+      leavingTerms: "Si tu quittes le Beta program, tu pourrais ne plus le rejoindre s'il n'y a plus de places disponibles.",
+      placesAvailable: '500 places disponibles ! 🎟',
+      accountEligible: 'Ton compte est éligible au Beta program et quelques places sont disponibles !',
+      yourEmailAddress: 'Ton adresse mail...',
+      applyForFree: 'Rejoindre gratuitement',
+      applyTerms: 'En rejoignant le Beta program, tu acceptes de recevoir nos notifications par email (1 par semaine maximum).',
+      noPlaceAvailable: 'Aucune place disponible 😕',
+      betaProgramFull: "Malheureusement le Beta program est complet et nous ne pouvons donner davantage d'accès gratuits, mais tu peux toujours essayer d'en gagner en utilisant les méthodes d'à côté !",
+      keepUpdated: 'Nous te dirons lorsque nous mettrons de nouveaux accès sur {ourTwitterAccount}.',
+      ourTwitterAccount: 'notre compte Twitter',
+      or: 'ou',
+      earnYourAccess: 'Gagne ton accès ! 🎁',
+      writeReview: '#1 — Écris une évaluation {onTrustpilot} à propos de nous et envoie-la nous sur Twitter par MP, on te donnera un accès.',
+      onTrustpilot: 'sur Trustpilot',
+      winContest: 'ou #2 — Participe à nos concours sur {ourTwitterAccount} pour gagner un accès, suis-nous et active les notifications.',
+      randomDraws: 'Un tirage au sort sera fait sur chaque concours sur {pickaw} pour que tout le monde puisse avoir une chance de gagner.',
+      welcomeToTheBetaProgram: 'Bienvenue sur le Beta program ! Tu peux maintenant tester nos fonctionnalités beta 😊',
+      seeYouSoonBetaProgram: 'Merci d\'avoir fait partie de notre Beta program, on espère te revoir bientôt !',
     },
 
     /* Legal page */
@@ -389,12 +446,15 @@ export default {
     unknown: "Un problème est survenu. L'équipe a été notifiée.",
     unknownFeature: 'Fonctionnalité inconnue.',
     unavailableFeature: 'Fonctionnalité non disponible.',
+    betaFeature: 'Vous ne pouvez pas utiliser de fonctionnalité beta si vous ne faites pas partie du Beta program.',
+    invalidEmail: "L'adresse email est invalide.",
     selfUsername: 'Entre un utilisateur différent de toi-même.',
     badUsername: "Nom d'utilisateur incorrect.",
     twitterError: 'Twitter a retourné une erreur :',
     notEnoughData: 'Pas assez de tweet à analyser.',
     errorWhileRendering: 'Erreur lors de la génération.',
     accountProtected: 'Tu ne peux pas utiliser cette fontionnalité avec un compte protégé.',
+    targetAccountProtectedAndNotFollowing: 'Tu ne peux pas utiliser cette fontionnalité envers un compte protégé qui ne te suit pas.',
     timeout: "Délai d'attente maximum dépassé.",
     twitterErrors: {
       32: 'Impossible de t\'identifier.',

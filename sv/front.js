@@ -37,7 +37,7 @@ export default {
   /* Pluralization */
   _pl: {
     seconds: 'sekund | sekund | sekunder',
-    questions: 'fråga | fråga | frågor',
+    features: 'feature | features | features', // TODO
   },
 
   /* Components */
@@ -120,6 +120,18 @@ export default {
         description: 'Vi vet vem ditt Valentine kommer att bli i år... Du då? 💏',
         longDescription: 'Vi håller algoritmen för detta hemligt. Allt vi kan säga är att vi försöker hålla oss till verkligheten, kommer våran Valentine nöja dig... ?',
       },
+      'twitter-activity': {
+        description: 'Discover the summary of your activity and your Twitter statistics 📊', // TODO
+        longDescription: 'Thanks to Twitter Activity, you will know when you tweet most often, how many interactions (impressions, retweets, likes, replies) you have in total and the distribution of your tweets.', // TODO
+      },
+      'first-follower': {
+        description: 'Discover who\'s the first person who followed you on Twitter 1️⃣', // TODO
+        longDescription: 'Thanks to the First Follower, you\'ll know who is your first follower and when they followed you (or the oldest one, because if you\'ve been unfollowed in the meantime, we can\'t know).', // TODO
+      },
+      'first-following': {
+        description: 'Discover who\'s the first person you followed on Twitter 1️⃣', // TODO
+        longDescription: 'Thanks to the First Following, you\'ll know who is your first following and when you followed them (or the oldest one, because if you\'ve unfollowed people in the meantime, we can\'t know).', // TODO
+      },
       'secret-crush': {
         description: 'Någon älskar dig i hemiglet... och döljer det från det... 😳',
         longDescription: 'Vi håller algoritmen för detta hemligt. Allt vi kan säga är att din Secret Crush kommer imponera dig, bra eller dåligt?',
@@ -168,7 +180,9 @@ export default {
     welcome: {
       title: 'Welcome', // TODO
       welcomeToAffinitweet: 'Welcome to Affinitweet&nbsp;&nbsp;🎉', // TODO
-      proudToWelcomeYou: 'Hi {username}, we are delighted to make your acquaintance and happy to welcome you among our more than 5 million users!', // TODO
+      helloYou: 'Hello {username}&nbsp;&nbsp;😊', // TODO
+      proudToWelcomeYou: 'Hi {username}, we are delighted to make your acquaintance and happy to welcome you among our more than 6 million users!', // TODO
+      onboardingCreation: 'We are delighted to have you back with us! We created this little onboarding to make sure you know everything before everyone else...', // TODO
       next: 'Next', // TODO
       littleQuestion: 'Quick question...', // TODO
       doYouWantToFollowUs: 'We update Affinitweet regularly, do you want to follow us on Twitter to find out when new features will be available?', // TODO
@@ -229,6 +243,10 @@ export default {
     profile: {
       title: 'Profil',
       description: 'Konto, inställningar och historia till ditt konto.',
+      joinBeta: 'Join the Beta program to test our features before they get released to public!', // TODO
+      betaTerms: 'The Beta program is free of charge. Some features might not work and can be modified at anytime until they get published.', // TODO
+      applyForFree: 'Apply for free', // TODO
+      noThanks: 'No, thanks', // TODO
       profile: 'Profil',
       history: 'Historia',
       preferences: 'Inställningar',
@@ -262,6 +280,8 @@ export default {
     feature: {
       login: 'Logga in för att fortsätta...',
       startFeature: 'Då kör vi!',
+      betaFeature: 'This feature is currently in beta and is available for users being part of the Beta program only. You can apply for this program if you want to test this feature.', // TODO
+      applyForFree: 'Apply for free', // TODO
       results: 'Här är dina resultat!',
       tweetResults: 'Tweeta resultat',
       tweetingResults: 'Tweetar...',
@@ -281,6 +301,43 @@ export default {
       noFeatureFound: 'Tyvärr matchar inga funktioner den här sökningen... 😔',
       resetSearch: 'Nollställ sökning',
       letsGo: 'Då kör vi!',
+    },
+
+    /* Beta program page */
+    'beta-program': {
+      title: 'Beta program',
+      description: 'Apply to the Beta program for free and try our beta features before they get released to the public!', // TODO
+      betaProgramDescription: "The Beta program has been created to test new features before they get released to the public to be sure that they're working as expected. By being part of this program, you will be able to test them.", // TODO
+      currentBetaFeatures: 'There\'s currently {amount} {features} in the Beta program:', // TODO
+      noCurrentBetaFeatures: 'There\'s currently no feature in the Beta program, but more are coming soon!', // TODO
+      fewThingsToKnow: 'Few things to know about the Beta program:', // TODO
+      li1: "It's 100% free of charge", // TODO
+      li2: "There's a limited number of places", // TODO
+      li3: 'You can leave it when you want', // TODO
+      li4: 'Dedicated & priority support on Twitter by DM', // TODO
+      li5: 'Beta features might not work as expected', // TODO
+      li6: 'Beta features can change at anytime', // TODO
+      thanksForInterest: 'Thank you for your interest regarding the Beta program 💜', // TODO
+      alreadyApplied: "You're already in the Beta program,<br />thank you so much for your interest 💜", // TODO
+      leaveBetaProgram: 'Leave the Beta program', // TODO
+      leavingTerms: "If you leave the Beta Program, you may not be able to apply again if there's no available places.", // TODO
+      placesAvailable: '500 places available! 🎟', // TODO
+      accountEligible: 'Your account is eligible to apply for the Beta program and few places are available!', // TODO
+      yourEmailAddress: 'Your email address...', // TODO
+      applyForFree: 'Apply for free', // TODO
+      applyTerms: 'By applying to the Beta program, you agree to receive notification & promotion emails (1 per week maximum).', // TODO
+      noPlaceAvailable: 'No place available 😕', // TODO
+      betaProgramFull: "Unfortunately, the Beta program is full and we can't give free access at this time, but you can still try to earn an access by using the methods in the next block!", // TODO
+      keepUpdated: 'We will let you know when new free access will be available on {ourTwitterAccount}.', // TODO
+      ourTwitterAccount: 'our Twitter Account', // TODO
+      or: 'or', // TODO
+      earnYourAccess: 'Earn your access! 🎁', // TODO
+      writeReview: '#1 — Write a review about us {onTrustpilot} and send us its link on our Twitter account by DM, we will then give you an access.', // TODO
+      onTrustpilot: 'on Trustpilot', // TODO
+      winContest: 'or #2 — Participate in our contests on {ourTwitterAccount} to win an access, follow us and enable notifications to keep updated.', // TODO
+      randomDraws: 'Each of these contests ends with a random draw made on {pickaw}, so everyone have a chance to win.', // TODO
+      welcomeToTheBetaProgram: 'Welcome to the Beta program! You can now test our Beta features 😊', // TODO
+      seeYouSoonBetaProgram: 'Thanks for being part of the Beta program, can\'t wait to see you soon!', // TODO
     },
 
     /* Legal page */
@@ -389,10 +446,13 @@ export default {
     unknown: 'Ett fel har uppstått. Vårt team har notifierats.',
     unknownFeature: 'Okänt material.',
     unavailableFeature: 'Otillgängligt material.',
+    betaFeature: "You can't use beta features until you're appart of the Beta program.", // TODO
+    invalidEmail: 'Email is invalid.', // TODO
     selfUsername: 'Skriv ett annat användarnamn än dig själv.',
     badUsername: 'Dåligt användarnamn.',
     notEnoughData: 'Inte tillräckligt med data.',
     accountProtected: 'Du kan inte använda detta material medan ditt konto är skyddat.',
+    targetAccountProtectedAndNotFollowing: "You can't use this feature because the targeted user is protected and not following you.", // TODO
     refreshPage: 'Vänligen ladda om sidan.',
     timeout: 'Timeout exceeded.',
     twitterError: 'Twitter skickade ett fel:',

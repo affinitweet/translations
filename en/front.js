@@ -37,7 +37,7 @@ export default {
   /* Pluralization */
   _pl: {
     seconds: 'second | second | seconds',
-    questions: 'question | question | questions',
+    features: 'feature | feature | features',
   },
 
   /* Components */
@@ -120,6 +120,18 @@ export default {
         description: 'We know who your Valentine will be this year... What about you? 💏',
         longDescription: 'We keep the algorithm of this feature secret. All we can say is that we are trying to stick to reality, will our Valentine delight you... ?',
       },
+      'twitter-activity': {
+        description: 'Discover the summary of your activity and your Twitter statistics 📊',
+        longDescription: 'Thanks to Twitter Activity, you will know when you tweet most often, how many interactions (impressions, retweets, likes, replies) you have in total and the distribution of your tweets.',
+      },
+      'first-follower': {
+        description: 'Discover who\'s the first person who followed you on Twitter 1️⃣',
+        longDescription: 'Thanks to the First Follower, you\'ll know who is your first follower and when they followed you (or the oldest one, because if you\'ve been unfollowed in the meantime, we can\'t know).',
+      },
+      'first-following': {
+        description: 'Discover who\'s the first person you followed on Twitter 1️⃣',
+        longDescription: 'Thanks to the First Following, you\'ll know who is your first following and when you followed them (or the oldest one, because if you\'ve unfollowed people in the meantime, we can\'t know).',
+      },
       'secret-crush': {
         description: 'Someone loves you in secret... and hides it from you... 😳',
         longDescription: 'We keep the algorithm of this feature secret. All we can say is that your Secret Crush will impress you, good or bad?',
@@ -168,7 +180,9 @@ export default {
     welcome: {
       title: 'Welcome',
       welcomeToAffinitweet: 'Welcome to Affinitweet&nbsp;&nbsp;🎉',
-      proudToWelcomeYou: 'Hi {username}, we are delighted to make your acquaintance and happy to welcome you among our more than 5 million users!',
+      helloYou: 'Hello {username}&nbsp;&nbsp;😊',
+      proudToWelcomeYou: 'Hi {username}, we are delighted to make your acquaintance and happy to welcome you among our more than 6 million users!',
+      onboardingCreation: 'We are delighted to have you back with us! We created this little onboarding to make sure you know everything before everyone else...',
       next: 'Next',
       littleQuestion: 'Quick question...',
       doYouWantToFollowUs: 'We update Affinitweet regularly, do you want to follow us on Twitter to find out when new features will be available?',
@@ -229,6 +243,10 @@ export default {
     profile: {
       title: 'Profile',
       description: 'Account, settings and history of your profile.',
+      joinBeta: 'Join the Beta program to test our features before they get released to public!',
+      betaTerms: 'The Beta program is free of charge. Some features might not work and can be modified at anytime until they get published.',
+      applyForFree: 'Apply for free',
+      noThanks: 'No, thanks',
       profile: 'Profile',
       history: 'History',
       preferences: 'Preferences',
@@ -262,6 +280,8 @@ export default {
     feature: {
       login: 'Log in to continue...',
       startFeature: "Let's go!",
+      betaFeature: 'This feature is currently in beta and is available for users being part of the Beta program only. You can apply for this program if you want to test this feature.',
+      applyForFree: 'Apply for free',
       results: "Here's your results!",
       tweetResults: 'Tweet results',
       tweetingResults: 'Tweeting...',
@@ -281,6 +301,43 @@ export default {
       noFeatureFound: 'Unfortunately no feature matches this search... 😔',
       resetSearch: 'Reset search',
       letsGo: 'Let\'s go!',
+    },
+
+    /* Beta program page */
+    'beta-program': {
+      title: 'Beta program',
+      description: 'Apply to the Beta program for free and try our beta features before they get released to the public!',
+      betaProgramDescription: "The Beta program has been created to test new features before they get released to the public to be sure that they're working as expected. By being part of this program, you will be able to test them.",
+      currentBetaFeatures: 'There\'s currently {amount} {features} in the Beta program:',
+      noCurrentBetaFeatures: 'There\'s currently no feature in the Beta program, but more are coming soon!',
+      fewThingsToKnow: 'Few things to know about the Beta program:',
+      li1: "It's 100% free of charge",
+      li2: "There's a limited number of places",
+      li3: 'You can leave it when you want',
+      li4: 'Dedicated & priority support on Twitter by DM',
+      li5: 'Beta features might not work as expected',
+      li6: 'Beta features can change at anytime',
+      thanksForInterest: 'Thank you for your interest regarding the Beta program 💜',
+      alreadyApplied: "You're already in the Beta program,<br />thank you so much for your interest 💜",
+      leaveBetaProgram: 'Leave the Beta program',
+      leavingTerms: "If you leave the Beta Program, you may not be able to apply again if there's no available places.",
+      placesAvailable: '500 places available! 🎟',
+      accountEligible: 'Your account is eligible to apply for the Beta program and few places are available!',
+      yourEmailAddress: 'Your email address...',
+      applyForFree: 'Apply for free',
+      applyTerms: 'By applying to the Beta program, you agree to receive notification & promotion emails (1 per week maximum).',
+      noPlaceAvailable: 'No place available 😕',
+      betaProgramFull: "Unfortunately, the Beta program is full and we can't give free access at this time, but you can still try to earn an access by using the methods in the next block!",
+      keepUpdated: 'We will let you know when new free access will be available on {ourTwitterAccount}.',
+      ourTwitterAccount: 'our Twitter Account',
+      or: 'or',
+      earnYourAccess: 'Earn your access! 🎁',
+      writeReview: '#1 — Write a review about us {onTrustpilot} and send us its link on our Twitter account by DM, we will then give you an access.',
+      onTrustpilot: 'on Trustpilot',
+      winContest: 'or #2 — Participate in our contests on {ourTwitterAccount} to win an access, follow us and enable notifications to keep updated.',
+      randomDraws: 'Each of these contests ends with a random draw made on {pickaw}, so everyone have a chance to win.',
+      welcomeToTheBetaProgram: 'Welcome to the Beta program! You can now test our Beta features 😊',
+      seeYouSoonBetaProgram: 'Thanks for being part of the Beta program, can\'t wait to see you soon!',
     },
 
     /* Legal page */
@@ -389,11 +446,14 @@ export default {
     unknown: 'An error has occured. Our team has been notified.',
     unknownFeature: 'Unknown feature.',
     unavailableFeature: 'Unavailable feature.',
+    betaFeature: "You can't use beta features until you're appart of the Beta program.",
+    invalidEmail: 'Email is invalid.',
     selfUsername: 'Type a different username than yourself.',
     badUsername: 'Bad username.',
-    notEnoughData: 'Not enough tweets to analyze.', // TODO
-    errorWhileRendering: 'Error while generating image.', // TODO
+    notEnoughData: 'Not enough tweets to analyze.',
+    errorWhileRendering: 'Error while generating image.',
     accountProtected: "You can't use this feature while your account is protected.",
+    targetAccountProtectedAndNotFollowing: "You can't use this feature because the targeted user is protected and not following you.",
     timeout: 'Timeout exceeded.',
     twitterError: 'Twitter returned an error:',
     twitterErrors: {

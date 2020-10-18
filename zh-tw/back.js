@@ -15,6 +15,22 @@ export default {
 
   /* Feature */
   _ft: {
+    'twitter-activity': {
+      basedOnLastDays: 'Based on the last {days} days...', // TODO
+      countingTweets: '... and counting {count} tweets:', // TODO
+      interactionsReceived: 'Interactions received', // TODO
+      last30Days: '*: last 30 days', // TODO
+      tweetingHours: 'Tweeting hours', // TODO
+      tweetRepartition: 'Tweet repartition', // TODO
+    },
+    'first-follower': {
+      yourFirstFollowerIs: 'Your first follower is', // TODO
+      dateFormat: 'on {month}/{day}/{year} at {hour}:{minute}:{second}', // TODO
+    },
+    'first-following': {
+      yourFirstFollowingIs: 'Your first following is', // TODO
+      dateFormat: 'on {month}/{day}/{year} at {hour}:{minute}:{second}', // TODO
+    },
     'first-to-follow': {
       youAreNotFollowing: '您沒有關註 {user}...',
       notFollowingYou: '{user} 沒有關註您...',
@@ -63,20 +79,23 @@ export default {
 
   /* Tweet content */
   _tw: {
-    'first-to-follow': '#Affinitweet First To Follow\n{text}\nvia https://affinitweet.com/first-to-follow',
-    friendships: '#Affinitweet Friendships\nvia https://affinitweet.com/friendships',
-    'top-friends': '#Affinitweet Top Friends\n{users}\nvia https://affinitweet.com/top-friends',
-    'famous-followers': '#Affinitweet Famous Followers\nvia https://affinitweet.com/famous-followers',
-    'common-friends': '#Affinitweet Common Friends\n{text}\nhttps://affinitweet.com/common-friends',
-    'tweet-rate': '#Affinitweet Tweet Rate\nhttps://affinitweet.com/tweet-rate',
-    'emoji-mood': '#Affinitweet 表情符號排行\n{emojis}\nvia https://affinitweet.com/emoji-mood',
-    valentine: '#Affinitweet Valentine\n今年 {user} 是我的! ❤️\n誰又是妳們的呢？\nvia https://affinitweet.com/valentine',
-    'secret-crush': '#Affinitweet Secret Crush\n被 {user} 暗戀著！😳\n誰暗戀著妳呢？\nvia https://affinitweet.com/secret-crush',
-    'hidden-twin': '#Affinitweet Hidden Twin\n{user} 是我隱藏的雙胞胎 😱\n也找出誰是妳的雙胞胎吧！\nvia https://affinitweet.com/hidden-twin',
-    'stolen-kiss': '#Affinitweet Stolen Kiss\n{user} 會在街角親吻您...😏\n而你，是誰來吻呢？\nvia https://affinitweet.com/stolen-kiss',
-    'may-day': '#Affinitweet May Day\n{user}, 最好的一束鈴蘭遞給你！💐\n而你，會給誰呢？\nvia https://affinitweet.com/may-day',
-    'halloween-duo': '#Affinitweet Halloween Duo\n今年我甚至不用打扮成嚇人的樣子，因為我和 {user} 在一起! 🎃👻\n而你，你最怕誰？\nvia https://affinitweet.com/halloween-duo',
-    'new-years-kiss': "#Affinitweet New Year's Kiss\n我準備了一年的最好的吻，在明年第一時間獻給 {user} 😘💕\n而你準備將新年之吻給誰呢？\nvia https://affinitweet.com/christmas-gift",
+    'first-to-follow': '{text}',
+    friendships: '{text}',
+    'top-friends': '{users}',
+    'famous-followers': '{users}',
+    'common-friends': '{text}',
+    'tweet-rate': '{text}',
+    'emoji-mood': '{emojis}',
+    valentine: '今年 {user} 是我的! ❤️\n誰又是妳們的呢？',
+    'twitter-activity': "Here's my account statistics from the past {days} days. Do you have better interactions?", // TODO
+    'first-follower': 'I just discovered my first follower on Twitter, it\'s {user} and they followed me {date}!\nWho\'s your first follower?', // TODO
+    'first-following': 'I just discovered my first following on Twitter, it\'s {user} and I followed them {date}!\nWho\'s your first following?', // TODO
+    'secret-crush': '被 {user} 暗戀著！😳\n誰暗戀著妳呢？',
+    'hidden-twin': '{user} 是我隱藏的雙胞胎 😱\n也找出誰是妳的雙胞胎吧！',
+    'stolen-kiss': '{user} 會在街角親吻您...😏\n而你，是誰來吻呢？',
+    'may-day': '{user}, 最好的一束鈴蘭遞給你！💐\n而你，會給誰呢？',
+    'halloween-duo': '今年我甚至不用打扮成嚇人的樣子，因為我和 {user} 在一起! 🎃👻\n而你，你最怕誰？',
+    'new-years-kiss': '我準備了一年的最好的吻，在明年第一時間獻給 {user} 😘💕\n而你準備將新年之吻給誰呢？',
   },
 
 }

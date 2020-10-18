@@ -15,6 +15,22 @@ export default {
 
   /* Features */
   _ft: {
+    'twitter-activity': {
+      basedOnLastDays: 'Based on the last {days} days...', // TODO
+      countingTweets: '... and counting {count} tweets:', // TODO
+      interactionsReceived: 'Interactions received', // TODO
+      last30Days: '*: last 30 days', // TODO
+      tweetingHours: 'Tweeting hours', // TODO
+      tweetRepartition: 'Tweet repartition', // TODO
+    },
+    'first-follower': {
+      yourFirstFollowerIs: 'Your first follower is', // TODO
+      dateFormat: 'on {month}/{day}/{year} at {hour}:{minute}:{second}', // TODO
+    },
+    'first-following': {
+      yourFirstFollowingIs: 'Your first following is', // TODO
+      dateFormat: 'on {month}/{day}/{year} at {hour}:{minute}:{second}', // TODO
+    },
     'first-to-follow': {
       youAreNotFollowing: 'Du följer inte {user}...',
       notFollowingYou: '{user} följer inte dig...',
@@ -63,20 +79,23 @@ export default {
 
   /* Tweet content */
   _tw: {
-    'first-to-follow': '#Affinitweet Först att följa\n{text}\nvia https://affinitweet.com/first-to-follow',
-    friendships: '#Affinitweet Vänskap\n{text}\nvia https://affinitweet.com/friendships',
-    'top-friends': '#Affinitweet Toppvänner\n{users}\nvia https://affinitweet.com/top-friends',
-    'famous-followers': '#Affinitweet Berömda följare\n{users}\nvia https://affinitweet.com/famous-followers',
-    'common-friends': '#Affinitweet Gemensamma vänner\n{text}\nhttps://affinitweet.com/common-friends',
-    'tweet-rate': '#Affinitweet Tweettakt\n\nhttps://affinitweet.com/tweet-rate',
-    'emoji-mood': '#Affinitweet Emoji-humör\n{emojis}\nvia https://affinitweet.com/emoji-mood',
-    valentine: '#Affinitweet Valentine\nDetta år är du min {user}! ❤️\nAnd you, whom will be yours?\nvia https://affinitweet.com/valentine',
-    'secret-crush': '#Affinitweet Secret Crush\n{user} älskar dig i hemlighet! 😳\nVem älskar du i hemlighet?\nvia https://affinitweet.com/secret-crush',
-    'hidden-twin': '#Affinitweet Hidden Twin\n{user} är min hemliga tvilling 😱\nLista ut vem som är din!\nvia https://affinitweet.com/hidden-twin',
-    'stolen-kiss': '#Affinitweet Stolen Kiss\n{user} skulle vilja kyssa dig runt hörnet... 😏\nOch du, vem skulle vilja göra det?\nvia https://affinitweet.com/stolen-kiss',
-    'may-day': '#Affinitweet May Day\n{user}, jag ger dig min bästa bukett liljekonvalj! 💐\nVem ska du ge din till?\nvia https://affinitweet.com/may-day',
-    'halloween-duo': '#Affinitweet Halloween Duo\nJag behöver inte ens klä ut mig i år för att vara läskig, jag är med {user}! 🎃👻\nOch du, ved vem ska du skrämma som mest med?\nvia https://affinitweet.com/halloween-duo',
-    'new-years-kiss': "#Affinitweet New Year's Kiss\nJag förbereder mitt bästa förra års kyss och första av nästa år {user} 😘💕\nOch du, vem kommer du att kyssa vid midnatt?\nvia https://affinitweet.com/christmas-gift",
+    'first-to-follow': '{text}',
+    friendships: '{text}',
+    'top-friends': '{users}',
+    'famous-followers': '{users}',
+    'common-friends': '{text}',
+    'tweet-rate': '{text}',
+    'emoji-mood': '{emojis}',
+    valentine: 'Detta år är du min {user}! ❤️\nAnd you, whom will be yours?',
+    'twitter-activity': "Here's my account statistics from the past {days} days. Do you have better interactions?", // TODO
+    'first-follower': 'I just discovered my first follower on Twitter, it\'s {user} and they followed me {date}!\nWho\'s your first follower?', // TODO
+    'first-following': 'I just discovered my first following on Twitter, it\'s {user} and I followed them {date}!\nWho\'s your first following?', // TODO
+    'secret-crush': '{user} älskar dig i hemlighet! 😳\nVem älskar du i hemlighet?',
+    'hidden-twin': '{user} är min hemliga tvilling 😱\nLista ut vem som är din!',
+    'stolen-kiss': '{user} skulle vilja kyssa dig runt hörnet... 😏\nOch du, vem skulle vilja göra det?',
+    'may-day': '{user}, jag ger dig min bästa bukett liljekonvalj! 💐\nVem ska du ge din till?',
+    'halloween-duo': 'Jag behöver inte ens klä ut mig i år för att vara läskig, jag är med {user}! 🎃👻\nOch du, ved vem ska du skrämma som mest med?',
+    'new-years-kiss': 'Jag förbereder mitt bästa förra års kyss och första av nästa år {user} 😘💕\nOch du, vem kommer du att kyssa vid midnatt?',
   },
 
 }

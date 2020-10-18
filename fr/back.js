@@ -15,6 +15,22 @@ export default {
 
   /* Features */
   _ft: {
+    'twitter-activity': {
+      basedOnLastDays: 'Basé sur les {days} derniers jours...',
+      countingTweets: '... et en comptant {count} tweets :',
+      interactionsReceived: 'Interactions reçues',
+      last30Days: '* : 30 derniers jours',
+      tweetingHours: 'Heures de tweet',
+      tweetRepartition: 'Répartition des tweets',
+    },
+    'first-follower': {
+      yourFirstFollowerIs: 'Ton premier follower est',
+      dateFormat: 'le {day}/{month}/{year} à {hour}:{minute}:{second}',
+    },
+    'first-following': {
+      yourFirstFollowingIs: 'Ton premier following est',
+      dateFormat: 'le {day}/{month}/{year} à {hour}:{minute}:{second}',
+    },
     'first-to-follow': {
       youAreNotFollowing: 'Tu ne suis pas {user}...',
       notFollowingYou: '{user} ne te suis pas...',
@@ -63,20 +79,23 @@ export default {
 
   /* Tweet content */
   _tw: {
-    'first-to-follow': '#Affinitweet First To Follow\n{text}\nvia affinitweet.com/first-to-follow',
-    friendships: '#Affinitweet Friendships\n{text}\nvia https://affinitweet.com/friendships',
-    'top-friends': '#Affinitweet Top Friends\n{users}\nvia https://affinitweet.com/top-friends',
-    'famous-followers': '#Affinitweet Famous Followers\n{users}\nvia https://affinitweet.com/famous-followers',
-    'common-friends': '#Affinitweet Common Friends\n{text}\nhttps://affinitweet.com/common-friends',
-    'tweet-rate': '#Affinitweet Tweet Rate\n\nhttps://affinitweet.com/tweet-rate',
-    'emoji-mood': '#Affinitweet Emoji Mood\n{emojis}\nvia https://affinitweet.com/emoji-mood',
-    valentine: '#Affinitweet Valentine\nCette année tu es à moi {user} ! ❤️\nEt toi, avec qui te retrouveras-tu ?\nvia https://affinitweet.com/valentine',
-    'secret-crush': "#Affinitweet Secret Crush\n{user} t'aime secrètement ! 😳\nDécouvre qui t'aime en secret !\nvia https://affinitweet.com/secret-crush",
-    'hidden-twin': '#Affinitweet Hidden Twin\n{user} est mon jumeau caché 😱\nDécouvre vite qui est le tien !\nvia https://affinitweet.com/hidden-twin',
-    'stolen-kiss': "#Affinitweet Stolen Kiss\n{user} t'embrasserait bien au coin d'une rue... 😏\nEt toi, qui t'embrasserait ?\nvia https://affinitweet.com/stolen-kiss",
-    'may-day': "#Affinitweet May Day\n{user}, je t'offre mon plus beau bouquet de muguet cette année ! 💐\nÀ qui offriras-tu le tien ?\nvia https://affinitweet.com/may-day",
-    'halloween-duo': '#Affinitweet Halloween Duo\nMême pas besoin de me déguiser cette année pour faire peur, je suis avec {user} ! 🎃👻\nEt toi, avec qui seras-tu ?\nvia https://affinitweet.com/halloween-duo',
-    'new-years-kiss': "#Affinitweet New Year's Kiss\nJe te prépare mon dernier baiser de l'année et le premier de l'année suivante {user} !🙈😍\nEt toi, qui vas-tu embrasser à minuit ?\nvia https://affinitweet.com/new-years-kiss",
+    'first-to-follow': '{text}',
+    friendships: '{text}',
+    'top-friends': '{users}',
+    'famous-followers': '{users}',
+    'common-friends': '{text}',
+    'tweet-rate': '{text}',
+    'emoji-mood': '{emojis}',
+    valentine: 'Cette année tu es à moi {user} ! ❤️\nEt toi, avec qui te retrouveras-tu ?',
+    'twitter-activity': 'Voici les statistiques de mon compte de ces {days} derniers jours. Est-ce que tu as des meilleures interactions ?',
+    'first-follower': 'Je viens de découvrir mon premier follower sur Twitter, c\'est {user} et il m\'a suivi {date} !\nQui est ton premier follower ?',
+    'first-following': 'Je viens de découvrir mon premier following sur Twitter, c\'est {user} et je l\'ai suivi {date} !\nQui est ton premier following ?',
+    'secret-crush': "{user} t'aime secrètement ! 😳\nDécouvre qui t'aime en secret !",
+    'hidden-twin': '{user} est mon jumeau caché 😱\nDécouvre vite qui est le tien !',
+    'stolen-kiss': "{user} t'embrasserait bien au coin d'une rue... 😏\nEt toi, qui t'embrasserait ?",
+    'may-day': "{user}, je t'offre mon plus beau bouquet de muguet cette année ! 💐\nÀ qui offriras-tu le tien ?",
+    'halloween-duo': 'Même pas besoin de me déguiser cette année pour faire peur, je suis avec {user} ! 🎃👻\nEt toi, avec qui seras-tu ?',
+    'new-years-kiss': "Je te prépare mon dernier baiser de l'année et le premier de l'année suivante {user} !🙈😍\nEt toi, qui vas-tu embrasser à minuit ?",
   },
 
 }

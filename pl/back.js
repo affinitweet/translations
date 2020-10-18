@@ -13,6 +13,22 @@ export default {
   },
 
   _ft: {
+    'twitter-activity': {
+      basedOnLastDays: 'Based on the last {days} days...', // TODO
+      countingTweets: '... and counting {count} tweets:', // TODO
+      interactionsReceived: 'Interactions received', // TODO
+      last30Days: '*: last 30 days', // TODO
+      tweetingHours: 'Tweeting hours', // TODO
+      tweetRepartition: 'Tweet repartition', // TODO
+    },
+    'first-follower': {
+      yourFirstFollowerIs: 'Your first follower is', // TODO
+      dateFormat: 'on {month}/{day}/{year} at {hour}:{minute}:{second}', // TODO
+    },
+    'first-following': {
+      yourFirstFollowingIs: 'Your first following is', // TODO
+      dateFormat: 'on {month}/{day}/{year} at {hour}:{minute}:{second}', // TODO
+    },
     'first-to-follow': {
       youAreNotFollowing: 'Nie obserwujesz {user}...',
       notFollowingYou: '{user} nie obserwuje cię...',
@@ -60,20 +76,23 @@ export default {
   },
 
   _tw: {
-    'first-to-follow': '#Affinitweet First To Follow\n{text}\nvia https://affinitweet.com/first-to-follow',
-    friendships: '#Affinitweet Friendships\n{text}\nvia https://affinitweet.com/friendships',
-    'top-friends': '#Affinitweet Top Friends\n{users}\nvia https://affinitweet.com/top-friends',
-    'famous-followers': '#Affinitweet Famous Followers\n{users}\nvia https://affinitweet.com/famous-followers',
-    'common-friends': '#Affinitweet Common Friends\n{text}\nhttps://affinitweet.com/common-friends',
-    'tweet-rate': '#Affinitweet Tweet Rate\n\nhttps://affinitweet.com/tweet-rate',
-    'emoji-mood': '#Affinitweet Emoji Mood\n{emojis}\nprzez https://affinitweet.com/emoji-mood',
-    valentine: '#Affinitweet Valentine\nW tym roku jesteś moją walentynką, {user}! ❤️\nKto będzie twoją?\nhttps://affinitweet.com/valentine',
-    'secret-crush': '#Affinitweet Secret Crush\nPodkochujesz się sekretnie w {user}! 😳\nKto podkochuje się w tobie?\nhttps://affinitweet.com/secret-crush',
-    'hidden-twin': '#Affinitweet Hidden Twin\n{user} jest moim tajemniczym bliźniakiem 😱\nZnajdź swojego!\nhttps://affinitweet.com/hidden-twin',
-    'stolen-kiss': '#Affinitweet Stolen Kiss\n{user} wysyła ci buziaka... 😏\nA kogo ty pocałujesz?\nhttps://affinitweet.com/stolen-kiss',
-    'may-day': '#Affinitweet May Day\n{user}, daję ci w prezencie konwalie majowe! 💐\nKomu podarujesz swój bukiet?\nhttps://affinitweet.com/may-day',
-    'halloween-duo': '#Affinitweet Halloween Duo\nW tym roku nawet nie muszę się przebierać, bo straszy ze mną {user}! 🎃👻\nZnajdź swojego strasznego partnera!\nhttps://affinitweet.com/halloween-duo',
-    'new-years-kiss': "#Affinitweet New Year's Kiss\nI'm preparing my best last year kiss and first of the next year {user} 😘💕\nAnd you, who will you kiss at midnight?\nvia https://affinitweet.com/christmas-gift",
+    'first-to-follow': '{text}',
+    friendships: '{text}',
+    'top-friends': '{users}',
+    'famous-followers': '{users}',
+    'common-friends': '{text}',
+    'tweet-rate': '{text}',
+    'emoji-mood': '{emojis}',
+    valentine: 'W tym roku jesteś moją walentynką, {user}! ❤️\nKto będzie twoją?',
+    'twitter-activity': "Here's my account statistics from the past {days} days. Do you have better interactions?", // TODO
+    'first-follower': 'I just discovered my first follower on Twitter, it\'s {user} and they followed me {date}!\nWho\'s your first follower?', // TODO
+    'first-following': 'I just discovered my first following on Twitter, it\'s {user} and I followed them {date}!\nWho\'s your first following?', // TODO
+    'secret-crush': 'Podkochujesz się sekretnie w {user}! 😳\nKto podkochuje się w tobie?',
+    'hidden-twin': '{user} jest moim tajemniczym bliźniakiem 😱\nZnajdź swojego!',
+    'stolen-kiss': '{user} wysyła ci buziaka... 😏\nA kogo ty pocałujesz?',
+    'may-day': '{user}, daję ci w prezencie konwalie majowe! 💐\nKomu podarujesz swój bukiet?',
+    'halloween-duo': 'W tym roku nawet nie muszę się przebierać, bo straszy ze mną {user}! 🎃👻\nZnajdź swojego strasznego partnera!',
+    'new-years-kiss': "I'm preparing my best last year kiss and first of the next year {user} 😘💕\nAnd you, who will you kiss at midnight?",
   },
 
 }
