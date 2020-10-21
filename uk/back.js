@@ -2,34 +2,34 @@ export default {
 
   /* Steps */
   _st: {
-    received: 'Request received by the server...',
-    starting: 'Starting...',
-    fetchingData: 'Fetching data...',
-    fetchingTweets: 'Fetching tweets...',
-    computingData: 'Computing data...',
-    generatingImage: 'Generating image...',
-    uploadingMedia: 'Uploading image...',
-    publishingTweet: 'Publishing tweet...',
-    savingResults: 'Saving results...',
+    received: 'Сервер отримав запит...',
+    starting: 'Розпочинаємо...',
+    fetchingData: 'Отримуємо відомості...',
+    fetchingTweets: 'Переглядаємо твіти...',
+    computingData: 'Впорядковуємо дані...',
+    generatingImage: 'Утворюємо зображення...',
+    uploadingMedia: 'Завантажуємо зображення...',
+    publishingTweet: 'Публікуємо твіт...',
+    savingResults: 'Зберігаємо результати...',
   },
 
   /* Features */
   _ft: {
     'twitter-activity': {
-      basedOnLastDays: 'Based on the last {days} days...',
-      countingTweets: '... and counting {count} tweets:',
-      interactionsReceived: 'Interactions received',
-      last30Days: '*: last 30 days',
-      tweetingHours: 'Tweeting hours',
-      tweetRepartition: 'Tweet distribution',
+      basedOnLastDays: 'Зґрунтовано на останніх днях, а саме на {days}...',
+      countingTweets: '... й на обрахованих твітах, яких було {count}:',
+      interactionsReceived: 'Отримані взаємодії',
+      last30Days: '*: останні 30 днів',
+      tweetingHours: 'Години твітування',
+      tweetRepartition: 'Поширення твітів',
     },
     'first-follower': {
-      yourFirstFollowerIs: 'Your first follower is',
-      dateFormat: 'on {month}/{day}/{year} at {hour}:{minute}:{second}',
+      yourFirstFollowerIs: 'Ваш перший читач це',
+      dateFormat: '{month}/{day}/{year} о {hour}:{minute}:{second}',
     },
     'first-following': {
-      yourFirstFollowingIs: 'Your first following is',
-      dateFormat: 'on {month}/{day}/{year} at {hour}:{minute}:{second}',
+      yourFirstFollowingIs: 'Ваш перший читаний це',
+      dateFormat: '{month}/{day}/{year} о {hour}:{minute}:{second}',
     },
     'first-to-follow': {
       youAreNotFollowing: "Ви не читаєте {user}...",
@@ -40,7 +40,7 @@ export default {
       dateFormat2: '{month}/{day}/{year} о {hour}h',
     },
     friendships: {
-      average: 'Friendships average of',
+      average: 'Дружба, пересічно, з',
       following: 'Ви читаєте цього користувача',
       'not-following': "Ви не читаєте цього користувача",
       followed_by: 'Цей користувач читає вас',
