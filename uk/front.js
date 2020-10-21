@@ -13,7 +13,7 @@ export default {
   /* Common */
   _cm: {
     lastRevision: 'Останнє оновлення:',
-    contactUs: 'Зʼяжіться з нами',
+    contactUs: 'Звʼяжіться з нами',
     followUs: 'Слідкуйте за нами',
     reviewUs: 'Оцініть нас',
     close: 'Закрити',
