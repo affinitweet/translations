@@ -101,15 +101,15 @@ export default {
     list: {
 
       friendships: {
-        description: 'Everything you need to know about the links between you and a user! 🙌',
-        longDescription: 'Thanks to Friendships you will know how much you are friends with another user of your choice: the more blue pellets you have, the stronger the links are! Enter the Twitter nickname of the chosen person and discover your Friendships!',
+        description: 'Усе, що вам потрібно знати про зв’язки між вами та користувачем! 🙌',
+        longDescription: 'Завдяки Дружбам ви дізнаєтесь, наскільки міцно ви дружите з тим чи тим користувачем: що більше у вас блакитних кульок, то міцнішbq зв’язок! Введіть прізвисько вибраної людини у твітері та відкрийте свої дружби!',
       },
       'common-friends': {
-        description: 'Discover your friends in common with another user! 👥',
-        longDescription: 'The Common Friends allows you to discover the subscriptions/friends you have in common with another person. Do you have the same tastes, and how much?',
+        description: 'Дізнайтеся про спільних друзів з іншим користувачем! 👥',
+        longDescription: 'Спільні друзі дозволяють дізнатися про підписки/друзів, які є спільними для вас та іншої людини. Чи збігаються у вас смаки, й наскільки?',
       },
       'top-friends': {
-        description: 'Discover your best Twitter friends of late! 🤗',
+        description: 'Дізнайтеся про своїх найкращих твітерських друзів за останній час! 🤗',
         longDescription: 'The Top Friends allows you to know who your best friends are on Twitter. We establish a ranking by analyzing the information sent and received by your account. Then we count, add and sort them to generate your Top Friends!',
       },
       'famous-followers': {
