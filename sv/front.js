@@ -37,7 +37,7 @@ export default {
   /* Pluralization */
   _pl: {
     seconds: 'sekund | sekund | sekunder',
-    features: 'funktion | funktioner | funktioner', // TODO
+    features: 'funktion | funktioner | funktioner',
   },
 
   /* Components */
@@ -122,15 +122,15 @@ export default {
       },
       'twitter-activity': {
         description: 'Discover the summary of your activity and your Twitter statistics 📊', // TODO
-        longDescription: 'Tack vare Twitter Activity kommer du att veta när du tweetar som oftast, hur många interaktioner (intryck, retweets, gillar, svar) du har totalt och distributionen av dina tweets.', // TODO
+        longDescription: 'Tack vare Twitter Activity kommer du att veta när du tweetar som oftast, hur många interaktioner (intryck, retweets, gillar, svar) du har totalt och distributionen av dina tweets.',
       },
       'first-follower': {
-        description: 'Upptäck vem som var först med att följa dig på Twitter 1️⃣', // TODO
-        longDescription: 'Tack vare First Follower kommer du att veta vem din första följare är och när de följde dig (eller den äldste, för ifall du inte längre följs under tiden så får vi inte veta).', // TODO
+        description: 'Upptäck vem som var först med att följa dig på Twitter 1️⃣',
+        longDescription: 'Tack vare First Follower kommer du att veta vem din första följare är och när de följde dig (eller den äldste, för ifall du inte längre följs under tiden så får vi inte veta).',
       },
       'first-following': {
-        description: 'Upptäck vilken person du först följde på Twitter 1️⃣', // TODO
-        longDescription: 'Tack vare First Following kommer du att veta vem din första följande är och när du följde dem (eller dem äldste, för ifall du slutat följa folk under tiden så får vi inte veta).', // TODO
+        description: 'Upptäck vilken person du först följde på Twitter 1️⃣',
+        longDescription: 'Tack vare First Following kommer du att veta vem din första följande är och när du följde dem (eller dem äldste, för ifall du slutat följa folk under tiden så får vi inte veta).',
       },
       'secret-crush': {
         description: 'Någon älskar dig i hemiglet... och döljer det från det... 😳',
@@ -179,26 +179,26 @@ export default {
     /* Welcome page */
     welcome: {
       title: 'Welcome', // TODO
-      welcomeToAffinitweet: 'Välkommen till Affinitweet&nbsp;&nbsp;🎉', // TODO
-      helloYou: 'Hej {username}&nbsp;&nbsp;😊', // TODO
-      proudToWelcomeYou: 'Hej {username}, vi är stolta att kunna bekanta dig och är glada att välkomna dig bland våra mer än 6 miljoner användare!', // TODO
-      onboardingCreation: 'Vi är nöjda att ha dig tillbaka med oss! Vi skapade den här lilla ombordstigningen för att vara säkra på att du vet allt innan alla andra...', // TODO
-      next: 'Nästa', // TODO
-      littleQuestion: 'Snabb fråga...', // TODO
-      doYouWantToFollowUs: 'Vi uppdaterar Affinitweet regelbundet, vill du följa oss på Twitter för att ta reda på när nya funktioner finns tillgängliga?', // TODO
-      iWantToFollowYou: 'Jag vill följa er 😊', // TODO
-      iDontWantToFollowYou: 'Nej tack, jag klarar mig ändå!', // TODO
-      great: 'Toppen&nbsp;&nbsp;🥰', // TODO
-      doYouWantToEnableNotifications: 'Okej, medan du ändå håller på vill du notifieras om våra tweets så att du kan vara den förste som testar våra nya funktioner?', // TODO
-      iWantToBeNotified: 'Jag vill också aviseras 😇', // TODO
-      iDontWantToBeNotified: 'Nej, jag vill bara ha tweeten!', // TODO
-      noProblem: 'Inga problem&nbsp;&nbsp;😉', // TODO
-      noProblemDescription: 'Du har rätt trots allt, vi känner knappt varandra! Kanske nästa gång, vi hoppas du har roligt på Affinitweet 💜', // TODO
-      nice: 'Fint&nbsp;&nbsp;🤗', // TODO
-      niceDescription: 'Hopp... hopp... och hopp!<br />Så ja, nu följer du oss på Twitter! Tack så mycket och ha det roligt på Affinitweet 💜', // TODO
-      awesome: 'Super&nbsp;&nbsp;😍', // TODO
-      awesomeDescription: 'Hopp... hopp... och hopp!<br /><br />Så ja, nu följer du oss på Twitter och aviseringar har slagits på! Tack så mycket och ha det roligt på Affinitweet 💜', // TODO
-      letsGo: 'Då kör vi!', // TODO
+      welcomeToAffinitweet: 'Välkommen till Affinitweet&nbsp;&nbsp;🎉',
+      helloYou: 'Hej {username}&nbsp;&nbsp;😊',
+      proudToWelcomeYou: 'Hej {username}, vi är stolta att kunna bekanta dig och är glada att välkomna dig bland våra mer än 6 miljoner användare!',
+      onboardingCreation: 'Vi är nöjda att ha dig tillbaka med oss! Vi skapade den här lilla ombordstigningen för att vara säkra på att du vet allt innan alla andra...',
+      next: 'Nästa',
+      littleQuestion: 'Snabb fråga...',
+      doYouWantToFollowUs: 'Vi uppdaterar Affinitweet regelbundet, vill du följa oss på Twitter för att ta reda på när nya funktioner finns tillgängliga?',
+      iWantToFollowYou: 'Jag vill följa er 😊',
+      iDontWantToFollowYou: 'Nej tack, jag klarar mig ändå!',
+      great: 'Toppen&nbsp;&nbsp;🥰',
+      doYouWantToEnableNotifications: 'Okej, medan du ändå håller på vill du notifieras om våra tweets så att du kan vara den förste som testar våra nya funktioner?',
+      iWantToBeNotified: 'Jag vill också aviseras 😇',
+      iDontWantToBeNotified: 'Nej, jag vill bara ha tweeten!',
+      noProblem: 'Inga problem&nbsp;&nbsp;😉',
+      noProblemDescription: 'Du har rätt trots allt, vi känner knappt varandra! Kanske nästa gång, vi hoppas du har roligt på Affinitweet 💜',
+      nice: 'Fint&nbsp;&nbsp;🤗',
+      niceDescription: 'Hopp... hopp... och hopp!<br />Så ja, nu följer du oss på Twitter! Tack så mycket och ha det roligt på Affinitweet 💜',
+      awesome: 'Super&nbsp;&nbsp;😍',
+      awesomeDescription: 'Hopp... hopp... och hopp!<br /><br />Så ja, nu följer du oss på Twitter och aviseringar har slagits på! Tack så mycket och ha det roligt på Affinitweet 💜',
+      letsGo: 'Då kör vi!',
     },
 
     /* Home page */
@@ -215,7 +215,7 @@ export default {
       worldFamousLeader: 'Världens berömde ledare',
       worldFamousLeaderDescription: 'Affinitweet öppnades i februari 2014 och fler än två miljoner användare använder våra tjänster, överallt i världen.',
       fastRealTimeResults: 'Snabba och realtidsbaserade resultat',
-      fastRealTimeResultsDescription: "Vi byggde Affinitweet på de sista webbteknologierna, så det är så snabbt som möjligt med realtid på funktionssidor.",
+      fastRealTimeResultsDescription: 'Vi byggde Affinitweet på de sista webbteknologierna, så det är så snabbt som möjligt med realtid på funktionssidor.',
       noAdsNoVirus: 'Ingen påträngande reklam, inga virus',
       noAdsNoVirusDescription: 'Affinitweet har skapats enbart för nöjes skull, det finns inga virus och enbart ads på hela hemsidan (inga popups, inga omdirigeringar).',
       multilingualOpen: 'Flerspråkigt & öppet',
@@ -224,13 +224,14 @@ export default {
       trustpilotH2: 'Vi är betygsatta med {rate} av våra användare, kommer du att recensera oss härnäst?',
       trustpilotButton: 'Se & skicka in en recension',
       statistics: 'Statistik',
-      totalUsers: '6 milljoner',
+      totalUsers: '7 milljoner',
       totalUsersDescription: 'Användare litar på oss och använder våra tjänster',
       monthlyUsers: '400 000',
       monthlyUsersDescription: 'Unika användare som återkommer i genomsnitt var månad',
       totalFeatures: '20 milljoner',
       totalFeaturesDoneDescription: 'Funktioner gjorda sedan vi öppnade 2014',
-      features: 'Funktioner',
+      ourFeatures: 'Our features', // TODO
+      seeDetailedList: 'See detailed list', // TODO
       latestNews: 'Senaste nytt',
       getInTouch: 'Kontakta oss!',
       getInTouchP1: 'Vi finns tillgängligt närsomhelst på vårt Twitter-konto {twitterName}.',
@@ -243,10 +244,10 @@ export default {
     profile: {
       title: 'Profil',
       description: 'Konto, inställningar och historia till ditt konto.',
-      joinBeta: 'Gå med i Betaprogrammet för att testa våra funktioner innan de släpps offentligt!', // TODO
-      betaTerms: 'Betaprogrammet är helt gratis. Vissa funktioner kanske inte fungerar och kan ändras närsomhelst tills de lanserats.', // TODO
-      applyForFree: 'Gå med gratis', // TODO
-      noThanks: 'Nej tack', // TODO
+      joinBeta: 'Gå med i Betaprogrammet för att testa våra funktioner innan de släpps offentligt!',
+      betaTerms: 'Betaprogrammet är helt gratis. Vissa funktioner kanske inte fungerar och kan ändras närsomhelst tills de lanserats.',
+      applyForFree: 'Gå med gratis',
+      noThanks: 'Nej tack',
       profile: 'Profil',
       history: 'Historia',
       preferences: 'Inställningar',
@@ -306,38 +307,38 @@ export default {
     /* Beta program page */
     'beta-program': {
       title: 'Betaprogrammet',
-      description: 'Gå med i Betaprogrammet gratis och prova våra betafunktioner innan de släpps offentligt för alla!', // TODO
-      betaProgramDescription: "Betaprogrammet har skapats för att testa nya funktioner innan de släpps offentligt för att försäkra oss om de fungerar som de ska. Genom att delta i programmet kommer du att kunna testa dem.", // TODO
-      currentBetaFeatures: 'För närvarande finns det {amount} {features} i Betaprogrammet:', // TODO
-      noCurrentBetaFeatures: 'Just nu finns inga funktioner i Betaprogrammet, men fler är på väg!', // TODO
-      fewThingsToKnow: 'Några saker att veta om Betaprogrammet:', // TODO
-      li1: "Det kostar INGENTING", // TODO
-      li2: "Det finns ett begränsat antal platser", // TODO
-      li3: 'Du kan lämnade när du vill', // TODO
-      li4: 'Dedikerat & prioritetssupport på Twitter via DM', // TODO
-      li5: 'Betafunktioner kanske inte fungerar som förväntat', // TODO
-      li6: 'Betafunktioner kan ändras närsomhelst', // TODO
-      thanksForInterest: 'Tack för ditt intressa i Betaprogrammet 💜', // TODO
-      alreadyApplied: "Du är redan i Betaprogrammet,<br />tack så mycket för ditt intresse 💜", // TODO
-      leaveBetaProgram: 'Lämna Betaprogrammet', // TODO
-      leavingTerms: "Om du lämnar Betaprogrammet kommer du inte kunna gå med det igen ifall tillgängliga platser tar slut.", // TODO
-      placesAvailable: '500 platser tillgängliga! 🎟', // TODO
-      accountEligible: 'Ditt konto är berättigat att gå med i Betaprogrammet och några platser finns tillgängliga!', // TODO
-      yourEmailAddress: 'Din epostaddress...', // TODO
-      applyForFree: 'Gå med gratis', // TODO
-      applyTerms: 'Genom att gå med i Betaprogrammet accepterar du aviseringar & kampanjer i e-post (maximalt 1 i veckan).', // TODO
-      noPlaceAvailable: 'Ingen plats tillgänglig 😕', // TODO
-      betaProgramFull: "Tyvärr är Betaprogrammet fullt och vi kan inte ge dig gratis tillgång nu, du kan dock fortfarande försöka få det med hjälp av metoderna i nästa block!", // TODO
-      keepUpdated: 'Vi berättar för dig när ny tillgång finns tillgängligt på {ourTwitterAccount}.', // TODO
-      ourTwitterAccount: 'vårt Twitter-konto', // TODO
-      or: 'eller', // TODO
-      earnYourAccess: 'Tjäna till tillgång! 🎁', // TODO
-      writeReview: '#1 — Skriv en recension om oss {onTrustpilot} och bifoga dess länk på vårt Twitter-konto via DM, sen ger vi dig tillgång.', // TODO
-      onTrustpilot: 'på Trustpilot', // TODO
-      winContest: 'eller #2 — Delta i våra tävlignar på {ourTwitterAccount} för att vinna tillgången, följ oss och slå på aviseringar för att hålla dig uppdaterad.', // TODO
-      randomDraws: 'Varenda en av dessa tävlingar slutar med ett slumpmässigt utlottande på {pickaw}, så har alla en chans att vinna.', // TODO
-      welcomeToTheBetaProgram: 'Välkommen till Betaprogrammet! Nu kan du testa våra Betafunktioner 😊', // TODO
-      seeYouSoonBetaProgram: 'Tack för ditt deltagange i Betaprogrammet, vi ser fram emot att se dig igen snart!', // TODO
+      description: 'Gå med i Betaprogrammet gratis och prova våra betafunktioner innan de släpps offentligt för alla!',
+      betaProgramDescription: 'Betaprogrammet har skapats för att testa nya funktioner innan de släpps offentligt för att försäkra oss om de fungerar som de ska. Genom att delta i programmet kommer du att kunna testa dem.',
+      currentBetaFeatures: 'För närvarande finns det {amount} {features} i Betaprogrammet:',
+      noCurrentBetaFeatures: 'Just nu finns inga funktioner i Betaprogrammet, men fler är på väg!',
+      fewThingsToKnow: 'Några saker att veta om Betaprogrammet:',
+      li1: 'Det kostar INGENTING',
+      li2: 'Det finns ett begränsat antal platser',
+      li3: 'Du kan lämnade när du vill',
+      li4: 'Dedikerat & prioritetssupport på Twitter via DM',
+      li5: 'Betafunktioner kanske inte fungerar som förväntat',
+      li6: 'Betafunktioner kan ändras närsomhelst',
+      thanksForInterest: 'Tack för ditt intressa i Betaprogrammet 💜',
+      alreadyApplied: 'Du är redan i Betaprogrammet,<br />tack så mycket för ditt intresse 💜',
+      leaveBetaProgram: 'Lämna Betaprogrammet',
+      leavingTerms: 'Om du lämnar Betaprogrammet kommer du inte kunna gå med det igen ifall tillgängliga platser tar slut.',
+      placesAvailable: '500 platser tillgängliga! 🎟',
+      accountEligible: 'Ditt konto är berättigat att gå med i Betaprogrammet och några platser finns tillgängliga!',
+      yourEmailAddress: 'Din epostaddress...',
+      applyForFree: 'Gå med gratis',
+      applyTerms: 'Genom att gå med i Betaprogrammet accepterar du aviseringar & kampanjer i e-post (maximalt 1 i veckan).',
+      noPlaceAvailable: 'Ingen plats tillgänglig 😕',
+      betaProgramFull: 'Tyvärr är Betaprogrammet fullt och vi kan inte ge dig gratis tillgång nu, du kan dock fortfarande försöka få det med hjälp av metoderna i nästa block!',
+      keepUpdated: 'Vi berättar för dig när ny tillgång finns tillgängligt på {ourTwitterAccount}.',
+      ourTwitterAccount: 'vårt Twitter-konto',
+      or: 'eller',
+      earnYourAccess: 'Tjäna till tillgång! 🎁',
+      writeReview: '#1 — Skriv en recension om oss {onTrustpilot} och bifoga dess länk på vårt Twitter-konto via DM, sen ger vi dig tillgång.',
+      onTrustpilot: 'på Trustpilot',
+      winContest: 'eller #2 — Delta i våra tävlignar på {ourTwitterAccount} för att vinna tillgången, följ oss och slå på aviseringar för att hålla dig uppdaterad.',
+      randomDraws: 'Varenda en av dessa tävlingar slutar med ett slumpmässigt utlottande på {pickaw}, så har alla en chans att vinna.',
+      welcomeToTheBetaProgram: 'Välkommen till Betaprogrammet! Nu kan du testa våra Betafunktioner 😊',
+      seeYouSoonBetaProgram: 'Tack för ditt deltagange i Betaprogrammet, vi ser fram emot att se dig igen snart!',
     },
 
     /* Legal page */
@@ -355,13 +356,13 @@ export default {
       warningCookies: 'Om kakor',
       p1: 'En kaka är en liten textfil sänd till din webbläsare genom hemsidan du visar. Med denna bevaras information om ditt besök på hemsidan, exempelvis ditt föredragna språk och andra inställningar. Detta kan underlätta i ditt nästa besök på sidan och göra det mer användbart för dig. Kakor spelar en viktig roll, för utan dem skulle internet kunna vara mycket mer frustrerande.',
       t1: 'Vad är den applicerbara rättsliga ramen?',
-      p2: "I enlighet med Article 5(3) of Directive 2002/58/EC by adopting Directive 2009/136/EC har den europeiska lagstiftaren lakt ned principen att bevaringen av information på en användares utrustning eller tillgång till finromation redan bevaras och ska enbart behandlas med användarens medgivande i förhand, om inte dessa handlingar är strängt nödvändiga för att ge en tjänst som uttryckligen förfrågas av användaren. Article 32-II i lagen 6 januari 1978 tar över denna principen.",
+      p2: 'I enlighet med Article 5(3) of Directive 2002/58/EC by adopting Directive 2009/136/EC har den europeiska lagstiftaren lakt ned principen att bevaringen av information på en användares utrustning eller tillgång till finromation redan bevaras och ska enbart behandlas med användarens medgivande i förhand, om inte dessa handlingar är strängt nödvändiga för att ge en tjänst som uttryckligen förfrågas av användaren. Article 32-II i lagen 6 januari 1978 tar över denna principen.',
       t2: 'Denna sida använder kakor för följande syften:',
       'l1-1': 'För att hjälpa oss känna igen din webbläsare och läsa preferenserna du har ställt in under tidigare besök på den här hemsidan',
       'l1-2': 'För att hjälpa oss mäta och studera effektiviteten på vårt onlineinteraktivitetsmaterial, funktioner, reklam och andra kommunikationer',
       'l1-3': 'För att bevaka den analytiska datan på sidan, användningen gjort på sidan av användare och för att förbättra tjänsterna och materialet på denna hemsidan.',
       t3: 'Hur raderar jag kakor länkade till min webbläsare?',
-      p3: "Du kan välja att avaktivera kakor i din webbläsare närsomhelst genom att följa instruktionerna som kommer med läsarens hjälpfiler. Du kan också ställa in dina kakor direkt i läsarens inställningar:",
+      p3: 'Du kan välja att avaktivera kakor i din webbläsare närsomhelst genom att följa instruktionerna som kommer med läsarens hjälpfiler. Du kan också ställa in dina kakor direkt i läsarens inställningar:',
     },
 
     /* Terms of service page */
@@ -371,10 +372,10 @@ export default {
       h1: 'Villkor',
       p1: 'Genom att åtkomma hemsidan på {url} godkänner du att följa dessa användarvillkor, alla applicerbara lagar och föreskrifter, samt ansvarar du för att följa de lagar som appliceras lokalt. Godkänner du ej dessa villkor föbjuds du från att använda eller komma åt denna hemsida. Materialet som bevaras här skyddas av applicerbara lagar som angår ensamrätt och varumärken.',
       h2: 'Licensanvändning',
-      'l1-1': "Tillstånd ges att tillfälligen ladda ner en kopia av den material (information eller mjukvara) på Affinitweets hemsida för personal, enbart för icke-kommersiellt övergående visningar. Detta är inte en titelsöverföring, utan ett licensgivande i vilket du förbjuds från att:",
+      'l1-1': 'Tillstånd ges att tillfälligen ladda ner en kopia av den material (information eller mjukvara) på Affinitweets hemsida för personal, enbart för icke-kommersiellt övergående visningar. Detta är inte en titelsöverföring, utan ett licensgivande i vilket du förbjuds från att:',
       'l2-1': 'modifiera eller kopiera materialet;',
       'l2-2': 'använda materialet för något kommersiellt syfte, eller för vilken offentlig visning som helst (kommersiellt eller ej);',
-      'l2-3': "försöka dekompilera eller demontera någon mjukvara som behålls på Affinitweets hemsida;",
+      'l2-3': 'försöka dekompilera eller demontera någon mjukvara som behålls på Affinitweets hemsida;',
       'l2-4': 'radera någon ensamrätt eller andra proprietära notationer från materialet; eller',
       'l2-5': 'transferera materialet till en annan person eller "spegla" det på någon annan server.',
       'l1-2': 'Denna licens kommer automatiskt utgå ifall du bryter mot någon av dessa begränsningar och kan stängas av av Affinitweet närsomhelst. Vid avstänging av ditt materialvisande eller licensens makulering måste du radera allt nedladdat material som du äger vare sig det är elektroniskt eller i utskrivet format.',
@@ -382,11 +383,11 @@ export default {
       'l3-1': "Materialet på Affinitweets hemsida ges med en 'som det är' grund. Affinitweet gör inga garrantier vare sig uttryckligen eller underförstått, härmed ifrågasättningar och förnekar alla andra garantier inklusive, men inte begränsat till antydda garantier eller säljbarhetsvillkor, passande för ett särskilt syfte, eller icke-överträdande på immateriella rättigheter samt rättighetsbrott.",
       'l3-2': 'Förutom det har Affinitweet varken garanti eller representationen som angår träffsäkerheten, troliga resultat, eller pålitligheten över hemsidans material eller annars relaterat till sådant material, eller ens några sidor länkade till denna.',
       h4: 'Begränsningar',
-      p2: "Affinitweet ansvarar under inga omständigheter för skador (bland annat skador för dataförlust eller vinst, eller pga. störande av affärer) från användningen eller oförmågan att använda materialet på Affinitweets hemsida, även om Affinitweet eller en Affinitweet-auktoriserad representant har notifierats oralt eller skriftligt om möjligheterna till sådan skada. Eftersom vissa jurisdiktioner inte tillåter begränsningar på antydda garantier eller begränsningar till ansvar för konsekventiella eller incidentiella skador kan det hända att dessa begränsningar inte gäller för dig.",
+      p2: 'Affinitweet ansvarar under inga omständigheter för skador (bland annat skador för dataförlust eller vinst, eller pga. störande av affärer) från användningen eller oförmågan att använda materialet på Affinitweets hemsida, även om Affinitweet eller en Affinitweet-auktoriserad representant har notifierats oralt eller skriftligt om möjligheterna till sådan skada. Eftersom vissa jurisdiktioner inte tillåter begränsningar på antydda garantier eller begränsningar till ansvar för konsekventiella eller incidentiella skador kan det hända att dessa begränsningar inte gäller för dig.',
       h5: 'Materialets träffsäkerhet',
-      p3: "Materialet som visas på Affinitweets hemsida kan innehålla tekniska, typografiska, eller fotografiska fel. Affinitweet garanterar inte att något av dess material på hemsidan är träffsäkert, färdigt eller nuvarande. Affinitweet kan göra ändringar på det material som finns på dess sida närsomhelst utan förvarning. Affinitweet kan däremot inte lova att materialet uppdateras.",
+      p3: 'Materialet som visas på Affinitweets hemsida kan innehålla tekniska, typografiska, eller fotografiska fel. Affinitweet garanterar inte att något av dess material på hemsidan är träffsäkert, färdigt eller nuvarande. Affinitweet kan göra ändringar på det material som finns på dess sida närsomhelst utan förvarning. Affinitweet kan däremot inte lova att materialet uppdateras.',
       h6: 'Länkar',
-      p4: "Affinitweet har inte recenserat alla sidorna som länkas på dess sida och ansvarar ej för det material på de länkade sidorna. Innehållet av någon sådan länk innebär ej att Affinitweet stödjar sidan. Användandet av sådana länkar är på användarens egen risk.",
+      p4: 'Affinitweet har inte recenserat alla sidorna som länkas på dess sida och ansvarar ej för det material på de länkade sidorna. Innehållet av någon sådan länk innebär ej att Affinitweet stödjar sidan. Användandet av sådana länkar är på användarens egen risk.',
       h7: 'Modifieringar',
       p5: 'Affinitweet kan ändra sin hemsidas villkor närsomhelst utan förvarning. Genom att använda den här sidan godkänner du att bindas av den nuvarande versionen av dessa användarvillkor.',
       h8: 'Styrande lag',
@@ -418,7 +419,7 @@ export default {
       computing: 'Bearbetning',
       p4: 'När du använder de olika materialen som finns på hemsidan ringer vi upp Twitter API:t med dina tidigare bevarare tokens.',
       i3: 'Information: vi använder dina tokens för att kunna vara så träffsäkra vi kan med våra resultat. Det vill säga, om du exempelvis följer en eller fler användare med ett skyddat konto kommer vi att kunna inkludera dem i resultatet vid behov.',
-      p5: "Detta kan vi ledas till att få:",
+      p5: 'Detta kan vi ledas till att få:',
       'l3-1': 'din feed',
       'l3-2': 'dina (re-)tweets',
       'l3-3': 'dina omnämningar',
