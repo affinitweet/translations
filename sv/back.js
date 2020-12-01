@@ -6,7 +6,7 @@ export default {
     starting: 'Startar...',
     fetchingData: 'Hämtar data...',
     fetchingTweets: 'Hämtar tweets...',
-    computingData: 'Räknar ut data...',
+    computingData: 'Beräknar data...',
     generatingImage: 'Genererar bilden...',
     uploadingMedia: 'Laddar upp bilden...',
     publishingTweet: 'Publicerar tweeten...',
@@ -16,20 +16,20 @@ export default {
   /* Features */
   _ft: {
     'twitter-activity': {
-      basedOnLastDays: 'Based on the last {days} days...', // TODO
-      countingTweets: '... and counting {count} tweets:', // TODO
-      interactionsReceived: 'Interactions received', // TODO
-      last30Days: '*: last 30 days', // TODO
-      tweetingHours: 'Tweeting hours', // TODO
-      tweetRepartition: 'Tweet repartition', // TODO
+      basedOnLastDays: 'Baserat på de senaste {days} dagarna...',
+      countingTweets: '... och om {count} tweets räknas ihop:',
+      interactionsReceived: 'Interageringar mottagna',
+      last30Days: '*: senaste 30 dygnen',
+      tweetingHours: 'Timmar för tweets',
+      tweetRepartition: 'Omdelning av tweets',
     },
     'first-follower': {
-      yourFirstFollowerIs: 'Your first follower is', // TODO
-      dateFormat: 'on {month}/{day}/{year} at {hour}:{minute}:{second}', // TODO
+      yourFirstFollowerIs: 'Din första följare är',
+      dateFormat: 'på {month}/{day}/{year} {hour}:{minute}:{second}',
     },
     'first-following': {
-      yourFirstFollowingIs: 'Your first following is', // TODO
-      dateFormat: 'on {month}/{day}/{year} at {hour}:{minute}:{second}', // TODO
+      yourFirstFollowingIs: 'Din första följande är',
+      dateFormat: 'på {month}/{day}/{year} {hour}:{minute}:{second}',
     },
     'first-to-follow': {
       youAreNotFollowing: 'Du följer inte {user}...',
@@ -86,10 +86,10 @@ export default {
     'common-friends': '{text}',
     'tweet-rate': '{text}',
     'emoji-mood': '{emojis}',
-    valentine: 'Detta år är du min {user}! ❤️\nAnd you, whom will be yours?',
-    'twitter-activity': "Here's my account statistics from the past {days} days. Do you have better interactions?", // TODO
-    'first-follower': 'I just discovered my first follower on Twitter, it\'s {user} and they followed me {date}!\nWho\'s your first follower?', // TODO
-    'first-following': 'I just discovered my first following on Twitter, it\'s {user} and I followed them {date}!\nWho\'s your first following?', // TODO
+    valentine: 'Detta år är du min {user}! ❤️\nOch du vem kommer att bli din?',
+    'twitter-activity': "Här är mitt kontos statistiker från {days} dagar sedan. Har du bättre interaktioner?",
+    'first-follower': 'Jag har just upptäckt min första följare på Twitter, det är {user} och de följde mig {date}!\nVem är din första följare?',
+    'first-following': 'Jag har just upptäckt min första följande på Twitter, det är {user} och jag följde dem {date}!\nvem är din första följande?',
     'secret-crush': '{user} älskar dig i hemlighet! 😳\nVem älskar du i hemlighet?',
     'hidden-twin': '{user} är min hemliga tvilling 😱\nLista ut vem som är din!',
     'stolen-kiss': '{user} skulle vilja kyssa dig runt hörnet... 😏\nOch du, vem skulle vilja göra det?',
