@@ -1,483 +1,484 @@
 export default {
 
-  /* Layouts */
-  _lt: {
+    /* Layouts */
+    _lt: {
 
-    default: {
-      cookiesBanner: 'Vi använder cookies 🍪 för att erbjuda den bästa upplevelsen. Genom att fortsätta använda vår hemsida accepterar du vår cookies policy. {button}',
-      readMore: 'Läs mer...',
-    },
-
-  },
-
-  /* Common */
-  _cm: {
-    lastRevision: 'Senast uppdaterad:',
-    contactUs: 'Kontakta oss',
-    followUs: 'Följ oss',
-    reviewUs: 'Recensera oss',
-    close: 'Stäng',
-    cancel: 'Avbryt',
-  },
-
-  /* Languages */
-  _lg: {
-    french: 'Franska',
-    english: 'Engelska',
-    polish: 'Polska',
-    spanish: 'Spanska',
-    swedish: 'Svenska',
-    turkish: 'Turkiska',
-    indonesian: 'Indonesiska',
-    portuguese: 'Portuguesiska',
-    simplifiedChinese: 'Kinesiska (förenklad)',
-    traditionalChinese: 'Kinesiska (traditionell)',
-  },
-
-  /* Pluralization */
-  _pl: {
-    seconds: 'sekund | sekund | sekunder',
-    features: 'feature | features | features', // TODO
-  },
-
-  /* Components */
-  _cp: {
-
-    /* Header component */
-    header: {
-      sidebarHint: 'Upptäck alla våra material genom att klicka på menyikonen här! 😉',
-      logIn: 'Logga in',
-      myAccount: 'Mitt konto',
-      switchAccount: 'Byt konto',
-      logout: 'Logga ut',
-    },
-
-    /* Footer component */
-    footer: {
-      madeWithLove: 'Affinitweet är en Twitterbaserad statistik och underhållningsplattform skapad 2015 med ❤️ i Frankrike.',
-      allRightsReserved: 'All rights reserved.',
-      about: 'Om',
-      changelog: 'Ändringslogg',
-      legal: 'Legal',
-      partners: 'Partner',
-    },
-
-    stateButton: {
-      hold: 'Håll för att bekräfta',
-      submit: 'Klicka för att bekräfta',
-      loading: 'Handling pågår...',
-      cancel: 'Avbryt',
-    },
-
-    clearHistory: {
-      title: 'Rensa historia',
-      description: 'Genom att rensa din historia kommer all information och bilder på dina nuverande sparade resultat raderas.',
-      description2: 'Du kommer inte att kunna se dina tidigare resultat efter denna rensning, vill du verkligen genomföra handlingen?',
-      holdButton: 'Håll för att rensa',
-      loadingButton: 'Rensar historia...',
-      successModal: 'Din historia har rensats.',
-    },
-
-    deleteAccount: {
-      title: 'Radera konto',
-      description: 'Gick något fel? Berätta för oss på vårt Twitter-konto så vi kan förbättra oss själva!',
-      description2: 'Genom att radera ditt konto kommer all data på dig raderas, inklusive din historia. Ingen data behålls och du kommer automatiskt loggas ut från Affinitweet.',
-      description3: 'Du kommer inte att kunna hämta ditt nuvarande konto efter denna radering, vill du verkligen genomföra handlingen?',
-      holdButton: 'Håll för att radera',
-      loadingButton: 'Raderar konto...',
-      successModal: 'Ditt konto har raderats.',
-    },
-
-  },
-
-  /* Features */
-  _ft: {
-
-    new: 'Nytt',
-    popular: 'Populärt',
-    real: 'Riktigt',
-    fun: 'Nöje',
-
-    list: {
-
-      friendships: {
-        description: 'Allt du behöver för att veta om länkarna mellan dig och en användare! 🙌',
-        longDescription: 'Som tack för Friendships kommer du veta hur mycket du är vänner med en annan användare du väljer: ju fler blå pellets ni har, destu starkare är länkarna! Skriv in Twitter-namnet på den valda personen och upptäck era Friendships!',
-      },
-      'common-friends': {
-        description: 'Upptäck vänner du har gemensamt med en annan användare! 👥',
-        longDescription: 'Gemensamma vänner-funktionen låter dig upptäcka de prenumerationer/vänner du har gemensamt med någon annan. Har ni samma smaker och hur mycket?',
-      },
-      'top-friends': {
-        description: 'Upptäck dina bästa Twitter-vänner på senaste tiden! 🤗',
-        longDescription: 'Toppvänner-funktioner låter dig veta vilka dina bästa vänner är på Twitter. Vi etablerar en ranking genom att analysera informationen som skickas och mottagits av ditt konto. Efter det räknar vi, lägger till och sorterar dem för att generera dina toppvänner!',
-      },
-      'famous-followers': {
-        description: 'Upptäck de mest populära personerna bland dina följare! 💅',
-        longDescription: 'Famous Followers låter dig veta vilka personer som har flest följare bland dina egna. Vi samlar var och en av dina följare och deras antal följare för att sedan sortera och generera dina Famous Followers!',
-      },
-      valentine: {
-        description: 'Vi vet vem ditt Valentine kommer att bli i år... Du då? 💏',
-        longDescription: 'Vi håller algoritmen för detta hemligt. Allt vi kan säga är att vi försöker hålla oss till verkligheten, kommer våran Valentine nöja dig... ?',
-      },
-      'twitter-activity': {
-        description: 'Discover the summary of your activity and your Twitter statistics 📊', // TODO
-        longDescription: 'Thanks to Twitter Activity, you will know when you tweet most often, how many interactions (impressions, retweets, likes, replies) you have in total and the distribution of your tweets.', // TODO
-      },
-      'first-follower': {
-        description: 'Discover who\'s the first person who followed you on Twitter 1️⃣', // TODO
-        longDescription: 'Thanks to the First Follower, you\'ll know who is your first follower and when they followed you (or the oldest one, because if you\'ve been unfollowed in the meantime, we can\'t know).', // TODO
-      },
-      'first-following': {
-        description: 'Discover who\'s the first person you followed on Twitter 1️⃣', // TODO
-        longDescription: 'Thanks to the First Following, you\'ll know who is your first following and when you followed them (or the oldest one, because if you\'ve unfollowed people in the meantime, we can\'t know).', // TODO
-      },
-      'secret-crush': {
-        description: 'Någon älskar dig i hemiglet... och döljer det från det... 😳',
-        longDescription: 'Vi håller algoritmen för detta hemligt. Allt vi kan säga är att din Secret Crush kommer imponera dig, bra eller dåligt?',
-      },
-      'hidden-twin': {
-        description: 'Ja, du har en hemlig tvilling... vem fan är det? 🤔',
-        longDescription: 'Vi håller algoritmen för detta hemligt. Allt vi kan säga är att din Hidden Twin kommer att imponera dig, bra eller dåligt?',
-      },
-      'stolen-kiss': {
-        description: 'Vem vill sno en kyss från dig på ett gatohörn? 💋',
-        longDescription: 'Vi håller algoritmen för detta hemligt. Allt vi kan säga är att din Stolen Kiss kommer att imponera dig, bra eller dåligt?',
-      },
-      'may-day': {
-        description: 'Vem är din bästa bukett till i år? 💐',
-        longDescription: 'Vi håller algoritmen för detta hemligt. Allt vi kan säga är att du kommer att göra någon väldigt lycklig!',
-      },
-      'halloween-duo': {
-        description: 'Vem kommer du att vara räddast med i år? 🎃👻',
-        longDescription: 'Vi håller algoritmen för detta hemligt. Allt vi kan säga är att ni kommer att vara kuslig på Halloween i år!',
-      },
-      'tweet-rate': {
-        description: 'Jämför din tweet takt med en annan användares! 📊',
-        longDescription: 'Tweet Rate låter dig veta medianen av antalet tweets du publicerar om dygnet sedan du registrerade på Twitter och jämför dig med en annan! Är du den mest aktiva?',
-      },
-      'first-to-follow': {
-        description: 'Lista ut om du har följt en användare och tvärtom! 😮',
-        longDescription: 'First To Follow låter dig upptäcka datumet och tiden du följde en annan användare på Twitter, och tvärtom! Vem följde den andra först?',
-      },
-      'emoji-mood': {
-        description: 'Vilka emojis tweetar du som mest? 🤖',
-        longDescription: 'Tack vare Emoji Mood kommer du att upptäcka vilka emoticons du har tweetat på sistone... Skulle du vilja slå vad på din TOPP 3?',
-      },
-      'new-years-kiss': {
-        description: 'Vem kommer du att kyssa i år under misteln? 😘',
-        longDescription: 'Vi håller algoritmen för detta hemligt. Allt vi kan säga är att du kommer kyssa någon vid midnatt!',
-      },
+        default: {
+            cookiesBanner: 'Vi använder cookies 🍪 för att erbjuda den bästa upplevelsen. Genom att fortsätta använda vår hemsida accepterar du vår cookies policy. {button}',
+            readMore: 'Läs mer...',
+        },
 
     },
 
-  },
-
-  /* Pages */
-  _pg: {
-
-    /* Welcome page */
-    welcome: {
-      title: 'Welcome', // TODO
-      welcomeToAffinitweet: 'Welcome to Affinitweet&nbsp;&nbsp;🎉', // TODO
-      helloYou: 'Hello {username}&nbsp;&nbsp;😊', // TODO
-      proudToWelcomeYou: 'Hi {username}, we are delighted to make your acquaintance and happy to welcome you among our more than 6 million users!', // TODO
-      onboardingCreation: 'We are delighted to have you back with us! We created this little onboarding to make sure you know everything before everyone else...', // TODO
-      next: 'Next', // TODO
-      littleQuestion: 'Quick question...', // TODO
-      doYouWantToFollowUs: 'We update Affinitweet regularly, do you want to follow us on Twitter to find out when new features will be available?', // TODO
-      iWantToFollowYou: 'I want to follow you 😊', // TODO
-      iDontWantToFollowYou: 'No thanks, I\'m good for now!', // TODO
-      great: 'Great&nbsp;&nbsp;🥰', // TODO
-      doYouWantToEnableNotifications: 'So, while you\'re at it, do you want to be notified of our tweets so you can be the first to test our new features?', // TODO
-      iWantToBeNotified: 'I also want to be notified 😇', // TODO
-      iDontWantToBeNotified: 'No, I just want the tweets!', // TODO
-      noProblem: 'No problem&nbsp;&nbsp;😉', // TODO
-      noProblemDescription: 'After all you\'re right, we hardly know each other! Maybe next time then, we hope you\'ll have fun on Affinitweet 💜', // TODO
-      nice: 'Nice&nbsp;&nbsp;🤗', // TODO
-      niceDescription: 'Hop... hop... and hop!<br />That\'s it, you\'re now following us on Twitter! Thanks a lot and have fun on Affinitweet 💜', // TODO
-      awesome: 'Awesome&nbsp;&nbsp;😍', // TODO
-      awesomeDescription: 'Hop... hop... and hop!<br /><br />That\'s it, you\'re now following us on Twitter and notifications have been enabled! Thanks a lot and have fun on Affinitweet 💜', // TODO
-      letsGo: 'Let\'s go!', // TODO
+    /* Common */
+    _cm: {
+        lastRevision: 'Senast uppdaterad:',
+        contactUs: 'Kontakta oss',
+        followUs: 'Följ oss',
+        reviewUs: 'Recensera oss',
+        close: 'Stäng',
+        cancel: 'Avbryt',
     },
 
-    /* Home page */
-    index: {
-      title: 'Hem',
-      description: 'Det bästa stället att ha roligt med dina vänner på Twitter! Se din statistiker och mer!',
-      titleH1: 'Det bästa stället att ha roligt med dina vänner på Twitter!',
-      titleH2: 'Se dina statistiker och mer!',
-      highlights: 'Highlights',
-      generatedResults: 'Vackra genererade resultat',
-      generatedResultsDescription: 'Affinitweet is known for their very beautiful generated pictures, we are using the best tools for your results.',
-      userConsentPrivacy: 'Användarmedgivande & integritet',
-      userConsentPrivacyDescription: 'Everything we do on Affinitweet with your data is explained in our privacy policy, no surprise, no auto-follow or auto-tweet.',
-      worldFamousLeader: 'Världens berömde ledare',
-      worldFamousLeaderDescription: 'Affinitweet opened in february 2014 and more than two million users use our services, everywhere in the world.',
-      fastRealTimeResults: 'Snabba och realtidsbaserade resultat',
-      fastRealTimeResultsDescription: "We built Affinitweet on the last web technologies, so it's as fast as possible with real-time on feature pages.",
-      noAdsNoVirus: 'Ingen påträngande reklam, inga virus',
-      noAdsNoVirusDescription: 'Affinitweet har skapats enbart för nöjes skull, det finns inga virus och enbart ads på hela hemsidan (inga popups, inga omdirigeringar).',
-      multilingualOpen: 'Flerspråkigt & öppet',
-      multilingualOpenDescription: 'Affinitweet är tillgängligt på flera olika språk och alla kan bidra och lägga till sitt eget.',
-      trustpilotH1: 'Se våra användares recensioner på Trustpilot!',
-      trustpilotH2: 'Vi är betygsatta med {rate} av våra användare, kommer du att recensera oss härnäst?',
-      trustpilotButton: 'Se & skicka in en recension',
-      statistics: 'Statistik',
-      totalUsers: '6 milljoner',
-      totalUsersDescription: 'Användare litar på oss och använder våra tjänster',
-      monthlyUsers: '400 000',
-      monthlyUsersDescription: 'Unika användare som återkommer i genomsnitt var månad',
-      totalFeatures: '20 milljoner',
-      totalFeaturesDoneDescription: 'Funktioner gjorda sedan vi öppnade 2014',
-      features: 'Funktioner',
-      latestNews: 'Senaste nytt',
-      getInTouch: 'Kontakta oss!',
-      getInTouchP1: 'Vi finns tillgängligt närsomhelst på vårt Twitter-konto {twitterName}.',
-      getInTouchP2: 'Följ oss och notifieras om uppdateringar med kommande ting!',
-      getInTouchP3: 'Skicka gärna en tweet eller direkt meddelande till oss om du har någon fråga, något förslag eller bugg att rapportera.',
-      getInTouchP4: 'För kommersiella syften kan du kontakta oss via e-post, se vår sida för {pageName}.',
+    /* Languages */
+    _lg: {
+        french: 'Franska',
+        english: 'Engelska',
+        polish: 'Polska',
+        spanish: 'Spanska',
+        swedish: 'Svenska',
+        turkish: 'Turkiska',
+        indonesian: 'Indonesiska',
+        portuguese: 'Portuguesiska',
+        simplifiedChinese: 'Kinesiska (förenklad)',
+        traditionalChinese: 'Kinesiska (traditionell)',
     },
 
-    /* User profile page */
-    profile: {
-      title: 'Profil',
-      description: 'Konto, inställningar och historia till ditt konto.',
-      joinBeta: 'Join the Beta program to test our features before they get released to public!', // TODO
-      betaTerms: 'The Beta program is free of charge. Some features might not work and can be modified at anytime until they get published.', // TODO
-      applyForFree: 'Apply for free', // TODO
-      noThanks: 'No, thanks', // TODO
-      profile: 'Profil',
-      history: 'Historia',
-      preferences: 'Inställningar',
-      language: 'Språk',
-      by: 'av',
-      addLanguage: 'Lägg till språk...',
-      contributeOnGitHub: 'bidra på GitHub',
-      account: 'Konto',
-      followers: 'Följare',
-      followings: 'Följande',
-      noHistory: 'Ingen historiedata.',
-      autoTweet: 'Tweeta resultat',
-      autoTweetDescription: 'Kryssa i detta alternativ för att automatiskt tweeta dina resultat. En tweet kommer att publiceras så fort resultaten är redo, inget mer.',
-      saveResults: 'Spara resultat',
-      saveResultsDescription: 'Kryssa i detta alternativ för att spara dina resultat i historian (funktionsnamn + bild + tid). Som standard bevarar vi inte dina resultat.',
-      emojis: 'Emojis-paket',
-      iOSemojis: 'iOS (Apple)',
-      iOSemojisDescription: 'Dina resultat kommer att generas med iOS Emojis.',
-      androidEmojis: 'Android (Google)',
-      androidEmojisDescription: 'Dina resultat kommer att genereras med Android Emojis.',
-      clearHistory: 'Rensa historia',
-      clearHistoryDescription: 'Rensa din Affinitweet-resultathistoria.',
-      deleteAccount: 'Radera konto',
-      deleteAccountDescription: 'Radera ditt Affinitweet-konto, allt kommer att förloras.',
-      show: 'Vy',
-      showMore: 'Visa mer...',
-      saved: 'Sparad',
+    /* Pluralization */
+    _pl: {
+        seconds: 'sekund | sekund | sekunder',
+        features: 'funktion | funktioner | funktioner',
     },
 
-    /* Feature page */
-    feature: {
-      login: 'Logga in för att fortsätta...',
-      startFeature: 'Då kör vi!',
-      betaFeature: 'This feature is currently in beta and is available for users being part of the Beta program only. You can apply for this program if you want to test this feature.', // TODO
-      applyForFree: 'Apply for free', // TODO
-      results: 'Här är dina resultat!',
-      tweetResults: 'Tweeta resultat',
-      tweetingResults: 'Tweetar...',
-      requireAutoTweetDescription: 'Vill du aktivera automatisk tweetning av resultat? Du kommer att kunna avaktivera detta alternativ från din profil.',
-      yesEnable: 'Ja, aktivera',
-      no: 'Nej',
-      retry: 'Börja om!',
-      doYouWantToKnowMore: 'Vill du lära dig mer om ditt Twitter-konto?',
-      discoverOtherFeatures: 'Upptäck fler funktioner',
+    /* Components */
+    _cp: {
+
+        /* Header component */
+        header: {
+            sidebarHint: 'Upptäck alla våra material genom att klicka på menyikonen här! 😉',
+            logIn: 'Logga in',
+            myAccount: 'Mitt konto',
+            switchAccount: 'Byt konto',
+            logout: 'Logga ut',
+        },
+
+        /* Footer component */
+        footer: {
+            madeWithLove: 'Affinitweet är en Twitterbaserad statistik och underhållningsplattform skapad 2015 med ❤️ i Frankrike.',
+            allRightsReserved: 'All rights reserved.',
+            about: 'Om',
+            changelog: 'Ändringslogg',
+            legal: 'Lagrelaterat',
+            partners: 'Partner',
+        },
+
+        stateButton: {
+            hold: 'Håll för att bekräfta',
+            submit: 'Klicka för att bekräfta',
+            loading: 'Handling pågår...',
+            cancel: 'Avbryt',
+        },
+
+        clearHistory: {
+            title: 'Rensa historia',
+            description: 'Genom att rensa din historia kommer all information och bilder på dina nuverande sparade resultat raderas.',
+            description2: 'Du kommer inte att kunna se dina tidigare resultat efter denna rensning, vill du verkligen genomföra handlingen?',
+            holdButton: 'Håll för att rensa',
+            loadingButton: 'Rensar historia...',
+            successModal: 'Din historia har rensats.',
+        },
+
+        deleteAccount: {
+            title: 'Radera konto',
+            description: 'Gick något fel? Berätta för oss på vårt Twitter-konto så vi kan förbättra oss själva!',
+            description2: 'Genom att radera ditt konto kommer all data på dig raderas, inklusive din historia. Ingen data behålls och du kommer automatiskt loggas ut från Affinitweet.',
+            description3: 'Du kommer inte att kunna hämta ditt nuvarande konto efter denna radering, vill du verkligen genomföra handlingen?',
+            holdButton: 'Håll för att radera',
+            loadingButton: 'Raderar konto...',
+            successModal: 'Ditt konto har raderats.',
+        },
+
     },
 
-    /* Features listing page */
-    features: {
-      title: 'Funktioner',
-      description: 'Upptäck alla våra funktioner för att veta allt om ditt Twitter-konto.',
-      searchFeatures: 'Sök på funktioner... (ex: Top Friends, Valentine...)',
-      noFeatureFound: 'Tyvärr matchar inga funktioner den här sökningen... 😔',
-      resetSearch: 'Nollställ sökning',
-      letsGo: 'Då kör vi!',
+    /* Features */
+    _ft: {
+
+        new: 'Nytt',
+        popular: 'Populärt',
+        real: 'Riktigt',
+        fun: 'Nöje',
+
+        list: {
+
+            friendships: {
+                description: 'Allt du behöver för att veta om länkarna mellan dig och en användare! 🙌',
+                longDescription: 'Som tack för Friendships kommer du veta hur mycket du är vänner med en annan användare du väljer: ju fler blå pellets ni har, destu starkare är länkarna! Skriv in Twitter-namnet på den valda personen och upptäck era Friendships!',
+            },
+            'common-friends': {
+                description: 'Upptäck vänner du har gemensamt med en annan användare! 👥',
+                longDescription: 'Gemensamma vänner-funktionen låter dig upptäcka de prenumerationer/vänner du har gemensamt med någon annan. Har ni samma smaker och hur mycket?',
+            },
+            'top-friends': {
+                description: 'Upptäck dina bästa Twitter-vänner på senaste tiden! 🤗',
+                longDescription: 'Toppvänner-funktioner låter dig veta vilka dina bästa vänner är på Twitter. Vi etablerar en ranking genom att analysera informationen som skickas och mottagits av ditt konto. Efter det räknar vi, lägger till och sorterar dem för att generera dina toppvänner!',
+            },
+            'famous-followers': {
+                description: 'Upptäck de mest populära personerna bland dina följare! 💅',
+                longDescription: 'Famous Followers låter dig veta vilka personer som har flest följare bland dina egna. Vi samlar var och en av dina följare och deras antal följare för att sedan sortera och generera dina Famous Followers!',
+            },
+            valentine: {
+                description: 'Vi vet vem ditt Valentine kommer att bli i år... Du då? 💏',
+                longDescription: 'Vi håller algoritmen för detta hemligt. Allt vi kan säga är att vi försöker hålla oss till verkligheten, kommer våran Valentine nöja dig... ?',
+            },
+            'twitter-activity': {
+                description: 'Upptäck summeringen av dina aktiviteter och din Twitter-statistik 📊',
+                longDescription: 'Tack vare Twitter Activity kommer du att veta när du tweetar som oftast, hur många interaktioner (intryck, retweets, gillar, svar) du har totalt och distributionen av dina tweets.',
+            },
+            'first-follower': {
+                description: 'Upptäck vem som var först med att följa dig på Twitter 1️⃣',
+                longDescription: 'Tack vare First Follower kommer du att veta vem din första följare är och när de följde dig (eller den äldste, för ifall du inte längre följs under tiden så får vi inte veta).',
+            },
+            'first-following': {
+                description: 'Upptäck vilken person du först följde på Twitter 1️⃣',
+                longDescription: 'Tack vare First Following kommer du att veta vem din första följande är och när du följde dem (eller dem äldste, för ifall du slutat följa folk under tiden så får vi inte veta).',
+            },
+            'secret-crush': {
+                description: 'Någon älskar dig i hemiglet... och döljer det från det... 😳',
+                longDescription: 'Vi håller algoritmen för detta hemligt. Allt vi kan säga är att din Secret Crush kommer imponera dig, bra eller dåligt?',
+            },
+            'hidden-twin': {
+                description: 'Ja, du har en hemlig tvilling... vem fan är det? 🤔',
+                longDescription: 'Vi håller algoritmen för detta hemligt. Allt vi kan säga är att din Hidden Twin kommer att imponera dig, bra eller dåligt?',
+            },
+            'stolen-kiss': {
+                description: 'Vem vill sno en kyss från dig på ett gatohörn? 💋',
+                longDescription: 'Vi håller algoritmen för detta hemligt. Allt vi kan säga är att din Stolen Kiss kommer att imponera dig, bra eller dåligt?',
+            },
+            'may-day': {
+                description: 'Vem är din bästa bukett till i år? 💐',
+                longDescription: 'Vi håller algoritmen för detta hemligt. Allt vi kan säga är att du kommer att göra någon väldigt lycklig!',
+            },
+            'halloween-duo': {
+                description: 'Vem kommer du att vara räddast med i år? 🎃👻',
+                longDescription: 'Vi håller algoritmen för detta hemligt. Allt vi kan säga är att ni kommer att vara kuslig på Halloween i år!',
+            },
+            'tweet-rate': {
+                description: 'Jämför din tweet takt med en annan användares! 📊',
+                longDescription: 'Tweet Rate låter dig veta medianen av antalet tweets du publicerar om dygnet sedan du registrerade på Twitter och jämför dig med en annan! Är du den mest aktiva?',
+            },
+            'first-to-follow': {
+                description: 'Lista ut om du har följt en användare och tvärtom! 😮',
+                longDescription: 'First To Follow låter dig upptäcka datumet och tiden du följde en annan användare på Twitter, och tvärtom! Vem följde den andra först?',
+            },
+            'emoji-mood': {
+                description: 'Vilka emojis tweetar du som mest? 🤖',
+                longDescription: 'Tack vare Emoji Mood kommer du att upptäcka vilka emoticons du har tweetat på sistone... Skulle du vilja slå vad på din TOPP 3?',
+            },
+            'new-years-kiss': {
+                description: 'Vem kommer du att kyssa i år under misteln? 😘',
+                longDescription: 'Vi håller algoritmen för detta hemligt. Allt vi kan säga är att du kommer kyssa någon vid midnatt!',
+            },
+
+        },
+
     },
 
-    /* Beta program page */
-    'beta-program': {
-      title: 'Beta program',
-      description: 'Apply to the Beta program for free and try our beta features before they get released to the public!', // TODO
-      betaProgramDescription: "The Beta program has been created to test new features before they get released to the public to be sure that they're working as expected. By being part of this program, you will be able to test them.", // TODO
-      currentBetaFeatures: 'There\'s currently {amount} {features} in the Beta program:', // TODO
-      noCurrentBetaFeatures: 'There\'s currently no feature in the Beta program, but more are coming soon!', // TODO
-      fewThingsToKnow: 'Few things to know about the Beta program:', // TODO
-      li1: "It's 100% free of charge", // TODO
-      li2: "There's a limited number of places", // TODO
-      li3: 'You can leave it when you want', // TODO
-      li4: 'Dedicated & priority support on Twitter by DM', // TODO
-      li5: 'Beta features might not work as expected', // TODO
-      li6: 'Beta features can change at anytime', // TODO
-      thanksForInterest: 'Thank you for your interest regarding the Beta program 💜', // TODO
-      alreadyApplied: "You're already in the Beta program,<br />thank you so much for your interest 💜", // TODO
-      leaveBetaProgram: 'Leave the Beta program', // TODO
-      leavingTerms: "If you leave the Beta Program, you may not be able to apply again if there's no available places.", // TODO
-      placesAvailable: '500 places available! 🎟', // TODO
-      accountEligible: 'Your account is eligible to apply for the Beta program and few places are available!', // TODO
-      yourEmailAddress: 'Your email address...', // TODO
-      applyForFree: 'Apply for free', // TODO
-      applyTerms: 'By applying to the Beta program, you agree to receive notification & promotion emails (1 per week maximum).', // TODO
-      noPlaceAvailable: 'No place available 😕', // TODO
-      betaProgramFull: "Unfortunately, the Beta program is full and we can't give free access at this time, but you can still try to earn an access by using the methods in the next block!", // TODO
-      keepUpdated: 'We will let you know when new free access will be available on {ourTwitterAccount}.', // TODO
-      ourTwitterAccount: 'our Twitter Account', // TODO
-      or: 'or', // TODO
-      earnYourAccess: 'Earn your access! 🎁', // TODO
-      writeReview: '#1 — Write a review about us {onTrustpilot} and send us its link on our Twitter account by DM, we will then give you an access.', // TODO
-      onTrustpilot: 'on Trustpilot', // TODO
-      winContest: 'or #2 — Participate in our contests on {ourTwitterAccount} to win an access, follow us and enable notifications to keep updated.', // TODO
-      randomDraws: 'Each of these contests ends with a random draw made on {pickaw}, so everyone have a chance to win.', // TODO
-      welcomeToTheBetaProgram: 'Welcome to the Beta program! You can now test our Beta features 😊', // TODO
-      seeYouSoonBetaProgram: 'Thanks for being part of the Beta program, can\'t wait to see you soon!', // TODO
+    /* Pages */
+    _pg: {
+
+        /* Welcome page */
+        welcome: {
+            title: 'Välkommen',
+            welcomeToAffinitweet: 'Välkommen till Affinitweet&nbsp;&nbsp;🎉',
+            helloYou: 'Hej {username}&nbsp;&nbsp;😊',
+            proudToWelcomeYou: 'Hej {username}, vi är stolta att kunna bekanta dig och är glada att välkomna dig bland våra mer än 6 miljoner användare!',
+            onboardingCreation: 'Vi är nöjda att ha dig tillbaka med oss! Vi skapade den här lilla ombordstigningen för att vara säkra på att du vet allt innan alla andra...',
+            next: 'Nästa',
+            littleQuestion: 'Snabb fråga...',
+            doYouWantToFollowUs: 'Vi uppdaterar Affinitweet regelbundet, vill du följa oss på Twitter för att ta reda på när nya funktioner finns tillgängliga?',
+            iWantToFollowYou: 'Jag vill följa er 😊',
+            iDontWantToFollowYou: 'Nej tack, jag klarar mig ändå!',
+            great: 'Toppen&nbsp;&nbsp;🥰',
+            doYouWantToEnableNotifications: 'Okej, medan du ändå håller på vill du notifieras om våra tweets så att du kan vara den förste som testar våra nya funktioner?',
+            iWantToBeNotified: 'Jag vill också aviseras 😇',
+            iDontWantToBeNotified: 'Nej, jag vill bara ha tweeten!',
+            noProblem: 'Inga problem&nbsp;&nbsp;😉',
+            noProblemDescription: 'Du har rätt trots allt, vi känner knappt varandra! Kanske nästa gång, vi hoppas du har roligt på Affinitweet 💜',
+            nice: 'Fint&nbsp;&nbsp;🤗',
+            niceDescription: 'Hopp... hopp... och hopp!<br />Så ja, nu följer du oss på Twitter! Tack så mycket och ha det roligt på Affinitweet 💜',
+            awesome: 'Super&nbsp;&nbsp;😍',
+            awesomeDescription: 'Hopp... hopp... och hopp!<br /><br />Så ja, nu följer du oss på Twitter och aviseringar har slagits på! Tack så mycket och ha det roligt på Affinitweet 💜',
+            letsGo: 'Då kör vi!',
+        },
+
+        /* Home page */
+        index: {
+            title: 'Hem',
+            description: 'Det bästa stället att ha roligt med dina vänner på Twitter! Se din statistiker och mer!',
+            titleH1: 'Det bästa stället att ha roligt med dina vänner på Twitter!',
+            titleH2: 'Se dina statistiker och mer!',
+            highlights: 'Highlights',
+            generatedResults: 'Vackra genererade resultat',
+            generatedResultsDescription: 'Affinitweet är känt för deras vakra genererade bilder, vi använder de bästa verktygen för dina resultat.',
+            userConsentPrivacy: 'Användarmedgivande & integritet',
+            userConsentPrivacyDescription: 'Allt vi gör på Affinitweet med din data förklaras i vår sekretesspolicy, inga överraskningar, inget autoföljande eller autotweet.',
+            worldFamousLeader: 'Världens berömde ledare',
+            worldFamousLeaderDescription: 'Affinitweet öppnades i februari 2014 och fler än två miljoner användare använder våra tjänster, överallt i världen.',
+            fastRealTimeResults: 'Snabba och realtidsbaserade resultat',
+            fastRealTimeResultsDescription: 'Vi byggde Affinitweet på de sista webbteknologierna, så det är så snabbt som möjligt med realtid på funktionssidor.',
+            noAdsNoVirus: 'Ingen påträngande reklam, inga virus',
+            noAdsNoVirusDescription: 'Affinitweet har skapats enbart för nöjes skull, det finns inga virus och enbart ads på hela hemsidan (inga popups, inga omdirigeringar).',
+            multilingualOpen: 'Flerspråkigt & öppet',
+            multilingualOpenDescription: 'Affinitweet är tillgängligt på flera olika språk och alla kan bidra och lägga till sitt eget.',
+            trustpilotH1: 'Se våra användares recensioner på Trustpilot!',
+            trustpilotH2: 'Vi är betygsatta med {rate} av våra användare, kommer du att recensera oss härnäst?',
+            trustpilotButton: 'Se & skicka in en recension',
+            statistics: 'Statistik',
+            totalUsers: '7 milljoner',
+            totalUsersDescription: 'Användare litar på oss och använder våra tjänster',
+            monthlyUsers: '400 000',
+            monthlyUsersDescription: 'Unika användare som återkommer i genomsnitt var månad',
+            totalFeatures: '20 milljoner',
+            totalFeaturesDoneDescription: 'Funktioner gjorda sedan vi öppnade 2014',
+            ourFeatures: 'Våra funktioner',
+            seeDetailedList: 'Se detaljerad lista',
+            latestNews: 'Senaste nytt',
+            getInTouch: 'Kontakta oss!',
+            getInTouchP1: 'Vi finns tillgängligt närsomhelst på vårt Twitter-konto {twitterName}.',
+            getInTouchP2: 'Följ oss och notifieras om uppdateringar med kommande ting!',
+            getInTouchP3: 'Skicka gärna en tweet eller direkt meddelande till oss om du har någon fråga, något förslag eller bugg att rapportera.',
+            getInTouchP4: 'För kommersiella syften kan du kontakta oss via e-post, se vår sida för {pageName}.',
+        },
+
+        /* User profile page */
+        profile: {
+            title: 'Profil',
+            description: 'Konto, inställningar och historia till ditt konto.',
+            joinBeta: 'Gå med i Betaprogrammet för att testa våra funktioner innan de släpps offentligt!',
+            betaTerms: 'Betaprogrammet är helt gratis. Vissa funktioner kanske inte fungerar och kan ändras närsomhelst tills de lanserats.',
+            applyForFree: 'Gå med gratis',
+            noThanks: 'Nej tack',
+            profile: 'Profil',
+            history: 'Historia',
+            preferences: 'Inställningar',
+            language: 'Språk',
+            by: 'av',
+            addLanguage: 'Lägg till språk...',
+            contributeOnGitHub: 'bidra på GitHub',
+            account: 'Konto',
+            followers: 'Följare',
+            followings: 'Följande',
+            noHistory: 'Ingen historiedata.',
+            autoTweet: 'Tweeta resultat',
+            autoTweetDescription: 'Kryssa i detta alternativ för att automatiskt tweeta dina resultat. En tweet kommer att publiceras så fort resultaten är redo, inget mer.',
+            saveResults: 'Spara resultat',
+            saveResultsDescription: 'Kryssa i detta alternativ för att spara dina resultat i historian (funktionsnamn + bild + tid). Som standard bevarar vi inte dina resultat.',
+            emojis: 'Emojis-paket',
+            iOSemojis: 'iOS (Apple)',
+            iOSemojisDescription: 'Dina resultat kommer att generas med iOS Emojis.',
+            androidEmojis: 'Android (Google)',
+            androidEmojisDescription: 'Dina resultat kommer att genereras med Android Emojis.',
+            clearHistory: 'Rensa historia',
+            clearHistoryDescription: 'Rensa din Affinitweet-resultathistoria.',
+            deleteAccount: 'Radera konto',
+            deleteAccountDescription: 'Radera ditt Affinitweet-konto, allt kommer att förloras.',
+            show: 'Vy',
+            showMore: 'Visa mer...',
+            saved: 'Sparad',
+        },
+
+        /* Feature page */
+        feature: {
+            login: 'Logga in för att fortsätta...',
+            startFeature: 'Då kör vi!',
+            betaFeature: 'Denna funktion är för närvarande i beta och finns enbart tillgänglif för deltagare i vårt Betaprogram. Du kan gå med i det om du vill testa denna funktion.',
+            applyForFree: 'Gå med gratis',
+            results: 'Här är dina resultat!',
+            tweetResults: 'Tweeta resultat',
+            tweetingResults: 'Tweetar...',
+            requireAutoTweetDescription: 'Vill du aktivera automatisk tweetning av resultat? Du kommer att kunna avaktivera detta alternativ från din profil.',
+            yesEnable: 'Ja, aktivera',
+            no: 'Nej',
+            retry: 'Börja om!',
+            doYouWantToKnowMore: 'Vill du lära dig mer om ditt Twitter-konto?',
+            discoverOtherFeatures: 'Upptäck fler funktioner',
+        },
+
+        /* Features listing page */
+        features: {
+            title: 'Funktioner',
+            description: 'Upptäck alla våra funktioner för att veta allt om ditt Twitter-konto.',
+            searchFeatures: 'Sök på funktioner... (ex: Top Friends, Valentine...)',
+            noFeatureFound: 'Tyvärr matchar inga funktioner den här sökningen... 😔',
+            resetSearch: 'Nollställ sökning',
+            letsGo: 'Då kör vi!',
+        },
+
+        /* Beta program page */
+        'beta-program': {
+            title: 'Betaprogrammet',
+            description: 'Gå med i Betaprogrammet gratis och prova våra betafunktioner innan de släpps offentligt för alla!',
+            betaProgramDescription: 'Betaprogrammet har skapats för att testa nya funktioner innan de släpps offentligt för att försäkra oss om de fungerar som de ska. Genom att delta i programmet kommer du att kunna testa dem.',
+            currentBetaFeatures: 'För närvarande finns det {amount} {features} i Betaprogrammet:',
+            noCurrentBetaFeatures: 'Just nu finns inga funktioner i Betaprogrammet, men fler är på väg!',
+            fewThingsToKnow: 'Några saker att veta om Betaprogrammet:',
+            li1: 'Det kostar INGENTING',
+            li2: 'Det finns ett begränsat antal platser',
+            li3: 'Du kan lämnade när du vill',
+            li4: 'Dedikerat & prioritetssupport på Twitter via DM',
+            li5: 'Betafunktioner kanske inte fungerar som förväntat',
+            li6: 'Betafunktioner kan ändras närsomhelst',
+            thanksForInterest: 'Tack för ditt intressa i Betaprogrammet 💜',
+            alreadyApplied: 'Du är redan i Betaprogrammet,<br />tack så mycket för ditt intresse 💜',
+            leaveBetaProgram: 'Lämna Betaprogrammet',
+            leavingTerms: 'Om du lämnar Betaprogrammet kommer du inte kunna gå med det igen ifall tillgängliga platser tar slut.',
+            placesAvailable: '500 platser tillgängliga! 🎟',
+            accountEligible: 'Ditt konto är berättigat att gå med i Betaprogrammet och några platser finns tillgängliga!',
+            yourEmailAddress: 'Din epostaddress...',
+            applyForFree: 'Gå med gratis',
+            applyTerms: 'Genom att gå med i Betaprogrammet accepterar du aviseringar & kampanjer i e-post (maximalt 1 i veckan).',
+            noPlaceAvailable: 'Ingen plats tillgänglig 😕',
+            betaProgramFull: 'Tyvärr är Betaprogrammet fullt och vi kan inte ge dig gratis tillgång nu, du kan dock fortfarande försöka få det med hjälp av metoderna i nästa block!',
+            keepUpdated: 'Vi berättar för dig när ny tillgång finns tillgängligt på {ourTwitterAccount}.',
+            ourTwitterAccount: 'vårt Twitter-konto',
+            or: 'eller',
+            earnYourAccess: 'Tjäna till tillgång! 🎁',
+            writeReview: '#1 — Skriv en recension om oss {onTrustpilot} och bifoga dess länk på vårt Twitter-konto via DM, sen ger vi dig tillgång.',
+            onTrustpilot: 'på Trustpilot',
+            winContest: 'eller #2 — Delta i våra tävlignar på {ourTwitterAccount} för att vinna tillgången, följ oss och slå på aviseringar för att hålla dig uppdaterad.',
+            randomDraws: 'Varenda en av dessa tävlingar slutar med ett slumpmässigt utlottande på {pickaw}, så har alla en chans att vinna.',
+            welcomeToTheBetaProgram: 'Välkommen till Betaprogrammet! Nu kan du testa våra Betafunktioner 😊',
+            seeYouSoonBetaProgram: 'Tack för ditt deltagange i Betaprogrammet, vi ser fram emot att se dig igen snart!',
+        },
+
+        /* Legal page */
+        legal: {
+            title: 'Lagrelaterat',
+            description: 'Information om oss och kakor.',
+            intro: 'I enlighet med Article 6 i lagen n° 2004-575 från 21 juni 2004 angående tillit i den digitala ekonomin informeras användare av sidan {site} om identiteten på de olika partierna inblandade i dess implementering och övervakning:',
+            owner: 'Ägare',
+            creator: 'Skapare',
+            publisher: 'Publiceringsmanager',
+            publisherText: 'Personen ansvarig för publiceringen är en naturlig person.',
+            webmaster: 'Webmaster',
+            host: 'Värd',
+            requestAddress: 'Hela adressen tillgänglig vid förfrågan genom e-post på {email}.',
+            warningCookies: 'Om kakor',
+            p1: 'En kaka är en liten textfil sänd till din webbläsare genom hemsidan du visar. Med denna bevaras information om ditt besök på hemsidan, exempelvis ditt föredragna språk och andra inställningar. Detta kan underlätta i ditt nästa besök på sidan och göra det mer användbart för dig. Kakor spelar en viktig roll, för utan dem skulle internet kunna vara mycket mer frustrerande.',
+            t1: 'Vad är den applicerbara rättsliga ramen?',
+            p2: 'I enlighet med Article 5(3) of Directive 2002/58/EC by adopting Directive 2009/136/EC har den europeiska lagstiftaren lakt ned principen att bevaringen av information på en användares utrustning eller tillgång till finromation redan bevaras och ska enbart behandlas med användarens medgivande i förhand, om inte dessa handlingar är strängt nödvändiga för att ge en tjänst som uttryckligen förfrågas av användaren. Article 32-II i lagen 6 januari 1978 tar över denna principen.',
+            t2: 'Denna sida använder kakor för följande syften:',
+            'l1-1': 'För att hjälpa oss känna igen din webbläsare och läsa preferenserna du har ställt in under tidigare besök på den här hemsidan',
+            'l1-2': 'För att hjälpa oss mäta och studera effektiviteten på vårt onlineinteraktivitetsmaterial, funktioner, reklam och andra kommunikationer',
+            'l1-3': 'För att bevaka den analytiska datan på sidan, användningen gjort på sidan av användare och för att förbättra tjänsterna och materialet på denna hemsidan.',
+            t3: 'Hur raderar jag kakor länkade till min webbläsare?',
+            p3: 'Du kan välja att avaktivera kakor i din webbläsare närsomhelst genom att följa instruktionerna som kommer med läsarens hjälpfiler. Du kan också ställa in dina kakor direkt i läsarens inställningar:',
+        },
+
+        /* Terms of service page */
+        terms: {
+            title: 'Användarvillkor',
+            description: 'Läsa våra allmänna villkor och användningskrav.',
+            h1: 'Villkor',
+            p1: 'Genom att åtkomma hemsidan på {url} godkänner du att följa dessa användarvillkor, alla applicerbara lagar och föreskrifter, samt ansvarar du för att följa de lagar som appliceras lokalt. Godkänner du ej dessa villkor föbjuds du från att använda eller komma åt denna hemsida. Materialet som bevaras här skyddas av applicerbara lagar som angår ensamrätt och varumärken.',
+            h2: 'Licensanvändning',
+            'l1-1': 'Tillstånd ges att tillfälligen ladda ner en kopia av den material (information eller mjukvara) på Affinitweets hemsida för personal, enbart för icke-kommersiellt övergående visningar. Detta är inte en titelsöverföring, utan ett licensgivande i vilket du förbjuds från att:',
+            'l2-1': 'modifiera eller kopiera materialet;',
+            'l2-2': 'använda materialet för något kommersiellt syfte, eller för vilken offentlig visning som helst (kommersiellt eller ej);',
+            'l2-3': 'försöka dekompilera eller demontera någon mjukvara som behålls på Affinitweets hemsida;',
+            'l2-4': 'radera någon ensamrätt eller andra proprietära notationer från materialet; eller',
+            'l2-5': 'transferera materialet till en annan person eller "spegla" det på någon annan server.',
+            'l1-2': 'Denna licens kommer automatiskt utgå ifall du bryter mot någon av dessa begränsningar och kan stängas av av Affinitweet närsomhelst. Vid avstänging av ditt materialvisande eller licensens makulering måste du radera allt nedladdat material som du äger vare sig det är elektroniskt eller i utskrivet format.',
+            h3: 'Varning',
+            'l3-1': "Materialet på Affinitweets hemsida ges med en 'som det är' grund. Affinitweet gör inga garrantier vare sig uttryckligen eller underförstått, härmed ifrågasättningar och förnekar alla andra garantier inklusive, men inte begränsat till antydda garantier eller säljbarhetsvillkor, passande för ett särskilt syfte, eller icke-överträdande på immateriella rättigheter samt rättighetsbrott.",
+            'l3-2': 'Förutom det har Affinitweet varken garanti eller representationen som angår träffsäkerheten, troliga resultat, eller pålitligheten över hemsidans material eller annars relaterat till sådant material, eller ens några sidor länkade till denna.',
+            h4: 'Begränsningar',
+            p2: 'Affinitweet ansvarar under inga omständigheter för skador (bland annat skador för dataförlust eller vinst, eller pga. störande av affärer) från användningen eller oförmågan att använda materialet på Affinitweets hemsida, även om Affinitweet eller en Affinitweet-auktoriserad representant har notifierats oralt eller skriftligt om möjligheterna till sådan skada. Eftersom vissa jurisdiktioner inte tillåter begränsningar på antydda garantier eller begränsningar till ansvar för konsekventiella eller incidentiella skador kan det hända att dessa begränsningar inte gäller för dig.',
+            h5: 'Materialets träffsäkerhet',
+            p3: 'Materialet som visas på Affinitweets hemsida kan innehålla tekniska, typografiska, eller fotografiska fel. Affinitweet garanterar inte att något av dess material på hemsidan är träffsäkert, färdigt eller nuvarande. Affinitweet kan göra ändringar på det material som finns på dess sida närsomhelst utan förvarning. Affinitweet kan däremot inte lova att materialet uppdateras.',
+            h6: 'Länkar',
+            p4: 'Affinitweet har inte recenserat alla sidorna som länkas på dess sida och ansvarar ej för det material på de länkade sidorna. Innehållet av någon sådan länk innebär ej att Affinitweet stödjar sidan. Användandet av sådana länkar är på användarens egen risk.',
+            h7: 'Modifieringar',
+            p5: 'Affinitweet kan ändra sin hemsidas villkor närsomhelst utan förvarning. Genom att använda den här sidan godkänner du att bindas av den nuvarande versionen av dessa användarvillkor.',
+            h8: 'Styrande lag',
+            p6: 'Dessa villkor och krav styrs av och konstrueras enligt Frankrikes lagar och du framhåller till den exklusiva jurisdiktionen för den statens eller platsens domstolar.',
+        },
+
+        /* Data and privacy page */
+        privacy: {
+            title: 'Data och integritet',
+            description: 'Information på hur vi hämtar, analyserar och bevarar din data.',
+            intro: 'Vi tar allvarligt på datasekretessen och angående vårt arbete, vi vill informera våra användare om vad vi gör med det. Nedan hittar du all nödvändig information som angår bevaringen och processeringen av denna data. Information om kakor finns också tillgängligt på {thatPage}.',
+            storage: 'Bevaring',
+            personalData: 'Personlig data',
+            p1: 'När du loggar in på Affinitweet samlar vi in den information vi behöver från din Twitter-profil för att kunna erbjuda dig våra tjänster. Bland detta bevarar vi:',
+            'l1-1': 'ditt unika Twitter-ID',
+            'l1-2': 'ditt användarnamn (@)',
+            'l1-3': 'ditt namn',
+            'l1-4': 'din autentiseringstoken',
+            'l1-5': 'din hemlighet till autentiseringstoken',
+            'l1-6': 'ditt språk',
+            p2: 'Den andra informationen du kan se på din profil bevaras tillfälligen under din session, logga bara ut för att ta bort det.',
+            i1: 'Information: denna data kan raderas helt och omedelbart genom att helt enkelt klicka på {button} längst nere på {yourProfile}.',
+            results: 'Resultat',
+            p3: 'Som standard bevarar inte Affinitweet den resultat av det du gör. Du kan dock aktivera alternativet för historik över dina resultat på din profil. Bland allt detta bevarar vi:',
+            'l2-1': 'användaren som resultaten tillhör',
+            'l2-2': 'materialets namn',
+            'l2-3': 'resultatets tidsstämpel',
+            i2: 'Information: denna data kan raderas helt och omedelbart genom att helt enkelt klicka på {button} längst nere på {yourProfile}.',
+            computing: 'Bearbetning',
+            p4: 'När du använder de olika materialen som finns på hemsidan ringer vi upp Twitter API:t med dina tidigare bevarare tokens.',
+            i3: 'Information: vi använder dina tokens för att kunna vara så träffsäkra vi kan med våra resultat. Det vill säga, om du exempelvis följer en eller fler användare med ett skyddat konto kommer vi att kunna inkludera dem i resultatet vid behov.',
+            p5: 'Detta kan vi ledas till att få:',
+            'l3-1': 'din feed',
+            'l3-2': 'dina (re-)tweets',
+            'l3-3': 'dina omnämningar',
+            'l3-4': 'dina följare',
+            'l3-5': 'de du följer',
+            p6: 'Denna information samlas och processeras enbart, vi bevarar inte det.',
+            publish: 'Publicering',
+            p7: 'När du loggar in på Affinitweet frågar vi om enkelt läsbehörighet till ditt konto samt skrivbehörighet. Vi kommer inte att uföra handlingar utan ditt medgivande om inte ett särskilt alternativ på sidan är aktiverat.',
+            i4: 'Information: du kan återta behörigheten du gett oss när du loggade in närsomhelst via din {yourTwitterProfile}.',
+            autoTweet: 'Automatisk tweet',
+            p8: 'För att kunna använda vissa funktioner kan vi behöva be dig aktivera alternativet för automatiska tweetresultat. Går du med på att aktivera det kommer en tweet publiceras för varje resultat med den genererade bilden.',
+            i5: 'Information: du kan avaktivera detta alternativ närsomhelst {yourProfile} i {button}-avdelningen.',
+            question: 'Några frågor?',
+            p9: 'Har du några frågor om Affinitweet så var inte rädd för att kontakta oss via Twitter eller e-post, det nöjer oss verkligen att ge dig svar!',
+            thatPage: 'denna sida',
+            yourProfile: 'din profil',
+            yourTwitterProfile: 'din Twitterprofil',
+        },
+
     },
 
-    /* Legal page */
-    legal: {
-      title: 'Legal',
-      description: 'Information about us and cookies.',
-      intro: 'In accordance with Article 6 of the law n° 2004-575 of 21 June 2004 on trust in the digital economy, users of the site {site} are informed of the identity of the various parties involved in its implementation and monitoring:',
-      owner: 'Owner',
-      creator: 'Creator',
-      publisher: 'Publication manager',
-      publisherText: 'The person responsible for publication is a natural person.',
-      webmaster: 'Webmaster',
-      host: 'Host',
-      requestAddress: 'Full address available on request by email at {email}.',
-      warningCookies: 'About cookies',
-      p1: 'A cookie is a small text file sent to your browser via the website you are viewing. With this cookie, information about your visit is stored on the website, such as your preferred language and other settings. This may facilitate your next visit to this site and make it more useful to you. Cookies play an important role. Without cookies, using the Web could be much more frustrating.',
-      t1: 'What is the applicable legal frame?',
-      p2: "In amending Article 5(3) of Directive 2002/58/EC by adopting Directive 2009/136/EC, the European legislator laid down the principle that the storage of information on a user's equipment or access to information already stored should only be carried out with the user's prior consent, unless these actions are strictly necessary for the provider to deliver a service expressly requested by the user. Article 32-II of the law of 6 January 1978 takes over this principle.",
-      t2: 'This site uses cookies for the following purposes:',
-      'l1-1': 'To help us recognize your browser and to save the preferences you have set in your previous visits to this site',
-      'l1-2': 'To help us measure and study the effectiveness of our online interactive content, features, advertising and other communications',
-      'l1-3': 'To monitor the analytical data on the site, the use made of the site by users and to improve the services and content of this site.',
-      t3: 'How do I delete cookies linked to my browser?',
-      p3: "You can choose to disable cookies in your browser at any time by following the instructions provided in your browser's help files. You can also set your cookies directly in your browser settings:",
+    /* Errors */
+    _er: {
+        cooldown: 'Detta material har en %{cooldown} sekunders nedkylning. Var god försök igen om:',
+        unknown: 'Ett fel har uppstått. Vårt team har notifierats.',
+        unknownFeature: 'Okänt material.',
+        unavailableFeature: 'Otillgängligt material.',
+        betaFeature: "Du kan inte använda betafunktioner förräns du är med i Betaprogrammet.",
+        invalidEmail: 'E-post ogiltigt.',
+        selfUsername: 'Skriv ett annat användarnamn än dig själv.',
+        badUsername: 'Dåligt användarnamn.',
+        notEnoughData: 'Inte tillräckligt med data.',
+        accountProtected: 'Du kan inte använda detta material medan ditt konto är skyddat.',
+        targetAccountProtectedAndNotFollowing: "Du kan inte använda denna funktion för att den avsedda användaren skyddas och följer dig inte.",
+        refreshPage: 'Vänligen ladda om sidan.',
+        timeout: 'Timeout pågick för länge.',
+        twitterError: 'Twitter skickade ett fel:',
+        twitterErrors: {
+            32: 'Kunde inte autentisera dig.',
+            34: 'Ledsen, den sida existerar inte.',
+            50: 'Användare hittades ej.',
+            63: 'Användaren har avlysats.',
+            64: 'Ditt konto är avlysat och har inte tillåtelse att använda detta material.',
+            87: 'Klienten har inte tillåtelse att utföra denna handling.',
+            88: 'Rate limit exceeded. Försök igen om 15 minuter',
+            89: 'Ogiltigt eller utgånget token. Vänligen koppla upp dig igen.',
+            99: 'Kan inte verifiera dina referenser.',
+            130: 'Över kapaciteten.',
+            131: 'Internt fel.',
+            135: 'Kunde inte autentisera dig.',
+            144: 'Inget status funnet med det ID:et.',
+            179: 'Ledsen, du är inte auktoriserad för att se denna status.',
+            185: 'Användaren är över gränsen för dagliga statusuppdateringar.',
+            186: 'Tweeten behöver vara lite kortare.',
+            187: 'Statusen är en kopia.',
+            220: 'Dina referenser ger inte tillgång till denna resurs.',
+            261: 'Applikationen kan inte genomföra skrifthandlingar.',
+            326: 'För att skydda våra användare från spam och annan skadlig aktivitet har detta konto tillfälligen låsts.',
+        },
     },
-
-    /* Terms of service page */
-    terms: {
-      title: 'Terms of service',
-      description: 'Consult our general terms and conditions of use.',
-      h1: 'Terms',
-      p1: 'By accessing the website at {url}, you are agreeing to be bound by these terms of service, all applicable laws and regulations, and agree that you are responsible for compliance with any applicable local laws. If you do not agree with any of these terms, you are prohibited from using or accessing this site. The materials contained in this website are protected by applicable copyright and trademark law.',
-      h2: 'Use Licence',
-      'l1-1': "Permission is granted to temporarily download one copy of the materials (information or software) on Affinitweet's website for personal, non-commercial transitory viewing only. This is the grant of a license, not a transfer of title, and under this license you may not:",
-      'l2-1': 'modify or copy the materials;',
-      'l2-2': 'use the materials for any commercial purpose, or for any public display (commercial or non-commercial);',
-      'l2-3': "attempt to decompile or reverse engineer any software contained on Affinitweet's website;",
-      'l2-4': 'remove any copyright or other proprietary notations from the materials; or',
-      'l2-5': 'transfer the materials to another person or "mirror" the materials on any other server.',
-      'l1-2': 'This license shall automatically terminate if you violate any of these restrictions and may be terminated by Affinitweet at any time. Upon terminating your viewing of these materials or upon the termination of this license, you must destroy any downloaded materials in your possession whether in electronic or printed format.',
-      h3: 'Disclaimer',
-      'l3-1': "The materials on Affinitweet's website are provided on an 'as is' basis. Affinitweet makes no warranties, expressed or implied, and hereby disclaims and negates all other warranties including, without limitation, implied warranties or conditions of merchantability, fitness for a particular purpose, or non-infringement of intellectual property or other violation of rights.",
-      'l3-2': 'Further, Affinitweet does not warrant or make any representations concerning the accuracy, likely results, or reliability of the use of the materials on its website or otherwise relating to such materials or on any sites linked to this site.',
-      h4: 'Limitations',
-      p2: "In no event shall Affinitweet or its suppliers be liable for any damages (including, without limitation, damages for loss of data or profit, or due to business interruption) arising out of the use or inability to use the materials on Affinitweet's website, even if Affinitweet or a Affinitweet authorized representative has been notified orally or in writing of the possibility of such damage. Because some jurisdictions do not allow limitations on implied warranties, or limitations of liability for consequential or incidental damages, these limitations may not apply to you.",
-      h5: 'Accuracy of materials',
-      p3: "The materials appearing on Affinitweet's website could include technical, typographical, or photographic errors. Affinitweet does not warrant that any of the materials on its website are accurate, complete or current. Affinitweet may make changes to the materials contained on its website at any time without notice. However Affinitweet does not make any commitment to update the materials.",
-      h6: 'Links',
-      p4: "Affinitweet has not reviewed all of the sites linked to its website and is not responsible for the contents of any such linked site. The inclusion of any link does not imply endorsement by Affinitweet of the site. Use of any such linked website is at the user's own risk.",
-      h7: 'Modifications',
-      p5: 'Affinitweet may revise these terms of service for its website at any time without notice. By using this website you are agreeing to be bound by the then current version of these terms of service.',
-      h8: 'Governing Law',
-      p6: 'These terms and conditions are governed by and construed in accordance with the laws of France and you irrevocably submit to the exclusive jurisdiction of the courts in that State or location.',
-    },
-
-    /* Data and privacy page */
-    privacy: {
-      title: 'Data and privacy',
-      description: 'Information on how we retrieve, analyze and store your data.',
-      intro: 'We take the privacy of data very seriously and in the course of our business, we want to inform our users about what we do with it. You will find below all the necessary information concerning the storage and processing of this data. Information about cookies is also available on {thatPage}.',
-      storage: 'Storage',
-      personalData: 'Personal data',
-      p1: 'When you log into Affinitweet, we collect the information from your Twitter profile that we need in order to offer you our services. Among this information, we store your:',
-      'l1-1': 'unique Twitter ID',
-      'l1-2': 'username (@)',
-      'l1-3': 'name',
-      'l1-4': 'authentication token',
-      'l1-5': 'authentication token secret',
-      'l1-6': 'language',
-      p2: 'The other information you can see on your profile is temporarily stored in your session, just log out to delete it.',
-      i1: 'Information: these data can be deleted in their entirety and immediately on simply clicking on {button} at the bottom of {yourProfile}.',
-      results: 'Results',
-      p3: 'By default, Affinitweet does not store the results of what you do. However, you can activate this option to have a history of your results in your profile. Among this information, we store:',
-      'l2-1': 'the user to whom the result belongs',
-      'l2-2': 'the name of the feature',
-      'l2-3': 'the timestamp of the result',
-      i2: 'Information: these data can be deleted in their entirety and immediately by simply clicking on {button} at the bottom of {yourProfile}.',
-      computing: 'Processing',
-      p4: 'When you perform the various features present on the site, we make calls to the Twitter API with your previously stored tokens.',
-      i3: 'Information: we use your tokens to be able being as accurate as possible in our results. Thus, if you follow one or more users with a protected account for example, we will be able to include them in the results if necessary.',
-      p5: "Here's what we can be led to get:",
-      'l3-1': 'your feed',
-      'l3-2': 'your tweets/retweets',
-      'l3-3': 'your mentions',
-      'l3-4': 'your followers',
-      'l3-5': 'your followings',
-      p6: 'This information is only collected and processed, we do not store it.',
-      publish: 'Publication',
-      p7: 'When you log in to Affinitweet, we ask for basic read access to your account and write access. We will not carry out any action without your express request by activating an option from the site.',
-      i4: 'Information: you can revoke the access you gave us when you logged in at any time from your {yourTwitterProfile}.',
-      autoTweet: 'Automatic tweet',
-      p8: 'In order to be able to use certain features, we may ask you to enable the automatic tweet option for results. If you agree to enable this option, a tweet will be published for each result with the generated image.',
-      i5: 'Information: you can deactivate this option at any time from {yourProfile} in the {button} section.',
-      question: 'Any questions?',
-      p9: 'If you have any questions about Affinitweet, please do not hesitate to contact us via Twitter or email, we will be happy to answer you!',
-      thatPage: 'this page',
-      yourProfile: 'your profile',
-      yourTwitterProfile: 'your Twitter profile',
-    },
-
-  },
-
-  /* Errors */
-  _er: {
-    cooldown: 'Detta material har en %{cooldown} sekunders nedkylning. Var god försök igen om:',
-    unknown: 'Ett fel har uppstått. Vårt team har notifierats.',
-    unknownFeature: 'Okänt material.',
-    unavailableFeature: 'Otillgängligt material.',
-    betaFeature: "You can't use beta features until you're appart of the Beta program.", // TODO
-    invalidEmail: 'Email is invalid.', // TODO
-    selfUsername: 'Skriv ett annat användarnamn än dig själv.',
-    badUsername: 'Dåligt användarnamn.',
-    notEnoughData: 'Inte tillräckligt med data.',
-    accountProtected: 'Du kan inte använda detta material medan ditt konto är skyddat.',
-    targetAccountProtectedAndNotFollowing: "You can't use this feature because the targeted user is protected and not following you.", // TODO
-    refreshPage: 'Vänligen ladda om sidan.',
-    timeout: 'Timeout exceeded.',
-    twitterError: 'Twitter skickade ett fel:',
-    twitterErrors: {
-      32: 'Kunde inte autentisera dig.',
-      34: 'Ledsen, den sida existerar inte.',
-      50: 'Användare hittades ej.',
-      63: 'Användaren har avlysats.',
-      64: 'Ditt konto är avlysat och har inte tillåtelse att använda detta material.',
-      87: 'Klienten har inte tillåtelse att utföra denna handling.',
-      88: 'Rate limit exceeded. Försök igen om 15 minuter',
-      89: 'Ogiltigt eller utgånget token. Vänligen koppla upp dig igen.',
-      99: 'Kan inte verifiera dina referenser.',
-      130: 'Över kapaciteten.',
-      131: 'Internt fel.',
-      135: 'Kunde inte autentisera dig.',
-      144: 'Inget status funnet med det ID:et.',
-      179: 'Ledsen, du är inte auktoriserad för att se denna status.',
-      185: 'Användaren är över gränsen för dagliga statusuppdateringar.',
-      186: 'Tweeten behöver vara lite kortare.',
-      187: 'Statusen är en kopia.',
-      220: 'Dina referenser ger inte tillgång till denna resurs.',
-      261: 'Applikationen kan inte genomföra skrifthandlingar.',
-      326: 'För att skydda våra användare från spam och annan skadlig aktivitet har detta konto tillfälligen låsts.',
-    },
-  },
 
 }
