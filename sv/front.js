@@ -121,7 +121,7 @@ export default {
         longDescription: 'Vi håller algoritmen för detta hemligt. Allt vi kan säga är att vi försöker hålla oss till verkligheten, kommer våran Valentine nöja dig... ?',
       },
       'twitter-activity': {
-        description: 'Discover the summary of your activity and your Twitter statistics 📊', // TODO
+        description: 'Upptäck summeringen av dina aktiviteter och din Twitter-statistik 📊', // TODO
         longDescription: 'Tack vare Twitter Activity kommer du att veta när du tweetar som oftast, hur många interaktioner (intryck, retweets, gillar, svar) du har totalt och distributionen av dina tweets.',
       },
       'first-follower': {
@@ -178,7 +178,7 @@ export default {
 
     /* Welcome page */
     welcome: {
-      title: 'Welcome', // TODO
+      title: 'Välkommen', // TODO
       welcomeToAffinitweet: 'Välkommen till Affinitweet&nbsp;&nbsp;🎉',
       helloYou: 'Hej {username}&nbsp;&nbsp;😊',
       proudToWelcomeYou: 'Hej {username}, vi är stolta att kunna bekanta dig och är glada att välkomna dig bland våra mer än 6 miljoner användare!',
@@ -230,8 +230,8 @@ export default {
       monthlyUsersDescription: 'Unika användare som återkommer i genomsnitt var månad',
       totalFeatures: '20 milljoner',
       totalFeaturesDoneDescription: 'Funktioner gjorda sedan vi öppnade 2014',
-      ourFeatures: 'Our features', // TODO
-      seeDetailedList: 'See detailed list', // TODO
+      ourFeatures: 'Våra funktioner', // TODO
+      seeDetailedList: 'Se detaljerad lista', // TODO
       latestNews: 'Senaste nytt',
       getInTouch: 'Kontakta oss!',
       getInTouchP1: 'Vi finns tillgängligt närsomhelst på vårt Twitter-konto {twitterName}.',
@@ -281,8 +281,8 @@ export default {
     feature: {
       login: 'Logga in för att fortsätta...',
       startFeature: 'Då kör vi!',
-      betaFeature: 'This feature is currently in beta and is available for users being part of the Beta program only. You can apply for this program if you want to test this feature.', // TODO
-      applyForFree: 'Apply for free', // TODO
+      betaFeature: 'Denna funktion är för närvarande i beta och finns enbart tillgänglif för deltagare i vårt Betaprogram. Du kan gå med i det om du vill testa denna funktion.', // TODO
+      applyForFree: 'Gå med gratis', // TODO
       results: 'Här är dina resultat!',
       tweetResults: 'Tweeta resultat',
       tweetingResults: 'Tweetar...',
@@ -447,13 +447,13 @@ export default {
     unknown: 'Ett fel har uppstått. Vårt team har notifierats.',
     unknownFeature: 'Okänt material.',
     unavailableFeature: 'Otillgängligt material.',
-    betaFeature: "You can't use beta features until you're appart of the Beta program.", // TODO
-    invalidEmail: 'Email is invalid.', // TODO
+    betaFeature: "Du kan inte använda betafunktioner förräns du är med i Betaprogrammet.", // TODO
+    invalidEmail: 'E-post ogiltigt.', // TODO
     selfUsername: 'Skriv ett annat användarnamn än dig själv.',
     badUsername: 'Dåligt användarnamn.',
     notEnoughData: 'Inte tillräckligt med data.',
     accountProtected: 'Du kan inte använda detta material medan ditt konto är skyddat.',
-    targetAccountProtectedAndNotFollowing: "You can't use this feature because the targeted user is protected and not following you.", // TODO
+    targetAccountProtectedAndNotFollowing: "Du kan inte använda denna funktion för att den avsedda användaren skyddas och följer dig inte.", // TODO
     refreshPage: 'Vänligen ladda om sidan.',
     timeout: 'Timeout pågick för länge.',
     twitterError: 'Twitter skickade ett fel:',
