@@ -63,9 +63,9 @@ export default {
       tweetsPerDay: '{count} times a day',
     },
     'common-friends': {
-      friendsRemaining: '... and {count} other friends !',
+      friendsRemaining: '... and {count} other friends!',
       noFriends: 'No common friends...',
-      commonFriends: 'I have {count} common friends with {user} !',
+      commonFriends: 'I have {count} common friends with {user}!',
       noCommonFriends: 'I have no common friends with {user}...',
     },
     valentine: 'Your Valentine {year} is',

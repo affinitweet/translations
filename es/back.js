@@ -65,7 +65,7 @@ export default {
     'common-friends': {
       friendsRemaining: '... y {count} otros amigos!',
       noFriends: 'Sin amigos en común...',
-      commonFriends: 'Tengo {count} amigos en común con {user} !',
+      commonFriends: 'Tengo {count} amigos en común con {user}!',
       noCommonFriends: 'No tengo amigos en común con {user}...',
     },
     valentine: 'Su Valentine {year} es',

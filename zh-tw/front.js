@@ -198,6 +198,8 @@ export default {
       niceDescription: 'Hop... hop... and hop!<br />That\'s it, you\'re now following us on Twitter! Thanks a lot and have fun on Affinitweet 💜', // TODO
       awesome: 'Awesome&nbsp;&nbsp;😍', // TODO
       awesomeDescription: 'Hop... hop... and hop!<br /><br />That\'s it, you\'re now following us on Twitter and notifications have been enabled! Thanks a lot and have fun on Affinitweet 💜', // TODO
+      uhoh: 'Uh oh... 😕', // TODO
+      uhohDescription: 'Twitter, you\'ve got a problem...<br />Unfortunately Twitter isn\'t able to make you follow us at the moment. Please <u>click on the follow button</u> to do it 😊', // TODO
       letsGo: 'Let\'s go!', // TODO
     },
 
@@ -224,13 +226,14 @@ export default {
       trustpilotH2: '我們的用戶評分為 {rate} ，您會是下壹比特評估者嗎？',
       trustpilotButton: '查看並發表評論',
       statistics: '統計',
-      totalUsers: '600 萬',
+      totalUsers: '700 萬',
       totalUsersDescription: '信任並使用我們服務的用戶',
       monthlyUsers: '400 000',
       monthlyUsersDescription: '平均每個月都會來訪的常客',
       totalFeatures: '2000 萬',
       totalFeaturesDoneDescription: '自 2014 年創立以來帶來的功能',
-      features: '功能',
+      ourFeatures: 'Our features', // TODO
+      seeDetailedList: 'See detailed list', // TODO
       latestNews: '最新資訊',
       getInTouch: '聯繫我們 ',
       getInTouchP1: '您可以隨時關注我們的 Twitter 帳戶 {twitterName} ',

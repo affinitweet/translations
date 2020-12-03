@@ -197,6 +197,8 @@ export default {
       niceDescription: 'Hop... hop... and hop!<br />That\'s it, you\'re now following us on Twitter! Thanks a lot and have fun on Affinitweet 💜', // TODO
       awesome: 'Awesome&nbsp;&nbsp;😍', // TODO
       awesomeDescription: 'Hop... hop... and hop!<br /><br />That\'s it, you\'re now following us on Twitter and notifications have been enabled! Thanks a lot and have fun on Affinitweet 💜', // TODO
+      uhoh: 'Uh oh... 😕', // TODO
+      uhohDescription: 'Twitter, you\'ve got a problem...<br />Unfortunately Twitter isn\'t able to make you follow us at the moment. Please <u>click on the follow button</u> to do it 😊', // TODO
       letsGo: 'Let\'s go!', // TODO
     },
 
@@ -223,13 +225,14 @@ export default {
       trustpilotH2: 'Nuestros usuarios nos califican con {rate}, ¿serás el próximo en opinar sobre nosotros?',
       trustpilotButton: 'Ver y enviar una reseña',
       statistics: 'Estadísticas',
-      totalUsers: '6 millones',
+      totalUsers: '7 millones',
       totalUsersDescription: 'Los usuarios confían en nosotros y usan nuestros servicios',
       monthlyUsers: '400 000',
       monthlyUsersDescription: 'Usuarios únicos que regresan en promedio cada mes',
       totalFeatures: '20 millones',
       totalFeaturesDoneDescription: 'Funciones hechas desde nuestra apertura en 2014',
-      features: 'Funciones',
+      ourFeatures: 'Our features', // TODO
+      seeDetailedList: 'See detailed list', // TODO
       latestNews: 'Últimas noticias',
       getInTouch: '¡Contáctenos!',
       getInTouchP1: 'Estamos disponibles en cualquier momento en nuestra cuenta de Twitter {twitterName}.',
