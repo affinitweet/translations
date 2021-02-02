@@ -77,5 +77,6 @@ export default {
 | 🇨🇳 Simplified Chinese | [Kagurazaka Yashi](https://github.com/kagurazakayashi) | ✅ |
 | 🇧🇷 Portuguese | [Allan Fernando](https://github.com/allanf181) | ✅ |
 | 🇸🇪 Swedish | [Fox Wernicke](https://github.com/BreakinBenny) | ✅ |
+| 🇳🇱 Dutch | [Quinten Althues](https://github.com/QkeleQ10) | ✅ |
 
 Thank you for your help ❤️
