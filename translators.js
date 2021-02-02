@@ -31,4 +31,8 @@ export default {
     author: 'Kagurazaka Yashi',
     language: 'traditionalChinese',
   },
+  nl: {
+    author: 'Quinten Althues',
+    language: 'dutch',
+  },
 }

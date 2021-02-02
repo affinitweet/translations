@@ -1,0 +1,101 @@
+export default {
+
+  /* Steps */
+  _st: {
+    received: 'Verzoek ontvangen door server...',
+    starting: 'Starten...',
+    fetchingData: 'Data ophalen...',
+    fetchingTweets: 'Tweets ophalen...',
+    computingData: 'Data verwerken...',
+    generatingImage: 'Afbeelding genereren...',
+    uploadingMedia: 'Afbeelding uploaden...',
+    publishingTweet: 'Tweet plaatsen...',
+    savingResults: 'Resultaten opslaan...',
+  },
+
+  /* Features */
+  _ft: {
+    'twitter-activity': {
+      basedOnLastDays: 'Gebaseerd op de afgelopen {days} dagen...',
+      countingTweets: '... en telt {count} tweets:',
+      interactionsReceived: 'Interacties ontvangen',
+      last30Days: '*: afgelopen 30 dagen',
+      tweetingHours: 'Tweet-uren',
+      tweetRepartition: 'Tweet-distributie',
+    },
+    'first-follower': {
+      yourFirstFollowerIs: 'Je eerste volger is',
+      dateFormat: 'op {month}/{day}/{year} om {hour}:{minute}:{second}',
+    },
+    'first-following': {
+      yourFirstFollowingIs: 'Je eerste volgend is',
+      dateFormat: 'op {month}/{day}/{year} om {hour}:{minute}:{second}',
+    },
+    'first-to-follow': {
+      youAreNotFollowing: "Je volgt {user} niet...",
+      notFollowingYou: '{user} volgt je niet...',
+      youFollowed: 'Je hebt {user} gevolgd: ',
+      followedYou: '{user} heeft je gevolgd: ',
+      dateFormat: 'op {month}/{day}/{year} om {hour}:{minute}:{second}',
+      dateFormat2: 'op {month}/{day}/{year} om {hour}h',
+    },
+    friendships: {
+      average: 'Vriendschappen gemiddelde van',
+      following: 'Je volgt deze persoon',
+      'not-following': "Je volgt deze persoon niet",
+      followed_by: 'Deze persoon volgt je',
+      'not-followed_by': "Deze persoon volgt je niet",
+      notifications_enabled: 'Je krijgt meldingen over tweets van deze persoon',
+      'not-notifications_enabled': "Je krijgt geen meldingen over tweets van deze persoon",
+      blocking: 'Je hebt deze persoon geblokkeerd',
+      'not-blocking': "Je hebt deze persoon niet geblokkeerd",
+      blocked_by: 'Deze persoon heeft je geblokkeerd',
+      'not-blocked_by': "Deze persoon heeft je niet geblokkeerd",
+      muting: 'Je hebt deze persoon gedempt',
+      'not-muting': "Je hebt deze persoon niet gedempt",
+      want_retweets: 'Je ziet retweets van deze persoon',
+      'not-want_retweets': "Je ziet geen retweets van deze persoon",
+      marked_spam: 'Je hebt deze persoon als spam gemarkeerd',
+      'not-marked_spam': "Je hebt deze persoon niet als spam gemarkeerd",
+    },
+    'tweet-rate': {
+      average: 'gemiddeld {user} tweets...',
+      tweetsPerDay: '{count} keer per dag',
+    },
+    'common-friends': {
+      friendsRemaining: '... en {count} andere vrienden!',
+      noFriends: 'Geen gemeenschappelijke vrienden...',
+      commonFriends: 'Ik heb {count} gemeenschappelijke vrienden met {user}!',
+      noCommonFriends: 'Ik heb geen gemeenschappelijke vrienden met {user}...',
+    },
+    valentine: 'Je valentijn van {year} is',
+    'stolen-kiss': 'Je Stolen Kiss is',
+    'hidden-twin': 'Je Hidden Twin is',
+    'secret-crush': 'Je Secret Crush is',
+    'may-day': 'Ik geef een lelietje van dalen 💐 aan',
+    'halloween-duo': 'Je Halloween Duo is',
+    'new-years-kiss': "Mijn New Year's Kiss is",
+  },
+
+  /* Tweet content */
+  _tw: {
+    'first-to-follow': '{text}',
+    friendships: '{text}',
+    'top-friends': '{users}',
+    'famous-followers': '{users}',
+    'common-friends': '{text}',
+    'tweet-rate': '{text}',
+    'emoji-mood': '{emojis}',
+    valentine: "Dit jaar ben je van mij, {user}! ❤️\nEn jij, wie is van jou?",
+    'twitter-activity': "Dit zijn mijn accountstatistieken van de afgelopen {days} dagen. Heb jij betere interacties?",
+    'first-follower': 'Ik heb net mijn eerste volger op Twitter ontdekt, namelijk {user} op {date}!\nWie is jouw eerste volger?',
+    'first-following': 'Ik heb net mijn eerste volgend op Twitter ontdekt, namelijk {user} op {date}!\nWie heb jij als eerst gevolgd?',
+    'secret-crush': '{user} houdt stiekem van je! 😳\nWie houdt er stiekem van jou?',
+    'hidden-twin': '{user} is mijn geheime tweeling 😱\nKijk wie die van jou is!',
+    'stolen-kiss': '{user} zou je in het steegje zoenen... 😏\nWie zou het met jou doen?',
+    'may-day': '{user}, ik geef je mijn prachtigste lelietje van dalen! 💐\nAan wie geef jij er één?',
+    'halloween-duo': "Ik hoef me niet eens te verkleden om eng te zijn, ik heb {user}! 🎃👻\nEn jij, met wie ben jij het engste?",
+    'new-years-kiss': "Ik bereid me voor op de beste nieuwjaarszoen met {user} 😘💕\nMet wie zoen jij om middernacht?",
+  },
+
+}
