@@ -32,7 +32,7 @@ export default {
     portuguese: 'Portugués',
     simplifiedChinese: 'Chino Simplificado',
     traditionalChinese: 'Chino Tradicional',
-    dutch: "Holandés",
+    dutch: 'Holandés',
   },
 
   /* Pluralization */

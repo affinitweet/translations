@@ -32,7 +32,7 @@ export default {
     portuguese: 'Portugees',
     simplifiedChinese: 'Vereenvoudigd Chinees',
     traditionalChinese: 'Traditioneel Chinees',
-    dutch: "Nederlands",
+    dutch: 'Nederlands',
   },
 
   /* Pluralization */
@@ -218,12 +218,12 @@ export default {
       worldFamousLeader: 'Wereldbekende marktleider',
       worldFamousLeaderDescription: 'Affinitweet is geopend in februari 2014 en meer dan twee miljoen gebruikers gebruiken onze diensten, overal ter wereld.',
       fastRealTimeResults: 'Razendsnelle, realtime resultaten',
-      fastRealTimeResultsDescription: "We hebben Affinitweet gebouwd met de nieuwste websnufjes, dus het is zo snel mogelijk en realtime.",
+      fastRealTimeResultsDescription: 'We hebben Affinitweet gebouwd met de nieuwste websnufjes, dus het is zo snel mogelijk en realtime.',
       noAdsNoVirus: 'Geen advertenties en virussen',
-      noAdsNoVirusDescription: "Affinitweet is puur voor vermaak gebouwd, dus geen virussen en maar 2 advertenties over de hele website (geen pop-ups of doorverwijzingen).",
+      noAdsNoVirusDescription: 'Affinitweet is puur voor vermaak gebouwd, dus geen virussen en maar 2 advertenties over de hele website (geen pop-ups of doorverwijzingen).',
       multilingualOpen: 'Meertalig en open',
       multilingualOpenDescription: 'Affinitweet is beschikbaar in meerdere talen en iedereen kan meehelpen en eigen talen toevoegen.',
-      trustpilotH1: "Bekijk onze reviews op Trustpilot!",
+      trustpilotH1: 'Bekijk onze reviews op Trustpilot!',
       trustpilotH2: 'We krijgen van onze gebruikers een {rate}, ben jij de volgende om ons te beoordelen?',
       trustpilotButton: 'Bekijk reviews en beoordeel ons',
       statistics: 'Statistieken',
@@ -283,13 +283,13 @@ export default {
     /* Feature page */
     feature: {
       login: 'Log in om verder te gaan...',
-      startFeature: "Laten we gaan!",
+      startFeature: 'Laten we gaan!',
       betaFeature: 'Deze functie is momenteel in de bèta en is uitsluitend beschikbaar voor gebruikers in het bèta-programma. Je kunt je aanmelden voor dit programma als je deze functie wilt testen.',
       applyForFree: 'Gratis aanmelden',
-      results: "Dit zijn je resultaten!",
+      results: 'Dit zijn je resultaten!',
       tweetResults: 'Resultaten tweeten',
       tweetingResults: 'Tweeten...',
-      requireAutoTweetDescription: "Wil je resultaten automatisch tweeten? Je kunt deze optie altijd uitschakelen in je profiel.",
+      requireAutoTweetDescription: 'Wil je resultaten automatisch tweeten? Je kunt deze optie altijd uitschakelen in je profiel.',
       yesEnable: 'Ja, inschakelen',
       no: 'Nee',
       retry: 'Opnieuw proberen!',
@@ -311,27 +311,27 @@ export default {
     'beta-program': {
       title: 'Bèta-programma',
       description: 'Meld je gratis aan voor het bèta-programma en probeer onze bèta-functies voordat ze uitgebracht worden!',
-      betaProgramDescription: "Het bèta-programma is gemaakt zodat jij functies kan proberen voor ze uitgebracht worden, zodat ze werken zoals verwacht. Als je deeneemt aan dit programma, kun je deze functies testen.",
+      betaProgramDescription: 'Het bèta-programma is gemaakt zodat jij functies kan proberen voor ze uitgebracht worden, zodat ze werken zoals verwacht. Als je deeneemt aan dit programma, kun je deze functies testen.',
       currentBetaFeatures: 'Er zijn momenteel {amount} {features} in het bèta-programma:',
       noCurrentBetaFeatures: 'Er zijn momenteel geen functies in het bèta-programma, maar deze komen binnenkort!',
       fewThingsToKnow: 'Een paar dingen die je moet weten:',
-      li1: "Het is compleet gratis",
-      li2: "Er is een beperkt aantal plaatsen",
+      li1: 'Het is compleet gratis',
+      li2: 'Er is een beperkt aantal plaatsen',
       li3: 'Het programma is geheel vrijblijvend',
       li4: 'Hogere prioriteit voor ondersteuning in Twitter-DM\'s',
       li5: 'Bèta-functies werken mogelijk niet zoals verwacht',
       li6: 'Bèta-functies kunnen op elk moment aangepast worden',
       thanksForInterest: 'Bedankt voor je interesse in het bèta-programma 💜',
-      alreadyApplied: "Je zit al in het bèta-programma,<br />heel erg bedankt voor je interesse 💜",
+      alreadyApplied: 'Je zit al in het bèta-programma,<br />heel erg bedankt voor je interesse 💜',
       leaveBetaProgram: 'Bèta-programma verlaten',
-      leavingTerms: "Als je het bèta-programma verlaat, kun je je mogelijk niet meer aanmelden als er geen vrije plaatsen over zijn.",
+      leavingTerms: 'Als je het bèta-programma verlaat, kun je je mogelijk niet meer aanmelden als er geen vrije plaatsen over zijn.',
       placesAvailable: '500 plaatsen! 🎟',
       accountEligible: 'Je kunt je met je account aanmelden voor het bèta-programma en er zijn nog weinig vrije plaatsen over!',
       yourEmailAddress: 'Je e-mailadres...',
       applyForFree: 'Gratis aanmelden',
       applyTerms: 'Door je aan te melden voor ons bèta-programma, ga je ermee akkoord dat je meldingen en e-mails kunt ontvangen (maximaal 1 per week).',
       noPlaceAvailable: 'Geen plaats meer 😕',
-      betaProgramFull: "Helaas is het bèta-programma vol en kunnen we momenteel geen gratis toegang geven, maar je kunt het nog steeds verdienen met de methoden in het volgende blok!",
+      betaProgramFull: 'Helaas is het bèta-programma vol en kunnen we momenteel geen gratis toegang geven, maar je kunt het nog steeds verdienen met de methoden in het volgende blok!',
       keepUpdated: 'We laten het je weten wanneer gratis toegang weer beschikbaar is via {ourTwitterAccount}.',
       ourTwitterAccount: 'ons Twitter-account',
       or: 'of',
@@ -359,15 +359,17 @@ export default {
       warningCookies: 'Over cookies',
       p1: 'Een cookie is een klein tekstbestandje dat via een website naar je browser wordt gestuurd. In deze cookie wordt informatie over je bezoek opgeslagen op de website, zoals je voorkeurstaal en andere instellingen. Deze kunnen bij je volgende bezoek gebruikt worden om je bezoek prettiger te maken. Cookies hebben een belangrijke rol. Zonder cookies zou het web veel frustrerender kunnen zijn.',
       t1: 'Wat is het toepasselijke juridische kader?',
-      //TODO VVV
+
+      // TODO VVV
       p2: "In amending Article 5(3) of Directive 2002/58/EC by adopting Directive 2009/136/EC, the European legislator laid down the principle that the storage of information on a user's equipment or access to information already stored should only be carried out with the user's prior consent, unless these actions are strictly necessary for the provider to deliver a service expressly requested by the user. Article 32-II of the law of 6 January 1978 takes over this principle.",
       t2: 'This site uses cookies for the following purposes:',
       'l1-1': 'To help us recognize your browser and to save the preferences you have set in your previous visits to this site',
       'l1-2': 'To help us measure and study the effectiveness of our online interactive content, features, advertising and other communications',
       'l1-3': 'To monitor the analytical data on the site, the use made of the site by users and to improve the services and content of this site.',
-      //TODO ^^^
+
+      // TODO ^^^
       t3: 'Hoe verwijder ik cookies uit mijn browser?',
-      p3: "Je kunt cookies altijd uitschakelen in je browser door de instructies in de documentatie van je browser op te volgen. Je kunt je cookies ook direct in je instellingen instellen:",
+      p3: 'Je kunt cookies altijd uitschakelen in je browser door de instructies in de documentatie van je browser op te volgen. Je kunt je cookies ook direct in je instellingen instellen:',
     },
 
     /* Terms of service page */
@@ -375,7 +377,8 @@ export default {
       title: 'Servicevoorwaarden',
       description: 'Raadpleeg onze algemene voorwaarden en onze servicevoorwaarden.',
       h1: 'Voorwaarden',
-      //TODO VVV
+
+      // TODO VVV
       p1: 'By accessing the website at {url}, you are agreeing to be bound by these terms of service, all applicable laws and regulations, and agree that you are responsible for compliance with any applicable local laws. If you do not agree with any of these terms, you are prohibited from using or accessing this site. The materials contained in this website are protected by applicable copyright and trademark law.',
       h2: 'Gebruikslicentie',
       'l1-1': "Permission is granted to temporarily download one copy of the materials (information or software) on Affinitweet's website for personal, non-commercial transitory viewing only. This is the grant of a license, not a transfer of title, and under this license you may not:",
@@ -398,7 +401,8 @@ export default {
       p5: 'Affinitweet may revise these terms of service for its website at any time without notice. By using this website you are agreeing to be bound by the then current version of these terms of service.',
       h8: 'Governing Law',
       p6: 'These terms and conditions are governed by and construed in accordance with the laws of France and you irrevocably submit to the exclusive jurisdiction of the courts in that State or location.',
-      //TODO ^^^
+
+      // TODO ^^^
     },
 
     /* Data and privacy page */
@@ -426,7 +430,7 @@ export default {
       computing: 'Verwerking',
       p4: 'Wanneer je van de verscheidene functies op onze site gebruikmaakt, nemen we contact op met de Twitter-API met je eerder opgeslagen tokens.',
       i3: 'Informatie: we gebruiken je tokens om zo nauwkeurig mogelijk te zijn in je resultaten. Hierdoor kunnen we, als je mensen met een beschermd account volgt, hen in resultaten verwerken wanneer nodig.',
-      p5: "Dit is wat we kunnen krijgen:",
+      p5: 'Dit is wat we kunnen krijgen:',
       'l3-1': 'je feed',
       'l3-2': 'je tweets/retweets',
       'l3-3': 'je vermeldingen',
@@ -454,14 +458,14 @@ export default {
     unknown: 'Er is een fout opgetreden. Ons team is op de hoogte gesteld.',
     unknownFeature: 'Onbekende functie.',
     unavailableFeature: 'Onbeschikbare functie.',
-    betaFeature: "Je kunt geen bèta-functies gebruiken totdat je deel uitmaakt van het bèta-programma.",
+    betaFeature: 'Je kunt geen bèta-functies gebruiken totdat je deel uitmaakt van het bèta-programma.',
     invalidEmail: 'Ongeldige e-mail.',
     selfUsername: 'Typ een andere gebruikersnaam dan jijzelf.',
     badUsername: 'Ongeldige gebruikersnaam.',
     notEnoughData: 'Niet genoeg tweets om te analyseren.',
     errorWhileRendering: 'Fout bij genereren van afbeelding.',
-    accountProtected: "Je kunt deze functie niet gebruiken als je account beschermd wordt.",
-    targetAccountProtectedAndNotFollowing: "Je kunt deze functie niet gebruiken omdat de doelgebruiker beschermd wordt en je niet volgt.",
+    accountProtected: 'Je kunt deze functie niet gebruiken als je account beschermd wordt.',
+    targetAccountProtectedAndNotFollowing: 'Je kunt deze functie niet gebruiken omdat de doelgebruiker beschermd wordt en je niet volgt.',
     timeout: 'Time-out overschreden.',
     twitterError: 'Twitter heeft een fout teruggezonden:',
     twitterErrors: {
