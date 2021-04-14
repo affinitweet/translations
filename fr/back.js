@@ -33,7 +33,7 @@ export default {
     },
     'first-to-follow': {
       youAreNotFollowing: 'Tu ne suis pas {user}...',
-      notFollowingYou: '{user} ne te suis pas...',
+      notFollowingYou: '{user} ne te suit pas...',
       youFollowed: 'Tu as suivi {user} :',
       followedYou: '{user} t\'a suivi :',
       dateFormat: 'à {hour}:{minute}:{second} le {day}/{month}/{year}',
