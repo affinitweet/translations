@@ -227,11 +227,11 @@ export default {
       trustpilotH2: '我们的用户评分为 {rate} ，您会是下一位评论者吗？',
       trustpilotButton: '查看并发表评论',
       statistics: '统计',
-      totalUsers: '700 万',
+      totalUsers: '800 万',
       totalUsersDescription: '信任并使用我们服务的用户',
       monthlyUsers: '400 000',
       monthlyUsersDescription: '平均每个月都会来访的回头客',
-      totalFeatures: '2000 万',
+      totalFeatures: '3600 万',
       totalFeaturesDoneDescription: '自 2014 年创立以来带来的功能',
       ourFeatures: 'Our features', // TODO
       seeDetailedList: 'See detailed list', // TODO

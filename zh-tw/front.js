@@ -227,11 +227,11 @@ export default {
       trustpilotH2: '我們的用戶評分為 {rate} ，您會是下壹比特評估者嗎？',
       trustpilotButton: '查看並發表評論',
       statistics: '統計',
-      totalUsers: '700 萬',
+      totalUsers: '800 萬',
       totalUsersDescription: '信任並使用我們服務的用戶',
       monthlyUsers: '400 000',
       monthlyUsersDescription: '平均每個月都會來訪的常客',
-      totalFeatures: '2000 萬',
+      totalFeatures: '3600 萬',
       totalFeaturesDoneDescription: '自 2014 年創立以來帶來的功能',
       ourFeatures: 'Our features', // TODO
       seeDetailedList: 'See detailed list', // TODO

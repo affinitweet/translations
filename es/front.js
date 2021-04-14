@@ -226,11 +226,11 @@ export default {
       trustpilotH2: 'Nuestros usuarios nos califican con {rate}, ¿serás el próximo en opinar sobre nosotros?',
       trustpilotButton: 'Ver y enviar una reseña',
       statistics: 'Estadísticas',
-      totalUsers: '7 millones',
+      totalUsers: '8 millones',
       totalUsersDescription: 'Los usuarios confían en nosotros y usan nuestros servicios',
       monthlyUsers: '400 000',
       monthlyUsersDescription: 'Usuarios únicos que regresan en promedio cada mes',
-      totalFeatures: '20 millones',
+      totalFeatures: '36 millones',
       totalFeaturesDoneDescription: 'Funciones hechas desde nuestra apertura en 2014',
       ourFeatures: 'Our features', // TODO
       seeDetailedList: 'See detailed list', // TODO

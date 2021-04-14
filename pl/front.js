@@ -227,11 +227,11 @@ export default {
       trustpilotH2: 'Nasi użytkownicy ocenili nas na {rate}, może następną opinię otrzymamy od Ciebie...?',
       trustpilotButton: 'Zobacz opinie i dodaj swoją',
       statistics: 'Statystyki',
-      totalUsers: '7 miliona',
+      totalUsers: '8 miliona',
       totalUsersDescription: 'użytkowników korzysta z naszych usług i ufa nam',
       monthlyUsers: '400 tysięcy',
       monthlyUsersDescription: 'użytkowników powraca średnio co miesiąc',
-      totalFeatures: '20 miliona',
+      totalFeatures: '36 miliona',
       totalFeaturesDoneDescription: 'wyświetleń od czasu otwarcia w 2014 roku',
       ourFeatures: 'Our features', // TODO
       seeDetailedList: 'See detailed list', // TODO
