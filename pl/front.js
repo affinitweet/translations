@@ -33,6 +33,7 @@ export default {
     simplifiedChinese: 'Chińczycy Uproszczeni',
     traditionalChinese: 'Chińczycy Tradycyjni',
     dutch: 'Dutch', // TODO
+    german: 'Niemiecki',
   },
 
   /* Pluralization */

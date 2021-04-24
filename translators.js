@@ -35,4 +35,8 @@ export default {
     author: 'Quinten Althues',
     language: 'dutch',
   },
+  de: {
+    author: 'ByFxbian (Fabibi)',
+    language: 'german',
+  },
 }

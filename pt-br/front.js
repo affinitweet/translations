@@ -33,6 +33,7 @@ export default {
     simplifiedChinese: 'Chinês simplificado',
     traditionalChinese: 'Chinês tradicional',
     dutch: 'Dutch', // TODO
+    german: 'Alemão',
   },
 
   /* Pluralization */
