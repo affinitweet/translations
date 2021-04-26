@@ -78,5 +78,6 @@ export default {
 | 🇧🇷 Portuguese | [Allan Fernando](https://github.com/allanf181) | ✅ |
 | 🇸🇪 Swedish | [Fox Wernicke](https://github.com/BreakinBenny) | ✅ |
 | 🇳🇱 Dutch | [Quinten Althues](https://github.com/QkeleQ10) | ✅ |
+| 🇩🇪 German | [ByFxbian](https://github.com/ByFxbian) | ✅ |
 
 Thank you for your help ❤️
