@@ -1,0 +1,101 @@
+export default {
+
+  /* Steps */
+  _st: {
+    received: 'Anfrage vom Server empfangen...',
+    starting: 'Starten...',
+    fetchingData: 'Daten abrufen...',
+    fetchingTweets: 'Tweets abrufen...',
+    computingData: 'Daten berechnen...',
+    generatingImage: 'Bild generieren...',
+    uploadingMedia: 'Bild hochladen...',
+    publishingTweet: 'Tweet veröffentlichen...',
+    savingResults: 'Ergebnisse speichern...',
+  },
+
+  /* Features */
+  _ft: {
+    'twitter-activity': {
+      basedOnLastDays: 'Basierend auf den letzten {days} Tagen...',
+      countingTweets: '... und das Zählen von {count} Tweets:',
+      interactionsReceived: 'Empfangene Interaktionen',
+      last30Days: '*: letzten 30 Tage',
+      tweetingHours: 'Tweeting Stunden',
+      tweetRepartition: 'Tweet Verteilung',
+    },
+    'first-follower': {
+      yourFirstFollowerIs: 'Ihr erster Follower ist',
+      dateFormat: 'am {day}/{month}/{year} um {hour}:{minute}:{second} Uhr',
+    },
+    'first-following': {
+      yourFirstFollowingIs: 'Ihre erste Person denen Sie folgen',
+      dateFormat: 'am {day}/{month}/{year} um {hour}:{minute}:{second} Uhr',
+    },
+    'first-to-follow': {
+      youAreNotFollowing: "Sie folgen {user} nicht...",
+      notFollowingYou: '{user} folgt Ihnen nicht...',
+      youFollowed: 'Sie folgen {user}: ',
+      followedYou: '{user} folgt Ihnen: ',
+      dateFormat: 'am {day}/{month}/{year} um {hour}:{minute}:{second} Uhr',
+      dateFormat2: 'am {day}/{month}/{year} um {hour} Uhr',
+    },
+    friendships: {
+      average: 'Freundschaften im Durchschnitt',
+      following: 'Sie folgen ihm/ihr',
+      'not-following': "Sie folgen ihm/ihr nicht",
+      followed_by: 'Er/Sie folgt Ihnen',
+      'not-followed_by': "Er/Sie folgt Ihnen nicht",
+      notifications_enabled: 'Sie werden benachrichtigt, wenn er/sie tweetet',
+      'not-notifications_enabled': "Sie werden nicht benachrichtigt, wenn er/sie tweetet",
+      blocking: 'Sie haben ihn/sie blockiert',
+      'not-blocking': "Sie haben ihn/sie nicht blockiert",
+      blocked_by: 'Er/Sie hat dich blockiert',
+      'not-blocked_by': "Er/Sie hat dich nicht blockiert",
+      muting: 'Sie haben ihn/sie stummgeschalten',
+      'not-muting': "Sie haben ihn/sie nicht stummgeschalten",
+      want_retweets: 'Du siehst seine/ihre Retweets',
+      'not-want_retweets': "Du siehst seine/ihre Retweets nicht",
+      marked_spam: 'Du hast ihn/sie als Spam markiert',
+      'not-marked_spam': "Du hast ihn/sie nicht als Spam markiert",
+    },
+    'tweet-rate': {
+      average: '{user} tweetet im Durchschnitt...',
+      tweetsPerDay: '{count} Mal pro Tag',
+    },
+    'common-friends': {
+      friendsRemaining: '... und {count} andere Freunde!',
+      noFriends: 'Keine gemeinsamen Freunde...',
+      commonFriends: 'Ich habe {count} gemeinsame Freunde mit {user}!',
+      noCommonFriends: 'Ich habe keine gemeinsamen Freunde mit {user}...',
+    },
+    valentine: 'Ihr Valentin {year} ist',
+    'stolen-kiss': 'Ihr gestohlener Kuss ist ',
+    'hidden-twin': 'Ihr geheimer Zwilling ist',
+    'secret-crush': 'Ihr geheimer Crush ist',
+    'may-day': 'Ich gebe ein Maiglöckchen 💐 an',
+    'halloween-duo': 'Ihr Halloween Duo ist',
+    'new-years-kiss': "Mein Neujahrskuss ist",
+  },
+
+  /* Tweet content */
+  _tw: {
+    'first-to-follow': '{text}',
+    friendships: '{text}',
+    'top-friends': '{users}',
+    'famous-followers': '{users}',
+    'common-friends': '{text}',
+    'tweet-rate': '{text}',
+    'emoji-mood': '{emojis}',
+    valentine: "Dieses Jahr bist du mein {user}! ❤️\nUnd du, wer wird dein sein?",
+    'twitter-activity': "Hier ist meine Kontostatistik der letzten {days} Tage. Haben Sie bessere Interaktionen?",
+    'first-follower': 'Ich habe gerade meinen ersten Follower auf Twitter entdeckt, es ist {user} und er folgt mir seit {date}!\nWer ist Ihr erster Follower?',
+    'first-following': 'Ich habe gerade meine erste Person der ich gefolgt habe entdeckt, es ist {user} und ich folge ihm seit {date}!\nWelcher Person haben Sie zuerst gefolgt?',
+    'secret-crush': '{user} liebt dich heimlich! 😳\nWer liebt Sie heimlich?',
+    'hidden-twin': '{user} ist mein versteckter Zwilling 😱\nFinden Sie heraus, wer Ihrer ist',
+    'stolen-kiss': '{user} würde dich um die Ecke küssen... 😏\nUnd Sie, wer würde es tun?',
+    'may-day': '{user}, ich gebe dir meinen besten Maiglöckchen Strauß! 💐\nWem werden Sie Ihren geben?',
+    'halloween-duo': "Ich muss mich dieses Jahr nicht einmal verkleiden um gruselig zu sein, ich bin bei {user}! 🎃👻\nUnd Sie, mit wem werden Sie sich am meisten gruseln?",
+    'new-years-kiss': "Ich bereite meinen besten Neujahrskuss vor! {user} 😘💕\nUnd Sie, wen werden Sie um Mitternacht küssen?",
+  },
+
+}

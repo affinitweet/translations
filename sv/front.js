@@ -33,6 +33,7 @@ export default {
     simplifiedChinese: 'Kinesiska (förenklad)',
     traditionalChinese: 'Kinesiska (traditionell)',
     dutch: 'Dutch', // TODO
+    german: 'Tyska',
   },
 
   /* Pluralization */
