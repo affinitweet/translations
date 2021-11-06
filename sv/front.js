@@ -34,6 +34,7 @@ export default {
     traditionalChinese: 'Kinesiska (traditionell)',
     dutch: 'Dutch', // TODO
     german: 'Tyska',
+    arabic: 'arabiska',
   },
 
   /* Pluralization */

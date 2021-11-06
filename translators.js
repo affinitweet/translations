@@ -39,4 +39,8 @@ export default {
     author: 'ByFxbian (Fabibi)',
     language: 'german',
   },
+  ar: {
+    author: 'Abdulkarim Aljubouri',
+    language: 'arabic',
+  },
 }

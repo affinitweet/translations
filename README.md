@@ -79,5 +79,7 @@ export default {
 | 🇸🇪 Swedish | [Fox Wernicke](https://github.com/BreakinBenny) | ✅ |
 | 🇳🇱 Dutch | [Quinten Althues](https://github.com/QkeleQ10) | ✅ |
 | 🇩🇪 German | [ByFxbian](https://github.com/ByFxbian) | ✅ |
+| AR Arabic | [Abdulkarim Aljubouri](https://github.com/AbdulkarimAljubouri) | ✅ |
+
 
 Thank you for your help ❤️

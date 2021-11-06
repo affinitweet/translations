@@ -34,6 +34,7 @@ export default {
     traditionalChinese: 'Chino Tradicional',
     dutch: 'Holandés',
     german: 'Alemán',
+    arabic: 'Arábica',
   },
 
   /* Pluralization */
