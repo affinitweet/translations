@@ -2,7 +2,7 @@ export default {
 
   /* Steps */
   _st: {
-    received: 'استقبل الخادم الطلب...',
+    received: 'يستقبل الخادم الطلب...',
     starting: 'جاري البدأ...',
     fetchingData: 'جاري جلب البيانات...',
     fetchingTweets: 'جاري جلب التغريدات...',
