@@ -34,6 +34,7 @@ export default {
     traditionalChinese: '繁體中文',
     dutch: 'Dutch', // TODO
     german: '德語',
+    arabic: '阿拉伯',
   },
 
   /* Pluralization */
