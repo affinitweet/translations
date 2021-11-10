@@ -2,7 +2,7 @@ export default {
 
   /* Steps */
   _st: {
-    received: 'يستقبل الخادم الطلب...',
+    received: 'تم استقبال الطلب من قبل الخادم...',
     starting: 'جاري البدأ...',
     fetchingData: 'جاري جلب البيانات...',
     fetchingTweets: 'جاري جلب التغريدات...',
@@ -19,7 +19,7 @@ export default {
       basedOnLastDays: 'بناءً على الأيام {days} الماضية...',
       countingTweets: '...و عد {count} التغريدات:',
       interactionsReceived: 'تم إستلام التفاعلات',
-      last30Days: '*: آخر ٣٠ يوم',
+      last30Days: '*: آخر 30 يوم',
       tweetingHours: 'ساعات التغريد',
       tweetRepartition: 'توزيع التغريدات',
     },
