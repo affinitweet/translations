@@ -38,5 +38,8 @@ export default {
   de: {
     author: 'ByFxbian (Fabibi)',
     language: 'german',
+  ar: {
+    author: 'FiberAhmed',
+    language: 'arabic',
   },
 }
