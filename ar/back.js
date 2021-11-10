@@ -3,10 +3,10 @@ export default {
   /* Steps */
   _st: {
     received: 'تم استقبال الطلب من قبل الخادم...',
-    starting: 'جاري البدأ...',
+    starting: 'البدء...',
     fetchingData: 'جاري جلب البيانات...',
     fetchingTweets: 'جاري جلب التغريدات...',
-    computingData: 'حساب البيانات...',
+    computingData: 'حِساب البيانات...',
     generatingImage: 'جاري إنشاء الصورة...',
     uploadingMedia: 'جاري تحميل الصورة...',
     publishingTweet: 'جاري نشر الصورة...',
@@ -19,7 +19,7 @@ export default {
       basedOnLastDays: 'بناءً على الأيام {days} الماضية...',
       countingTweets: '...و عد {count} التغريدات:',
       interactionsReceived: 'تم إستلام التفاعلات',
-      last30Days: '*: آخر 30 يوم',
+      last30Days: '*:آخر 30 يوم',
       tweetingHours: 'ساعات التغريد',
       tweetRepartition: 'توزيع التغريدات',
     },
