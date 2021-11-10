@@ -22,19 +22,19 @@ export default {
 
   /* Languages */
   _lg: {
-    french: 'French',
-    english: 'English',
-    polish: 'Polish',
-    spanish: 'Spanish',
-    swedish: 'Swedish',
-    turkish: 'Turkish',
-    indonesian: 'Indonesian',
-    portuguese: 'Portuguese',
-    simplifiedChinese: 'Simplified Chinese',
-    traditionalChinese: 'Traditional Chinese',
-    dutch: 'Dutch',
-    german: 'German',
-    arabic: 'Arabic',
+    french: 'الفرنسية',
+    english: 'الإنجليزية',
+    polish: 'البولندية',
+    spanish: 'الإسبانية',
+    swedish: 'السويدية',
+    turkish: 'التركية',
+    indonesian: 'الإندونيسية',
+    portuguese: 'البرتغالية',
+    simplifiedChinese: 'الصينية (المبسطة)',
+    traditionalChinese: 'الصينية (التقليدية)',
+    dutch: 'الهولندية',
+    german: 'الألمانية',
+    arabic: 'العربية',
   },
 
   /* Pluralization */
