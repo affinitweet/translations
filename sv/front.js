@@ -73,7 +73,7 @@ export default {
 
     clearHistory: {
       title: 'Rensa historia',
-      description: 'Genom att rensa din historia kommer all information och bilder på dina nuverande sparade resultat raderas.',
+      description: 'Genom att rensa din historik kommer all information och bilder på dina nuverande sparade resultat raderas.',
       description2: 'Du kommer inte att kunna se dina tidigare resultat efter denna rensning, vill du verkligen genomföra handlingen?',
       holdButton: 'Håll för att rensa',
       loadingButton: 'Rensar historia...',
@@ -83,7 +83,7 @@ export default {
     deleteAccount: {
       title: 'Radera konto',
       description: 'Gick något fel? Berätta för oss på vårt Twitter-konto så vi kan förbättra oss själva!',
-      description2: 'Genom att radera ditt konto kommer all data på dig raderas, inklusive din historia. Ingen data behålls och du kommer automatiskt loggas ut från Affinitweet.',
+      description2: 'Genom att radera ditt konto kommer all data på dig raderas, inklusive din historik. Ingen data behålls och du kommer automatiskt loggas ut från Affinitweet.',
       description3: 'Du kommer inte att kunna hämta ditt nuvarande konto efter denna radering, vill du verkligen genomföra handlingen?',
       holdButton: 'Håll för att radera',
       loadingButton: 'Raderar konto...',
@@ -135,16 +135,16 @@ export default {
         longDescription: 'Tack vare First Following kommer du att veta vem din första följande är och när du följde dem (eller dem äldste, för ifall du slutat följa folk under tiden så får vi inte veta).',
       },
       'secret-crush': {
-        description: 'Någon älskar dig i hemiglet... och döljer det från det... 😳',
+        description: 'Någon älskar dig i hemlighet... och döljer det från dig... 😳',
         longDescription: 'Vi håller algoritmen för detta hemligt. Allt vi kan säga är att din Secret Crush kommer imponera dig, bra eller dåligt?',
       },
       'hidden-twin': {
         description: 'Ja, du har en hemlig tvilling... vem fan är det? 🤔',
-        longDescription: 'Vi håller algoritmen för detta hemligt. Allt vi kan säga är att din Hidden Twin kommer att imponera dig, bra eller dåligt?',
+        longDescription: 'Vi håller algoritmen för detta hemligt. Allt vi kan säga är att din Hidden Twin kommer imponera dig, bra eller dåligt?',
       },
       'stolen-kiss': {
         description: 'Vem vill sno en kyss från dig på ett gatohörn? 💋',
-        longDescription: 'Vi håller algoritmen för detta hemligt. Allt vi kan säga är att din Stolen Kiss kommer att imponera dig, bra eller dåligt?',
+        longDescription: 'Vi håller algoritmen för detta hemligt. Allt vi kan säga är att din Stolen Kiss kommer imponera dig, bra eller dåligt?',
       },
       'may-day': {
         description: 'Vem är din bästa bukett till i år? 💐',
@@ -206,9 +206,9 @@ export default {
     /* Home page */
     index: {
       title: 'Hem',
-      description: 'Det bästa stället att ha roligt med dina vänner på Twitter! Se din statistiker och mer!',
-      titleH1: 'Det bästa stället att ha roligt med dina vänner på Twitter!',
-      titleH2: 'Se dina statistiker och mer!',
+      description: 'Det bästa stället att ha roligt med på dina vänner på Twitter! Se din statistik och mer!',
+      titleH1: 'Det bästa stället att ha roligt på med dina vänner på Twitter!',
+      titleH2: 'Se din statistik och mer!',
       highlights: 'Highlights',
       generatedResults: 'Vackra genererade resultat',
       generatedResultsDescription: 'Affinitweet är känt för deras vakra genererade bilder, vi använder de bästa verktygen för dina resultat.',
@@ -219,7 +219,7 @@ export default {
       fastRealTimeResults: 'Snabba och realtidsbaserade resultat',
       fastRealTimeResultsDescription: 'Vi byggde Affinitweet på de sista webbteknologierna, så det är så snabbt som möjligt med realtid på funktionssidor.',
       noAdsNoVirus: 'Ingen påträngande reklam, inga virus',
-      noAdsNoVirusDescription: 'Affinitweet har skapats enbart för nöjes skull, det finns inga virus och enbart ads på hela hemsidan (inga popups, inga omdirigeringar).',
+      noAdsNoVirusDescription: 'Affinitweet har skapats enbart för nöjes skull, det finns inga virus och enbart ads på hela hemsidan (inga popups eller omdirigeringar).',
       multilingualOpen: 'Flerspråkigt & öppet',
       multilingualOpenDescription: 'Affinitweet är tillgängligt på flera olika språk och alla kan bidra och lägga till sitt eget.',
       trustpilotH1: 'Se våra användares recensioner på Trustpilot!',
@@ -251,7 +251,7 @@ export default {
       applyForFree: 'Gå med gratis',
       noThanks: 'Nej tack',
       profile: 'Profil',
-      history: 'Historia',
+      history: 'Historik',
       preferences: 'Inställningar',
       language: 'Språk',
       by: 'av',
