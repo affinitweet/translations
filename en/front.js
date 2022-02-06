@@ -41,6 +41,7 @@ export default {
   _pl: {
     seconds: 'second | second | seconds',
     features: 'feature | feature | features',
+    results: 'result | result | results',
   },
 
   /* Components */
@@ -48,8 +49,8 @@ export default {
 
     /* Header component */
     header: {
-      sidebarHint: 'Discover all our features by clicking on the menu icon here! 😉',
       logIn: 'Log in',
+      helloYou: 'Hello {username} 👋🏻',
       myAccount: 'My account',
       switchAccount: 'Switch account',
       logout: 'Log out',
@@ -59,6 +60,7 @@ export default {
     footer: {
       madeWithLove: 'Affinitweet is a Twitter-based statistics and entertainment platform created in 2015 with ❤️ in France.',
       allRightsReserved: 'All rights reserved.',
+      stripeClimate: '1% of our revenue is donated to CO₂ reduction initiatives.',
       about: 'About',
       changelog: 'Changelog',
       legal: 'Legal',
@@ -91,6 +93,108 @@ export default {
       successModal: 'Your account has been deleted.',
     },
 
+    twitterDM: {
+      startWritingToPreview: 'Start writing to preview your content here!',
+      now: 'Now',
+    },
+
+    welcomeMessage: {
+      creationDate: 'Created {date} with {source}',
+      soon: 'soon',
+      draft: 'Draft',
+      inactive: 'Inactive',
+      active: 'Active',
+      submit: 'Submit',
+      cancel: 'Cancel',
+      edit: 'Edit',
+      enable: 'Enable',
+      disable: 'Disable',
+      delete: 'Delete',
+      writeContent: 'Write the content of your message',
+      writeContentPlaceholder: 'Write your Welcome Message here...',
+      addOptionalMedia: 'Add a media (optionnal)',
+      filePlaceholder: 'Drag & drop a media or click here 🖼',
+      selectMessageType: 'Select the type of message',
+      classic: 'Classic',
+      button: 'Buttons',
+      buttonLabelPlaceholder: 'Label',
+      buttonURLPlaceholder: 'https://...',
+      quickReply: 'Quick Reply',
+      quickReplyPlaceholder: 'Label',
+      quickReplyDescriptionPlaceholder: 'Description',
+      previewResult: 'Preview your Welcome Message in real-time',
+      confirmDeleting: 'Are you sure you want to delete this Welcome Message?',
+      confirmEnabling: 'Are you sure you want to enable this Welcome Message? It will disable the other one currently active.',
+      confirmDisabling: 'Are you sure you want to disable this Welcome Message ',
+    },
+
+    welcomeMessageEditor: {
+      twitterDocumentation: "What's a Welcome Message ? (Twitter)",
+      helpdeskDocumentation: 'How does the Welcome Message Editor work?',
+      fetchingWelcomeMessages: 'Fetching Welcome Messages...',
+      addWelcomeMessage: 'Add a Welcome Message',
+    },
+
+    deepLinkGenerator: {
+      twitterDocumentation: "What's a Deep Link ? (Twitter)",
+      helpdeskDocumentation: 'How does the Deep Link Generator work?',
+      inputPlaceholder: 'Write the content that will be pre-filled to the user!',
+      attachWelcomeMessage: 'Attach a Welcome Message',
+      youDontHaveWelcomeMessageYet: "You don't have any Welcome Message yet.",
+      createNewWelcomeMessage: 'Create a new Welcome Message',
+      copyLink: 'Copy link',
+      copied: 'Copied',
+      generatedLinkWillBeHere: 'The link to add to the tweet will be generated here.',
+    },
+
+    idUsernameConverter: {
+      helpdeskDocumentation: 'How does the ID <> Username Converter work?',
+      entryFormat: 'Entry format',
+      inputPlaceholder: 'Write or paste one or more IDs/usernames here!',
+      copied: 'Copied',
+      converting: 'Converting...',
+      noResult: 'No result.',
+      errorOccured: 'An error occured.',
+      viewProfileOnTwitter: 'View profile on Twitter',
+    },
+
+    friendsFollowersManager: {
+      helpdeskDocumentation: 'How does the Friends/Followers Manager work?',
+      lastUpdate: 'Last update {date}',
+      updateButton: 'Update',
+      all: 'All',
+      followers: 'Followers',
+      following: 'Following',
+      mutuals: 'Mutuals',
+      filters: {
+        title: 'Filters',
+        protected: 'Private accounts',
+        verified: 'Verified accounts',
+      },
+      search: 'Search...',
+      fetching: 'Fetching data...',
+      noResults: 'Aucun résultat ne correspond à ta recherche, essaie autrement !',
+      name: 'Name',
+      relationship: 'Relationship',
+      tweets: 'Tweets',
+      registration: 'Registration',
+      showMore: 'Show {step} more {results} ({currentShowed}/{totalResults})',
+      screenTooSmall: 'Screen too small',
+      screenTooSmallDescription: "The Friends/Followers Manager is a comprehensive tool displaying a lot of data, the use on mobile was not made possible to not degrade the experience. You can try to switch to landscape mode to see if it works, if it doens't work you will have to use a larger screen size 😇",
+    },
+
+    managerItem: {
+      followingYou: 'Following you',
+      followedByYou: 'Followed',
+      mutualFollow: 'Mutual follow',
+      showProfile: 'Show profile',
+      follow: 'Follow',
+      unfollow: 'Unfollow',
+      sendDM: 'Send a DM',
+      block: 'Block',
+      reportAndBlock: 'Report and block',
+    },
+
   },
 
   /* Features */
@@ -100,6 +204,8 @@ export default {
     popular: 'Popular',
     real: 'Real',
     fun: 'Fun',
+    beta: 'Beta',
+    others: 'Others',
 
     list: {
 
@@ -176,6 +282,23 @@ export default {
 
   },
 
+  /* Tools */
+  _tl: {
+
+    list: {
+
+      'id-username-converter': { description: 'Convert IDs to usernames and vice versa in real time.' },
+
+      'welcome-message-editor': { description: 'Manage your Welcome Messages automatically displayed when someone wants to send you a private message.' },
+
+      'deep-link-generator': { description: 'Create custom links to your private messages.' },
+
+      'friends-followers-manager': { description: 'View and manage your following and followers easily and quickly.' },
+
+    },
+
+  },
+
   /* Pages */
   _pg: {
 
@@ -184,7 +307,7 @@ export default {
       title: 'Welcome',
       welcomeToAffinitweet: 'Welcome to Affinitweet&nbsp;&nbsp;🎉',
       helloYou: 'Hello {username}&nbsp;&nbsp;😊',
-      proudToWelcomeYou: 'Hi {username}, we are delighted to make your acquaintance and happy to welcome you among our more than 6 million users!',
+      proudToWelcomeYou: 'Hi {username}, we are delighted to make your acquaintance and happy to welcome you among our more than 10 million users!',
       onboardingCreation: 'We are delighted to have you back with us! We created this little onboarding to make sure you know everything before everyone else...',
       next: 'Next',
       littleQuestion: 'Quick question...',
@@ -209,35 +332,43 @@ export default {
     /* Home page */
     index: {
       title: 'Home',
-      description: 'The best place to have fun with your friends on Twitter! Check your statistics and more!',
-      titleH1: 'The best place to have fun with your friends on Twitter!',
-      titleH2: 'Check your statistics and more!',
-      highlights: 'Highlights',
+      description: 'Your Twitter account, more fun 😎 and more pro 🧑‍💻',
+      titleH1: 'Your Twitter account,',
+      titleH1s: 'more {fun} {emojiFun} more {pro} {emojiPro}',
+      fun: 'fun',
+      pro: 'pro',
+      titleH2: 'Rediscover your Twitter account through dozens of exclusive features and tools to manage your account like a pro.',
+      heresWhyAffinitweetIsNumberOne: "Here's why Affinitweet is the 1{sup} choice",
+      sup: 'st',
+      forALotOfUsers: 'for more than 10 million users worldwide',
       generatedResults: 'Beautiful generated results',
       generatedResultsDescription: 'Affinitweet is known for their very beautiful generated pictures, we are using the best tools for your results.',
       userConsentPrivacy: 'User consent & privacy',
       userConsentPrivacyDescription: 'Everything we do on Affinitweet with your data is explained in our privacy policy, no surprise, no auto-follow or auto-tweet.',
       worldFamousLeader: 'World famous leader',
-      worldFamousLeaderDescription: 'Affinitweet opened in february 2014 and more than two million users use our services, everywhere in the world.',
+      worldFamousLeaderDescription: 'Affinitweet opened in february 2015 and more than 10 million users use our services, everywhere in the world.',
       fastRealTimeResults: 'Fast and real-time results',
       fastRealTimeResultsDescription: "We built Affinitweet on the last web technologies, so it's as fast as possible with real-time on feature pages.",
       noAdsNoVirus: 'No intrusive ads, no virus',
       noAdsNoVirusDescription: "Affinitweet has been created just for fun, there's no virus and only 2 ads on the entire website (no popups, no redirects).",
       multilingualOpen: 'Multilingual & open',
       multilingualOpenDescription: 'Affinitweet is available in several different languages and everyone can contribute and add their own.',
-      trustpilotH1: "Check our users' reviews on Trustpilot!",
-      trustpilotH2: 'We are rated {rate} by our users, will you be the next one to review us?',
-      trustpilotButton: 'See & submit a review',
-      statistics: 'Statistics',
-      totalUsers: '8 million',
+      new: 'New',
+      proTools: 'Professional tools',
+      toManageYourTwitterAsAPro: 'to manage your Twitter account like a pro',
+      discoverOurTools: 'Discover our tools',
+      whatOurUsersSaid: 'What people say about us',
+      ifYouNeedMoreTrust: 'if it takes more people and opinions to convince you',
+      funFeatures: 'Entertaining features',
+      unlimitedAndFree: 'interesting or fun, free and without limits',
+      totalUsers: '10 million',
       totalUsersDescription: 'Users trust us and use our services',
       monthlyUsers: '400 000',
       monthlyUsersDescription: 'Unique users which come back in average each month',
       totalFeatures: '36 million',
-      totalFeaturesDoneDescription: 'Features done since our opening in 2014',
+      totalFeaturesDoneDescription: 'Features done since our opening in 2015',
       ourFeatures: 'Our features',
       seeDetailedList: 'See detailed list',
-      latestNews: 'Latest news',
       getInTouch: 'Get in touch!',
       getInTouchP1: 'We are available at any time on our Twitter account {twitterName}.',
       getInTouchP2: 'Follow us and be notified about updates and upcoming things!',
@@ -262,7 +393,7 @@ export default {
       contributeOnGitHub: 'contribute on GitHub',
       account: 'Account',
       followers: 'Followers',
-      followings: 'Followings',
+      following: 'Following',
       noHistory: 'No history data.',
       autoTweet: 'Tweet results',
       autoTweetDescription: 'Check this option to automatically tweet your results. A tweet will be published once results are ready, no more.',
@@ -303,10 +434,24 @@ export default {
     features: {
       title: 'Features',
       description: 'Discover all our features to know everything about your Twitter account.',
+      ourFeatures: "Here's a list of all our features {theyAreAllFree} you can try in no time that generate an image based on your Twitter account! If you're looking for a particular feature, you can use the search box below to see what we have to offer.",
+      theyAreAllFree: 'entirely free',
       searchFeatures: 'Search features... (ex: Top Friends, Valentine...)',
       noFeatureFound: 'Unfortunately no feature matches this search... 😔',
       resetSearch: 'Reset search',
       letsGo: 'Let\'s go!',
+    },
+
+    /* Tool page */
+    tool: {
+      restrictedTool: 'This tool is in preview mode because it is reserved for Pro users. The data displayed are fake in order to simulate the use of the tool.',
+      becomePro: 'Become Pro',
+    },
+
+    /* Tools listing page */
+    tools: {
+      title: 'Tools',
+      description: "Here's a list of all our tools to improve the management of your Twitter account in various ways. These tools are part of {affinitweetPro}, a one-time purchase that gives you access to all these tools and more, forever.",
     },
 
     /* Beta program page */
@@ -328,6 +473,7 @@ export default {
       leaveBetaProgram: 'Leave the Beta program',
       leavingTerms: "If you leave the Beta Program, you may not be able to apply again if there's no available places.",
       placesAvailable: '500 places available! 🎟',
+      proPlace: 'Here\'s your privileged place 👑',
       accountEligible: 'Your account is eligible to apply for the Beta program and few places are available!',
       yourEmailAddress: 'Your email address...',
       applyForFree: 'Apply for free',
@@ -346,16 +492,61 @@ export default {
       seeYouSoonBetaProgram: 'Thanks for being part of the Beta program, can\'t wait to see you soon!',
     },
 
+    pro: {
+      title: 'Affinitweet Pro',
+      description: 'Access exclusive tools and much more with Affinitweet Pro! 👑',
+      alreadyLookedLikeAPro: "You already looked like a Pro, but now it's official.",
+      welcomeHome: 'Welcome home, {username}',
+      thanksForYourTrust: 'Thank you very much for your purchase and your trust {username} !',
+      accessToOurBestTools: 'You now have access to our {bestTools} and much more, so enjoy',
+      bestTools: 'best tools',
+      couponExpireIn: 'Expire {expireIn}',
+      heresACoupon: "Here's a discount code you can share with a friend to {saveMoney} on their Affinitweet Pro (or you can use it for another Twitter account you own 😌). Fantastic, right?",
+      saveMoney: 'save 20%',
+      shareYourCoupon: 'But hurry up! This code is unique and is {availableSevenDays} ! 🔥',
+      availableSevenDays: 'available only 7 days after your purchase',
+      whatIsAffinitweetPro: 'Affinitweet Pro is an offer to meet the high demand for new features for more professional needs, in the form of {uniquePurchase}.',
+      uniquePurchase: 'one-time purchase valid for life: no subscription or renewal',
+      newToolsWillCome: 'Many tools are already present and new ones are under development and will continue to be developed as time goes by. By becoming a Pro, here are the advantages you will be able to enjoy:',
+      proAdvantages: {
+        proTools: 'Access to our Pro tools',
+        proToolsDescription: 'Take advantage of all the tools we offer, and those to come.',
+        betaProgram: 'Privileged access to the Beta program',
+        betaProgramDescription: 'Test future features and tools in development before anyone else.',
+        removedAds: 'Advertisement removal',
+        removedAdsDescription: 'Navigate much faster and easier on Affinitweet without ads.',
+        priorityQueue: 'Priority queue',
+        priorityQueueDescription: 'Save time and generate your results in priority during busy periods.',
+        unlimitedHistory: 'Unlimited and detailed history',
+        unlimitedHistoryDescription: 'Preserves the results of the features without any time limit.',
+        thankYouPage: 'Thank you page',
+        thankYouPageDescription: "Appearance on the thank you page, because we can't thank you enough.",
+      },
+      resetPurchase: 'Reset my purchase',
+      resetPurchaseNotice: 'By leaving Affinitweet Pro, you will lose access to your benefits. You will be able to re-purchase at any time without any problem.',
+      uniquePurchaseLifetimeAccess: 'One-time purchase, life-time access',
+      satisfiedOrRefundedUnder7Days: 'Satisfied or refunded under 7 days',
+      loginToBecomePro: 'Log in to become Pro',
+      becomePro: 'Become Pro',
+      contactUs: 'Contact us',
+      orVerified: 'or verified',
+      seeYouSoon: 'Thanks for being part of the Pro users, do not hesitate to come back later 😊',
+    },
+
+    'thank-you': {
+      title: 'Thank you',
+      description: 'This page lists all the users who support us through their {affinitweetPro} purchase. There are currently {number} and we wanted to thank each of them once again publicly 💜',
+      searchPlaceholder: 'Search an awesome user 😍',
+    },
+
     /* Legal page */
     legal: {
       title: 'Legal',
       description: 'Information about us and cookies.',
       intro: 'In accordance with Article 6 of the law n° 2004-575 of 21 June 2004 on trust in the digital economy, users of the site {site} are informed of the identity of the various parties involved in its implementation and monitoring:',
       owner: 'Owner',
-      creator: 'Creator',
       publisher: 'Publication manager',
       publisherText: 'The person responsible for publication is a natural person.',
-      webmaster: 'Webmaster',
       host: 'Host',
       requestAddress: 'Full address available on request by email at {email}.',
       warningCookies: 'About cookies',
@@ -397,6 +588,15 @@ export default {
       p5: 'Affinitweet may revise these terms of service for its website at any time without notice. By using this website you are agreeing to be bound by the then current version of these terms of service.',
       h8: 'Governing Law',
       p6: 'These terms and conditions are governed by and construed in accordance with the laws of France and you irrevocably submit to the exclusive jurisdiction of the courts in that State or location.',
+      'h9-1': 'Terms of sale',
+      p7: "Affinitweet Pro is sold as a one-time purchase, at different prices depending on the influence of the user's Twitter account. When the customer's Twitter account gains influence and exceeds a new threshold, no extra charge is made or requested.",
+      p8: 'Under certain conditions, the user may not be able to proceed with an online purchase and may need to contact the Affinitweet team to receive the full benefits of Affinitweet Pro.',
+      p9: 'Prices displayed may fluctuate at any time, without the customer being able to request a refund for the difference.',
+      'h9-2': 'Refund policy',
+      p10: 'Affinitweet offers a 7-day "money back" policy, starting from the date of purchase, only if: (1) the promotional code generated at the end of the purchase has not been used ; and (2) the user has not received a refund in the past.',
+      p11: "If these conditions are met, the customer can make a refund request by sending an email to {email} which will be processed and accepted as soon as possible. The refund will be effective on the customer's bank account within 5 to 10 days from the date of processing the request, and will result in the immediate cancellation of all Affinitweet Pro benefits.",
+      p12: 'On the contrary, if these conditions aren\'t met, Affinitweet reserves the right not to grant the refund request. In the same way, no refund or transfer of benefits will take place, even after the 7 day period, if the Twitter account becomes unusable in any way (suspended by Twitter, change of account, etc...): Affinitweet Pro is associated with the Twitter account on which the purchase was made. The customer will then have to log in with the new account and make a new purchase.',
+      p13: 'In very rare cases, some tools might not work (fully or partially) if the user has a private Twitter account with more than 75000 followers or followings. The customer will not be able to claim a refund outside of the 7 day period.',
     },
 
     /* Data and privacy page */
@@ -429,7 +629,7 @@ export default {
       'l3-2': 'your tweets/retweets',
       'l3-3': 'your mentions',
       'l3-4': 'your followers',
-      'l3-5': 'your followings',
+      'l3-5': 'your following',
       p6: 'This information is only collected and processed, we do not store it.',
       publish: 'Publication',
       p7: 'When you log in to Affinitweet, we ask for basic read access to your account and write access. We will not carry out any action without your express request by activating an option from the site.',
@@ -448,6 +648,22 @@ export default {
 
   /* Errors */
   _er: {
+    back: 'Back',
+    reload: 'Reload',
+    400: 'Bad request 🤨',
+    401: 'Unauthenticated 🙄',
+    402: 'Payment required 😬',
+    403: 'Forbidden 😕',
+    404: 'This page could not be found 😢',
+    405: 'Method not allowed 🧐',
+    500: 'The server returned an error 😧',
+    detailed400: 'It seems there is a problem in the request.<br/>Retry again or contact us for more information.',
+    detailed401: 'You must be logged in to access this page.<br/>Log in and then retry.',
+    detailed402: 'You cannot access this page because it requires payment.',
+    detailed403: "You don't have the rights to access this page.<br/>Please refer to the owner of the team.",
+    detailed404: "It seems that the page you are looking for does not exist or no longer exists. Please contact us if it's a dead link.",
+    detailed405: 'The method used to access this page is not allowed.',
+    detailed500: 'The server has returned an error. Try to reload the page in a few moments.',
     cooldown: 'This feature have a %{cooldown} seconds cooldown. Please retry in:',
     unknown: 'An error has occured. Our team has been notified.',
     unknownFeature: 'Unknown feature.',
@@ -460,6 +676,7 @@ export default {
     errorWhileRendering: 'Error while generating image.',
     accountProtected: "You can't use this feature while your account is protected.",
     targetAccountProtectedAndNotFollowing: "You can't use this feature because the targeted user is protected and not following you.",
+    refreshPage: 'Please refresh the page.',
     timeout: 'Timeout exceeded.',
     twitterError: 'Twitter returned an error:',
     twitterErrors: {
