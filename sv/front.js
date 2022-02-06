@@ -40,6 +40,7 @@ export default {
   _pl: {
     seconds: 'sekund | sekund | sekunder',
     features: 'funktion | funktioner | funktioner',
+    results: 'result | result | results', // TODO
   },
 
   /* Components */
@@ -47,8 +48,8 @@ export default {
 
     /* Header component */
     header: {
-      sidebarHint: 'Upptäck alla våra material genom att klicka på menyikonen här! 😉',
       logIn: 'Logga in',
+      helloYou: 'Hello {username} 👋🏻', // TODO
       myAccount: 'Mitt konto',
       switchAccount: 'Byt konto',
       logout: 'Logga ut',
@@ -58,6 +59,7 @@ export default {
     footer: {
       madeWithLove: 'Affinitweet är en Twitterbaserad statistik och underhållningsplattform skapad 2015 med ❤️ i Frankrike.',
       allRightsReserved: 'All rights reserved.',
+      stripeClimate: '1% of our revenue is donated to CO₂ reduction initiatives.', // TODO
       about: 'Om',
       changelog: 'Ändringslogg',
       legal: 'Lagrelaterat',
@@ -90,6 +92,108 @@ export default {
       successModal: 'Ditt konto har raderats.',
     },
 
+    twitterDM: {
+      startWritingToPreview: 'Start writing to preview your content here!', // TODO
+      now: 'Now', // TODO
+    },
+
+    welcomeMessage: {
+      creationDate: 'Created {date} with {source}', // TODO
+      soon: 'soon', // TODO
+      draft: 'Draft', // TODO
+      inactive: 'Inactive', // TODO
+      active: 'Active', // TODO
+      submit: 'Submit', // TODO
+      cancel: 'Cancel', // TODO
+      edit: 'Edit', // TODO
+      enable: 'Enable', // TODO
+      disable: 'Disable', // TODO
+      delete: 'Delete', // TODO
+      writeContent: 'Write the content of your message', // TODO
+      writeContentPlaceholder: 'Write your Welcome Message here...', // TODO
+      addOptionalMedia: 'Add a media (optionnal)', // TODO
+      filePlaceholder: 'Drag & drop a media or click here 🖼', // TODO
+      selectMessageType: 'Select the type of message', // TODO
+      classic: 'Classic', // TODO
+      button: 'Buttons', // TODO
+      buttonLabelPlaceholder: 'Label', // TODO
+      buttonURLPlaceholder: 'https://...', // TODO
+      quickReply: 'Quick Reply', // TODO
+      quickReplyPlaceholder: 'Label', // TODO
+      quickReplyDescriptionPlaceholder: 'Description', // TODO
+      previewResult: 'Preview your Welcome Message in real-time', // TODO
+      confirmDeleting: 'Are you sure you want to delete this Welcome Message?', // TODO
+      confirmEnabling: 'Are you sure you want to enable this Welcome Message? It will disable the other one currently active.', // TODO
+      confirmDisabling: 'Are you sure you want to disable this Welcome Message ', // TODO
+    },
+
+    welcomeMessageEditor: {
+      twitterDocumentation: "What's a Welcome Message ? (Twitter)", // TODO
+      helpdeskDocumentation: 'How does the Welcome Message Editor work?', // TODO
+      fetchingWelcomeMessages: 'Fetching Welcome Messages...', // TODO
+      addWelcomeMessage: 'Add a Welcome Message', // TODO
+    },
+
+    deepLinkGenerator: {
+      twitterDocumentation: "What's a Deep Link ? (Twitter)", // TODO
+      helpdeskDocumentation: 'How does the Deep Link Generator work?', // TODO
+      inputPlaceholder: 'Write the content that will be pre-filled to the user!', // TODO
+      attachWelcomeMessage: 'Attach a Welcome Message', // TODO
+      youDontHaveWelcomeMessageYet: "You don't have any Welcome Message yet.", // TODO
+      createNewWelcomeMessage: 'Create a new Welcome Message', // TODO
+      copyLink: 'Copy link', // TODO
+      copied: 'Copied', // TODO
+      generatedLinkWillBeHere: 'The link to add to the tweet will be generated here.', // TODO
+    },
+
+    idUsernameConverter: {
+      helpdeskDocumentation: 'How does the ID <> Username Converter work?', // TODO
+      entryFormat: 'Entry format', // TODO
+      inputPlaceholder: 'Write or paste one or more IDs/usernames here!', // TODO
+      copied: 'Copied', // TODO
+      converting: 'Converting...', // TODO
+      noResult: 'No result.', // TODO
+      errorOccured: 'An error occured.', // TODO
+      viewProfileOnTwitter: 'View profile on Twitter', // TODO
+    },
+
+    friendsFollowersManager: {
+      helpdeskDocumentation: 'How does the Friends/Followers Manager work?', // TODO
+      lastUpdate: 'Last update {date}', // TODO
+      updateButton: 'Update', // TODO
+      all: 'All', // TODO
+      followers: 'Followers', // TODO
+      following: 'Following', // TODO
+      mutuals: 'Mutuals', // TODO
+      filters: {
+        title: 'Filters', // TODO
+        protected: 'Private accounts', // TODO
+        verified: 'Verified accounts', // TODO
+      },
+      search: 'Search...', // TODO
+      fetching: 'Fetching data...', // TODO
+      noResults: 'Aucun résultat ne correspond à ta recherche, essaie autrement !', // TODO
+      name: 'Name', // TODO
+      relationship: 'Relationship', // TODO
+      tweets: 'Tweets', // TODO
+      registration: 'Registration', // TODO
+      showMore: 'Show {step} more {results} ({currentShowed}/{totalResults})', // TODO
+      screenTooSmall: 'Screen too small', // TODO
+      screenTooSmallDescription: "The Friends/Followers Manager is a comprehensive tool displaying a lot of data, the use on mobile was not made possible to not degrade the experience. You can try to switch to landscape mode to see if it works, if it doens't work you will have to use a larger screen size 😇", // TODO
+    },
+
+    managerItem: {
+      followingYou: 'Following you', // TODO
+      followedByYou: 'Followed', // TODO
+      mutualFollow: 'Mutual follow', // TODO
+      showProfile: 'Show profile', // TODO
+      follow: 'Follow', // TODO
+      unfollow: 'Unfollow', // TODO
+      sendDM: 'Send a DM', // TODO
+      block: 'Block', // TODO
+      reportAndBlock: 'Report and block', // TODO
+    },
+
   },
 
   /* Features */
@@ -99,6 +203,8 @@ export default {
     popular: 'Populärt',
     real: 'Riktigt',
     fun: 'Nöje',
+    beta: 'Beta', // TODO
+    others: 'Others', // TODO
 
     list: {
 
@@ -175,6 +281,23 @@ export default {
 
   },
 
+  /* Tools */
+  _tl: {
+
+    list: {
+
+      'id-username-converter': { description: 'Convert IDs to usernames and vice versa in real time.' }, // TODO
+
+      'welcome-message-editor': { description: 'Manage your Welcome Messages automatically displayed when someone wants to send you a private message.' }, // TODO
+
+      'deep-link-generator': { description: 'Create custom links to your private messages.' }, // TODO
+
+      'friends-followers-manager': { description: 'View and manage your following and followers easily and quickly.' }, // TODO
+
+    },
+
+  },
+
   /* Pages */
   _pg: {
 
@@ -183,7 +306,7 @@ export default {
       title: 'Välkommen',
       welcomeToAffinitweet: 'Välkommen till Affinitweet&nbsp;&nbsp;🎉',
       helloYou: 'Hej {username}&nbsp;&nbsp;😊',
-      proudToWelcomeYou: 'Hej {username}, vi är stolta att kunna bekanta dig och är glada att välkomna dig bland våra mer än 6 miljoner användare!',
+      proudToWelcomeYou: 'Hej {username}, vi är stolta att kunna bekanta dig och är glada att välkomna dig bland våra mer än 10 miljoner användare!',
       onboardingCreation: 'Vi är nöjda att ha dig tillbaka med oss! Vi skapade den här lilla ombordstigningen för att vara säkra på att du vet allt innan alla andra...',
       next: 'Nästa',
       littleQuestion: 'Snabb fråga...',
@@ -206,35 +329,43 @@ export default {
     /* Home page */
     index: {
       title: 'Hem',
-      description: 'Det bästa stället att ha roligt med dina vänner på Twitter! Se din statistiker och mer!',
-      titleH1: 'Det bästa stället att ha roligt med dina vänner på Twitter!',
-      titleH2: 'Se dina statistiker och mer!',
-      highlights: 'Highlights',
+      description: 'Your Twitter account, more fun 😎 and more pro 🧑‍💻', // TODO
+      titleH1: 'Your Twitter account,', // TODO
+      titleH1s: 'more {fun} {emojiFun} more {pro} {emojiPro}', // TODO
+      fun: 'fun', // TODO
+      pro: 'pro', // TODO
+      titleH2: 'Rediscover your Twitter account through dozens of exclusive features and tools to manage your account like a pro.', // TODO
+      heresWhyAffinitweetIsNumberOne: "Here's why Affinitweet is the 1{sup} choice", // TODO
+      sup: 'st', // TODO
+      forALotOfUsers: 'for more than 10 million users worldwide', // TODO
       generatedResults: 'Vackra genererade resultat',
       generatedResultsDescription: 'Affinitweet är känt för deras vakra genererade bilder, vi använder de bästa verktygen för dina resultat.',
       userConsentPrivacy: 'Användarmedgivande & integritet',
       userConsentPrivacyDescription: 'Allt vi gör på Affinitweet med din data förklaras i vår sekretesspolicy, inga överraskningar, inget autoföljande eller autotweet.',
       worldFamousLeader: 'Världens berömde ledare',
-      worldFamousLeaderDescription: 'Affinitweet öppnades i februari 2014 och fler än två miljoner användare använder våra tjänster, överallt i världen.',
+      worldFamousLeaderDescription: 'Affinitweet öppnades i februari 2015 och fler än två miljoner användare använder våra tjänster, överallt i världen.',
       fastRealTimeResults: 'Snabba och realtidsbaserade resultat',
       fastRealTimeResultsDescription: 'Vi byggde Affinitweet på de sista webbteknologierna, så det är så snabbt som möjligt med realtid på funktionssidor.',
       noAdsNoVirus: 'Ingen påträngande reklam, inga virus',
       noAdsNoVirusDescription: 'Affinitweet har skapats enbart för nöjes skull, det finns inga virus och enbart ads på hela hemsidan (inga popups, inga omdirigeringar).',
       multilingualOpen: 'Flerspråkigt & öppet',
       multilingualOpenDescription: 'Affinitweet är tillgängligt på flera olika språk och alla kan bidra och lägga till sitt eget.',
-      trustpilotH1: 'Se våra användares recensioner på Trustpilot!',
-      trustpilotH2: 'Vi är betygsatta med {rate} av våra användare, kommer du att recensera oss härnäst?',
-      trustpilotButton: 'Se & skicka in en recension',
-      statistics: 'Statistik',
-      totalUsers: '8 milljoner',
+      new: 'New', // TODO
+      proTools: 'Professional tools', // TODO
+      toManageYourTwitterAsAPro: 'to manage your Twitter account like a pro', // TODO
+      discoverOurTools: 'Discover our tools', // TODO
+      whatOurUsersSaid: 'What people say about us', // TODO
+      ifYouNeedMoreTrust: 'if it takes more people and opinions to convince you', // TODO
+      funFeatures: 'Entertaining features', // TODO
+      unlimitedAndFree: 'interesting or fun, free and without limits', // TODO
+      totalUsers: '10 milljoner',
       totalUsersDescription: 'Användare litar på oss och använder våra tjänster',
       monthlyUsers: '400 000',
       monthlyUsersDescription: 'Unika användare som återkommer i genomsnitt var månad',
       totalFeatures: '36 milljoner',
-      totalFeaturesDoneDescription: 'Funktioner gjorda sedan vi öppnade 2014',
+      totalFeaturesDoneDescription: 'Funktioner gjorda sedan vi öppnade 2015',
       ourFeatures: 'Våra funktioner',
       seeDetailedList: 'Se detaljerad lista',
-      latestNews: 'Senaste nytt',
       getInTouch: 'Kontakta oss!',
       getInTouchP1: 'Vi finns tillgängligt närsomhelst på vårt Twitter-konto {twitterName}.',
       getInTouchP2: 'Följ oss och notifieras om uppdateringar med kommande ting!',
@@ -259,7 +390,7 @@ export default {
       contributeOnGitHub: 'bidra på GitHub',
       account: 'Konto',
       followers: 'Följare',
-      followings: 'Följande',
+      following: 'Följande',
       noHistory: 'Ingen historiedata.',
       autoTweet: 'Tweeta resultat',
       autoTweetDescription: 'Kryssa i detta alternativ för att automatiskt tweeta dina resultat. En tweet kommer att publiceras så fort resultaten är redo, inget mer.',
@@ -300,10 +431,24 @@ export default {
     features: {
       title: 'Funktioner',
       description: 'Upptäck alla våra funktioner för att veta allt om ditt Twitter-konto.',
+      ourFeatures: "Here's a list of all our features {theyAreAllFree} you can try in no time that generate an image based on your Twitter account! If you're looking for a particular feature, you can use the search box below to see what we have to offer.", // TODO
+      theyAreAllFree: 'entirely free', // TODO
       searchFeatures: 'Sök på funktioner... (ex: Top Friends, Valentine...)',
       noFeatureFound: 'Tyvärr matchar inga funktioner den här sökningen... 😔',
       resetSearch: 'Nollställ sökning',
       letsGo: 'Då kör vi!',
+    },
+
+    /* Tool page */
+    tool: {
+      restrictedTool: 'This tool is in preview mode because it is reserved for Pro users. The data displayed are fake in order to simulate the use of the tool.', // TODO
+      becomePro: 'Become Pro', // TODO
+    },
+
+    /* Tools listing page */
+    tools: {
+      title: 'Tools', // TODO
+      description: "Here's a list of all our tools to improve the management of your Twitter account in various ways. These tools are part of {affinitweetPro}, a one-time purchase that gives you access to all these tools and more, forever.", // TODO
     },
 
     /* Beta program page */
@@ -325,6 +470,7 @@ export default {
       leaveBetaProgram: 'Lämna Betaprogrammet',
       leavingTerms: 'Om du lämnar Betaprogrammet kommer du inte kunna gå med det igen ifall tillgängliga platser tar slut.',
       placesAvailable: '500 platser tillgängliga! 🎟',
+      proPlace: 'Here\'s your privileged place 👑', // TODO
       accountEligible: 'Ditt konto är berättigat att gå med i Betaprogrammet och några platser finns tillgängliga!',
       yourEmailAddress: 'Din epostaddress...',
       applyForFree: 'Gå med gratis',
@@ -343,16 +489,61 @@ export default {
       seeYouSoonBetaProgram: 'Tack för ditt deltagange i Betaprogrammet, vi ser fram emot att se dig igen snart!',
     },
 
+    pro: {
+      title: 'Affinitweet Pro', // TODO
+      description: 'Access exclusive tools and much more with Affinitweet Pro! 👑', // TODO
+      alreadyLookedLikeAPro: "You already looked like a Pro, but now it's official.",
+      welcomeHome: 'Welcome home, {username}', // TODO
+      thanksForYourTrust: 'Thank you very much for your purchase and your trust {username} !', // TODO
+      accessToOurBestTools: 'You now have access to our {bestTools} and much more, so enjoy', // TODO
+      bestTools: 'best tools', // TODO
+      couponExpireIn: 'Expire {expireIn}', // TODO
+      heresACoupon: "Here's a discount code you can share with a friend to {saveMoney} on their Affinitweet Pro (or you can use it for another Twitter account you own 😌). Fantastic, right?",
+      saveMoney: 'save 20%', // TODO
+      shareYourCoupon: 'But hurry up! This code is unique and is {availableSevenDays} ! 🔥', // TODO
+      availableSevenDays: 'available only 7 days after your purchase', // TODO
+      whatIsAffinitweetPro: 'Affinitweet Pro is an offer to meet the high demand for new features for more professional needs, in the form of {uniquePurchase}.', // TODO
+      uniquePurchase: 'one-time purchase valid for life: no subscription or renewal', // TODO
+      newToolsWillCome: 'Many tools are already present and new ones are under development and will continue to be developed as time goes by. By becoming a Pro, here are the advantages you will be able to enjoy:', // TODO
+      proAdvantages: {
+        proTools: 'Access to our Pro tools', // TODO
+        proToolsDescription: 'Take advantage of all the tools we offer, and those to come.', // TODO
+        betaProgram: 'Privileged access to the Beta program', // TODO
+        betaProgramDescription: 'Test future features and tools in development before anyone else.', // TODO
+        removedAds: 'Advertisement removal', // TODO
+        removedAdsDescription: 'Navigate much faster and easier on Affinitweet without ads.', // TODO
+        priorityQueue: 'Priority queue', // TODO
+        priorityQueueDescription: 'Save time and generate your results in priority during busy periods.', // TODO
+        unlimitedHistory: 'Unlimited and detailed history', // TODO
+        unlimitedHistoryDescription: 'Preserves the results of the features without any time limit.', // TODO
+        thankYouPage: 'Thank you page', // TODO
+        thankYouPageDescription: "Appearance on the thank you page, because we can't thank you enough.",
+      },
+      resetPurchase: 'Reset my purchase', // TODO
+      resetPurchaseNotice: 'By leaving Affinitweet Pro, you will lose access to your benefits. You will be able to re-purchase at any time without any problem.', // TODO
+      uniquePurchaseLifetimeAccess: 'One-time purchase, life-time access', // TODO
+      satisfiedOrRefundedUnder7Days: 'Satisfied or refunded under 7 days', // TODO
+      loginToBecomePro: 'Log in to become Pro', // TODO
+      becomePro: 'Become Pro', // TODO
+      contactUs: 'Contact us', // TODO
+      orVerified: 'or verified', // TODO
+      seeYouSoon: 'Thanks for being part of the Pro users, do not hesitate to come back later 😊', // TODO
+    },
+
+    'thank-you': {
+      title: 'Thank you', // TODO
+      description: 'This page lists all the users who support us through their {affinitweetPro} purchase. There are currently {number} and we wanted to thank each of them once again publicly 💜', // TODO
+      searchPlaceholder: 'Search an awesome user 😍', // TODO
+    },
+
     /* Legal page */
     legal: {
       title: 'Lagrelaterat',
       description: 'Information om oss och kakor.',
       intro: 'I enlighet med Article 6 i lagen n° 2004-575 från 21 juni 2004 angående tillit i den digitala ekonomin informeras användare av sidan {site} om identiteten på de olika partierna inblandade i dess implementering och övervakning:',
       owner: 'Ägare',
-      creator: 'Skapare',
       publisher: 'Publiceringsmanager',
       publisherText: 'Personen ansvarig för publiceringen är en naturlig person.',
-      webmaster: 'Webmaster',
       host: 'Värd',
       requestAddress: 'Hela adressen tillgänglig vid förfrågan genom e-post på {email}.',
       warningCookies: 'Om kakor',
@@ -394,6 +585,15 @@ export default {
       p5: 'Affinitweet kan ändra sin hemsidas villkor närsomhelst utan förvarning. Genom att använda den här sidan godkänner du att bindas av den nuvarande versionen av dessa användarvillkor.',
       h8: 'Styrande lag',
       p6: 'Dessa villkor och krav styrs av och konstrueras enligt Frankrikes lagar och du framhåller till den exklusiva jurisdiktionen för den statens eller platsens domstolar.',
+      'h9-1': 'Terms of sale', // TODO
+      p7: "Affinitweet Pro is sold as a one-time purchase, at different prices depending on the influence of the user's Twitter account. When the customer's Twitter account gains influence and exceeds a new threshold, no extra charge is made or requested.", // TODO
+      p8: 'Under certain conditions, the user may not be able to proceed with an online purchase and may need to contact the Affinitweet team to receive the full benefits of Affinitweet Pro.', // TODO
+      p9: 'Prices displayed may fluctuate at any time, without the customer being able to request a refund for the difference.', // TODO
+      'h9-2': 'Refund policy', // TODO
+      p10: 'Affinitweet offers a 7-day "money back" policy, starting from the date of purchase, only if: (1) the promotional code generated at the end of the purchase has not been used ; and (2) the user has not received a refund in the past.', // TODO
+      p11: "If these conditions are met, the customer can make a refund request by sending an email to {email} which will be processed and accepted as soon as possible. The refund will be effective on the customer's bank account within 5 to 10 days from the date of processing the request, and will result in the immediate cancellation of all Affinitweet Pro benefits.", // TODO
+      p12: 'On the contrary, if these conditions aren\'t met, Affinitweet reserves the right not to grant the refund request. In the same way, no refund or transfer of benefits will take place, even after the 7 day period, if the Twitter account becomes unusable in any way (suspended by Twitter, change of account, etc...): Affinitweet Pro is associated with the Twitter account on which the purchase was made. The customer will then have to log in with the new account and make a new purchase.', // TODO
+      p13: 'In very rare cases, some tools might not work (fully or partially) if the user has a private Twitter account with more than 75000 followers or followings. The customer will not be able to claim a refund outside of the 7 day period.', // TODO
     },
 
     /* Data and privacy page */
@@ -445,6 +645,22 @@ export default {
 
   /* Errors */
   _er: {
+    back: 'Back', // TODO
+    reload: 'Reload', // TODO
+    400: 'Bad request 🤨', // TODO
+    401: 'Unauthenticated 🙄', // TODO
+    402: 'Payment required 😬', // TODO
+    403: 'Forbidden 😕', // TODO
+    404: 'This page could not be found 😢', // TODO
+    405: 'Method not allowed 🧐', // TODO
+    500: 'The server returned an error 😧', // TODO
+    detailed400: 'It seems there is a problem in the request.<br/>Retry again or contact us for more information.', // TODO
+    detailed401: 'You must be logged in to access this page.<br/>Log in and then retry.', // TODO
+    detailed402: 'You cannot access this page because it requires payment.', // TODO
+    detailed403: "You don't have the rights to access this page.<br/>Please refer to the owner of the team.", // TODO
+    detailed404: "It seems that the page you are looking for does not exist or no longer exists. Please contact us if it's a dead link.", // TODO
+    detailed405: 'The method used to access this page is not allowed.', // TODO
+    detailed500: 'The server has returned an error. Try to reload the page in a few moments.', // TODO
     cooldown: 'Detta material har en %{cooldown} sekunders nedkylning. Var god försök igen om:',
     unknown: 'Ett fel har uppstått. Vårt team har notifierats.',
     unknownFeature: 'Okänt material.',
