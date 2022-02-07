@@ -34,8 +34,8 @@ export default {
     'first-to-follow': {
       youAreNotFollowing: "أنت لا تتابع {user}...",
       notFollowingYou: '{user} لا يُتابعك...',
-      youFollowed: 'أنت مُتابع لـ {user}: ',
-      followedYou: '{user} يُتابِعك: ',
+      youFollowed: 'أنت مُتابع ل‍ {user}: ',
+      followedYou: '{user} يُتابعك: ',
       dateFormat: 'في {month}/{day}/{year} في {hour}:{minute}:{second}',
       dateFormat2: 'في {month}/{day}/{year} في الساعة {hour}',
     },
