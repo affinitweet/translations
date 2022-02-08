@@ -1,3 +1,13 @@
+⚠️  ———————————————  ⚠️
+
+**This repository is not used anymore and will be archived/deleted soon.**
+
+**If you want to help us translating Affinitweet, please go there: https://localazy.com/p/affinitweet**
+
+**If you need any help with Localazy, [get in touch with us on Twitter](https://twitter.com/affinitweet_) (send a direct message) 😊**
+
+⚠️  ———————————————  ⚠️
+
 # Affinitweet translations
 
 All translations of Affinitweet.
