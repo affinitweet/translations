@@ -39,4 +39,7 @@ export default {
     author: 'ByFxbian (Fabibi)',
     language: 'german',
   },
-}
+it: {
+    author: 'Michael Bonfanti',
+    language: 'Italian',
+},
