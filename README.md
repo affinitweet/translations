@@ -89,5 +89,6 @@ export default {
 | 🇸🇪 Swedish | [Fox Wernicke](https://github.com/BreakinBenny) | ✅ |
 | 🇳🇱 Dutch | [Quinten Althues](https://github.com/QkeleQ10) | ✅ |
 | 🇩🇪 German | [ByFxbian](https://github.com/ByFxbian) | ✅ |
+| 🇸🇦 Arabic | [FiberAhmed](https://github.com/FiberAhmed) | ✅ |
 
 Thank you for your help ❤️
